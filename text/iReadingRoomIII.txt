@@ -1,0 +1,17 @@
+pic 00 10
+bub 2
+txt "Egads!"
+pic 01 01
+bub 0
+txt "My Proto-Thaumic Caduceus! ... (Ahem) -Magic wand-, sonny. It has also gone by the name of 'Vanglorian' - and now it is yours."
+pic 00 00
+txt "Wow it's so light!"
+pic 01 01
+txt "There has only been one device ever made that can unweave real glyphs, and this is it."
+txt "Use it well, put things right."
+pic 01 02
+txt "And remember, if you come face to face with the creature, strike him with the wand!"
+pic 00 05
+txt "Okay... yeah."
+pic 00 02
+txt "I -will- put things right! Let's do it!"

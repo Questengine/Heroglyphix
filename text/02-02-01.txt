@@ -1,0 +1,5 @@
+pic 00 18
+bub 2
+txt "Oh my...(gasp!)"
+bub 0
+txt "The gremlin took a bite right out of this apple before glyphing it!"

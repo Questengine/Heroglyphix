@@ -1,0 +1,19 @@
+pic 00 00
+bub 0
+txt "Egads!..."
+pic 01 01
+txt "I wonder if I'll ever get used to how big this place is."
+pic 00 02
+txt "It's a mighty cathedral of knowledge! Look at me, I'm surrounded by three millenia of the greatest magical books, manuscripts and maps, artifacts from every corner of the world..."
+bub 1
+txt "The Librarium Arcana!"
+pic 01 12
+bub 2
+txt "SHUSH!"
+bub 1
+pic 00 03
+txt "Yikes! I'm sorry, I forgot!"
+bub 0
+txt "Um - something strange is happening in town. I'm here for..."
+pic 01 13
+txt "Lore Section. Ladder number 23, Row 7, Third from the left."

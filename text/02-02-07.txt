@@ -1,0 +1,6 @@
+pic 00 17
+bub 0
+txt "Errrgh! That's... I hope no one saw me solve that one."
+pic 00 23
+bub 1
+txt "The creature is toying with me and I'm -not- going to stand for it!"

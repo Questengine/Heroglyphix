@@ -1,0 +1,24 @@
+pic 01 01
+bub 0
+txt "Well solved, this particular test puzzle represents the *magic eye*..."
+txt "Every good wizard keeps a few extra tricks up his sleeve, you never know when you're going to find yourself in a tight spot."
+pic 01 03
+txt "Oh, I remember one particular time I was out in the hinterlands of Bolsogovia. A dozen armed guards came storming in on myself and the Sultan's wife."
+txt "Of course there was a quite innocent explanation -"
+pic 00 02
+txt "I really am in a hurry, Sir Methusaleh..."
+pic 01 03
+txt "...."
+pic 00 08
+bub 2
+txt "*AHEM*"
+pic 01 02
+bub 0
+txt "Hmm? Ah, yes we must stick to the matter at hand."
+pic 01 01
+txt "As I was saying... when you find yourself on a particularly tough puzzle you may choose to speed things along."
+txt "Call on the magic eye of the Reveal Spell and it will uncover some of the solution for you!"
+pic 00 27
+txt "A Reveal Spell? That sounds very useful."
+pic 01 01
+txt "Quite so. Although its power is finite and must be used sparingly. Pity."

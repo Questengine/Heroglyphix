@@ -1,0 +1,5 @@
+pic 00 18
+bub 0
+txt "It's a large fruit pie - with footprints in it!"
+pic 00 20
+txt "That thing is a menace!"

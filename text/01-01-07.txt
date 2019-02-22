@@ -1,0 +1,18 @@
+pic 01 01
+bub 0
+txt "Heroism and courage have their reward$!  Lucrative book deals for example."
+pic 01 00
+txt "It is, how they say, all about the benjamins, bay-bee. *ahem* But I digress...".
+pic 00 13
+bub 1
+txt "I'm sure that old coot was a few runes short of a spell."
+pic 01 02
+bub 2
+txt "Show some RESPECT, small-fry. Or I'll turn my pages blank!"
+pic 00 09
+bub 1
+txt "Aieee!"
+pic 00 05
+txt "Never talk back to a magic book, Skimlet."
+
+

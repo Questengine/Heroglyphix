@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Heroglyphix</title>
+  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
+  <script src="scripts/scrData.js"></script>
+  <script src="scripts/scrGlobal.js"></script>
+  <script src="scripts/scrUtil.js"></script>
+  <script src="scripts/scrNav.js"></script>
+  <script src="scripts/scrPlay.js"></script>
+  <script src="scripts/scrPox.js"></script>
+  <script src="scripts/scrGrid.js"></script>
+   
+  <link rel="stylesheet" href="css/stylemaster.css">
+  <link rel="stylesheet" href="css/styledivs.css">
+  <link rel="stylesheet" href="css/styleui.css">
+  <link rel="stylesheet" href="css/stylegrid.css"> 
+  <script>
+  
+		$(document).ready(function () {
+		LoadText(0);
+		BuildGrid(5,5);
+		var puz = "1000101110101011111101110";
+		FillMarkMenu();
+		BuildPuzzle(puz);
+		FillCluesH( puz);
+		FillCluesV( puz);
+		$(".cel").click( function(event){
+			event.preventDefault()
+		});
+		$("#dGrid").mouseup(MarkNone);
+		
+		
+		$("#dSpeechNext").click(SpeechNext);
+		
+        });//end document.ready
+  </script>
+</head>
+<body>
+ <div  id="dFullScreen">
+dFullScreen
+	 
+	<div id="dPortrait">
+dPortrait  
+	</div  ><!-- end div portrait --> 
+  
+	<div id="dSpeech"> 
+		<p id="pSpeech"></p>
+		<div id="dSpeechNext">
+		GO!
+		</div  ><!-- end div dSpeechNext  --> 
+	</div  ><!-- end div speech --> 
+	<div id="dGrid">
+  dGrid
+	</div  ><!-- end div grid --> 
+  
+	<div id="dLocation">
+  dLocation
+	</div  ><!-- end div location --> 
+	 
+	<div id="dMarks">
+	<table>
+	<tr><td id="mk0" class="onemark"></td><td id="mk1" class="onemark"></td><td id="mk2" class="onemark"></td><td id="mk3" class="onemark"></td><td id="mk4" class="onemark"></td></tr>
+	
+	 <tr><td id="mk5" class="onemark"></td><td id="mk6" class="onemark"></td><td id="mk7" class="onemark"></td><td id="mk8" class="onemark"></td><td id="mk9" class="onemark"></td></tr>
+	 
+	 <tr><td id="mk10" class="onemark"></td><td id="mk11" class="onemark"></td><td id="mk12" class="onemark"></td><td id="mk13" class="onemark"></td><td id="mk14" class="onemark"></td></tr>
+	 
+	 <tr><td id="mk15" class="onemark"></td><td id="mk16" class="onemark"></td><td id="mk17" class="onemark"></td><td id="mk18" class="onemark"></td><td id="mk19" class="onemark"></td></tr>
+	 
+	 <tr><td id="mk20" class="onemark"></td><td id="mk21" class="onemark"></td><td id="mk22" class="onemark"></td><td id="mk23" class="onemark"></td><td id="mk24" class="onemark"></td></tr>
+	 
+	 <tr><td id="mk25" class="onemark"></td><td id="mk26" class="onemark"></td><td id="mk27" class="onemark"></td><td id="mk28" class="onemark"></td><td id="mk29" class="onemark"></td></tr>
+	</table>
+	</div  ><!-- end div speech --> 
+	<div id="dQuickNav">
+  dQuickNav
+	</div  ><!-- end div speech --> 	
+	 
+	 
+	 
+	 
+
+ </div>  <!-- end div fullscreen --> 
+     
+     
+
+
+ 
+</body>
+</html>

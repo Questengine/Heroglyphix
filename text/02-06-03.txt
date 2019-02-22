@@ -1,0 +1,10 @@
+pic 00 01
+bub 0
+txt "A large sack of grain."
+pic 04 00
+txt "Yes indeed. -Thaumic- grain, full of wizardly goodness."
+txt "I couldn't have raised my Quadruphens without."
+pic 00 18
+txt "You have four-legged chickens?"
+pic 04 00
+txt "Well, not anymore. I'll need to look into building taller fences before I try that again."

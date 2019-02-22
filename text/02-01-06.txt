@@ -1,0 +1,5 @@
+pic 03 02
+bub 0
+txt "Me tongs. Me lovely tongs, back where they belong."
+pic 03 01
+txt "A man don't feel right if he don't know where his tongs are." 
