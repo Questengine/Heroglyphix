@@ -1,4 +1,6 @@
-function BuildGrid(x,y){
+function BuildGrid(dim){
+	var x = dim;
+	var y = dim;
 	
 	var strTable = "<table id='tblGrid'>";
 	strTable += "<tr><td>TL</td><td>VCLUES</td></tr>";
@@ -18,12 +20,17 @@ function BuildGrid(x,y){
 	});
 	
 	
-	$(".cel").attr("data-mark","in");
+	$(".cel").attr("data-mark","not");
 	$(".cel").on("mouseover",MousedOver);
 	$(".cel").on("mouseup",MarkNone);
 	$(".cel").addClass("squarecel");
 	$(".vc").addClass("squarecel");
 	$(".hc").addClass("squarecel");
+	$(".cel").each(function(){
+		$(this).css("background-position",markposnot);
+	});
+	
+	
 	
 } 
 

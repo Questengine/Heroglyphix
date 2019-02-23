@@ -1,8 +1,17 @@
-function LoadText(id){
-	gText =arrIntro[arrLocationNames[id]];
+function LoadLocationText(){
+	gText =arrTextFiles[CurCode()];
 	arrText = gText.split("newline,");
 }
-
+function pad( i){
+	var res ="";
+	if(i<10){
+		res = "0"+i;
+	}
+	return res;
+}
+function CurCode(){
+	return pad(gStage)+"-"+pad(gLocation)+"-"+pad(gPuzzle);
+}
 function FillMarkMenu(){
 	var max =30;
 	var dim = 20;

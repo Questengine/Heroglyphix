@@ -1,5 +1,16 @@
+function GameScript(){
+	
+	var stagename = arrStages[gStage];
+	var arrlocations = arrLocationNames[stagename].split(",");
+	var locationname = arrlocations[gLocation];
+	var loccode = CurCode();
+	var curpuz = arrPuzzles[loccode];
+	LoadLocationText();
+}
+
 function SpeechNext(){
 	gTextItr++;
+	if(gTextItr == arrText.length){ gTextItr=0;}
 	var textline = arrText[gTextItr];
 	if(textline.startsWith("pic")){
 		var imgid = textline.split(" ")[1];

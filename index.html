@@ -20,14 +20,17 @@
   <link rel="stylesheet" href="css/stylegrid.css"> 
   <script>
   
-		$(document).ready(function () {
-		LoadText(0);
-		BuildGrid(5,5);
-		var puz = "1000101110101011111101110";
+	$(document).ready(function () {
+		//LoadLocationText(0);
 		FillMarkMenu();
+		GameScript();
+		var curcode = CurCode();
+		var puz = arrPuzzles[curcode];
+		BuildGrid(Math.sqrt(puz.length));
 		BuildPuzzle(puz);
 		FillCluesH( puz);
 		FillCluesV( puz);
+		
 		$(".cel").click( function(event){
 			event.preventDefault()
 		});
@@ -40,7 +43,7 @@
 		$("#dSpeechNext").click(SpeechNext);
 		$("#dDialogue").slideUp(0);
 		
-        });//end document.ready
+	});//end document.ready
   </script>
 </head>
 <body>

@@ -10,7 +10,12 @@
 	
 .cel{
 	border:1px solid black;
-	background-image:url("../images/marks.png");}
+	background-image:url("../images/marks.png");
+}
+.cel:hover{
+	box-shadow: 0px 0px 2px 2px  #888888; 
+}
+
 
 .squarecel{
 	min-height:50px;
