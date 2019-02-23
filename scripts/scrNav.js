@@ -37,3 +37,9 @@ function RedrawPortrait(imgid, picid){
 function RedrawText(texttodraw){
 	$("#pSpeech").text(texttodraw);
 }
+function DialogueOpen(){
+	$("#dDialogue").slideDown();
+}
+function DialogueClose(){
+	$("#dDialogue").slideUp();
+}

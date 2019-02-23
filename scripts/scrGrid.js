@@ -12,10 +12,18 @@ function BuildGrid(x,y){
 	strTable = strTable.replace("HCLUES",hClues);
 	strTable = strTable.replace("CELLS",grid);
 	$("#dGrid").html(strTable);
-	$(".cel").on("mousedown",ManageMark);
+	
+	$(".cel").on("mousedown",function(event){
+		ManageMark($(this),event);
+	});
+	
+	
 	$(".cel").attr("data-mark","in");
 	$(".cel").on("mouseover",MousedOver);
 	$(".cel").on("mouseup",MarkNone);
+	$(".cel").addClass("squarecel");
+	$(".vc").addClass("squarecel");
+	$(".hc").addClass("squarecel");
 	
 } 
 
@@ -56,7 +64,7 @@ function FillInGrid(puz){
 			if(thischar=="0"){
 				mark = "_";
 			}
-			$(".cel[data-x='"+x+"'][data-y='"+y+"']").html(mark);
+//			$(".cel[data-x='"+x+"'][data-y='"+y+"']").html(mark);
 		}	
 	}	
 }

@@ -8,3 +8,7 @@ var gMark="none";
 var arrText=[];
 var gTextItr=-1;
 var gLocationItr=0;
+
+var markposnot = "0px -60px";
+var markposin = "0px 0px";
+var markposout = "-180px -60px";

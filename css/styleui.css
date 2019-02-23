@@ -10,7 +10,13 @@
 	
 .cel{
 	border:1px solid black;
+	background-image:url("../images/marks.png");}
+
+.squarecel{
+	min-height:50px;
+	min-width:50px;
 	user-select:none;
+	text-align:center;
 }
 
 .hc{
@@ -31,5 +37,13 @@
 	color:white;
 	padding:0px;
 	margin:0px;
+}
+.onemark:hover{
 	
+  box-shadow: 0px 0px 2px 2px  #888888;
+}
+.dialoguechild{
+	opacity:1;
+	margin:auto;
+	padding:auto;
 }

@@ -32,9 +32,13 @@
 			event.preventDefault()
 		});
 		$("#dGrid").mouseup(MarkNone);
+		$(".onemark").click(MarkSelected);
 		
 		
+		$("#dQuickNav").click(DialogueOpen);
+		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(SpeechNext);
+		$("#dDialogue").slideUp(0);
 		
         });//end document.ready
   </script>
@@ -53,7 +57,7 @@ dPortrait
 		GO!
 		</div  ><!-- end div dSpeechNext  --> 
 	</div  ><!-- end div speech --> 
-	<div id="dGrid">
+	<div id="dGrid"  oncontextmenu="return false;">
   dGrid
 	</div  ><!-- end div grid --> 
   
@@ -80,8 +84,19 @@ dPortrait
   dQuickNav
 	</div  ><!-- end div speech --> 	
 	 
-	 
-	 
+	 <div id="dDialogue">
+		 <div id="dGlyphlets" class="dialoguechild">
+		 Selecte a gjypllet
+			<div >ok</div><div class="close">cancel</div>
+		 <div>
+		 <br>
+		 <br>
+		 <br>
+		 <div id="dPuzzles"  class="dialoguechild"> 
+		 select a puzzle
+			<div >ok</div><div class="close" >cancel</div>
+		</div>
+	</div>
 	 
 
  </div>  <!-- end div fullscreen --> 

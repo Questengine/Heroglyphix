@@ -24,3 +24,31 @@ function FillMarkMenu(){
 		}
 	}
 }
+function MarkSelected(){
+	var x = ($(this).css("background-position-x"));
+	var y = ($(this).css("background-position-y"));
+	markposin = x +  " " + y;
+	$(".squarecel[data-mark='in']").each(function(){
+		SetMarkTimeout($(this));
+	});
+	
+	
+	
+	
+}
+function SetMarkTimeout(cell){
+	var x = parseInt(cell.attr("data-x"))+0;
+	var y = parseInt(cell.attr("data-y"))+0;
+	var waittime=x+y;
+	waittime*=50;
+	setTimeout(function(){ ChangeMark(cell); }, waittime);
+}
+function ChangeMark(cell){
+	cell.css("background-position",markposin);
+}
+
+function bwpx(s){
+	var res = s.replace("px","");
+	return res+0;
+	
+}
