@@ -13,13 +13,11 @@ function ManageMark(cel,event){
 		}
 	}  
 	if(event.which == "3"){ 
-		if(cel.attr("data-mark")=="in"){
-			gMark="out";
+		if(cel.attr("data-mark")=="out"){
+			gMark="not";
 		}
-		else{  
-			if(cel.attr("data-mark")=="out"){
-				gMark="not";
-			}
+		else{   
+			gMark="out"; 
 		}
 	} 
 	DoMark(cel); 
@@ -46,4 +44,14 @@ function DoMark(thiscel){
 			thiscel.css("background-position",markposnot);
 		}
 	}
+	gPuzPlayer= CurrentPuzzleState();
+	if(IsFinished()){
+		//alert("done");
+		$(".cel").off( );
+		ShowHideProgressButton(true);
+		PuzzleDone();
+	}
+}
+function IsFinished(){
+	return gPuzPlayer == gPuzCorrect;
 }

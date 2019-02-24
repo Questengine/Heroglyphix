@@ -2,6 +2,13 @@ function LoadLocationText(){
 	gText =arrTextFiles[CurCode()];
 	arrText = gText.split("newline,");
 }
+
+function LoadPuz(){
+	var curcode = CurCode();
+	var puz = arrPuzzles[curcode];
+	gPuzCorrect = puz;
+	return puz;
+}
 function pad( i){
 	var res ="";
 	if(i<10){

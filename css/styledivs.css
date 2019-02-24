@@ -2,7 +2,7 @@
 	width:800px;
 	height:600px;
 	top:0%; 
-	background-image:url("../images/stage00.png") ;
+	background-image:url("../images/stage00.jpg") ;
 }
 #dGrid{
 	background-image:url("../images/grid.png") ;
@@ -37,8 +37,8 @@
 	height:14%;
 }
 #dMarks{ 
-	top:380px;
-	left:22px;
+	top:310px;
+	left:15px;
 	width:143px;
 	height:201px;
 	padding-top:30px;
@@ -46,6 +46,18 @@
 	background-image:url("../images/markmenu.png");
 	background-repeat:no-repeat;
 	border:none;
+}
+#dReveal{ 
+	top:206px;
+	left:33px;
+	width:80px;
+	height:65px;
+	background-image:url("../images/btnReveal.png");
+	background-repeat:no-repeat;
+	border:none;
+}
+#dReveal:hover{ 
+	background-position-y:-65px;
 }
 #dSpeech{
 	border-color: violet ;

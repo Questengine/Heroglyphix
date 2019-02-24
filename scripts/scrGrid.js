@@ -1,7 +1,15 @@
 function BuildGrid(dim){
+	
+	 
+	$("#tblGrid").fadeOut(2222,function(){ BuildGridDelayed(dim) });
+	//RemoveOldGrid();
+	
+	//setTimeout(function(){ BuildGridDelayed(dim); }, 3111);
+}
+function BuildGridDelayed(dim){
 	var x = dim;
 	var y = dim;
-	
+
 	var strTable = "<table id='tblGrid'>";
 	strTable += "<tr><td>TL</td><td>VCLUES</td></tr>";
 	strTable += "<tr><td>HCLUES</td><td>CELLS</td></tr>";
@@ -27,13 +35,20 @@ function BuildGrid(dim){
 	$(".vc").addClass("squarecel");
 	$(".hc").addClass("squarecel");
 	$(".cel").each(function(){
-		$(this).css("background-position",markposnot);
+		$(this).css("background-position",markposnot); 
 	});
-	
-	
-	
+	$(".squarecel").each(function(){ 
+		SetBlinkTimeout($(this));
+	});
+	BuildPuzzle(gPuzCorrect);
+	FillCluesH( gPuzCorrect);
+	FillCluesV( gPuzCorrect);
+	 
 } 
-
+function RemoveOldGrid(){
+	
+	$(".squarecel").slideUp(900,function(){$("#tblGrid").remove()});
+}
 function BuildTable(totalcols, totalrows,classname){
 	var strTable = "<table id='tblPlay'>";
 	for(var row=0;row<totalrows;row++){
@@ -52,7 +67,7 @@ function BuildTableRow(totalcols, thisrow,classname){
 	return strRow;
 }
 function BuildTableCell(cellx,celly,classname){
-	return "<td class='"+classname+"' data-x='"+cellx+"' data-y='"+celly+"'>_</td>";
+	return "<td class='"+classname+"' style='display:none' data-x='"+cellx+"' data-y='"+celly+"'>_</td>";
 }
 
 function BuildPuzzle(puz){
@@ -76,6 +91,23 @@ function FillInGrid(puz){
 	}	
 }
 
+function CurrentPuzzleState(){
+	var res = "";
+	var dim = Math.sqrt(gPuzCorrect.length);
+	var x = 0;
+	var y = 0;
+	for(y = 0;y<dim;y++){
+		for(x = 0;x<dim;x++){
+			if($(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark")== "in"){
+				res += "1";
+			}
+			else{
+				res += "0";
+			}
+		}	
+	}	
+	return res;
+}
 function FillCluesV(puz){
 	var dim = Math.sqrt(puz.length);
     var clueDepth = Math.ceil(dim/2);

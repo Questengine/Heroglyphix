@@ -24,24 +24,19 @@
 		//LoadLocationText(0);
 		FillMarkMenu();
 		GameScript();
-		var curcode = CurCode();
-		var puz = arrPuzzles[curcode];
-		BuildGrid(Math.sqrt(puz.length));
-		BuildPuzzle(puz);
-		FillCluesH( puz);
-		FillCluesV( puz);
+		Init();
 		
 		$(".cel").click( function(event){
 			event.preventDefault()
 		});
 		$("#dGrid").mouseup(MarkNone);
-		$(".onemark").click(MarkSelected);
-		
+		$(".onemark").click(MarkSelected); 
 		
 		$("#dQuickNav").click(DialogueOpen);
 		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(SpeechNext);
 		$("#dDialogue").slideUp(0);
+		ShowHideProgressButton(false);
 		
 	});//end document.ready
   </script>
@@ -61,7 +56,7 @@ dPortrait
 		</div  ><!-- end div dSpeechNext  --> 
 	</div  ><!-- end div speech --> 
 	<div id="dGrid"  oncontextmenu="return false;">
-  dGrid
+ <div id="tblGrid">Welcome to Heroglyphix</div>
 	</div  ><!-- end div grid --> 
   
 	<div id="dLocation">
@@ -86,6 +81,9 @@ dPortrait
 	<div id="dQuickNav">
   dQuickNav
 	</div  ><!-- end div speech --> 	
+	 <div id="dReveal">
+   
+	</div  ><!-- end div dReveal --> 	
 	 
 	 <div id="dDialogue">
 		 <div id="dGlyphlets" class="dialoguechild">

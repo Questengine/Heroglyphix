@@ -5,29 +5,45 @@ function GameScript(){
 	var locationname = arrlocations[gLocation];
 	var loccode = CurCode();
 	var curpuz = arrPuzzles[loccode];
-	LoadLocationText();
 }
-
+function AdvanceLevel(){
+	gPuzzle++;
+	
+}
+function Init(){
+	 
+	var puz = LoadPuz();
+	BuildGrid(Math.sqrt(puz.length));
+	LoadLocationText();
+	gTextItr=-1;
+	
+}
 function SpeechNext(){
 	gTextItr++;
-	if(gTextItr == arrText.length){ gTextItr=0;}
-	var textline = arrText[gTextItr];
-	if(textline.startsWith("pic")){
-		var imgid = textline.split(" ")[1];
-		var picid = textline.split(" ")[2];
-		RedrawPortrait(imgid, picid)
-		gTextItr++;
-		textline = arrText[gTextItr];
+	if(gTextItr != arrText.length){
+		var textline = arrText[gTextItr];
+		if(textline.startsWith("pic")){
+			var imgid = textline.split(" ")[1];
+			var picid = textline.split(" ")[2];
+			RedrawPortrait(imgid, picid)
+			gTextItr++;
+			textline = arrText[gTextItr];
+		}
+		if(textline.startsWith("bub")){
+			var buby = textline.split(" ")[1];
+			RedrawSpeechBubble(buby);
+			gTextItr++;
+			textline = arrText[gTextItr];
+		}
+		if(textline.startsWith("txt")){
+			var texttodraw = textline.substring(4);
+			RedrawText(texttodraw);
+		} 
 	}
-	if(textline.startsWith("bub")){
-		var buby = textline.split(" ")[1];
-		RedrawSpeechBubble(buby);
-		gTextItr++;
-		textline = arrText[gTextItr];
-	}
-	if(textline.startsWith("txt")){
-		var texttodraw = textline.substring(4);
-		RedrawText(texttodraw);
+	else{//done with text, advance level
+		AdvanceLevel();
+		Init();
+		ShowHideProgressButton(false);
 	}
 	
 }
@@ -53,4 +69,42 @@ function DialogueOpen(){
 }
 function DialogueClose(){
 	$("#dDialogue").slideUp();
+}
+function ShowHideProgressButton(tf){
+	if(tf){
+		$("#dSpeechNext").slideDown();
+	}
+	else{
+		$("#dSpeechNext").slideUp();
+	}
+}
+function PuzzleDone(){
+	$(".cel").off( );
+	ShowHideProgressButton(true);
+	$(".cel").each(function(){
+		SetBlinkTimeout($(this));
+	});
+	$(".vc, .hc").each(function(){
+		SetFadeTimeout($(this));
+	}); 
+}
+function SetBlinkTimeout(cell){
+	var x = parseInt(cell.attr("data-x"))+0;
+	var y = parseInt(cell.attr("data-y"))+0;
+	var waittime=x+y;
+	waittime*=50;
+	setTimeout(function(){ BlinkMark(cell); }, waittime);
+}
+function SetFadeTimeout(cell){
+	var x = parseInt(cell.attr("data-x"))+0;
+	var y = parseInt(cell.attr("data-y"))+0;
+	var waittime=x+y;
+	waittime*=50;
+	setTimeout(function(){ FadeClue(cell); }, waittime);
+}
+function FadeClue(cell){
+	cell.css("opacity","0.5");
+}
+function BlinkMark(cell){
+	cell.fadeOut(200).fadeIn(666);
 }
