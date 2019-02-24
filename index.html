@@ -13,6 +13,7 @@
   <script src="scripts/scrPlay.js"></script>
   <script src="scripts/scrPox.js"></script>
   <script src="scripts/scrGrid.js"></script>
+  <script src="scripts/scrLocPuz.js"></script>
    
   <link rel="stylesheet" href="css/stylemaster.css">
   <link rel="stylesheet" href="css/styledivs.css">
@@ -23,8 +24,14 @@
 	$(document).ready(function () {
 		//LoadLocationText(0);
 		FillMarkMenu();
-		GameScript();
+		//GameScript();
+		
 		Init();
+		//var out = BuildLocPuz("Library");
+		//var out2 = BuildLocPuz("Skimlet");
+		$("#dPuzzles").html(BuildLocPuz("Library"))
+		DialogueOpen();
+		//var info = PuzCount(1,1)+" rstd "+PuzCount(3,1)+" "+PuzCount(4,1); 
 		
 		$(".cel").click( function(event){
 			event.preventDefault()
@@ -35,7 +42,7 @@
 		$("#dQuickNav").click(DialogueOpen);
 		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(SpeechNext);
-		$("#dDialogue").slideUp(0);
+		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false);
 		
 	});//end document.ready
@@ -43,8 +50,7 @@
 </head>
 <body>
  <div  id="dFullScreen">
-dFullScreen
-	 
+ 	 
 	<div id="dPortrait">
 dPortrait  
 	</div  ><!-- end div portrait --> 

@@ -11,7 +11,7 @@ function BuildGridDelayed(dim){
 	var y = dim;
 
 	var strTable = "<table id='tblGrid'>";
-	strTable += "<tr><td>TL</td><td>VCLUES</td></tr>";
+	strTable += "<tr><td></td><td>VCLUES</td></tr>";
 	strTable += "<tr><td>HCLUES</td><td>CELLS</td></tr>";
 	strTable += "</table>";
 	

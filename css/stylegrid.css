@@ -1,0 +1,9 @@
+.rowlocpuz{
+	height:50px;
+}
+.celllocation{
+	border-bottom:3px solid black;
+}
+.celllocpuz{
+	border:1px solid red;
+}

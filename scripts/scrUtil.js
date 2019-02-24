@@ -19,6 +19,9 @@ function pad( i){
 function CurCode(){
 	return pad(gStage)+"-"+pad(gLocation)+"-"+pad(gPuzzle);
 }
+function BuildCode(s,l,p){
+	return pad(s)+"-"+pad(l)+"-"+pad(p);
+}
 function FillMarkMenu(){
 	var max =30;
 	var dim = 20;

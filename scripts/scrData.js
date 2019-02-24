@@ -6,18 +6,38 @@ var arrLocationNames = {
 	"Skimlet":"Blacksmith,TownSquare,Pasticceria,ShadeStreet,AxeAndStump,Farm,WizlabHoward",
 	"Howard":"EoForrest,DeeperForest,Lanternsbane,TRexValley,Shoreline,Steamer,WizlabJudith"
 };
+function LocCount(locname){
+	return arrLocationNames[locname].split(",").length;
+}
 var arrPuzzles={
 	
 	"01-01-01":"1111111110111001100010000",
-	"01-01-02":"1111110001100010111011111",
-	"01-01-03":"1000101110101011111101110",
+	"01-02-01":"1111110001100010111011111",
+	"01-02-02":"1000101110101011111101110",
 	"02-01-01":"0111111111111111011111110011110000011100000111000111111001111111",
 	"02-01-02":"0001110001110111101111111011111101111111000101000001010000011100",
 	"02-01-03":"0111110010100011100001010111111111101010101111111000000101111110",
 	"02-01-04":"0110011010100101110000111100001111000011101001010111111000111100",
-	"02-01-05":"0111111010000011111111011011001111001101101100010100001000111100"
+	"02-01-05":"0111111010000011111111011011001111001101101100010100001000111100",
+	"03-01-01":"0111110010100011100001010111111111101010101111111000000101111110",
+	"03-01-02":"0110011010100101110000111100001111000011101001010111111000111100",
+	"04-01-01":"0111111010000011111111011011001111001101101100010100001000111100"
 	 
 }    ;
+function PuzCount(s,l){
+	var keyexists = true;
+	var p = 0;
+	while(keyexists){
+	
+		var code = BuildCode(s,l,p+1);
+		if(code in arrPuzzles){ 
+				p++;
+		}
+		else{keyexists = false;} 
+	}
+	return p;
+}
+
      
 var arrIntro ={
 	"AxeAndStump":"pic 01 00newline,bub 0newline,txt \"Haha,yes. Rather an easy one, even for you my humblestudent.\"newline,txt \"Every row and columnrequired that 5 marks be made.\"newline,bub 2newline,pic 00 01,newlinebub 3newline,txt \"No problem!\"newline,pic 01 01newline,txt \"But it does illustrate a most importantpoint: every glyph has an element of certainty.\"newline,txt \"Always look for that certaintyand you will have found your place to begin!\"newline,bub 3newline,txt \"Now let\'s see how you fare withthe next!...\"",
