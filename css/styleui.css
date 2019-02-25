@@ -18,8 +18,8 @@
 
 
 .squarecel{
-	min-height:50px;
-	min-width:50px;
+	height:33px;
+	min-width:33px;
 	user-select:none;
 	text-align:center;
 }

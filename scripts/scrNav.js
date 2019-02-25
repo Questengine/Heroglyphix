@@ -7,12 +7,21 @@ function GameScript(){
 	var curpuz = arrPuzzles[loccode];
 }
 function AdvanceLevel(){
-	gPuzzle++;
-	
+	gPuzzle++; 
 }
-function Init(){
+function Init1232(){
 	 
 	var puz = LoadPuz();
+	BuildGrid(Math.sqrt(puz.length));
+	LoadLocationText();
+	gTextItr=-1;
+	
+}
+function Init(code){
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
+	var puz = LoadPuzCode(code);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
 	gTextItr=-1;

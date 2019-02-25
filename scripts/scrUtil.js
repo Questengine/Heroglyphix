@@ -3,12 +3,21 @@ function LoadLocationText(){
 	arrText = gText.split("newline,");
 }
 
-function LoadPuz(){
-	var curcode = CurCode();
-	var puz = arrPuzzles[curcode];
+function LoadPuz(code){
+	
+	if(typeof code === "undefined"){
+		 code=CurCode();
+	}
+	var puz = arrPuzzles[code];
 	gPuzCorrect = puz;
 	return puz;
 }
+function LoadPuz43123Code(code){ 
+	var puz = arrPuzzles[code];
+	gPuzCorrect = puz;
+	return puz;
+}
+
 function pad( i){
 	var res ="";
 	if(i<10){

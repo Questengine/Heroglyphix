@@ -14,6 +14,7 @@
   <script src="scripts/scrPox.js"></script>
   <script src="scripts/scrGrid.js"></script>
   <script src="scripts/scrLocPuz.js"></script>
+  <script src="scripts/scrGlyphlets.js"></script>
    
   <link rel="stylesheet" href="css/stylemaster.css">
   <link rel="stylesheet" href="css/styledivs.css">
@@ -26,10 +27,11 @@
 		FillMarkMenu();
 		//GameScript();
 		
-		Init();
+		//Init();
 		//var out = BuildLocPuz("Library");
 		//var out2 = BuildLocPuz("Skimlet");
-		$("#dPuzzles").html(BuildLocPuz("Library"))
+		//InitLocPuz("Library");
+		InitGlyphlets("04-01-02");
 		DialogueOpen();
 		//var info = PuzCount(1,1)+" rstd "+PuzCount(3,1)+" "+PuzCount(4,1); 
 		

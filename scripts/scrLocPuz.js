@@ -1,3 +1,10 @@
+ function InitLocPuz(locname){
+	 $("#dPuzzles").html(BuildLocPuz(locname)+BuildLocPuzConfirm());
+	 //$("#dPuzzles").html(BuildLocPuzConfirm());
+	 $(".celllocpuz").on("click",PromptLocPuz);
+	 $("#dLocPuzConfirm").on("click",LocPuzConfirmed);
+ }
+ 
  function BuildLocPuz(stgname){
 	 
 	var strTable = "<table id='tblLocPuz'>";
@@ -19,8 +26,25 @@
 	 for(var p = 1;p<=pcount;p++){
 		var code = BuildCode(gStage,loc,p);
 		if(code in arrPuzzles){
-			res += "<td class='celllocpuz'>P"+code+"</td>";
+			res += "<td class='celllocpuz' data-puz='"+code+"'>P"+code+"</td>";
 		} 
 	 }
 	 return res;
  }
+ function BuildLocPuzConfirm(){
+	 var res = "<div id='dLocPuzConfirm'>CONFPf3333fIMM</div>";
+	 return res;
+ }
+ function PromptLocPuz(){
+	 
+	 //alert($(this).attr("data-puz"));
+	 var code = $(this).attr("data-puz");
+	 $("#dLocPuzConfirm").html("Load " + code + "?");
+	 $("#dLocPuzConfirm").attr( "data-puztoload",code );
+ }
+ function LocPuzConfirmed(){
+	 var code = $(this).attr("data-puztoload");
+	 Init(code);
+	 DialogueClose();
+ }
+ 
