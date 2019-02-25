@@ -56,13 +56,19 @@ function MarkSelected(){
 	var x = ($(this).css("background-position-x"));
 	var y = ($(this).css("background-position-y"));
 	markposin = x +  " " + y;
+	
+	ReDrawGrid();
+	
+}
+function ReDrawGrid(){
 	$(".squarecel[data-mark='in']").each(function(){
 		SetMarkTimeout($(this));
 	});
-	
-	
-	
-	
+}
+function ClearGrid(){
+	$(".cel").each(function(){
+		$(this).css("background-position",markposout);
+	});
 }
 function SetMarkTimeout(cell){
 	var x = parseInt(cell.attr("data-x"))+0;
@@ -74,7 +80,25 @@ function SetMarkTimeout(cell){
 function ChangeMark(cell){
 	cell.css("background-position",markposin);
 }
-
+function AutoSolve(){
+	$("#dPortrait").html("AUTOSOLVING");
+	var puz = gPuzCorrect;
+	var dim = Math.sqrt(puz.length);
+	var x = 0;
+	var y = 0;
+	for(y = 0;y<dim;y++){
+		for(x = 0;x<dim;x++){
+			var index= x+y*dim;
+			var thischar = puz.substring(index, index+1);
+			if(thischar=="0"){mark = "out";}
+			else{mark = "in";}
+			$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
+		}	
+	}	 
+	ClearGrid();
+	ReDrawGrid();
+	CheckCompletion();
+}
 function bwpx(s){
 	var res = s.replace("px","");
 	return res+0;

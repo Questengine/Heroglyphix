@@ -87,3 +87,39 @@
 #tblLocPuz{
 	width:555px; 
 }
+#dGlyphlets{
+	display:block;
+	background-image:url("../images/glyphletsbackground.png");
+	background-repeat:no-repeat;
+	border:none;
+	min-width:143px;
+	min-height:201px;
+	
+}
+#dGlyphletConfirm{
+	display:block;
+	background-image:url("../images/btnWide.png");
+	border:none;
+	background-repeat:no-repeat;
+	min-width:160px;
+	min-height:42px;
+}
+
+#dGlyphletConfirm:hover{ 
+	background-position-y:-42px;
+}
+#tblGlyphlets{
+	top:45px;
+	left:22px;
+}
+#dLocPuzConfirm{
+	display:block;
+	background-image:url("../images/btnWide.png");
+	background-repeat:no-repeat;
+	border:none;
+	min-width:160px;
+	min-height:42px;
+}
+#dLocPuzConfirm:hover{ 
+	background-position-y:-42px;
+}

@@ -1,0 +1,7 @@
+pic 00 01
+bub 0
+txt "Hmm, a deadly weapon of some kind?"
+pic 03 04
+txt "My trusty peacekeeper."
+pic 03 05
+txt "A quick THWOMP over the head calms the most rowdy of customer. Works a treat."

@@ -1,0 +1,5 @@
+pic 00 06
+bub 0
+txt "Hey kitty, are you okay?"
+pic 00 01
+txt "Wow, off he goes. He's not hurt at all!"

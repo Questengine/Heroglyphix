@@ -7,6 +7,8 @@
   
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
   <script src="scripts/scrData.js"></script>
+  <script src="scripts/scrDataText.js"></script>
+  <script src="scripts/scrDataTbt.js"></script>
   <script src="scripts/scrGlobal.js"></script>
   <script src="scripts/scrUtil.js"></script>
   <script src="scripts/scrNav.js"></script>
@@ -26,12 +28,14 @@
 		//LoadLocationText(0);
 		FillMarkMenu();
 		//GameScript();
+		BuildUPP();
 		
+		StartPuz("01-01-02");
 		//Init();
 		//var out = BuildLocPuz("Library");
 		//var out2 = BuildLocPuz("Skimlet");
-		//InitLocPuz("Library");
-		InitGlyphlets("04-01-02");
+		InitLocPuz("Library");
+//		InitGlyphlets("04-01-02");
 		DialogueOpen();
 		//var info = PuzCount(1,1)+" rstd "+PuzCount(3,1)+" "+PuzCount(4,1); 
 		
@@ -44,6 +48,7 @@
 		$("#dQuickNav").click(DialogueOpen);
 		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(SpeechNext);
+		$("#dPortrait").click(AutoSolve);
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false);
 		
@@ -86,7 +91,7 @@ dPortrait
 	 <tr><td id="mk25" class="onemark"></td><td id="mk26" class="onemark"></td><td id="mk27" class="onemark"></td><td id="mk28" class="onemark"></td><td id="mk29" class="onemark"></td></tr>
 	</table>
 	</div  ><!-- end div speech --> 
-	<div id="dQuickNav">
+	<div id="dQuickNav">  
   dQuickNav
 	</div  ><!-- end div speech --> 	
 	 <div id="dReveal">
@@ -95,7 +100,7 @@ dPortrait
 	 
 	 <div id="dDialogue">
 		 <div id="dGlyphlets" class="dialoguechild">
-		 Selecte a gjypllet
+		 Select a tiny puzzle
 			<div >ok</div><div class="close">cancel</div>
 		 <div>
 		 <br>

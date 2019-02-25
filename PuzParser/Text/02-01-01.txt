@@ -1,0 +1,18 @@
+pic 00 09
+bub 0
+txt "Something's happening!"
+pic 00 14
+bub 2
+txt "Whoa!"
+pic 03 02
+txt "Me anvil!"
+pic 00 15
+bub 0
+txt "Hey, Methusaleh's wand really does work!"
+pic 03 01
+txt "Hrm, it looks a'right. This old beauty was made to last the ages."
+txt "Fine, ye can fix the rest o' me stuff too - what's yer name?"
+pic 00 15
+txt "Skimlet. And I'll fix 'em, no problem!"
+pic 03 01
+txt "A'right don't get cocky, Niblet!"

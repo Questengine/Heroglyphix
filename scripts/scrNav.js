@@ -6,8 +6,27 @@ function GameScript(){
 	var loccode = CurCode();
 	var curpuz = arrPuzzles[loccode];
 }
+
+function StartPuz(code, part){
+	if(typeof part === "undefined"){
+	 part =0;
+	}
+	var puz = LoadPuz(code);
+	if(puz.includes(",")){
+		InitGlyphlets(code);
+	}
+	else{
+		
+	}
+}
 function AdvanceLevel(){
+	MarkPuzzleDone(code,gPart)
 	gPuzzle++; 
+	if(gPuzzle>PuzCount(gStage,gLocation)){
+		//and all puzzles done in this location
+		gPuzzle=0;gLocation++;
+	}
+	if(gLocation>LocCount(arrStages[gStage])){gLocation=0;gStage++;}
 }
 function Init1232(){
 	 
@@ -21,7 +40,7 @@ function Init(code){
 	 if(typeof code === "undefined"){
 		 code=CurCode();
 	 }
-	var puz = LoadPuzCode(code);
+	var puz = LoadPuz(code);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
 	gTextItr=-1;

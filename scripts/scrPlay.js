@@ -44,6 +44,9 @@ function DoMark(thiscel){
 			thiscel.css("background-position",markposnot);
 		}
 	}
+	CheckCompletion();
+}
+function CheckCompletion(){
 	gPuzPlayer= CurrentPuzzleState();
 	if(IsFinished()){
 		//alert("done");
@@ -51,6 +54,7 @@ function DoMark(thiscel){
 		ShowHideProgressButton(true);
 		PuzzleDone();
 	}
+	
 }
 function IsFinished(){
 	return gPuzPlayer == gPuzCorrect;

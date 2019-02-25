@@ -1,0 +1,13 @@
+pic 04 00
+bub 0
+txt "Aha, another original wonder of Groat Farm's magical, animal husbandry."
+pic 00 15
+txt "A gingham sheep? Well, I guess that -is- pretty impressive."
+pic 04 00
+txt "Now I just need to figure out how to grow much, much flatter versions. Instant tablecloths!"
+pic 04 01
+bub 1
+txt "Hmm, perhaps some flat fish and a good morphic spell would do the trick?"
+pic 00 05
+bub 0
+txt "..."

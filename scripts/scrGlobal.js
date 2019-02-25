@@ -15,6 +15,7 @@ var gLocationItr=0;
 
 var gPuzCorrect="";
 var gPuzPlayer="";
+var gUPP={};
 
 var markposnot = "0px -60px";
 var markposin = "0px 0px";

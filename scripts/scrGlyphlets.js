@@ -4,7 +4,7 @@ function InitGlyphlets(code){
 	if(puz.includes(",")){
 		var arrPuz = puz.split(",");
 		var count =arrPuz.length;
-		 $("#dPuzzles").html(BuildGlyphlets(count)+BuildGlyphletConfirm());
+		 $("#dGlyphlets").html(BuildGlyphlets(count)+BuildGlyphletConfirm());
 		 //$("#dPuzzles").html(BuildLocPuzConfirm());
 		 $(".glyphlet").on("click",PromptGlyphletConfirm);
 		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed);
@@ -22,7 +22,7 @@ function InitGlyphlets(code){
 		 strTable += "<tr>";
 		 for(var x = 0;x<dim;x++){
 		 
-		 strTable += "<td>"+x+","+y+"</td>";
+		 strTable += "<td class='glyphletselection'>"+x+","+y+"</td>";
 		} 
 		 strTable += "</tr>";
 	 }

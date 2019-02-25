@@ -1,0 +1,8 @@
+pic 00 01
+bub 0
+txt "Thick wooly socks."
+pic 00 06
+bub 3
+txt "Maybe I should leave a couple of coins and keep these... I wonder how far North the journey will take me?"
+pic 00 01
+txt "Ha! I'm probably being silly."

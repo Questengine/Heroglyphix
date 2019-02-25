@@ -1,0 +1,18 @@
+pic 00 01
+bub 0
+txt "I'm definitely getting the hang of these."
+pic 01 01
+txt "Ah yes, these dry runs are all well and good, but it is the practical test of your skills that will really separate the wizard from the wannabees."
+pic 01 02
+txt "Out there, in the mean streets, evil forests and spine-chilling mountains of the real world a Glyphix Master needs courage and perseverance to survive!"
+pic 01 00
+txt "Heroism!"
+pic 01 01
+txt "That's what it demands, nothing more and nothing less!"
+bub 1
+txt "(Although a spare pair of underpants is always a blessing)"
+pic 00 04
+bub 0
+txt "*Gulp*"
+
+

@@ -1,0 +1,13 @@
+pic 00 18
+bub 1
+txt "Oops! Sharp!"
+pic 00 01
+bub 0
+txt "Here's your sword, sir."
+pic 03 01
+txt "Careful with that, pup. You don't look old enough to be handling weaponry, or to be swinging that wand about fer that matter!"
+pic 00 01
+txt "I assure you, I'm - (ahem) - fully qualified for the job."
+pic 00 06
+bub 3
+txt "If being the only available wizard within three leagues of here makes me qualified, that is."
