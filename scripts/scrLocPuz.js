@@ -44,6 +44,7 @@
  }
  function LocPuzConfirmed(){
 	 var code = $(this).attr("data-puztoload");
+	 SetCode(code);
 	 Init(code);
 	 DialogueClose();
  }

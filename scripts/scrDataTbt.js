@@ -1,7 +1,29 @@
 
+
+function GetPuzData(code ){
+	 
+	var puz =  arrPuzzles[code] 
+	  
+	return puz;
+}
+
+
+function LoadPuz(code, part){
+	
+	if(typeof code === "undefined"){
+		 code=CurCode();
+	}
+	 if(typeof part === "undefined"){
+		 part=0;
+	 }
+	var puz =  arrPuzzles[code].split(",")[part];
+	 
+	gPuzCorrect = puz;
+	return puz;
+}
 var arrPuzzles={"01-01-01":"1111111111111111111111111",
 
-"01-01-02":"1111111110111001100010000,1111111110111001100010000,1111111110111001100010000,1111111110111001100010000",
+"01-01-02":"0000011110111001100010000,0000111110111001100010000,0001111110111001100010000,0011111110111001100010000",
 
 "01-01-03":"1101110001000001000111011",
 

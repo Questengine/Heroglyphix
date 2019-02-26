@@ -3,15 +3,6 @@ function LoadLocationText(){
 	arrText = gText.split("newline,");
 }
 
-function LoadPuz(code){
-	
-	if(typeof code === "undefined"){
-		 code=CurCode();
-	}
-	var puz = arrPuzzles[code];
-	gPuzCorrect = puz;
-	return puz;
-}
 function LoadPuz43123Code(code){ 
 	var puz = arrPuzzles[code];
 	gPuzCorrect = puz;
@@ -28,6 +19,12 @@ function pad( i){
 function CurCode(){
 	return pad(gStage)+"-"+pad(gLocation)+"-"+pad(gPuzzle);
 }
+function SetCode(code){
+	gStage = parseInt(code.split("-")[0]);
+	gLocation = parseInt(code.split("-")[1]);
+	gPuzzle = parseInt(code.split("-")[2]);
+}
+
 function BuildCode(s,l,p){
 	return pad(s)+"-"+pad(l)+"-"+pad(p);
 }

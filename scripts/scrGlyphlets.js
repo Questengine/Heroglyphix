@@ -1,13 +1,14 @@
 function InitGlyphlets(code){
 	
-	var puz = LoadPuz(code);
-	if(puz.includes(",")){
-		var arrPuz = puz.split(",");
+	var puzdata = GetPuzData(code);
+	if(puzdata.includes(",")){
+		var arrPuz = puzdata.split(",");
 		var count =arrPuz.length;
 		 $("#dGlyphlets").html(BuildGlyphlets(count)+BuildGlyphletConfirm());
 		 //$("#dPuzzles").html(BuildLocPuzConfirm());
 		 $(".glyphlet").on("click",PromptGlyphletConfirm);
 		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed);
+		DialogueOpen();
 		
 	}
 	
@@ -21,10 +22,15 @@ function InitGlyphlets(code){
 	 for(var y = 0;y<dim;y++){
 		 strTable += "<tr>";
 		 for(var x = 0;x<dim;x++){
-		 
-		 strTable += "<td class='glyphletselection'>"+x+","+y+"</td>";
+			 var i = 0;
+			 i = x+y*dim;
+			 var display = i;
+			 if(isPuzzlePartComplete(CurCode(),i)){
+				 display="X"
+			 }
+			 strTable += "<td class='glyphlet' data-gid='"+i+"'>"+display+"</td>";
 		} 
-		 strTable += "</tr>";
+		strTable += "</tr>";
 	 }
 	
 	
@@ -32,18 +38,19 @@ function InitGlyphlets(code){
 	return strTable;	
  }
  function BuildGlyphletConfirm(){
-	 var res = "<div id='dGlyphletConfirm'>CONFPf3333fIMM</div>";
+	 var res = "<div id='dGlyphletConfirm'  >CONFPf3333fIMM</div>";
 	 return res;
  }
  function PromptGlyphletConfirm(){ 
 	 //alert($(this).attr("data-puz"));
-	 var code = $(this).attr("data-part");
+	 var code = $(this).attr("data-gid");
 	 $("#dGlyphletConfirm").html("Load " + code + "?");
 	 $("#dGlyphletConfirm").attr( "data-parttoload",code );
  }
  function GlyphletConfirmed(){
-	 var code = $(this).attr("data-parttoload");
-	 Init(code);
+	 var part = $(this).attr("data-parttoload");
+	 gPart = part;
+	 Init(CurCode(), part);//glyphlet selected,send it AND code 
 	 DialogueClose();
  }
 

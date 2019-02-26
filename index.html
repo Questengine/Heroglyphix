@@ -29,14 +29,15 @@
 		FillMarkMenu();
 		//GameScript();
 		BuildUPP();
-		
-		StartPuz("01-01-02");
+		gStage=1;
+		gLocation=1;
+		gPuzzle=1;
+		StartPuz("01-01-01");
 		//Init();
 		//var out = BuildLocPuz("Library");
 		//var out2 = BuildLocPuz("Skimlet");
 		InitLocPuz("Library");
 //		InitGlyphlets("04-01-02");
-		DialogueOpen();
 		//var info = PuzCount(1,1)+" rstd "+PuzCount(3,1)+" "+PuzCount(4,1); 
 		
 		$(".cel").click( function(event){

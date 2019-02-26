@@ -82,7 +82,7 @@
 	background-color:rgba(155, 155,155, 0.6);  
 	width:100%;
 	height:100%;
-	overflow:hidden;
+	margin:auto;
 }
 #tblLocPuz{
 	width:555px; 
@@ -94,6 +94,9 @@
 	border:none;
 	min-width:143px;
 	min-height:201px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	
 }
 #dGlyphletConfirm{
@@ -103,14 +106,21 @@
 	background-repeat:no-repeat;
 	min-width:160px;
 	min-height:42px;
+	text-align:center;  
+	top: 110%;
+	vertical-align: middle;
+	line-height: 42px;   
 }
 
 #dGlyphletConfirm:hover{ 
 	background-position-y:-42px;
 }
 #tblGlyphlets{
-	top:45px;
-	left:22px;
+	position:absolute;
+	top: 48px;
+	left:22px; 
+	height:95px;
+	width:95px;
 }
 #dLocPuzConfirm{
 	display:block;
@@ -119,6 +129,7 @@
 	border:none;
 	min-width:160px;
 	min-height:42px;
+	margin:auto;
 }
 #dLocPuzConfirm:hover{ 
 	background-position-y:-42px;

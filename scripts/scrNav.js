@@ -7,26 +7,30 @@ function GameScript(){
 	var curpuz = arrPuzzles[loccode];
 }
 
-function StartPuz(code, part){
-	if(typeof part === "undefined"){
-	 part =0;
-	}
-	var puz = LoadPuz(code);
-	if(puz.includes(",")){
+function StartPuz(code ){
+	 
+	var puzdata = GetPuzData(code);
+	if(puzdata.includes(",")){
 		InitGlyphlets(code);
 	}
 	else{
 		
 	}
 }
-function AdvanceLevel(){
-	MarkPuzzleDone(code,gPart)
-	gPuzzle++; 
-	if(gPuzzle>PuzCount(gStage,gLocation)){
-		//and all puzzles done in this location
-		gPuzzle=0;gLocation++;
+function AdvanceLevel(){	
+	var code = CurCode();
+	MarkPuzzlePartDone(code,gPart);
+	if(isPuzzleComplete(code)){
+		gPuzzle++; 
+		if(gPuzzle>PuzCount(gStage,gLocation)){
+			//and all puzzles done in this location
+			gPuzzle=0;gLocation++;
+		}
+		if(gLocation>LocCount(arrStages[gStage])){gLocation=0;gStage++;}
 	}
-	if(gLocation>LocCount(arrStages[gStage])){gLocation=0;gStage++;}
+	else{
+		InitGlyphlets(code);
+	}
 }
 function Init1232(){
 	 
@@ -36,11 +40,14 @@ function Init1232(){
 	gTextItr=-1;
 	
 }
-function Init(code){
+function Init(code, part){
 	 if(typeof code === "undefined"){
 		 code=CurCode();
 	 }
-	var puz = LoadPuz(code);
+	 if(typeof part === "undefined"){
+		 part=0;
+	 }
+	var puz = LoadPuz(code, part);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
 	gTextItr=-1;

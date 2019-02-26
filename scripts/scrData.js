@@ -48,11 +48,17 @@ function BuildUPP(){
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done
-	return gUPP[code].includes("0");
+	return !gUPP[code].includes("0");
+}
+function isPuzzlePartComplete(code,part){
+	var ipart = parseInt(part);
+	//if UPP includes a zero, then part of this puzzle isn't done
+	return gUPP[code].slice(ipart,ipart+1)=="1";
 }
 function MarkPuzzlePartDone(code,part){
+	var ipart = parseInt(part);
 	var puzparts = gUPP[code];
-	var newdata =puzparts.slice(0,part)+"1"+puzparts.slice(part+1); 
+	var newdata =puzparts.slice(0,ipart)+"1"+puzparts.slice(ipart+1); 
 	gUPP[code]= newdata;
 }
 
