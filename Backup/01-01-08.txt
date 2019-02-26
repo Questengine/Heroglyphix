@@ -1,0 +1,29 @@
+pic 01 01
+bub 0
+txt "Very good, I'm sure that one caused you no difficulties."
+pic 00 06
+txt "Is this test - an hourglass?"
+pic 01 01
+txt "Very perceptive! The hourglass is a -critical- wizarding tool if you want to solve even the simplest of glyphs."
+txt "This fellow will help you keep track of how exactly long you have to make your attempt!"
+txt "Every glyph has a natural time limit in which its spell can be unwoven, you see."
+pic 00 05
+txt "And if I fail?!"
+bub 0
+pic 01 00
+txt "Oh, you can always have another stab at it I suppose. Not that I ever needed to."
+pic 01 02
+txt "The trick is to make sure you don't place any marks incorrectly, that weakens your counter-magic and..."
+pic 00 01
+txt "Causes a time penalty!"
+pic 01 01
+txt "Got it in one, my boy. You're a fast learner at least, if a bit wet behind the ears."
+pic 00 03
+bub 1
+txt "...Heheh..."
+pic 01 01
+bub 0
+txt "Real glyphs are much bigger and have more elaborate, detailed solutions! So always keep one eye on your hourglass."
+txt "(Although, I have been told to inform you, that if you're playing in Casual Mode then all time limits are suspended.)"
+txt "(Suspended? Really?! That's rather a luxury. I'm a Classic Mode man myself. Sign of a truely fearless Glyphix Master, what?)"
+txt "Well, on to the next test!"

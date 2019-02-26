@@ -1,0 +1,17 @@
+pic 32 14
+bub 0
+txt "Yaargh! What's that?!"
+pic 20 01
+bub 2
+txt "FSSSS-ssss!"
+pic 32 14
+bub 1
+txt "YOGON! Get it Get it get it!"
+pic 07 28
+bub 0
+txt "There you are free, fiend. - Now let me help you the rest of the way!"
+pic 07 29
+bub 2
+txt "-Yoish!-"
+pic 20 02
+txt "*SLAAAAAAAAAASH*"

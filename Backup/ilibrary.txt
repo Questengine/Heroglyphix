@@ -1,0 +1,13 @@
+pic 01 12
+bub 0
+txt "Skimlet?"
+txt "Skimlet Fjordson, is it?"
+txt "Hmm, well don't stand around gawping. If you have an inquiry spit it out."
+txt "This is the Librarium Arcana you know, not a sideshow fair."
+bub 1
+pic 00 03
+txt "Egads! Sorry, I-I was just getting my bearings..."
+bub 0
+txt "Something strange is happening in town. I'm here to find-"
+pic 01 13
+txt "Lore Section. Ladder number 23, Row 7, Third from the left."

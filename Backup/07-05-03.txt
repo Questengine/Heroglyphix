@@ -1,0 +1,11 @@
+pic 09 15
+bub 0
+txt "Oh, everything looks so dainty from up here, like a St.Picklemas toy town."
+pic 09 14
+txt "Of course, it pretty much looks like one from the ground too... they're so teeny!"
+pic 09 22
+bub 1
+txt "Like marshmallow dolls come to life..."
+pic 09 02
+bub 0
+txt "*giggle*"

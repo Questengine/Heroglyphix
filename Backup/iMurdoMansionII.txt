@@ -1,0 +1,16 @@
+pic 08 04
+bub 0
+txt "A hidden corridor! Judging by the color of Murdo's face this has to lead to a vault!"
+pic 08 24
+txt "What's that creaking?"
+pic 12 04
+txt "It ain't me, I can tell you dat."
+pic 12 06
+txt "Wait, wait, wait. Yeaaa, da gremlin is still close by G., and da lightnin' wizard is talking. He's speakin' right now!"
+pic 12 07
+txt "'Yes! Attack, hit it with every ounce of power you have!'"
+pic 08 14
+txt "The noise, it's the Mansion! The whole house sounds like it's moaning!"
+pic 12 07
+bub 2
+txt "'Bring it down! Bring it all crashing down on her! A-HA-HAA-HAA!!!'"

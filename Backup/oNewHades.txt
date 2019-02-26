@@ -1,0 +1,3 @@
+pic 23 09
+bub 0
+txt "*Heehee!* - Now, open them."

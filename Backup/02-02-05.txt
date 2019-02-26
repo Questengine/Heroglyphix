@@ -1,0 +1,7 @@
+pic 14 00
+bub
+txt "Weow!"
+pic 00 06
+txt "Hey kitty, are you okay?!"
+pic 00 01
+txt "Wow, off he goes. Being trapped in the glyph hasn't hurt him at all!"

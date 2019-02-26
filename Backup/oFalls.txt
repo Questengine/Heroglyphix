@@ -1,0 +1,7 @@
+pic 07 13
+bub 0
+txt "Follow me. This path joins the busier Rokuju-roku west road not far ahead."
+pic 05 20
+txt "Yeah yeah yeah..."
+pic 07 13
+txt "And pick up your feet!"

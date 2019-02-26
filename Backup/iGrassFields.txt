@@ -1,0 +1,3 @@
+pic 07 14
+bub 0
+txt "Ha! More of the gremlin's work."

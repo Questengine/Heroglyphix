@@ -1,0 +1,19 @@
+pic 22 02
+bub 0
+txt "Aha! My bedroll, thank you! I confess the comfort of a soft quilt is one luxury I still cling to."
+pic 08 03
+txt "Here. Is this really how you sleep, don't you have any place in the world to call home?"
+pic 22 03
+txt "This! *inhale* All of this is my home!"
+pic 22 06
+txt "Argh! And he actually believes that horsepuckey too. How could the Murdo family line sink as low as this?!?"
+pic 22 09
+txt "I must be rolling in my grave."
+pic 08 24
+bub 1
+txt "'Murdo''s your name, is it? Go and haunt someone who cares."
+pic 22 04
+bub 0
+txt "Is something wrong, Mistress Geneva? You're... speaking to yourself."
+pic 08 24
+txt "Nothing to concern yourself with, friend."

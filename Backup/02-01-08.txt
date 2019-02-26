@@ -1,0 +1,7 @@
+pic 03 01
+bub 0
+txt "That's one o' me finest heraldry shields. There better not be a scratch on it."
+pic 00 15
+txt "-Yes-, chalk up another victory for the wizard in the baggy blue robes!"
+pic 00 02
+txt "I knew I could do this!"

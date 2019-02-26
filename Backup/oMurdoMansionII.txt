@@ -1,0 +1,40 @@
+pic 33 03
+bub 0
+txt "Damn it, he's going to kill us! I have to hurry, it's so close!"
+bub 4
+txt "It's -so- close... but which 'it' do I even mean?"
+txt "The Gremlin who's got to be stopped before freeing its evil Master, or the Crux, that I've been so desperately seeking for eight years of my life?!"
+pic 08 21
+bub 0
+txt "*Gasp!* That unearthly light..."
+pic 22 18
+txt "...the Gran Crux! Right in front of me, i-i-it's REAL!"
+pic 33 04
+txt "Huh?! The other passage!..."
+pic 11 12
+txt "Grr-gaaoogh!"
+pic 11 03
+bub 2
+txt "'YEEES! That's it! The last beam destroyed, now get out, Pox! Flee! Fly!'"
+pic 12 07
+bub 2
+txt "'IT'S COMING DOWN!!!'"
+pic 33 13
+bub 1
+txt "Choose!..."
+pic 33 05
+bub 0
+txt "*crack!* I can reach it!..."
+txt "I  can-!....Aiiieeeeee! *CRUNCH!*"
+pic 12 14
+bub 2
+txt "Aaaaaargh!!! The roof is falling!"
+pic 09 00
+bub 0
+txt "Hey You!"
+pic 33 05
+bub 2
+txt "*pant* Uh! Uh! *pant*"
+pic 09 00
+bub 0
+txt "Come on, silly! Take my hand, I can't juggle this mansion all day."

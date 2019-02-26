@@ -1,0 +1,5 @@
+pic 07 13
+bub 0
+txt "Silver mirror. Elegant but gothically ornate. Cherubs encircle the looking glass and a horned worm is etched into the handle."
+pic 07 14
+txt "...I should not be handling Geneva's personal items, but I must find her."

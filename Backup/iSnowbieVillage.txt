@@ -1,0 +1,20 @@
+pic 09 20
+bub 0
+txt "La la la, the Northwinds blow +
+Swaying us to and fro, +
+Marching through the falling snow +
+Here we go, Northward Ho! +"
+pic 09 05
+txt "Ohhh! Look Kii Kii, it's Snowbie Ville. We haven't been here for years! I'd forgotten how pretty it all is!"
+pic 09 26
+txt "It's like St. Picklemas everyday!"
+pic 09 15
+txt "The sweet trees, the glisteny lights, the cutest little houses... the musical crunch of snow underfoot! +" 
+pic 24 03
+bub 1
+txt "*Crunch* - Eeeek!!"
+pic 09 24
+bub 0
+txt "Oopsie, I'm sorry! +  Are you okay, small fry?"
+pic 09 01
+txt "Huh? What's that sticking out of the snow?"

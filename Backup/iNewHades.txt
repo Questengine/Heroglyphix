@@ -1,0 +1,6 @@
+pic 23 10
+bub 0
+txt "Keep following us please, Miss. But juuust close your eyes for a moment."
+pic 33 14
+txt "Where do you three think you're leading me?"
+txt "I know this place, it's just the ruins of one of the old towns that were swallowed up when the land died."

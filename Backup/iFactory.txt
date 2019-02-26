@@ -1,0 +1,17 @@
+pic 09 01
+bub 0
+txt "So Mr Gremlin came -this- way did he? *gasp*"
+pic 09 07
+txt "Oh -yeah-! This is the Snowbies' secret Magic SugarCandy factory!"
+txt "Kii Kii, they've been making this for -hundreds- of years! It was my absolute, favorite treat as a kid!"
+pic 13 01
+txt "Kii?"
+pic 09 26
+txt "Now Kii Kii, you don't ask a girl's age."
+pic 09 06
+txt "Ooh look there! More stuff for the wand to fix. Yay!..."
+pic 09 12
+txt "GOoooo wand!!! +"
+txt "..."
+pic 34 19
+txt "Oh yeah, I have to use my brain too. Whoever came up with that idea. Pfff."

@@ -1,0 +1,9 @@
+pic 27 03
+bub 0
+txt "...Take us to that spire up ahead, the one taller than all the others..."
+pic 34 20
+txt "Something feels wrong about that dark glyph. Like... it would be better for everyone if I just - let it be."
+pic 09 06
+txt "But hey, we didn't get into this to do it by half measures!"
+pic 09 20
+txt "Anything left glyphed is a bolthole Mr Gremlin can teleport away to. I don't think we have a choice, Ky, take us down!"

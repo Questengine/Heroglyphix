@@ -1,0 +1,9 @@
+pic 05 10
+bub 0
+txt "Bug! BIG bug! Big bug BAD!"
+pic 02 18
+txt "Now now, it's true these super-sized termites -are- my nemeses. They like nothing better than to chew on a cherished Magus Tree..."
+pic 02 00
+txt "And yet they're a vital part of Nature's cycle, and as a deserving of their lives as any other living thing. There's beauty even in them, Woodrot."
+pic 05 09
+txt "It's hiding it well."

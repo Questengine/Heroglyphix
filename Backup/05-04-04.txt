@@ -1,0 +1,22 @@
+pic 07 16
+bub 2
+txt "Oh-ho! I'd know this with my eyes closed."
+pic 07 10
+bub 0
+txt "Cinder-fish Sushi, truly your masterpiece dish."
+pic 19 03
+txt "The Cinder-fish were caught fresh this morning, and I have the burns to prove it! My skill in the kitchen is still not reflected in my fishing."
+pic 07 20
+txt "Ha! My stomach thanks you. *Dig in!*"
+txt "*Munch* - Shige, were you able to see which way the gremlin headed?"
+pic 19 02
+txt "Certainly. It headed due North as far as Old Itoi's cherry orchards before I lost sight of it and no other homes or stores in town have been attacked."
+txt "However the creature was not spied leaving town until several hours later..."
+pic 07 14
+txt "... ...curious."
+pic 31 13
+txt "I KNOW. If I were him I'd be out of this deadbeat town before my feet touched the ground."
+pic 07 13
+txt "Your opinion is not required, Rover. And return that bottle of sake to where you found it."
+pic 05 23
+txt "It's -Spot-! Waitaminute, I mean Woodrot! WOODROT! Oooooogh!"

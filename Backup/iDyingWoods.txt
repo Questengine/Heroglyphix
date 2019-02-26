@@ -1,0 +1,97 @@
+pic 08 18
+bub 4
+txt "...... "evil" ......"
+pic 12 04
+bub 0
+txt "Life's a bowl o' Gumbo, ain't it? Maybe you get a mouthful of crawfish, anutha time you get a mouthful of doiyt."
+pic 08 01
+txt "*Sigh* ... I'm sorry that turned bad, Doc."
+pic 08 22
+txt "Sometimes it's like I'm fighting against the current."
+txt "There's one half of me so full of anger, and the other, the Shadowform, is burning with the power to dispense -justice-, straining to be free."
+pic 08 01
+txt "But it's not that simple, things can get... messy. If I let them."
+pic 12 16
+txt "*Creak!* You don't have to 'splain yourself to me, G. I know mo than anybody actions have cons'quences."
+pic 08 04
+txt "Heh-heh, ... 'If you ever get a body again -'"
+pic 12 02
+txt "'I'll know better than ta eavesdrop on a bad-tempered wizard with a short fuse.'"
+pic 08 23
+txt "*giggle* You're lucky I'm the one who found you, y'know. You could be someone's hairy paperweight by now."
+pic 12 10
+txt "A'right, G.! I'm just tryin' to cheer you up, let's not hoiyt anyone's feelingz."
+pic 08 02
+txt "Or a Night Watchman at the Jomon Temple, they wouldn't even need to buy you a uniform!"
+pic 12 10
+bub 2
+txt "A'RIGHT, cher!"
+pic 08 05
+bub 0
+txt "Heheh. *ahem* Hey... I think there's someone standing on the road up ahead."
+pic 33 10
+txt "Hol' me up."
+pic 22 00
+txt "Look, there Doc. It's too big to be the Gremlin, you can just make out a silhouette..."
+pic 22 05
+bub 1
+txt "*Moaaaan!*"
+pic 08 21
+bub 2
+txt "*GASP!*"
+pic 12 11
+txt "Soc au' lait! OW!"
+pic 22 19
+bub 0
+txt "Huh, hello?"
+pic 22 06
+txt "Errrrgh, look at him. Reduced to scrubbing around in the dirt, the 'Wanderer'."
+pic 08 28
+txt "And who the heck are you ... 'Wanderer'?"
+pic 22 19
+txt "Y-yes? Who's there?"
+pic 22 06
+txt "More like Weasel. Wastrel. Waste of Space. *muttered insults*"
+pic 08 24
+txt "..."
+pic 22 08
+txt "Don't worry he can't hear me. But YOU can... can't you missy? Hur-hurhur!"
+pic 08 24
+txt "Shut your yap, shade."
+pic 22 01
+txt "Shade? Wh-who are you talking to? ... it's so dark."
+pic 12 04
+txt "This is gettin' confusin'. And you're spookin' the po guy, G."
+pic 08 05
+txt "Forgive me, let me step into the moonlight."
+txt "I'm Geneva, Mistress of Smoke and Shadow, and it's a pleasure to meet a fellow wanderer in these lands."
+pic 22 02
+txt "Ahh what luck, likewise!"
+pic 22 07
+txt "Go on girl, ask the multicolored moron what he's doing scrambling around in the dark..."
+pic 08 05
+txt "...It looks as if trouble has found you tonight, Wanderer. What brings you into this requiem of a forest?"
+pic 22 03
+txt "*Sigh*... I am a free spirit, my lady - a travelling merchant.  I make this same journey between Thaumhaven and Netherweir every new moon."
+pic 08 03
+txt "Without a cart or caravan? But that's 50 leagues or more."
+pic 22 02
+txt "Ah, there's no better life than having the sky for your roof! And I don't fear these roads, they and I are old friends..."
+pic 22 03
+txt "Though something very odd stalks them tonight."
+pic 08 15
+txt "I think I know where this is going..."
+pic 22 03 
+bub 1
+txt "-Something- clambered from the darkness after sunset, clawing, huffing and sniffing at me! - and in a instant my light and my few belongings were gone."
+pic 22 04
+bub 0
+txt "Turned to these - rocks? - it seems."
+pic 08 04
+txt "Our Gremlin friend has been busy! Well, rest a while. It's magic that can be undone easily enough."
+pic 22 06
+txt "Oh yes, you must rescue my descendant's worthless junk. Bah."
+pic 08 24
+bub 2
+txt "Descendant?"
+txt "Look shade, I don't care what your story is or what business you think you have here. Leave or hold your tongue, or I will deal with you."

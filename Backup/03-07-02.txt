@@ -1,0 +1,3 @@
+pic 02 18
+bub 0
+txt "A prism made of Light-Silver, the very purest gemstone. It can split the feeblest glimmer into a rainbow of colors."

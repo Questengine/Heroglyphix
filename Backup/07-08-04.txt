@@ -1,0 +1,8 @@
+pic 09 06
+bub 0
+txt "Oh, I see now. There are two inner gates and the second won't open unless this first has been properly lifted. No wonder it wouldn't budge!"
+pic 09 20
+txt "The gothic black ironwork is pretty imposing, I'll bet old Edizon didn't enjoy walking through these dark gates when he was locked up."
+pic 34 20
+bub 1
+txt "I'm not sure I will either, but I gotta get them open somehow!"

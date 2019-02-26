@@ -1,0 +1,47 @@
+pic 08 12
+bub 0
+txt "*Creeeeak* - Ah, as it is yours..."
+pic 08 13
+txt "...Oracle of Whispers."
+pic 12 04
+txt "Was I sleepin' in agaiyn? Bon nuit, Mistrezz Geneva."
+pic 08 03
+txt "Ahh, the night doesn't begin until it's greeted by your rich Creole tones, Doc. Any interesting dreams?"
+pic 12 03
+txt "Plenty as alwayz cher', but none I'd dare tell you." 
+pic 12 04
+txt "I see we're trippin' out once mo. Are you fixin' to pick up our searych where we left off?"
+pic 08 09
+txt "No. The -Crux-... will have to wait. For tonight we have a new quarry A new quest."
+pic 08 05
+txt "A Pox Gremlin passed through here not long ago, the familiar of an evil wizard who has his hopes set on staging a jail break."
+pic 08 15
+txt "His own."
+pic 08 05
+txt "It's our job to stop that from happening. I need you to tell me whatever you can."
+pic 12 04
+txt "Anythin' you say. You got me in da palm of your hand as alwayz. And all things -whispered- stop at my ears, just let me listen..."
+pic 12 05
+txt ".... Yeaaa, not an hour ago, da creature stood near dis spot. He cried out to his Master ...."
+pic 08 26
+txt "Keep it coming."
+pic 12 05
+txt "And his Master replies! He whispers -inside- da creature's head from his prison cell, always guiding its hand. Always goading, urging it to him."
+pic 12 07
+txt "'Fool! How could you allow yourself to be struck like this?'"
+pic 12 04
+txt "Oh, da Master's fumin' angry! Creature got hoiyt, wound'd by the fiyo wizard."
+pic 08 02
+txt "Yes! Way to go Red!!! I should have known you'd slow him down for me." 
+pic 08 05
+txt "Which way's he headed?"
+pic 12 05
+txt "Da Gremlin firyst seeks to replenish itself, then he gon' hurry fo his picayune boss, fast as his legs'll take him."
+pic 08 03
+txt "He needs to feed? Well this path leads Northeast, and I can't see him turning back towards Jomon..."
+pic 12 16
+txt "I 'gree, Mistrezz. Then dis new hunt is afoot?"
+pic 08 09
+txt "Through Ghorewood and deeper into Nethweir we go. Keep your ears finely tuned."
+pic 12 16
+txt "If an ant trips over his path I'll hear its tiny cursin'."

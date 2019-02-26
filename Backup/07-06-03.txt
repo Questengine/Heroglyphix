@@ -1,0 +1,86 @@
+pic 13 13
+bub 0
+txt "Loook, Ky! I've heard of this but I've never seen it. It's a -"
+pic 09 29
+bub 1
+txt "Aiee-yurk! YUCK! Get away from me!"
+pic 34 20
+bub 0
+txt "When enough of these icky Dervies swarm together you get a Dervish Shoal. They become, like, one -giant- beastie."
+pic 13 13
+bub 2
+txt "The biggest Water Elemental creature in the world!"
+pic 26 03
+bub 0
+txt "AHA, FOOD!"
+pic 09 17
+txt "Yikes! It's seen us!"
+pic 26 03
+txt "COME CLOSER, LITTLE MORSEL. MMMM, I AM HUNGRY... HUNGRY FOR WIND WIZARD."
+pic 09 30
+bub 2
+txt "No you don't! -TSUNAMI!-"
+pic 26 04
+bub 1
+txt "HAH-HAH-HAH! YOU HAVE ME TRAPPED...."
+txt "SO TRAVELLER, YOU'VE HEARD TELL OF THE LEGEND OF THE DERVISH SHOAL AND HAVE COME TO CLAIM YOUR PRIZE?"
+pic 09 06
+bub 0
+txt "Huh? I don't know any Legend?"
+pic 09 26
+txt "In fact most people haven't even heard of a Dervish Shoal."
+pic 26 04
+bub 1
+txt "OH. OH I SEE... THAT'S, ... HAVEN'T HEARD OF ME?"
+pic 09 14
+bub 0
+txt "Just ask around."
+pic 26 04
+bub 1
+txt "-REALLY?- WOW THAT'S A KILLER, THAT'S DISAPPOINTING."
+txt "IT'S ALWAYS THE SAME YOU KNOW. EVERYONE REMEMBERS THE: 'OH, THE BIG, SC-.. FIERCE, BIG DRAGONS...'"
+txt "'OH, DRAGONS - THEY'RE SO SCARY AND -EXCITING-!'."
+txt "THEN THERE'S THE PHOENIXES, AND STUPID-FACE UNICORNS, PRANCING ABOUT IN FIELDS."
+txt "LA LA LA! + GETTING FRISKY WITH MAIDENS. OHHH - IT MAKES ME SICK."
+txt "...UH... *bloop* ...SPEAKING OF MAKING ME SICK... *gag*"
+pic 09 26
+bub 0
+txt "*sigh* Go on then."
+pic 26 04
+bub 1
+txt "WHAT?!"
+pic 09 20
+bub 0
+txt "Tell me the Legend of the Dervish Shoal. *snap!* There, you're free."
+pic 26 05
+txt "AH, JIMINY! SERIOUSLY? YOU -WANT- TO KNOW?"
+pic 09 06
+txt "Sure, maybe I'll even spread the word a little for ya."
+pic 26 05
+txt "WHOO-HOO-HOO, OH MY! WELL, HERE IT IS!: "
+pic 26 03
+txt "'THEY SAY', IF YOU TRAP A DERVISH SHOAL THEN YOU MAY ASK IT..."
+txt "YOU MAY ASK IT, THE -TIME-! CORRECT TO THE NEAREST QUARTER HOUR OR SO."
+pic 09 21
+txt "Really? Wow."
+pic 26 05
+txt "IT'S A GOOD ONE, YES???"
+pic 09 26
+txt "Ohhh -yes-. Yeah, that's -something- all right. Legendary. People are sure to remember."
+pic 26 03
+txt "YOU SEE, *HEE-HEE*, THE SECRET TO IT IS I LOOK AT THE ANGLE OF THE SHADOW THIS SPIRE HERE CASTS ON..."
+pic 09 26
+txt "Like a sundial, sure."
+pic 26 05
+txt "A... A WHAT?"
+pic 09 02
+txt "Nevermind *cough*, nothing. Well I'm off to spread the Legend."
+pic 26 05
+txt "YOU'VE BEEN ... VERY KIND LITTLE WIND WIZARD. *SNIFF* I'M SORRY ABOUT THE EATING-YOU THING."
+pic 13 13
+txt "'K Bye! +"
+pic 26 05
+txt "SUPER! ... DROP BY AGAIN!..."
+pic 09 14
+bub 1
+txt "Whoa, what a wet weekend."

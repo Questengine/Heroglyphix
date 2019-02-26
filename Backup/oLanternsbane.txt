@@ -1,0 +1,10 @@
+pic 02 02
+bub 0
+txt "Is it my imagination or is the air getting fresher?"
+pic 05 06
+txt "Hey, sorry about that back there. Didn't think you'd noticed."
+pic 02 18
+txt "Gah, no! I mean there is fresh air coming in from *outside*. I think we're nearing an exit..."
+pic 05 27
+bub 2
+txt "Daylight!!!"

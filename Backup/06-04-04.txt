@@ -1,0 +1,13 @@
+pic 22 07
+bub 0
+txt "What's this?... muh... money?!?"
+pic 08 15
+txt "Oh dear, Unctious - It appears that your great-grandson has embraced being a 'simple travelling merchant' with no regrets." 
+pic 08 26
+txt "Haha! There's a fortune here, he could afford a very different life if he wanted."
+pic 22 20
+bub 1
+txt "Buh?... rich but,... if he has all that... how could he want to...?"
+pic 22 11
+bub 0
+txt "Argh!!! This just shows him to be even more of an IMBECILE!!!"

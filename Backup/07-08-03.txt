@@ -1,0 +1,3 @@
+pic 09 20
+bub 0
+txt "Keys! Check!"

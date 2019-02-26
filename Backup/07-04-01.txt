@@ -1,0 +1,24 @@
+pic 24 13
+bub 2
+txt "What you doing?! Uh --- help!"
+pic 24 14
+bub 0
+txt "Hey, you not the fuzzy man."
+pic 09 19
+txt "Do I LOOK like a fuzzy man? NO, I am NOT the FUZZY MAN." 
+pic 09 15
+txt "The fuzzy man turned you into a dropping, -I'm- the lovely but daring Princess who saved you!"
+pic 09 23
+txt "Princess KARA!!!"
+pic 24 14
+txt "Uh, okay. Because the fuzzy man causing big trouble in the factory."
+pic 09 26
+txt "Don't worry your cute lil' head bout it, I'm in charge now."
+pic 24 13
+bub 2
+txt "No! I am Supervisor. I am in charge!"
+pic 09 08
+txt "Of fixing things! I'm in charge of FIXING what the fuzzy m--, what the GREMLIN has done here!"
+pic 09 15
+bub 0
+txt "So, you just ZIP IT - and sit tight, snowflake. &"

@@ -1,0 +1,19 @@
+pic 19 06
+bub 0
+txt "Still piping hot I see. Perhaps such a gremlin could have its uses after all, I wonder?"
+pic 07 16
+txt "Ahh, your finest Beef Bowl! There's always time for a hearty meal."
+pic 07 20
+txt "*Dig in!*"
+txt "Excellent. - *munch* - So, are we definitely talking about the same creature?"
+pic 19 02
+txt "I am sure; a servile Pox Gremlin of the kind thought to have been wiped out 400 years ago. Brown furred, the fiercest variety if my knowledge does not fail me."
+pic 07 24
+txt "You're full of surprises, Shige!"
+pic 19 06
+txt "It pays to know your magical denizens when you operate a restaurant in times such as these,"
+pic 19 02
+txt "Ah, this may be of interest: when the creature first arrived it was entirely ravenous. It seemed driven to eat my hottest chillis, then afterwards..."
+txt "It appeared to be energised. Even faster and wilder!"
+pic 07 14
+txt "A craving for spicy food? Curious..."

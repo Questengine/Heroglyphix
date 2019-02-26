@@ -1,0 +1,17 @@
+pic 02 05
+bub 0
+txt "Very good! Some fine glyph weaving, or -unweaving- I suppose I should say. Altogether-"
+pic 05 05
+bub 2
+txt "There, the Gremlin!"
+pic 02 04
+txt "What! Where?"
+pic 05 05
+bub 0
+txt "It darted past and hurried down into that rabbit-hole."
+pic 02 18
+txt "Rabbit-hole? No no, that... is the entrance to Lanternsbane Caverns."
+pic 05 17
+txt "And that's where you're going too?"
+pic 02 23
+txt "Follow WE must, we must indeed! There's no time to lose!"

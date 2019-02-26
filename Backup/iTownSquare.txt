@@ -1,0 +1,16 @@
+pic 00 01
+bub 0
+txt "Market day. Or at least it -should be-. Look at this mess..."
+pic 00 18
+txt "The Book said a gremlin is responsible for all of this, but it looks like a Mump Ox charged through here!"
+pic 00 01
+txt "Well, at least it doesn't look like anyone has been hurt."
+txt "Traders come from all over Magus Magna to set up stalls and sell their wares. Thank goodness, everyone seems to have fled for safety."
+pic 00 27
+txt "Thaumhaven may be a sleepy, peaceful place, but the townsfolk are used to enough trouble to know how to avoid it!"
+pic 00 06
+txt "..."
+pic 00 07
+txt "Aha! Those are the Glyphs I saw before I ran to the library."
+pic 00 02
+txt "Only now, I can do something about it. Magic time!..."

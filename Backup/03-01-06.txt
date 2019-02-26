@@ -1,0 +1,6 @@
+pic 02 14
+bub 1
+txt "*Phwff!*"
+pic 02 00
+bub 0
+txt "Ah, 12 o'clock!"

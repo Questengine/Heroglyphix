@@ -1,0 +1,15 @@
+pic 00 18
+bub 0
+txt "Oh my ... That's a... what the heck is that?!"
+pic 04 02
+txt "This is a Squppig, my good wizard!"
+pic 14 06
+bub 2
+txt "SQUOINK!"
+pic 00 01
+bub 0
+txt "Square... pigs..."
+pic 04 00
+txt "This particular fellow is Cubert. Plucky little devil -"
+pic 04 03
+txt "- And very convenient for meat loaf one day! You see!" 

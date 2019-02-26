@@ -1,0 +1,5 @@
+pic 09 06
+bub 0
+txt "Time to move on, Ky."
+pic 09 01
+txt "Oh?...."

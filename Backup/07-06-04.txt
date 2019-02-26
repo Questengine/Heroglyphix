@@ -1,0 +1,66 @@
+pic 09 23
+bub 0
+txt "Bam! Another massive Glyph solved by Princess Kara, the dazzling girl with the super-sized brain!"
+pic 09 01
+txt "This mountain kind of looks like it has a face."
+pic 09 02
+txt "*Giggle* But I wonder why the twerp cast a spell on it?"
+pic 27 00
+txt "*Sound of rocks scraping* - *crack* - *creeeunch*!"
+pic 09 01
+txt "Huh? Is it trying to TALK to me?"
+pic 27 00
+txt "*Sounds of gravel sliding* *BOOM!* *scrape* *CRASH* *Crack!*"
+pic 09 14
+txt "But what would a mountain want to talk about?..."
+txt "'Hey, nice view!' - 'Is my peak eroding?' - 'Remember when that glacier came through here a million years ago?'"
+pic 27 01
+bub 2
+txt "*CRUNCH!* *sound of boulders splitting* *Screeeech* *SMASH!*"
+pic 09 11
+bub 0
+txt "Oh-h-h golly! I just remembered... that's a Gnome King!"
+pic 27 00
+bub 1
+txt "*ruuuuumble*"
+pic 09 06
+bub 0
+txt "And his highness isn't too happy. I hope I can get this right, ahem:"
+pic 09 01
+bub 1
+txt "*Gargling sound* - *hiss!* - *raspberry*"
+pic 09 06
+bub 0
+txt "Hey, I think he's impressed! I'll try some more:"
+pic 09 01
+bub 1
+txt "Whistle* - *clearing sinuses* - *throaty gargle* - *double raspberry*"
+pic 27 00
+bub 0
+txt "TRANSLATED: 'Haah-haa-haah, that is more of a southern accent - but you try well, human."
+txt "Now tell me, why should I not bring down an army of my little warriors on you, for attacking me!"
+pic 09 09
+txt "TRANSLATED: Me? I not did water-buffalo(???) attack you, your high-like."
+txt "It was that quadrilateral gremlin,  -untranslatable-, who spatula-penguined you into a 'magic-rock-spell' before I got here."
+pic 27 01
+txt "TRANSLATED: Gremlin? A Gremlin attacked me... whilst I slept here."
+pic 09 05
+bub 2
+txt "TRANSLATED: Donkey-backflip!"
+pic 27 00
+bub 0
+txt "TRANSLATED: I see. There is little I can do, my roots took to the mountain long and long ago."
+pic 27 02
+txt "TRANSLATED: But my children's eyes will be looking, and they will come to you with news of its location if they spy it."
+pic 09 18
+txt "TRANSLATED:  Thanks you. Most 'generously-endowed!' King of the 'little-rock-people'."
+pic 27 02
+txt "No, thank you, human. I owe you a debt that will be repaid."
+pic 09 24
+txt "Wha? You can speak English?! Why didn't you tell me at the beginning?"
+pic 27 02
+bub 2
+txt "HAA HAA HAA!"
+pic 09 19
+bub 1
+txt "Hmph."

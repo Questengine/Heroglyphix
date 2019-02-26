@@ -1,0 +1,5 @@
+pic 09 05
+bub 0
+txt "Ah! Here is this your red hat, cutie?"
+pic 24 04
+txt "...!"

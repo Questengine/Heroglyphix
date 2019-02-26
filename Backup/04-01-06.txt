@@ -1,0 +1,15 @@
+pic 06 19
+bub 0
+txt "Oh my."
+pic 31 03
+txt "Huh?"
+pic 06 04
+txt "A tiny sweaty man, dances inside a box... I-It is hypnotic..."
+pic 31 9
+txt "+ Whoo! Do-doop-do-do! +"
+pic 06 12
+bub 1
+txt "...the incantation is powerful... ...but I... ...-I- must resist!... "
+pic 06 13
+bub 0
+txt "Away vision!"

@@ -1,0 +1,10 @@
+pic 09 11
+bub 2
+txt "*Gasp!* KII KII!"
+pic 13 04
+bub 0
+txt "Kiii - kiii!"
+pic 09 04
+txt "I can't believe that stinkball turned you into a doorstop!"
+pic 13 05
+txt "Kiii-p!"

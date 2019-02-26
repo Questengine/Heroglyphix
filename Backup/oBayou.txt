@@ -1,0 +1,52 @@
+pic 23 24
+bub 0
+txt "WELK: Don't be a stranger, come visit sometime! You're my hero-oooo!"
+pic 08 05
+bub 1
+txt "Hah. I'm no hero, no more than you're a long distance runner, Doc."
+pic 12 10
+bub 0
+txt "...Do you remember our little chat about FEELINGS? At all?"
+pic 08 05
+txt "Up this bank and through the trees... come on. This is it!"
+pic 12 04
+txt "Da moment you bin waiting for."
+pic 22 14
+txt "*Spoink!*"
+pic 22 07
+txt "*chuckle*..."
+pic 08 03
+txt "Ah, Murdo - I wondered when you'd show."
+pic 22 20
+bub 2
+txt "What?! - You?!?! How in the blue blazes did you find me?"
+pic 08 26
+bub 0
+txt "..."
+pic 22 11
+bub 2
+txt "Well you're not welcome here! GO ON, SCRAM!!! Or I'll, - I'll set my spook-hounds on you!"
+pic 08 05
+bub 0
+txt "'Spook-hounds'? Tut-tut. Murdo, why are you trying to get rid of me. Don't you understand what's happening here?"
+pic 22 20
+txt "Happening ...wha?"
+pic 08 03
+txt "I'm the one chasing the Gremlin, remember? And can you imagine how much damamge one of those can do to precious possessions?..."
+pi 22 20
+bub 1
+txt "P-P-precious... the mansion!..."
+pic 08 05
+txt "That's right, now you'd better let me inside."
+pic 22 06
+bub 2
+txt "Never!"
+pic 33 13
+bub 0
+txt "Really? Ouch. I'd hate to think what that pest is doing to your valuables, right now. Whilst we're standing around talking..."
+pic 22 13
+txt "Bwa-hur-hurrr! *sob* Oh no, NOOO!"
+pic 08 04
+txt "So then?"
+pic 22 11
+txt "Very well. Errrgh! I don't have a choice."

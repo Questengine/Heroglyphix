@@ -1,0 +1,13 @@
+pic 07 14
+bub 4
+txt "... What, her door? *sigh* How -long- have I been walking?"
+pic 07 13
+bub 0
+txt "Geneva?"
+txt "Are you here? - ere? - re? - e?"
+pic 07 06
+bub 4
+txt "...there on the floor..."
+pic 07 13
+bub 0
+txt "Of course you're here. Edizon would not fail to send his Gremlin after a sorceress as powerful as you."

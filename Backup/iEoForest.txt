@@ -1,0 +1,8 @@
+pic 15 00
+bub 0
+txt "Tw-oooooot!"
+pic 02 11
+bub 0
+txt "Scrye, slow down you twittering rascal!"
+pic 02 10
+txt "Mother Nature may bend her boughs and brambles before me, but I still can't run as fast as you fly."

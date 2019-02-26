@@ -1,0 +1,23 @@
+pic 06 01
+bub 0
+txt "Do not worry, dear one. I have forseen my part in this."
+pic 06 02
+txt "By now, the rat is in the grain cellar. It will have breached my Hall of Visions, throwing it into chaos and Fate determines I will follow it, with the wand."
+pic 02 16
+txt "But, my lady..."
+pic 06 03
+bub 1
+txt "Shhhh... the dawn will come, as ever."
+pic 05 29
+bub 0
+txt "So, aren't you going to introduce me to the Lady, gramps?"
+pic 02 17
+txt "Hmm, quite so. You'll be needing to take this one with you."
+pic 05 30
+txt "Ehhehhehh! Fine by me."
+pic 06 01
+txt "Come then small one, to a place that is not quite real - a place of patterns of light and thought. We leave now."
+pic 06 00
+txt "Goodbye, thistle."
+pic 02 17
+txt "...Farewell, my Lady of Light."

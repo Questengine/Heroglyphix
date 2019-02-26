@@ -1,0 +1,45 @@
+pic 07 28
+bub 0
+txt "Hah, a Yogon Berserker! It is time I was faced with something more challenging!"
+pic 20 03
+bub 2
+txt "*GUHHHHHROWL!"
+pic 32 02
+bub 1
+txt "Ruuuun awaaaaaay!!! Ya! Ya!"
+pic 07 28
+txt "Foul beast, you dishonor the Ryudo whose armor you've scavenged! Come closer, allow me to remove it!"
+pic 20 04
+bub 2
+txt "GRHOOOOOOAAARRRR!"
+pic 07 29
+txt "-Yoish!!-"
+pic 20 05
+txt "*ching!+* - GROOHAARGH-HA-HA!"
+pic 20 06
+bub 2
+txt "GYAAAARGH!"
+pic 32 14
+bub 0
+txt "I-i-i can't look!"
+pic 20 06
+txt "Ho, he's fast!"
+pic 07 27
+bub 0
+txt "Hit him some more!"
+pic 20 03
+bub 2
+txt "HAHAHA, dO YoU mEaN to tIcKlE Me WiTh tHaT wAnD, LitTlE WiZaRd?"
+pic 07 28
+bub 0
+txt "No, I intend to claim your head with this -Sword-!"
+pic 07 30
+bub 2
+txt "ARMA FLAM!"
+pic 20 06
+txt "HYGYAAAAAAARGH!"
+pic 07 31
+txt "YOOOOOOOOISHhhh!"
+pic 20 07
+bub 0
+txt "*THUD*"

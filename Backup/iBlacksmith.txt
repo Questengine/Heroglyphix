@@ -1,0 +1,43 @@
+pic 00 01
+bub 0
+txt "Alright this is it, the world's least famous wizard embarks on his first solo mission."
+pic 00 07
+txt "Come on Skimlet you can do it, it's only the fate of Thaumhaven town depending on you. No pressure."
+pic 00 01
+txt "Ok, got my Wand? Check. Magic hourglass? Check."
+pic 00 18
+txt "Town in peril? Check. Scary gremlin causing havoc? -Check!-"
+pic 00 06
+txt "Right, now where do I -"
+pic 03 00
+bub 2
+txt "OI! C'mere you!"
+pic 03 01
+bub 0
+txt "Someone's turned all me tools into flippin' stone tablets! Are you responsible fer this?"
+pic 00 04
+bub 1
+txt "I - I- ..."
+pic 03 00
+bub 0
+txt "Spit it out!"
+pic 00 05
+txt "I'm here to put things right."
+pic 00 13
+bub 1
+txt "This rather imposing fellow is Hoskin Blackthumb, and he doesn't take kindly to magical funny business."
+pic 03 01
+bub 0
+txt "Grrr! I don't take kindly to magical funny business, y'know!"
+txt "I dunno if I should trust me livelihood to some wand-waving wizard!"
+pic 00 01
+txt "Well, you see there's this thing on the loose and -"
+pic 03 00
+txt "I don't even want ter know, I jus' want me tools back!"
+pic 00 05
+txt "I can have those fixed in a jiffy,... (gulp) Sir."
+pic 03 01
+txt "Hurumph! We'll see."
+pic 00 02
+bub 2
+txt "Okay, here we go - and this time it's for REAL!"

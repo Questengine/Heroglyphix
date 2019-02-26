@@ -1,0 +1,63 @@
+pic 23 05
+bub 0
+txt "Back on the waves, it's been a long, long time."
+pic 23 19
+txt "This feeble old river has barely got water, let alone proper waves. Uh-huh! But it reminds me of the good old days."
+pic 23 05
+txt "The good old days, you dumbbell?! How can you call them that?"
+pic 23 12
+txt "Ah lighten up and admit it - we had some fine times! Don't you feel a just little lifesick for our fishing days?"
+pic 23 07
+txt "We three against the elements. Out beyond Godo's Teeth, ploughing across a raging sea, and limping back to harbor with our nets full!"
+pic 23 00
+txt "Drowning! Don't forget the drowning part, I think that's quite important."
+pic 33 15
+txt "Um?! Are you sure you three know what you're doing? Should I be wearing a life jacket for this trip?"
+pic 23 10
+txt "Our unfortunate deaths are behind us, miss."
+pic 23 19
+txt "Yeah, and it was Limpitt's fault anyway."
+pic 23 02
+txt "MY fault?! I spotted it first but we all we all know what we saw, shining beneath the waves like a sapphire star had fallen from the sky..."
+pic 23 18
+txt "..."
+pic 23 11
+txt "..."
+pic 23 04
+bub 1
+txt "... It was greed that led to our sad demise, mutual greed for a treasure beyond words. And it's still out there, under the Western sea. Waiting."
+pic 08 03
+txt "Fishermen, huh? That sounds like a Fisherman's tale alright."
+pic 23 07
+txt "It's true miss. And there's another like it, black as night and buried at the centre of the Steppes, some say. Some say t'is the cause of the blight itself!"
+txt "But perhaps that's for another time."
+pic 23 10
+txt "Let's concentrate on getting the lady to her destination, eh fellas. Um, actually, we never asked your name?"
+pic 08 05
+txt "I'm Geneva. Geneva Creaux."
+pic 23 16
+txt "Miss Geneva... &"
+pic 23 02
+txt "Hey! Watch where you're paddling, lard ass!"
+pic 23 17
+txt "YOU watch where YOU'RE paddling, tightwad!"
+pic 23 06
+txt "Guys, guys! Shouldn't we have reached the Murdo Mansion bayou by now? There should be a jetty right there..."
+pic 23 17
+bub 2
+txt "Limpitt, you've been paddling too hard!"
+pic 23 02
+txt "Why is everything my fault?! If we're lost then maybe you're the reason!"
+pic 23 07
+bub 0
+txt "I don't understand this."
+pic 08 24
+bub 2
+txt "Will everyone stop arguing! ... I've spotted something."
+bub 0
+txt "-There-, half-buried in the mud and mangrove roots."
+pic 33 13
+bub 4
+txt "It's a... glyph. By Umberto's breath, I'd completely forgotten about the Gremlin."
+pic 08 18
+txt "Visions of the Crux have forced everything else from my mind... but fate seems to insist that I'm closing in on both."

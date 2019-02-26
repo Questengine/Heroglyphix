@@ -1,0 +1,25 @@
+pic 04 06
+bub 0
+txt "Thank you thank you! I weel be back in business in'a no time."
+pic 14 04
+txt "Mew."
+pic 00 25
+txt "You have someone else to thank too. I'd never have got here in time if it wasn't for your cat."
+pic 04 05
+txt "Hoohoo, my little stray? He's a good luck, no? And he seems to have taken a real shine to you."
+txt "What you say Doughball - maybe the nice'a man should keep you as a reward?"
+pic 00 06
+txt "Oh, I don't know..."
+pic 14 00
+txt "..."
+pic 00 25
+txt "I've never had a familiar before."
+pic 14 05
+txt "Mew mew!!"
+pic 04 06
+txt "Ha ha, thats'a good. VERY good."
+pic 04 07
+bub 1
+txt "He have a nasty habit of leaving furballs on'a da pastry. It'sa not so good for beezness."
+pic 00 02
+txt "I'll be back to collect him, but first I have a Gremlin to catch." 

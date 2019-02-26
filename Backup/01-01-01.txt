@@ -1,0 +1,10 @@
+pic 01 00
+bub 0
+txt "Ha ha, yes. Rather an easy test, even for you my humble student."
+txt "Every row and column required that 5 marks be made."
+pic 00 01
+txt "No problem!"
+pic 01 01
+txt "But it illustrates a most important point: every glyph has an element of certainty."
+txt "Always look for that certainty and you will have found your place to begin!"
+txt "Well, let's see how you fare with the next! If you're following my advice then you will now tackle glyph number 2."

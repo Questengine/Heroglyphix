@@ -1,0 +1,28 @@
+pic 12 05
+bub 0
+txt "Hotcha! G., I'm pickin' up somethin' from when da Gremlin cut through here, ol' Edizon was whispering inside his mind..."
+pic 12 07
+txt "'Anything that moves, my servant, strike it down! Cast your magic all about you. Be the instrument of my revenge, be haste itself.'"
+txt "'Seek out order, and leave utter chaos in your wake!'"
+pic 23 15
+txt "That's the watchamacalit that attacked me? That don't sound good."
+pic 08 09
+txt "If I know anything about the Gremlin, then he's headed for your town right now, and if not..."
+pic 23 00
+txt "If not!?"
+pic 08 05
+txt "Then he's already there, doing what he did to Welk here, to anything else he can get his claws into."
+pic 08 09
+txt "Look, you need my help, and I need yours. I'm seeking the ancestral home of the Murdo family, perhaps you know of it..."
+pic 23 10
+txt "Limpitt, you know what we have to do?"
+pic 23 01
+txt "Hold on. No! This is ridiculous! It's not allowed, it's -never- been done before!"
+pic 23 10
+txt "We OWE it to her, and we do still need her help."
+pic 23 16
+txt "We got to invite the pretty lady..."
+pic 23 09
+txt "Then it's decided?"
+pic 23 02
+txt "*siiigh* - I hope we don't regret this."

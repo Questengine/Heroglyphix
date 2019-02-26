@@ -1,0 +1,17 @@
+pic 00 01
+bub 0
+txt "Look at this, it's a book about Pox Gremlins! Howard must have been anticipating something."
+pic 00 07
+txt "It's lying open on this page:"
+pic 01 11
+txt "'For a brief period, 500 years ago, wizards took to using a most unusual accessory.'"
+txt "'Many gave up their typical familiars, in favor of a type of gremlin with powers of transformation.'"
+txt "'These Pox Gremlins were able to turn the most cumbersome of items into handy, pocket sized tablets of stone.'"
+txt "'And so, word of their usefulness and their popularity spread across the lands like wildfire.'"
+bub 1
+txt "'Unfortunately, ... th ... lins were uncont...'"
+pic 00 18
+bub 0
+txt "Oh, the rest has been crudely ripped out. Shredded by tiny claws!"
+pic 00 04
+txt "(Gulp)" 

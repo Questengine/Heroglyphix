@@ -1,0 +1,9 @@
+pic 00 09
+bub 0
+txt "Oh no!.. oh, I think I'm going to be ill."
+pic 00 13
+bub 1
+txt "The Axe and Stump Tavern."
+txt "Long ago this used to be a cheerful little inn for lumberjacks and other woods folk..."
+pic 00 04
+txt "Gradually it became the notorious haunt of the worst kinds of rogues, warriors and brigands! The name took on a whole new meaning."

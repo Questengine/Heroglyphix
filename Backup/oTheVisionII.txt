@@ -1,0 +1,3 @@
+pic 06 23
+bub 0
+txt "..this is the path ...and we cannot turn from it..."

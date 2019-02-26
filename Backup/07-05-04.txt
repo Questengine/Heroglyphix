@@ -1,0 +1,7 @@
+pic 09 01
+bub 0
+txt "Lookit all those Wooly Musk-Ox. They're heading North too, for the summer I suppose."
+pic 09 26
+txt "Guess they like it real cold, well it doesn't get any colder than where we're going!"
+pic 09 02
+txt "Hahahah! No wonder Edizon wants his pet to bust him out of jail, he must be freezing his ears off."

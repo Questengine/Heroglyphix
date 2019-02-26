@@ -1,0 +1,19 @@
+pic 08 09
+bub 0
+txt "X marks the spot."
+pic 08 05
+txt "So here we are, I guess - in a dank hollow on the very edge of Ghorewood's inner border. Any further East and we'd hit the -Shadow Steppes-."
+pic 33 13
+txt "Nothing grows that way, the life has leeched from the ground. Ten or twenty years from now what's left of Ghorewood will probably be gone too."
+pic 12 05
+txt "You smell dat?"
+pic 08 05
+txt "inhale* Spices! You're right Doc, Wanderer's mushroom beds have got to be near here, somewhere. Which means the Gremlin..."
+pic 12 04
+txt "Yeaaa! It's bin here too, cher. I can recall his whispers, and dey ain't long spoken."
+pic 08 24
+txt "Grrr, then where is he? I don't see any mushrooms, and there are no instructions on the map..."
+pic 12 04
+txt "Hol' yo tabasco ... My ears are telling me da Gremlin glyphed someting. Check the doiyt, G."
+pic 08 09
+txt "...Yes! Right there, I've found one!"

@@ -1,0 +1,6 @@
+pic 02 11
+bub 2
+txt "Duck!"
+pic 05 11
+bub 0
+txt "Flying mice! That's just not right. Certainly ain't hygenic."

@@ -1,0 +1,8 @@
+pic 16 03
+bub 2
+txt "Would you ,*ahem-mumble* would you -look- at that, the stone turned back into the coal store as if by magic! Ha ha! What the billy-o."
+pic 16 02
+bub 0
+txt "So, what, you're some kind of wizzid then, eh?"
+pic 02 01
+txt "Ah, what gave it away?... I mean, yes, and you're very welcome." 

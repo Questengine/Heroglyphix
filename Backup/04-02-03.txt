@@ -1,0 +1,12 @@
+pic 31 04
+bub 2
+txt "Argh, that sound!"
+pic 06 17
+bub 0
+txt "A terrible metal bat screams across the night sky, hunting larger prey than moths and nightcrawlers I would imagine."
+pic 31 05
+bub 1
+txt "*whimper* - This just gets worse!"
+pic 06 11
+bub 0
+txt "Hold still Woodrot, the vision is almost passed. There, it glimmers its last."

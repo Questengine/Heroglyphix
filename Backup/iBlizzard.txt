@@ -1,0 +1,12 @@
+pic 10 16
+bub 1
+txt "*cough cough* ...*pant*... Oooooh!"
+pic 10 17
+bub 0
+txt "This changes NOTHING! You won't outwit me, picklebrain!"
+pic 10 16
+bub 4
+txt "I'm perfectly capable of outwitting myself!... Grrr..."
+txt "I shall find you! Even if I can't see what - *Aagh!* My FOOT!"
+pic 10 16
+txt "What is -this-?"

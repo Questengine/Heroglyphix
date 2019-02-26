@@ -1,0 +1,12 @@
+pic 16 03
+bub 0
+txt "So! Excellent, splendid, this means I can have her engines up and running in a jiffy!"
+pic 02 00
+txt "Admiral, I wonder if we might avail you of passage across Venture Bay? We really need to catch up with that Gremlin."
+pic 16 04
+txt "Yeees, yes of course! All aboard, wot! Teach the blighter a lesson it won't forget..."
+pic 16 05
+bub 2
+txt "Hard to Port! Or, out of the port rather, then starboard *ahem mumble*, uh - uh - Full steam ahead! Battle stations!"
+pic 05 15
+txt "I have a bad feeling about this."

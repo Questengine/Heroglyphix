@@ -1,0 +1,33 @@
+pic 09 06
+bub 0
+txt "Kii-Kii, up!"
+pic 13 00
+txt "*hop*"
+pic 34 18
+txt "That's the last time I leave you here."
+pic 13 01
+txt "Kiii?"
+pic 34
+txt "I don't care if you're busy hunting crickets, from now on you only leave my shoulder to go poopy".
+pic 13 02
+bub 1
+txt "Aw... ... ..."
+pic 34 18
+txt "Well this settles it."
+pic 09 20
+txt "Mr Gremlin doesn't know who he's messing with! I'm going to hit him so hard with this wand, they'll hear the SQUISH in Thaumhaven!"
+pic 13 03
+txt "Kiiiii-p."
+pic 09 27
+txt "That's right, the naughty lightning wizard behind all this is going to wish he never got -us- caught up in his schemes."
+pic 09 22
+bub 1
+txt "Edizon, I'm your worst nightmare!"
+pic 09 06
+bub 0
+txt "Let's go. It's time for Kara, Princess of the Winds..."
+pic 13 04
+txt "Kii!!!"
+pic 09 23
+bub 2
+txt "...-and- her kestrel chick, to blow - them - AWAY!"

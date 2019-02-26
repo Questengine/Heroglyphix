@@ -1,0 +1,58 @@
+pic 15 04
+bub 2
+txt "Gngngngng!"
+pic 02 11
+bub 0
+txt "Step back, quickly now!"
+pic 05 17
+txt "Waaay ahead of you, face-fungus."
+pic 02 15
+bub 1
+txt "Give it some space and it should -"
+pic 15 05
+bub 0
+txt "Gnnnnnnnnn............"
+pic 02 17
+txt "- retract, back into the cavern floor. Yes, good. Be careful to give that spot a wide berth, Woodrot."
+pic 05 23
+txt "Exactly WHY am I doing this, again, you mad hippie? I'd have worn my brown tights if I'd known these were your plans!" 
+pic 02 07
+txt "...Edizon. Damn fool, Edizon. That's why we're down here chasing shadows in the dark!"
+pic 05 14
+txt "The bad wizard in your little tale. So, why's he got you SO riled up?"
+pic 02 10
+txt "Hah. Very well, I suppose you do deserve to know."
+pic 02 18
+txt "Franklin Edizon, was a contemporary of mine. Outstandingly smart, even as a child - deviously intelligent one might well say."
+txt "I've never met another mind like his. His inventiveness, his cunning, it was a gift - and believe me, the one thing that stood as a counterbalance to his many flaws."
+pic 02 11
+txt "Bah, he was so prentious, brimming with superiority and ambition. There was never a scrap of empathy or friendship in him."
+pic 05 22
+txt "I'm missing your point here..."
+pic 02 18
+txt "You surprise me. The point is, fair sprite, that he took every ounce of talent he was blessed with and poured it into destructive and self-serving ends."
+txt "He had a monumental 'God-complex'. And not your benevolent, mana from heaven variety."
+txt "When he achieved his ascension to 'Elemental Wizard' of Lightning, it was surrounded in ill-rumor. Old Huppenheimer, the man he succeeded, simply disappeared."
+txt "As did Edizon, in fact, right off the map for twenty years - working on his army of rock men, as it turns out. His lightning Golems."
+pic 02 00
+txt "Heheh. As masterplans go, it proven to be rather poor. Myself, Skimlet and Matthius made short work of his creations last year." 
+pic 02 07
+txt "But I've no doubt it was the tip of the iceberg, the man is a danger to us, to the whole world."
+txt "For a great many years wizards have suffered an air of terrible distrust and superstition. I have lived my life, Woodrot, slowly rebuilding that."
+txt "Edizon's bad deeds are undoing it all in a matter of months!"
+pic 05 05
+txt "..."
+pic 02 10
+bub 1
+txt "I won't stand for it."
+pic 05 08
+bub 0
+txt "Well I don't see why you care what people think about you. I sure as poopy don't."
+pic 02 09
+txt "Would that it were that easy."
+pic 05 08
+txt "OK! So you whack the Gremlin, and I get to go home?"
+pic 02 27
+txt "That is the plan, my small friend."
+pic 05 25
+txt "Grr, we'd better bloody hurry up then."

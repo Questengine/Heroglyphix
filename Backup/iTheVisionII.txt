@@ -1,0 +1,10 @@
+pic 06 22
+bub 2
+txt "From I, the wand passes to another, clad in red. Red of anger, revenge, of flames."
+pic 06 23
+txt "Fire, Smoke, Wind, LIGHTNING - the wand follows a trail of tragedy, sacrifice, love, victory, defeat. Two fall, only one will rise again."
+pic 06 22
+txt "FLAMES!"
+pic 06 24
+txt "Heroes clash with darkness, the dead whisper, new alliances shall form, old magics are renewed, older Evils resurface..."
+txt "Destruction and rebirth! This is the path!"

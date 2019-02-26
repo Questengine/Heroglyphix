@@ -1,0 +1,18 @@
+pic 34 21
+bub 0
+txt "-I- am quite possibly the most POWERFUL wizard in the whole of Magus Magna, gramps."
+bub 2
+txt "Beasties are scared of me, not the other way around."
+pic 09 21
+bub 0
+txt "And your grandaddy was a lot more polite."
+pic 25 05
+bub 1
+txt "Buh? My grandaddy..."
+pic 09 27
+bub 0
+txt "Come on Ky, we can take care of ourselves. Let's catch that furry freak!"
+pic 25 05
+txt "My .... my most eminent lady sorceress, if it's that gremlin you seek he's barely a league ahead of you!"
+pic 13 16
+txt "Thaaaanks! +"

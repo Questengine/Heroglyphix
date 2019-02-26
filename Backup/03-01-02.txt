@@ -1,0 +1,5 @@
+pic 02 01
+bub 0
+txt "Your bushy tail graces this sunny, forest glade once more, young Master Squirrel."
+pic 02 00
+txt "Hmm-hmm, this device is a marvel of magical engineering!"

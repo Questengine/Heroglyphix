@@ -1,0 +1,3 @@
+pic 10 00
+bub 2
+txt "Harrgh! I can't BELIEVE that mutinous fool did THAT!!!"

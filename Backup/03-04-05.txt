@@ -1,0 +1,6 @@
+pic 02 06
+bub 2
+txt "A Thriceratops, as I live and breathe!!!"
+pic 02 18
+bub 0
+txt "And another magical conundrum solved, if it's the Gremlin's intention to slow me down then he's doing a fine job..."

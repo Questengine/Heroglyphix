@@ -1,0 +1,8 @@
+pic 06 09
+bub 0
+txt "We have travelled far. And as the grip of the Gremlin's work is loosened, so the intersecting world begins to separate from ours."
+txt "The visions will become more distant, I imagine - until we have sealed the breach completely."
+pic 31 01
+txt "*hic!* *mumble* *Burp!* Awwwww, stomach."
+pic 06 01
+txt "Yes, quite. Let's finish this."

@@ -1,0 +1,20 @@
+pic 20 08
+bub 0
+txt "Maaa-AaAaAaAa!"
+pic 05 14
+txt "Hey Flameykins, what are you hanging around for - we've got places to be."
+pic 07 13
+txt "Hrumph!!"
+pic 20 08
+txt "Hrumph!"
+pic 05 31
+txt "What?! There are two of you!"
+pic 05 09
+txt "Ohhh! Oh wait, -that's- you. It's an easy mistake to make."
+pic 31 18
+txt "I told you before, that flea infested beard, it makes you look like - *hurk!* -"
+pic 07 08
+bub 2
+txt "Do - NOT - mock - the - beard."
+pic 31 30
+txt "Sheesh, alright alright! Put me down you big loon."

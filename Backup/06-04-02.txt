@@ -1,0 +1,18 @@
+pic 08 14
+bub 0
+txt "Whoa, a Fungoid Queen! I've never even seen one of these giants in the flesh before!!!"
+pic 21 08
+bub 2
+txt "BRBRBrbrbrbrgle! *SQUISH!*"
+pic 12 06
+bub 0
+txt "That ting packing some bad gris-gris! Quickly, cher. Before we swimmin in spores!"
+pic 08 30
+bub 2
+txt "-EX UMBRA-!"
+pic 21 09
+bub 1
+txt "..."
+pic 33 13
+bub 0
+txt "Whew - There, she'll be out of action for a while."

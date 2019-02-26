@@ -1,0 +1,15 @@
+pic 00 01
+bub 0
+txt "Well, I think you'll find everything returned to - normal."
+pic 00 27
+txt "You have a most, 'startling' place here Farmer Groat. It's quite an 'achievement'."
+pic 04 01
+txt "You really think so? A true, elemental wizard thinks so? Why, I'm lost for words..."
+pic 00 01
+txt "...me too."
+pic 00 27
+txt "I have to go, but maybe I'll call in again sometime. Just to, uh, keep an eye on things..."
+pic 04 02
+txt "Please do, I'm going to redouble my efforts. Next time I'll -really- impress you!"
+pic 04 00
+txt "Good gremlin hunting!"

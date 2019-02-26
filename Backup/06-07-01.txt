@@ -1,0 +1,17 @@
+pic 23 15
+bub 0
+txt "One to disembark, boys."
+pic 23 09
+txt "...Goodbye, Miss Geneva. I'm so glad I trusted you."
+pic 23 14
+txt "I'm glad he trusted you too!"
+pic 23 03
+txt "Hope you find what you're looking for up there. Follow the jetty, and then climb through those trees, that's Murdo Mansion."
+pic 33 13
+bub 4
+txt "The Mansion!"
+pic 33 01
+txt "*long exhale* - I can feel it. The Gran Crux is here!"
+pic 08 05
+bub 0
+txt "I have to go."

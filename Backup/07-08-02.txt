@@ -1,0 +1,7 @@
+pic 34 20
+bub 0
+txt "It's a model of the jail - so there's a series of small cells lining this main corridor up to the maximum security towers."
+pic 09 01
+txt "Look! A note's pinned to the East tower! 'Franklin Edizon', 'Cell lined with Corbomite to prevent all elemental magicks."
+pic 09 20
+txt "That's where we're going, if we can just get the gate open!"

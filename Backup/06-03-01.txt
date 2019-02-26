@@ -1,0 +1,16 @@
+pic 22 03
+bub 0
+txt "Hmmph?...What's that thing?"
+pic 08 03
+txt "Oh NO. Why are you dogging us Murdo?"
+pic 22 06
+txt "Don't speak to your betters like that, girl. Bah, maybe I enjoy being able to talk to someone who can hear me for a change."
+pic 08 24
+txt "Well go pester someone else. Just because I can hear you it doesn't mean I'm listening."
+pic 22 08
+txt "Hurhurhur, why then you clearly don't know who you're dealing with! Let me enlighten you..."
+pic 22 10
+bub 2
+txt "-I- am... UNCTIOUS MURDO! 22nd head of Netherweir's most renowned family!"
+bub 0
+txt "'De Argentii Eternum Fortis ' Forever powerful through riches! The Murdo name and motto is emblazoned on the pages of history!"

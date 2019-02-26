@@ -1,0 +1,21 @@
+pic 07 20
+bub 0
+txt "Soup Tempura Soba, there's always room for noodles! *SLURP* *Dwg un!* *SLURP*"
+pic 19 02
+txt "Some news reached me earlier that is... unsettling, Flames."
+pic 07 20
+txt "Hmphsh?"
+pic 19 02
+txt "...I have good authority that the Jomon Nation Army is mobilising."
+pic 07 12
+txt "*swallow* - Training maneuvers?"
+pic 19 06
+txt "Perhaps, yes. I cannot be sure."
+pic 19 02
+txt "But I'm told that General Nin'gyo is alerting all soldiers to move imminently, and this was not planned in advance." 
+pic 07 10
+txt "Your 'good authority' is enough for me, Shige. If something happens here in Jomon that you don't know about then it isn't worth knowing"
+pic 07 24
+txt "But what would our army be preparing for? Pox is a menace, but hardly worthy of such a display of force."
+pic 19 02
+txt "I have my fears but even I, with my many ears, am left wondering."

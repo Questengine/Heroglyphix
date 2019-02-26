@@ -1,0 +1,18 @@
+pic 08 01
+bub 0
+txt "Ugh, look at this savage old set of jaws!"
+pic 12 05
+txt "Izz tainted with a great many voices... There's a chorus of whisper'd pleas bound to dis trap, of small things clingin' on to life."
+pic 08 16
+bub 1
+txt "...."
+pic 12 16
+bub 0
+txt "G.? Wait! You gotta try ta keep hold of your..."
+pic 33 11
+bub 2
+txt "hhhHYAARRGH!!! .*.*!SMASH!*.*."
+pic 08 18
+txt "There."
+pic 08 04
+txt "Now it won't do any more harm."

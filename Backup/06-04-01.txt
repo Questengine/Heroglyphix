@@ -1,0 +1,16 @@
+pic 21 06
+bub 1
+txt "*Squish!* *squish* *Squish!*"
+pic 33 13
+bub 0
+txt "It's a Fungoid! Hold your breath, Doc."
+pic 08 29
+bub 2
+txt "-FUMO!-"
+pic 21 07
+bub 0
+txt "Squiiiiiiiiiiiiissssshhhhhh....*"
+pic 08 26
+txt "Go to sleep, squishy."
+pic 12 02
+txt "Nice shooting, G." 

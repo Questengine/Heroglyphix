@@ -1,0 +1,26 @@
+pic 34 14
+bub 0
+txt "*WHOOooosh!*"
+pic 34 20
+txt "I'm here! Ky may be gone, but I can still levitate myself up a measly mountain."
+pic 09 01
+txt "So this is the infamous Nor'chine Prison..." 
+pic 09 09
+bub 4
+txt "This is my last chance! So many good wizards have fought to bring the wand to this moment... I can't let them down."
+pic 09 08
+bub 2
+txt "MR GREMLIN, show yourself!"
+pic 27 11
+bub 1
+txt "*echoes*"
+pic 09 20
+bub 0
+txt "Hey! The stew on this table is still steaming. He can only have been here seconds ago!"
+pic 09 27
+txt "So it's a race, hey Gremlin? Well, I'm willing to bet I'm still FASTER than you!"
+pic 34 18
+bub 1
+txt "Argh, getting inside's no problem, but this inner gate is jammed shut, what do I need to do?"
+pic 09 12
+txt "Aha! More gremlin droppings. If I'm lucky these will be the -very last-! Let's GO!!!"

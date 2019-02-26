@@ -1,0 +1,5 @@
+pic 06 06
+bub 0
+txt "A tiny, purple box containing incredible power. Mysterious heroes reside inside it."
+pic 06 08
+txt "Worlds within worlds..."

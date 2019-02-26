@@ -1,0 +1,21 @@
+pic 08 15
+bub 0
+txt "Hey, guys. Is this used for making what I think it is?"
+pic 23 06
+txt "Wait, I wouldn't taste that if I were you, I don't know what it'll do to a human...!"
+pic 33 00
+txt "*sip* ... Hmmknk!!! *cough cough*"
+pic 33 00
+txt "Whoa mama. What's it made from? *cough*"
+pic 23 10
+bub 1
+txt "Full-Moonshine - Spiritbrew, is distilled from the deep melancholies and lingering sadness of the land of Netherweir."
+pic 08 07
+bub 0
+txt "Really?!?"
+pic 23 09
+txt "No. It's mostly old apples and a dash of formaldehyde."
+pic 08 01
+txt "Sheesh, heheh. Darn, that wasn't too smart of me."
+pic 23 14
+txt "But rescuing this old beauty is sure going to put a smile back on the town's face. Serious brownie points!"

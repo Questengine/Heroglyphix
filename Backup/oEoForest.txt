@@ -1,0 +1,6 @@
+pic 15 00
+bub 1
+txt "Twoo, tw-twoot!"
+pic 02 00
+bub 0
+txt "Really? Do you see it? Then lead on, on to EVERBERRY!"

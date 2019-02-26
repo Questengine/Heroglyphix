@@ -1,0 +1,9 @@
+pic 00 19
+bub 1
+txt "Ack!... pants... still... warm."
+pic 03 02
+bub 0
+txt "Ahhh, me favorite cacks. I left em hanging over the forge, keeping toasty."
+pic 00 17
+bub 1
+txt "H-here you are..."

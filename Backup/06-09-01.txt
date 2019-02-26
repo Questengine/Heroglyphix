@@ -1,0 +1,40 @@
+pic 09 04
+bub 2
+txt "OOH! How rude! I can't *believe* what that little twerp did to me!!!"
+bub 0
+pic 09 05
+txt "Oh hi again, it's you. +"
+pic 08 02
+txt "I'm Geneva, - Geneva Creaux."
+pic 09 06
+txt "And my name's Kara, Princess of the Winds."
+pic 09 07
+txt "You're a Smoke Elementalist aren't you?"
+txt "Ooooh! Looky at that, what kind of wand is it? It looks really old and cool. Hey, are you hurt?"
+pic 33 08
+txt "Nah, I'm not hurt. More tired than anything."
+pic 08 02
+txt "Here you can have this if you like. Give that gremlin a whack with it and he'll know not to mess with you again."
+pic 09 12
+txt "Thaaaanks! + - That mean old thing deserves a whack!"
+pic 09 06
+txt "He's Edizon's pet isn't he?"
+pic 08 03
+txt "Pet? Um, yeah, but how did you know that?"
+pic 09 26
+txt "Oh, I know pretty much everything. The fate of the world hangs in the balance, and all that junk."
+pic 09 19
+txt "I'm not a dumb kid you know!"
+pic 33 13
+txt "Uh..."
+pic 09 02
+txt "Okay then! & - Don't worry, I'll flatten that twerp like he flattened your house."
+pic 08 04
+txt "It wasn't my-"
+pic 09 06
+txt "See ya! Don't worry about a thing!"
+pic 09 20
+txt "I'll take care of it before you can blink!"
+pic 08 03
+bub 4
+txt "For some strange reason, I have every confidence you will, Kara, Princess of the Winds."

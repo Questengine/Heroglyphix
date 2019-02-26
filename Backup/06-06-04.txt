@@ -1,0 +1,16 @@
+pic 23 13
+bub 2
+txt "OHMYGOSH!"
+pic 33 13
+bub 0
+txt "Huh, what's this?"
+pic 23 16
+bub 1
+txt "You've SAVED me, you've saved me all over again! Oho!"
+pic 23 03
+bub 0
+txt "*Sigh* It's the big lunk's earthly remains."
+pic 23 16
+txt "My ashes, bless you gorgeous!!!"
+pic 08 03
+txt "...ehhhh ...ah. No problem Welk."

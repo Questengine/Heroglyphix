@@ -1,0 +1,3 @@
+pic 07 06
+bub 0
+txt "We should hurry, I would expect to see many people this close to town at noon. Yet the road is empty."

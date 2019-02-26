@@ -1,0 +1,25 @@
+pic 34 22
+bub 0
+txt "A - a - a Rukh!"
+pic 26 00
+txt "..."
+pic 34 22
+bub 1
+txt "The legendary Wind Elemental bird..."
+pic 09 09
+txt "It's looking right at us!"
+pic 26 01
+bub 0
+txt "..."
+pic 09 09
+bub 1
+txt "H-hold steady, Ky!..."
+pic 26 02
+bub 2
+txt "*WhooOOoomph!*"
+pic 09 05
+bub 0
+txt "Oh my!"
+pic 09 07
+bub 2
+txt "Fly well, brother of the Winds!"

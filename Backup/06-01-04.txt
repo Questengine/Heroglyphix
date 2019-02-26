@@ -1,0 +1,13 @@
+pic 08 05
+bub 0
+txt "A winter Remett pelt. There are a lot of them stashed in here, dozens, they'll fetch a high price no doubt."
+pic 08 03
+txt "But y'know, to me they somewhat lose their beauty after they've been hacked from their owners. ...Why is the Gremlin hexing these things?"
+pic 12 05
+txt "Da Master tells it to cast obstacles, he wanna slow you down. Gremlin's strugglin' ta keep this pace."
+pic 08 03
+txt "It knows we're coming for it?"
+pic 12 04
+txt "Oh yeaaa."
+pic 08 28
+txt "Good."

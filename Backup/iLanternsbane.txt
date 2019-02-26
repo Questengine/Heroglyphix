@@ -1,0 +1,20 @@
+pic 02 07
+bub 0
+txt "'Step into the cavern's jaw
+Feel the coursing of its breath,
+And guard thy lantern lest your bones
+Be swallowed to its hungry depths'"
+pic 02 01
+txt "Ha, would you believe people used to think Lanternsbane was actually alive? Of course the truth is much simpler..."
+pic 02 00
+txt "Unlucky travellers would find their light sources extinguished in the gusty, serpentine tunnels and become fatally lost."
+pic 05 21
+txt "Oh well, that's reassuring."
+pic 02 15
+txt "Here, take a light. My, it's more slippery underfoot than I recall and almost impenetrably black."
+pic 02 27
+txt "But I'm sure I remember the safer paths, and with your instincts as to the Gremlin's direction we should have no problems!"
+pic 02 00
+txt "Well then?"
+pic 05 25
+txt "Never being able to sit down again is beginning to look like an appealing alternative. *Sigh* ... That way."

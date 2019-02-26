@@ -1,0 +1,7 @@
+pic 13 14
+bub 0
+txt "KYYAAAAA!  AAaaa! aaaaa! aa-"
+pic 09 05
+txt "Mythic Spires! The hunting grounds of the worlds most ancient and dangerous monsters..."
+pic 09 09
+txt "I can only think of one way that naughty Mr Gremlin would try to slow us down here, I hope things don't get messy!"

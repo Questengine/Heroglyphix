@@ -1,0 +1,7 @@
+pic 02 01
+bub 0
+txt "Ha ha, there you go little fellow! Back to the stream with you."
+pic 02 00
+txt "Goodness it's exciting to see one of you skittering about. Beyond the valley you're extinct I'm afraid, nothing but fossils."
+pic 02 17
+txt "It's said you're actually very tasty in a gumbo, which might explain things. Eheh."

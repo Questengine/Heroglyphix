@@ -1,0 +1,11 @@
+pic 10 01
+bub 0
+txt "... turning on its Master!"
+pic 09 17
+txt "*Gasp!* E-Edizon!"
+pic 10 02
+bub 2
+txt "I'll take this!"
+pic 34 15
+bub 1
+txt "NoOoOo!.... *faint*"

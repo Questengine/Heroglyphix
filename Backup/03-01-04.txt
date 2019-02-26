@@ -1,0 +1,7 @@
+pic 02 04
+bub 0
+txt "My, my. The very namesake of this place!"
+pic 02 02
+txt "I wonder if I might pick, um, just a few berries... it is said a draught of Moonberry may revitalise a man some two score years."
+pic 02 13
+txt "And I have noticed a -few- gray hairs creeping in."

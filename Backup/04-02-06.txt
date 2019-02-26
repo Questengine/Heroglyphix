@@ -1,0 +1,16 @@
+pic 31 01
+bub 0
+txt "What's all the hubbub?"
+pic 06 19
+txt "There is something significant about this one, something... *Gasp!* My... It is cold to the touch! This is no mere gathering of light."
+txt "Somehow an actual object has passed through from the otherworld!"
+pic 06 05
+txt "I wouldn't have believed this were possible, but by forcing so many visions onto this one place the Gremlin has breached the wall between worlds!"
+pic 06 30
+bub 1
+txt "I must be brave..."
+pic 06 08
+bub 0
+txt "It... it is a carriage of some kind, how curious, it is adorned with all manner of foreboding, colorful markings and magical sigils."
+pic 06 29
+txt "And it now FILLS the tunnel ahead."

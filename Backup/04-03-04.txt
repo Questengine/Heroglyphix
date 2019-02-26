@@ -1,0 +1,19 @@
+pic 31 05
+bub 0
+txt "*BURP!* Oooh, bumpy-y-y-y. Hee-hee! *BU-URP!*"
+pic 17 05
+txt "Damn, would you look out there..."
+pic 17 03
+txt "I always wanted to see Japan, Alyssa and I always said..."
+pic 06 08
+txt "What?"
+pic 17 04
+txt "Nevermind. It's none of your business!"
+pic 17 03
+txt "I mean- ... sorry. It's not something I want to talk about."
+pic 06 30
+txt "I know this, Mitchell: Fate has a mind to bring us to the ones we love. If not in this world, then in another."
+pic 06 00
+txt "Such things are woven into the fabric of the universe - we are never further from happiness than when we doubt that."
+pic 17 06
+txt "*Sigh* - Heh... whatever you say, lady."
