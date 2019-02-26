@@ -10,7 +10,6 @@
 	
 .cel{
 	border:1px solid black;
-	background-image:url("../images/marks.png");
 }
 .cel:hover{
 	box-shadow: 0px 0px 2px 2px  #888888; 
@@ -24,8 +23,7 @@
 }
 
 .squarecel{
-	height:33px;
-	min-width:33px;
+	font-size:8pt;
 	user-select:none;
 	text-align:center;
 }
@@ -44,7 +42,7 @@
 .onemark{
 	width:20px;
 	height:20px;
-	background-image:url("../images/marks.png");
+	background-image:url("../images/marks/marks20.png");
 	color:white;
 	padding:0px;
 	margin:0px;
@@ -56,4 +54,20 @@
 .dialoguechild{
 	opacity:1;
 	margin:auto; 
+}
+#dRevealChargeBox{ 
+	top:206px;
+	left:120px;
+	width:35px;
+	height:65px;
+	border:none;
+}
+.oneRevealCharge{ 
+	display:block;
+	min-width:14px;
+	width:14px;
+	height:19px;
+	background-image:url("../images/extras/charges.png");
+	background-repeat:no-repeat;
+	border:none;
 }

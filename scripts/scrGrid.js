@@ -11,7 +11,7 @@ function BuildGridDelayed(dim){
 	var y = dim;
 
 	var strTable = "<table id='tblGrid'>";
-	strTable += "<tr><td></td><td>VCLUES</td></tr>";
+	strTable += "<tr ><td style='font-size:xx-large,font-weight:bold,font-style:italic'>HG</td><td>VCLUES</td></tr>";
 	strTable += "<tr><td>HCLUES</td><td>CELLS</td></tr>";
 	strTable += "</table>";
 	
@@ -31,9 +31,9 @@ function BuildGridDelayed(dim){
 	$(".cel").attr("data-mark","not");
 	$(".cel").on("mouseover",MousedOver);
 	$(".cel").on("mouseup",MarkNone);
-	$(".cel").addClass("squarecel");
-	$(".vc").addClass("squarecel");
-	$(".hc").addClass("squarecel");
+	$(".cel, .vc, .hc").addClass("squarecel");
+	$(".cel, .vc, .hc").addClass(gClassCellSize);
+	$(".cel").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
 	$(".cel").each(function(){
 		$(this).css("background-position",markposnot); 
 	});

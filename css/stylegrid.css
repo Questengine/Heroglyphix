@@ -7,3 +7,24 @@
 .celllocpuz{
 	border:1px solid red;
 }
+
+.cel16{
+	height:16px;
+	min-width:16px; 
+}
+.cel20{
+	height:20px;
+	min-width:20px; 
+}
+.cel24{
+	height:24px;
+	min-width:24px; 
+}
+.cel30{
+	height:30px;
+	min-width:30px; 
+}
+.cel48{
+	height:48px;
+	min-width:48px; 
+}

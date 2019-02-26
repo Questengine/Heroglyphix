@@ -59,9 +59,8 @@
 #dReveal:hover{ 
 	background-position-y:-65px;
 }
-#dSpeech{
-	border-color: violet ;
-	border-width:4px;
+#dSpeech{ 
+	border-width:0px;
 	top:5px;
 	left:200px;
 	width:420px;
@@ -128,9 +127,27 @@
 	background-repeat:no-repeat;
 	border:none;
 	min-width:160px;
-	min-height:42px;
-	margin:auto;
+	min-height:42px; 
+	text-align:center;  
+	vertical-align: middle;
+	line-height: 42px;   
 }
 #dLocPuzConfirm:hover{ 
 	background-position-y:-42px;
+}
+
+#dClock{ 
+	top:310px;
+	left:680px;
+	width:100px;
+	height:32px; 
+	vertical-align: middle;
+	text-align:center;  
+	line-height: 32px;   
+    text-shadow: 0px 0px 11px #ddd;
+	color:red;
+	border:none;
+	font-size:xx-large;
+	font-weight:bold;
+	
 }

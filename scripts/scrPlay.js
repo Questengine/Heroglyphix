@@ -59,3 +59,12 @@ function CheckCompletion(){
 function IsFinished(){
 	return gPuzPlayer == gPuzCorrect;
 }
+function TimerTick(){
+	gPuzTime--;
+	var strmin = parseInt(gPuzTime/60);
+	var strsec = gPuzTime%60;;
+	if(parseInt(strsec)<10){strsec = "0"+strsec;}
+	var strTime = strmin+":"+strsec
+	$("#dClock").html(strTime);
+}
+	

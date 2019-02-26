@@ -1,3 +1,25 @@
+function SizeGrid(dim){
+	if(dim ==5){
+		gCurMarkSize=48;
+	}
+	if(dim ==8){
+		gCurMarkSize=30;
+	}
+	if(dim ==12){
+		gCurMarkSize=24;
+	}
+	if(dim ==15){
+		gCurMarkSize=16;
+	}
+	if(dim ==20){
+		gCurMarkSize=16;
+	}
+	  
+	gClassCellSize = "cel"+gCurMarkSize;
+	markposnot = "0px -" +gCurMarkSize*3 + "px";
+	markposout = "-"+gCurMarkSize*9+"px -" +gCurMarkSize*3 + "px";
+}
+
 function LoadLocationText(){
 	gText =arrTextFiles[CurCode()];
 	arrText = gText.split("newline,");
@@ -50,9 +72,15 @@ function FillMarkMenu(){
 	}
 }
 function MarkSelected(){
-	var x = ($(this).css("background-position-x"));
-	var y = ($(this).css("background-position-y"));
-	markposin = x +  " " + y;
+	var xpx = ($(this).css("background-position-x"));
+	var ypx = ($(this).css("background-position-y"));
+	var x = bwpx(xpx);
+	var y = bwpx(ypx);
+	x=x/20;
+	y=y/20;
+	x*=gCurMarkSize;
+	y*=gCurMarkSize;
+	markposin = x +  "px " + y+"px";
 	
 	ReDrawGrid();
 	
@@ -96,8 +124,10 @@ function AutoSolve(){
 	ReDrawGrid();
 	CheckCompletion();
 }
+
 function bwpx(s){
 	var res = s.replace("px","");
-	return res+0;
+	var ires = parseInt(res);
+	return ires;
 	
 }

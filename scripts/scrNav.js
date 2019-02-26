@@ -47,9 +47,14 @@ function Init(code, part){
 	 if(typeof part === "undefined"){
 		 part=0;
 	 }
+	 gPart = part;
 	var puz = LoadPuz(code, part);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
+	gPuzTime = gPuzTimeMax;
+	clearInterval(gTimerInterval);
+	gTimerInterval=setInterval(TimerTick,1000);
+	
 	gTextItr=-1;
 	
 }
@@ -122,6 +127,9 @@ function PuzzleDone(){
 	$(".vc, .hc").each(function(){
 		SetFadeTimeout($(this));
 	}); 
+	clearInterval(gTimerInterval);
+	
+	setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
 }
 function SetBlinkTimeout(cell){
 	var x = parseInt(cell.attr("data-x"))+0;

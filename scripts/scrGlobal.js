@@ -17,6 +17,15 @@ var gPuzCorrect="";
 var gPuzPlayer="";
 var gUPP={};
 
-var markposnot = "0px -60px";
 var markposin = "0px 0px";
-var markposout = "-180px -60px";
+var markposnot = "0px -120px";
+var markposout = "-360px -120px";
+var gPalletMarkSize=20;
+var gCurMarkSize=40;
+var gClassCellSize="cel20";
+
+
+var gTimerInterval;
+var gPuzTimeMax = 360;
+var gPuzTime = 360;
+
