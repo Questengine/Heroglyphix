@@ -15,10 +15,10 @@
 .cel:hover{
 	box-shadow: 0px 0px 2px 2px  #888888; 
 }
-.glyphletselection{
+.glyphlet{
 	border:1px solid red;
 }
-.glyphletselection:hover{
+.glyphlet:hover{
 	
 	box-shadow: 0px 0px 2px 2px  #888888; 
 }
@@ -55,6 +55,5 @@
 }
 .dialoguechild{
 	opacity:1;
-	margin:auto;
-	padding:auto;
+	margin:auto; 
 }
