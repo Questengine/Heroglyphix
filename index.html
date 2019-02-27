@@ -46,7 +46,7 @@
 		$("#dGrid").mouseup(MarkNone);
 		$(".onemark").click(MarkSelected); 
 		
-		$("#dQuickNav").click(DialogueOpen);
+		$("#dQuickNav").click(function(){InitLocPuz(StageName())});
 		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(SpeechNext);
 		$("#dPortrait").click(AutoSolve);
@@ -69,8 +69,10 @@ dPortrait
 		GO!
 		</div  ><!-- end div dSpeechNext  --> 
 	</div  ><!-- end div speech --> 
-	<div id="dGrid"  oncontextmenu="return false;">
- <div id="tblGrid">Welcome to Heroglyphix</div>
+	<div id="dGrid"  oncontextmenu="return false;">Welcome to Heroglyphix
+	<div id="dGridPlay"  >
+ <div id="tblGrid"></div>
+	</div  ><!-- end div gridplay --> 
 	</div  ><!-- end div grid --> 
   
 	<div id="dLocation">
@@ -111,15 +113,13 @@ dPortrait
 	 
 	 <div id="dDialogue">
 		 <div id="dGlyphlets" class="dialoguechild">
-		 Select a tiny puzzle
-			<div >ok</div><div class="close">cancel</div>
-		 <div>
+		 Select a tiny puzzle 
+		 </div>
 		 <br>
 		 <br>
 		 <br>
 		 <div id="dPuzzles"  class="dialoguechild"> 
-		 select a puzzle
-			<div >ok</div><div class="close" >cancel</div>
+		 select a puzzle 
 		</div>
 	</div>
 	 

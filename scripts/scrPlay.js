@@ -64,7 +64,11 @@ function TimerTick(){
 	var strmin = parseInt(gPuzTime/60);
 	var strsec = gPuzTime%60;;
 	if(parseInt(strsec)<10){strsec = "0"+strsec;}
-	var strTime = strmin+":"+strsec
+	var strTime = strmin+":"+strsec;
+	if(gPuzTime < 1){
+		strTime = "TIME!";
+		clearInterval(gTimerInterval);
+	}
 	$("#dClock").html(strTime);
 }
 	

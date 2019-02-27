@@ -1,5 +1,8 @@
  function InitLocPuz(locname){
-	 $("#dPuzzles").html(BuildLocPuz(locname)+BuildLocPuzConfirm());
+	 
+	 DialogueOpen();
+	 var locpuz = BuildLocPuz(locname)+BuildLocPuzConfirm();
+	 $("#dPuzzles").html(locpuz).fadeIn();
 	 //$("#dPuzzles").html(BuildLocPuzConfirm());
 	 $(".celllocpuz").on("click",PromptLocPuz);
 	 $("#dLocPuzConfirm").on("click",LocPuzConfirmed);
@@ -47,5 +50,6 @@
 	 SetCode(code);
 	 Init(code);
 	 DialogueClose();
+	  $(".dialoguechild").fadeOut("slow",function(){$(this).html("")})
  }
  

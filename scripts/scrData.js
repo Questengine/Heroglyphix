@@ -1,7 +1,12 @@
 
 var arrStages = ["Library", "Skimlet", "Howard"]
 function StageCount(){ return arrStages.length;}
-
+function StageName(i){
+	 if(typeof i === "undefined"){
+		 i=gStage-1;
+	 }
+	 return arrStages[i];
+}
 var arrLocationNames = {
 	"Library":"Library,ReadingRoomII",
 	"Skimlet":"Blacksmith,TownSquare,Pasticceria,ShadeStreet,AxeAndStump,Farm,WizlabHoward",
@@ -9,6 +14,10 @@ var arrLocationNames = {
 };
 
 function LocCount(stagename){
+	
+	 if(typeof stagename === "undefined"){
+		 stagename=StageName();
+	 }
 	return arrLocationNames[stagename].split(",").length;
 } 
 function PuzCount(s,l){

@@ -4,10 +4,12 @@ function InitGlyphlets(code){
 	if(puzdata.includes(",")){
 		var arrPuz = puzdata.split(",");
 		var count =arrPuz.length;
-		 $("#dGlyphlets").html(BuildGlyphlets(count)+BuildGlyphletConfirm());
+		 $("#dGlyphlets").html(BuildGlyphlets(count)+BuildGlyphletConfirm()).fadeIn();
 		 //$("#dPuzzles").html(BuildLocPuzConfirm());
 		 $(".glyphlet").on("click",PromptGlyphletConfirm);
-		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed);
+		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed); 
+		 $(".glyphlet").css("background-image","url('images/extras/glyphlet"+count+".png')");
+		 $("#tblGlyphlets").css("background-image","url('images/puzzles/"+code+".bmp')");
 		DialogueOpen();
 		
 	}
@@ -24,11 +26,11 @@ function InitGlyphlets(code){
 		 for(var x = 0;x<dim;x++){
 			 var i = 0;
 			 i = x+y*dim;
-			 var display = i;
-			 if(isPuzzlePartComplete(CurCode(),i)){
-				 display="X"
+			 var display =   "background-position:111px 111px"
+			 if(!isPuzzlePartComplete(CurCode(),i)){
+				display = PuzzlePartUndone(count,i)
 			 }
-			 strTable += "<td class='glyphlet' data-gid='"+i+"'>"+display+"</td>";
+			 strTable += "<td class='glyphlet' data-gid='"+i+"' style='"+display+"'></td>";
 		} 
 		strTable += "</tr>";
 	 }
@@ -52,34 +54,20 @@ function InitGlyphlets(code){
 	 gPart = part;
 	 Init(CurCode(), part);//glyphlet selected,send it AND code 
 	 DialogueClose();
+	  $(".dialoguechild").fadeOut("slow",function(){$(this).html("")})
  }
-
-/* 
  
- function BuildLocPuz(stgname){
-	 
-	var strTable = "<table id='tblLocPuz'>";
-	var locnames = arrLocationNames[stgname];
-	var loccount = LocCount(stgname);
-	for(var loc=0;loc<loccount;loc++){
-		strTable += "<tr class='rowlocpuz'>"+LocName(locnames.split(",")[loc])+PuzList(loc)+"</tr>";
-	} 
-	strTable += "</table>";
-	return strTable;	
- }
- function LocName(name){
-	 return "<td  class='celllocation'>"+name+"</td>";
- }
- function PuzList(loc){
+ function PuzzlePartUndone(count, part){
 	 var res = "";
-	 loc+=1;
-	 var pcount = PuzCount(gStage,loc);
-	 for(var p = 1;p<=pcount;p++){
-		var code = BuildCode(gStage,loc,p);
-		if(code in arrPuzzles){
-			res += "<td class='celllocpuz' data-puz='"+code+"'>P"+code+"</td>";
-		} 
-	 }
+	 var dim= Math.sqrt(count)
+	 var x= part % dim;
+	 var y= Math.floor(part/dim);
+	 var pixcount = 96/dim;
+	 var px = "-"+(x*pixcount);
+	 var py = "-"+(y*pixcount);
+//	 res = "background-image:url(images/extra/glyphlet"+count+".png),";
+	
+	 res += "background-position:" +px+"px " +py+ "px"
 	 return res;
  }
- */
+ 

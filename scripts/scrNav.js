@@ -97,7 +97,7 @@ function RedrawPortrait(imgid, picid){
 	picx*=constPortraitWid;
 	picy*=constPortraitHgt;
 	
-	$("#dPortrait").css("background-image","url('images/charportraits" +imgid +".png')");
+	$("#dPortrait").css("background-image","url('images/portraits/charportraits" +imgid +".png')");
 	$("#dPortrait").css("background-position-x",picx +"px");
 	$("#dPortrait").css("background-position-y",picy+"px" );
 }
