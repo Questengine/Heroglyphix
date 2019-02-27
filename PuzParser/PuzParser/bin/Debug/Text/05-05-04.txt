@@ -1,0 +1,18 @@
+pic 32 02
+bub 0
+txt "*huff* These large glyphs put us at a far greater risk of Pox's attack. It seems he can ... teleport?... move at will between the more powerful tablets that he creates."
+pic 07 06
+txt "That's one more reason why we have to destroy all of them before we confront the Gremlin himself - anything less and we're handing him an escape route!"
+pic 07 11
+txt "...But look, the Imperial Tea Garden is restored!"
+txt "Here, the spirit is cleansed and the senses heightened before passage is allowed from the Outer to the Inner Tea Garden."
+pic 07 14
+txt "I regret we will not enter, the ceremony is quite intricate and time consuming, and we have little to spare." 
+pic 07 19
+txt "Bow one thousand times!
+The path to the Path lies in
+Constant deference"
+pic 05 22
+txt "What -was- that sound?"
+pic 07 24
+txt "There, we are one step closer to the greatest secret in Akuyoshida."

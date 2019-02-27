@@ -1,0 +1,9 @@
+pic 07 10
+bub 0
+txt "Hah! The ancient glyph answers to the wand, just as Pox's new tablets do."
+pic 07 13
+txt "There's a single word written on this scroll inside, it says... Noctuid."
+pic 05 08
+txt "Noctuid? Hmmm. Noc-tuid. Noh-cuh-too-eeeed... Hang on, N.. O.. C.."
+pic 07 14
+txt "Please. Let -me- do the thinking."

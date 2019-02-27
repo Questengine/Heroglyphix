@@ -8,7 +8,8 @@
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
   <script src="scripts/scrData.js"></script>
   <script src="scripts/scrDataText.js"></script>
-  <script src="scripts/scrDataTbt.js"></script>
+  <script src="scripts/scrDataTbt.js"></script>>
+  <script src="scripts/scrDataStageLoc.js"></script>
   <script src="scripts/scrGlobal.js"></script>
   <script src="scripts/scrUtil.js"></script>
   <script src="scripts/scrNav.js"></script>
@@ -26,13 +27,16 @@
   
 	$(document).ready(function () {
 		//LoadLocationText(0);
+		//var query = window.location.search.substring(1);
+//var qs = parse_query_string(query);
+		//alert(getUrlParameter("s"));
 		FillMarkMenu();
 		//GameScript();
 		BuildUPP();
-		gStage=1;
+		gStage=4;
 		gLocation=1;
 		gPuzzle=1;
-		StartPuz("01-01-01");
+		StartPuz();
 		//Init();
 		//var out = BuildLocPuz("Library");
 		//var out2 = BuildLocPuz("Skimlet");

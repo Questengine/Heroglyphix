@@ -1,0 +1,44 @@
+pic 07 00
+bub 0
+txt "+!"
+pic 07 01
+bub 2
+txt "*Shatter*"
+pic 07 02
+bub 0
+txt "Hah!..."
+pic 07 03
+txt "..."
+pic 31 10
+bub 1
+txt "!"
+pic 07 04
+bub 2
+txt "Rrrrr... YOISH!"
+pic 05 18
+txt "AIEEEEEEeeeeee!"
+pic 06 27
+bub 0
+txt "Stay thy hand, Lord Magamura!"
+pic 07 05
+txt "..."
+pic 06 01
+txt "Our foe has already left."
+pic 07 06
+txt "...I understand, my Lady. My sword flies too late to find my real enemy."
+txt "And you have undone the curse it left on me, I am in your debt."
+pic 06 00
+txt "The responsibility I am about to pass on to you is repayment enough I fear."
+pic 07 07
+txt "Methusaleh's wand. Then I was right."
+pic 07 08
+txt "A wretched Pox gremlin is loose. To have been ambushed by such a flea!... it is unbefitting."
+pic 05 15
+txt "Bah! Looks like your reactions are going, as well as your eyesight, Mr. 'Sashimi'!"
+pic 07 15
+txt "Even monkeys fall from trees."
+pic 31 12
+txt "A monkey, with that straggly beard? Maybe a goa..."
+pic 07 09
+bub 1
+txt "*stare*"

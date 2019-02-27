@@ -2,11 +2,13 @@ pic 00 15
 bub 0
 txt "I've done it!"
 pic 01 01
-txt "Good, good. Start with certainty, in this case a full row of marks, and the rest of the solution soon falls into place, what?"
+txt "Good, good. Start with certainty, in this case a full line of 5 marks, and the rest of the solution soon falls into place, what?"
 pic 01 00
 txt "Like Ogbeard's cloak, start pulling at a single thread and before long all is unravelled!"
 pic 00 07
 txt "So, the clue numbers show groups of marks I have to make."
 txt "By looking at the clues along the top and the bottom I can work out exactly where they must go, so I can break the spell!"
+pic 01 00
+txt "By George, I think he's got it."
 pic 00 01
-txt "I actually hope the next one is a little more taxing."
+txt "I actually hope the next test is a little more taxing."

@@ -1,0 +1,8 @@
+pic 02 17
+bub 0
+txt "Ah a Paper Admiral! Such a delicate thing to have been trapped in stone, now free to ride the eddies in search of nectar again."
+pic 05 25
+txt "He-ey! Be careful where you point that stick, I don't want any accidental butt-trees sprouting out!"
+pic 02 00
+txt "I assure you, it's quite safe. Although, a wand -is- an unusual magical focus for a wizard. Very show-offy. Quite typical of Methusaleh, if certain records are to be believed."
+txt "In the ways of elemental magic I favor my old walking cane, Skimlet, his hat. Lord Matthius his fire gem pendant. They're a little more refined in my opinion."

@@ -1,0 +1,7 @@
+pic 02 23
+bub 0
+txt "Are we gaining? Whoo, I'm taking these Glyphs apart as quickly as I can."
+pic 16 04
+txt "The engines are stoked hell for leather, we'll show him what the S.S.Saltshaker is made of!"
+pic 05 26
+txt "That's what I'm afraid of." 

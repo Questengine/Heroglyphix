@@ -1,0 +1,44 @@
+pic 18 06
+bub 2
+txt "PhwwweEEeargh!"
+pic 05 16
+bub 0
+txt "What the @$%# is that?"
+pic 07 14
+txt "Back, back, back! Give it some space!!"
+pic 07 11
+txt "Amazing... Kazenagi's familiar! Some wizards and sorceresses have cats, or owls - Kazenagi took an Octo-Moth."
+pic 05 17
+txt "But that's no flitty, little Octo-Moth. It's HUGE!"
+pic 18 06
+txt "Phwaa-aagh-agha!"
+pic 07 13
+txt "It's been down here for an age, and by the looks of it, it never stopped growing!"
+pic 07 23
+bub 2
+txt "PENITENCE!..."
+pic 07 14
+bub 0
+txt "... I think it's just not used to visitors. It's more scared of us than we are of it."
+pic 05 26
+bub 1
+txt "Speak for yourself!!"
+pic 07 22
+txt "It's living history! When the Demon Emperor died, a remnant of his awesome power still resided in his familiar."
+txt "It was captured - alive - and this temple was built to harness that power, to use it to protect the province!"
+pic 07 24
+txt "Like a... like a holy shield cast over us, it has kept the Yogon tribes at bay ever since."
+pic 18 07
+bub 1
+txt "Phwaaaaa. PhwaaAAaaa. *pant* ..."
+pic 07 14
+bub 0
+txt "Only now, that shield has been breached. I have sensed its absence."
+pic 07 13
+txt "The spell has been broken for only a few hours but I know in my heart, the Yogon will have already seized the opportunity to mass their forces against us."
+pic 07 06
+txt "No doubt, that's the reason that Nin'gyo is leading our army out..."
+pic 05 14
+txt "So, get this thing started. Red alert, shields up!"
+pic 07 06
+txt "..."

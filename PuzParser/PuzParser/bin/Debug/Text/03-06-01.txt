@@ -1,0 +1,10 @@
+pic 02 15
+bub 0
+txt "Pox is attacking anything that moves, he's trying to slow us down."
+pic 05 22
+txt "Then why don't quit with the wand waving and make straight for him?"
+pic 02 11
+txt "Can't! Pox Gremlins can skip instantaneously between the Glyphs they've made, that's why they evolved the skill in the first place."
+txt "If we leave any behind he'll be slipperier than a buttery kipper!"
+pic 02 23
+txt "All I can do is try to work faster than he can run."

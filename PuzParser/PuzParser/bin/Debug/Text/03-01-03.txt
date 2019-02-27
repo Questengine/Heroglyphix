@@ -1,0 +1,5 @@
+pic 02 00
+bub 0
+txt "From tiny acorns, the mightiest oaks will grow."
+pic 02 17
+txt "Every small thing of nature has its worth."

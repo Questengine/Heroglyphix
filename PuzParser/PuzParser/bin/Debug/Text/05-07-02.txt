@@ -1,0 +1,6 @@
+pic 07 06
+bub 1
+txt "How dare Pox touch our flag..."
+pic 07 11
+bub 0
+txt "Here soldier, catch! And hold the Jomon standard high, the tide is already turning!"

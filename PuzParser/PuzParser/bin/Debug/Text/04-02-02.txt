@@ -1,0 +1,9 @@
+pic 06 04
+bub 0
+txt "A great behemoth rumbles across a plain at night. The ground shakes, do you feel it?"
+pic 31 01
+txt "I -wish- you'd stop telling me all this."
+pic 06 29
+txt "It moves, unstoppable - turning its mighty trunk in defiance of all enemies. Fearsome, indeed."
+pic 06 09
+txt "I have seen enough."

@@ -1,0 +1,12 @@
+pic 23 20
+bub 2
+txt "+ *DOOOOOOOOOOOOOOOM-NGGG!* +"
+pic 08 14
+bub 0
+txt "Yee-ow-ow-ouch! That bell chime, I've never heard such a deep, funereal sound!"
+pic 23 15
+txt "Yeah-heh, well we got our civic pride here you know. That's the sound that wakes us up every day for evening breakfast."
+pic 33 13
+txt "You... still eat?"
+pic 23 14
+txt "What, you think we'd create a whole town out of spirit power, and not save some over for bacon and sossies? Uh-haha!"

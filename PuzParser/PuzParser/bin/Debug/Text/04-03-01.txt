@@ -1,0 +1,7 @@
+pic 17 05
+bub 0
+txt "O-outside the window... are those the pyramids? That's Cheops at Giza! I remember it from geography class..."
+pic 06 08
+txt "Those monuments, they are home to some of your mightiest Kings, Mitchell of the otherworld?"
+pic 17 04
+txt "Well, yeah... something like that..."

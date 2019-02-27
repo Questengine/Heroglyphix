@@ -1,0 +1,5 @@
+pic 06 09
+bub 0
+txt "Here, if we needed evidence that Lord Matthius is not himself, then this is it."
+pic 06 11
+txt "His magical focus - this gemstone of a power, a splinter of the Fire Elemental Heart itself! - lies on the floor like a discarded toy..."

@@ -1,0 +1,5 @@
+pic 02 18
+bub 0
+txt "Ah. A rusty lantern, extinguished and dropped in a blind panic I imagine. Not a terribly good omen."
+pic 05 21
+txt "You know, I was sensing that even -without- you spelling it out."

@@ -1,0 +1,5 @@
+pic 02 12
+bub 0
+txt "Don't wave that tail at me, my friend!"
+pic 02 01
+txt "Aha, yes. That's it, boy. You look tough but you're a good herbivore, aren't you? Don't f-forget that!"

@@ -1,0 +1,14 @@
+pic 20 00
+bub 1
+txt "Aagh! What is that, what's happening?"
+pic 07 14
+bub 0
+txt "Steel yourself!"
+pic 07 10
+txt "Hold this ground, soldier - our victory is assured."
+pic 32 01
+bub 2
+txt "This way! Giddy up, hors-"
+pic 32 02
+bub 0
+txt "I will carry you, but do NOT finish that sentence, if you wish to live!"

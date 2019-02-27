@@ -1,0 +1,7 @@
+pic 02 02
+bub 0
+txt "Hm, I'm surprised to see she keeps one of these old devices. Like a spark to a -sun-, a ball pales in comparison to the..."
+pic 05 22
+txt "Huh? The what?"
+pic 02 00
+txt "Tut. ...t'is no concern of yours, Woodrot."

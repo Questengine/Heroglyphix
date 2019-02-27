@@ -1,0 +1,38 @@
+pic 07 23
+bub 2
+txt "Stand away!"
+pic 05 17
+bub 0
+txt "Eek!"
+pic 07 22
+txt "There! The Natural Garden is returned to its sacred plot."
+pic 05 17
+txt "Whoa, it's amazing!"
+pic 05 02
+txt "-Uh-, I mean big. Big, old, stupid garden. *ya-awn*"
+pic 07 10
+txt "Haha, even you cannot fail to be impressed."
+pic 05 22
+bub 1
+txt "...kinda reminds me of home..."
+pic 07 24
+txt "Like a forest, the Natural Garden creates the illusion of the wild."
+txt "Feel the moss under your feet, and all around the untrimmed foliage obscures where the garden leads so that each new view is unexpected."
+txt "There are no bridges or benches here, only fortuitous stepping stones or a fallen log to rest on."
+pic 07 19
+txt "..."
+txt "Through uncertainty
+Unaided, Unimpeded,
+Your will is your own."
+pic 05 29
+txt "Hey -I- know one of those! - *ahem* - 'There was an old man from Ramshucket...'"
+pic 07 06
+txt "I do not believe that is either a haiku, or appropriate for a holy place such as this."
+pic 05 21
+txt "...?"
+pic 07 13
+txt "*sigh* A HAIKU, a three line poem of 5, 7 and 5 syllables... why are you creeping behind that rhodedendron?"
+pic 05 06
+txt "Call of nature, 'Flamey'"
+pic 07 09
+txt "Answer that call here, and it'll be the last time you're ever able to."

@@ -9,23 +9,26 @@ namespace PuzParser
 {
     class Program
     {
+         static   int s = 1;
+         static   int l = 1;
+         static   int p = 1;
+         static   int smax = 11;
+         static   int lmax = 11;
+         static   int pmax = 13;
         static void Main(string[] args)
         {
-            //ParseTextFiles();
-            ParseTbtFiles();
+         //ParseTextFiles();
+              ParseTbtFiles();
             Console.ReadLine() ;
         }//end main
         static void ParseTextFiles() {
-            int s = 1;
-            int l = 1;
-            int p = 1;
 
             //Console.Write(Directory.GetCurrentDirectory() + "\n");
-            for (s = 1; s < 3; s++)
+            for (s = 1; s < smax; s++)
             {
-                for (l = 1; l < 8; l++)
+                for (l = 1; l < lmax; l++)
                 {
-                    for (p = 1; p < 11; p++)
+                    for (p = 1; p < pmax; p++)
                     {
                         string code = makecode(s, l, p);
                         if (File.Exists("Text\\" + code + ".txt"))
@@ -46,16 +49,14 @@ namespace PuzParser
         }
         static void ParseTbtFiles()
         {
-            int s = 1;
-            int l = 1;
-            int p = 1;
+          
 
             //Console.Write(Directory.GetCurrentDirectory() + "\n");
-            for (s = 1; s < 3; s++)
+            for (s = 1; s < smax; s++)
             {
-                for (l = 1; l < 8; l++)
+                for (l = 1; l < lmax; l++)
                 {
-                    for (p = 1; p < 11; p++)
+                    for (p = 1; p < pmax; p++)
                     {
                         string code = makecode(s, l, p);
                         if (File.Exists("Tbt\\" + code + ".tbt"))

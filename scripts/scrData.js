@@ -1,5 +1,5 @@
 
-var arrStages = ["Library", "Skimlet", "Howard"]
+var arrStages = ["Library", "Skimlet", "Howard","Judith","Matthius", "Kara","Edizon"]
 function StageCount(){ return arrStages.length;}
 function StageName(i){
 	 if(typeof i === "undefined"){

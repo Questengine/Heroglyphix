@@ -1,0 +1,13 @@
+pic 08 05
+bub 0
+txt "These are the Wanderer's tools for harvesting the precious mushrooms. Well, it makes sense he wouldn't lug them around with him."
+pic 12 04
+txt "He owes you big, G."
+pic 08 07
+bub 1
+txt "I don't think people can be in debt to monsters."
+pic 12 08
+bub 0
+txt "Cher! You ain't no-"
+pic 08 01
+txt "Let's just finish here up as fast as we can, okay?"

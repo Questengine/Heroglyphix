@@ -1,0 +1,43 @@
+pic 07 16
+bub 0
+txt "Success!"
+pic 05 08
+txt "Man, I wouldn't want to see the kitty this giant litter-box belongs to."
+pic 07 11
+txt "Very good. I almost laughed at that one."
+pic 05 09
+txt "Really?"
+pic 07 14
+txt "NO."
+pic 07 24
+txt "The Sand and Stone garden; it is famed for its austere, minimalistic quality, it's refined nature cannot be appreciated by... everyone."
+txt "The sand is persuaded into artful shapes and forms with gentle raking, but once done it is coarse enough to be immune to the elements."
+txt "You will notice too, only a few planted mounds or rocks, but these symbolise things of great importance to the town."
+txt "Over there, the large jet rock surrounded by smaller granite boulders marks a terrible war from half a millenium ago-"
+pic 05 20
+txt "And this is what passes for entertainment around here??? Whoo, and I thought the pace of life was terminally slow in -Everberry-."
+pic 07 08
+txt "My patience is not boundless, creature!"
+pic 07 13
+txt "Now show some respect and hold your tongue while I recite the key:"
+pic 07 11
+bub 4
+txt "..."
+pic 07 19
+bub 0
+txt "One's nature is shaped
+Hesitantly, but no foe
+May ever change it."
+pic 05 06
+txt "Uh-huh, yep, that's me all over. Nothing's gonna change Woodrot. I'm in the zone, perfect as I am."
+pic 07 15
+txt "*sigh* It takes 10 years to begin to truly understand the many teachings and become one with Ryudo, the Dragon Path."
+txt "For you, an eternity would not be sufficient."
+pic 05 06
+txt "Oh puhlease, I bet I could be a great Rude-dog if I wanted to but higher beings like me have more important things on our minds."
+pic 07 06
+txt "It is 'RYU-DO'! Mastery of the blade, honing of the spirit, mind and body toward a single purpose."
+txt "It is the foregoing all weakness; pride, avarice and value of one's own life."
+txt "Aspiring toward a purity of selfless thought and action embodied in the betterment of one's self and a dedication to justice in all things."
+pic 05 09
+txt "...You lost me at 'honing', is that essential because it sounds like a lot of work?"

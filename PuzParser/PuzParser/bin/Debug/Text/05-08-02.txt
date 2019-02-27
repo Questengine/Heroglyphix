@@ -1,0 +1,34 @@
+pic 07 08
+bub 0
+txt "Gah! Now this boulder blocks our way."
+pic 31 18
+txt "Bwa-haha-ha! He got you there, sucker!"
+pic 32 02
+bub 1
+txt "Hnnngh! Infuriating... malicious..."
+pic 31 18
+bub 0
+txt "Hoo-hooo! how are we going to get around that!"
+pic 07 13
+txt "A mere pebble..."
+pic 32 09
+txt "Yoish-o!"
+pic 05 14
+txt "That's it, get your weight behind it, come on push. Dig your feet in."
+pic 32 09
+bub 2
+txt "Yoi-SHO!!"
+pic 05 09
+bub 0
+txt "Lift with the knees!"
+pic 32 09
+bub 1
+txt "Nggggh!... ... ... ..."
+pic 07 08
+bub 0
+txt "...hah!"
+pic 05 09
+txt "There you go. See? I've got the brains and you've got the brawn. What a team. Well, let's hurry up and bag the bounty."
+pic 32 02
+bub 1
+txt "*Grrr-rrr!* ..."

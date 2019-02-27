@@ -1,0 +1,24 @@
+pic 15 02
+bub 0
+txt "Grmph?"
+pic 02 02
+txt "Oh my!"
+pic 05 18
+bub 2
+txt "Oh MY GOD!"
+pic 15 03
+txt "GroOoArRgH!"
+pic 02 21
+bub 0
+txt "It might be best .. *huff huff*... to admire the beauty of this boisterous fellow... *huff*... from a respectful distance!"
+pic 05 19
+txt "Waaaaa-aaaa! Eat the hairy one! I'm mostly gristle!"
+pic 02 21
+txt "I'll... *huff* pretend.. *huff huff* I didn't ... *huff* hear *huff huff* ...that!"
+txt "Just a little further..."
+pic 05 19
+txt "I'm not stopping until I hit snow."
+pic 02 22
+txt "Ah, that *huff*, ought to do it. An invigorating trot, it quite reawakens the spirit."
+pic 05 21
+txt "..."

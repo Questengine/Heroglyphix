@@ -124,10 +124,19 @@ function AutoSolve(){
 	ReDrawGrid();
 	CheckCompletion();
 }
-
+function StageBackground( ){
+	
+	$("#dFullScreen").css("background-image","url('images/locations/gp"+pad(gStage)+".png')") ;
+}
 function bwpx(s){
 	var res = s.replace("px","");
 	var ires = parseInt(res);
 	return ires;
 	
 }
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};

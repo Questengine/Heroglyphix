@@ -1,0 +1,6 @@
+pic 02 18
+bub 1
+txt "Tracks in the mud, *T-Rex* tracks if I'm not mistaken. It's hard to tell how fresh they are..."
+pic 02 27
+bub 0
+txt "Tum te tum tum +"

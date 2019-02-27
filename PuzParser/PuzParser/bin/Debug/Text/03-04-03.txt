@@ -1,0 +1,9 @@
+pic 02 00
+bub 0
+txt "Look what was hiding in that glyph! I have always had a fondness for jeweled Dragonflies, and here they grow up to a wingspan of 3 metres!"
+pic 02 06
+txt "The glint of the sun on it's faceted eyes, the reverberating hum of these giant wings, simply amazing."
+pic 02 00
+txt "It's a stark contrast to their brown jacketed larvae - snappish, little brutes indeed!"
+pic 02 17
+txt "But that is Nature's design, so diverse in its perfection. *sigh* Wonderful. Well, onward Applewood!"

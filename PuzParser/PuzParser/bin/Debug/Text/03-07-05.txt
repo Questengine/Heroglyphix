@@ -1,0 +1,7 @@
+pic 02 22
+bub 0
+txt "Lady Judith! *Huff* Oh Pox put up a fight, thank goodness the wand worked." 
+pic 06 00
+txt "My old thistle. Was I sleeping?"
+pic 02 01
+txt "In a way... *Huff!* ... *ahem* in a way, yes. There is a creature at loose, a Pox Gremlin is bent on freeing Edizon and disrupting everything in its path."

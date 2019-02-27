@@ -1,0 +1,10 @@
+pic 04 05
+bub 1
+txt "BWA! My store, it'sa on fire!!!"
+pic 00 01
+bub 0
+txt "Calm down, please! You're safe now, the fire's all out. Although the store..."
+pic 04 06
+txt "...ah, a leetle scorched around za edges. But, it coulda have been mucha worse."
+pic 04 07
+txt "I hadda to patch it up from worse zan zis when my sister tried to bake Brandy biscotti, last year."

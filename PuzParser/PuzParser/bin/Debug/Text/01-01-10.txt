@@ -29,4 +29,4 @@ txt "And I'm quite certainly, almost positive that you are well up to the task, 
 pic 01 03
 txt "(mumble)"
 pic 00 05
-txt "..."
+txt "...*heh*"

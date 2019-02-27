@@ -1,0 +1,11 @@
+pic 29 03
+bub 1
+txt "*Hua-gu-gu-guu!*"
+pic 10 16
+bub 0
+txt "What? What's there?"
+txt "Hmm...From that glyph, comes another stone antiquity - possibly an interlocking fragment to the first piece."
+txt "It appears to feature an engraved Caduceus design, based on this very wand..."
+pic 10 17
+bub 2
+txt "Bah! Do NOT try to sidetrack me, you mental midget!"

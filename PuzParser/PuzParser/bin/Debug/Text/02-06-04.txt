@@ -3,7 +3,7 @@ bub 0
 txt "Uh, Artemis? I'm sorry - I think something went horribly wrong with this one!"
 pic 04 02
 txt "Ha! No, no, no. This is a new strain of Gigantic 'Neep!"
-txt "I'm no wizard, but I'm proud to say it's the fruit of my -own- modest experiments."
+txt "I'm no wizard, but I'm proud to say they are the startling fruits of my -own- modest experiments."
 pic 00 09
 bub 2
 txt "Monster turnips! T-this isn't right, Artemis!"

@@ -1,0 +1,7 @@
+pic 02 27
+bub 0
+txt "Spiny Blind Cave Spider... quite a large one. Maybe a gravid female..."
+pic 31 25
+txt "Yeurk! Are you going to find something poetic and uplifting to say about that?"
+pic 02 16
+txt "It's very... actually, they rather give me the willies... let's keep moving."

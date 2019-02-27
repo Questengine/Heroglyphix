@@ -1,6 +1,6 @@
-pic 00 07
+pic 00 32
 bub 0
-txt "Mushrooms from Nether Weir! They would have been sitting... there on Wanderer Murdo's stall when the gremlin showed up."
+txt "Mushrooms from Netherweir! They would have been sitting... there on Wanderer Murdo's stall when the gremlin showed up."
 pic 00 13
 txt "They're a rare delicacy here in Thaumhaven, although a bit too spicy for most tastes."
 txt "I accidentally used some of these in a mushroom omelette I made for Howard last year."

@@ -1,5 +1,5 @@
-pic 00 06
+pic 00 30
 bub 0
-txt "Here you are. I think it's a glass of... paint stripper?"
+txt "Here you are. It's a glass of... paint stripper?"
 pic 03 04
 txt "Rose-ay Grog ...for the ladies."

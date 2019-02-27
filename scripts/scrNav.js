@@ -8,7 +8,11 @@ function GameScript(){
 }
 
 function StartPuz(code ){
-	 
+	
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
+	 StageBackground( );
 	var puzdata = GetPuzData(code);
 	if(puzdata.includes(",")){
 		InitGlyphlets(code);

@@ -1,0 +1,19 @@
+pic 17 04
+bub 0
+txt "Aw, this is a head trip! London?"
+pic 06 01
+txt "Those buildings are almost familiar - there is a tall clock much like that in Thaumhaven."
+pic 17 04
+txt "'Thaumhaven'? ...okay..."
+pic 31 09
+bub 1
+txt "*hic!* + One, two, three o'clock, four o'clock + *BURP!*"
+pic 17 06
+bub 0
+txt "Lady, what's in your bag?"
+pic 06 01
+txt "Uh, well..."
+pic 17 04
+txt "I probably don't want to know, right?"
+pic 06 00
+txt "'Right.'"

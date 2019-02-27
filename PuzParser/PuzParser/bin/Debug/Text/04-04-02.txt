@@ -1,0 +1,5 @@
+pic 06 19
+bub 0
+txt "An incredible craft climbs into the sky on a shaft of its own light."
+pic 06 31
+txt "Though I do not fully comprehend it, yet, it fills my heart with joy..."

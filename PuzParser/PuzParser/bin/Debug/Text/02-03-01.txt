@@ -1,3 +1,5 @@
-pic 00 12
+pic 00 18
 bub 0
-txt "Yes! The glyph is beaten and -"
+txt "Oh my! No wonder this place caught fire. Old 'Pox' glyphed the oven and the burning logs must have spilled right out onto the floor!"
+pic 00 20
+txt "That does it. I've -got- to catch him before anything else like this happens."

@@ -1,16 +1,16 @@
 pic 01 01
 bub 0
-txt "Very good. Now - do you see the diamond?"
+txt "Very good, -very- good. Now, do you see the diamond?"
 pic 00 06
-txt "Hmm? Diamond?"
+txt "Huh? The diamond?"
 pic 01 01
-txt "The empty space in the centre of that puzzle!"
-txt "Often what isn't there, is as important as what is. That's what helps you figure out the whole picture, my lad."
-txt "A good Glyphix Master always *blanks* out the squares he knows are empty! (Right-click them with the mouse)"
+txt "I'm refering to that empty space in the centre of that puzzle!"
+txt "Often what -isn't- there, is as important as what is. That's what helps you figure out the whole picture, my lad."
+txt "A good Glyphix Master always *blanks* out any squares he knows to be empty! (Right-click them with the mouse)"
 txt "I didn't get to where I am today by not Right-clicking my blanks!"
 pic 00 05
 bub 1
 txt "Uhhh... "Right-clicking"...okay."
 pic 01 01
 txt "Oh, did I say that out loud?"
-txt "Well it's good advice. Onto the next conundrum!"
+txt "Well it's excellent advice. On to the next conundrum!"

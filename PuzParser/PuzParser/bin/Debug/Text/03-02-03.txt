@@ -1,0 +1,17 @@
+pic 05 17
+bub 0
+txt "Hey look, it's spraying something all over you..."
+pic 02 08
+txt "No, Mr Skunk! It's not ME you're angry at!"
+pic 02 19
+bub 1
+txt "Stop! *ACK* Stop it!"
+pic 31 12
+bub 0
+txt "Pyeuch! Why'd you do that? That smells bloody awful."
+pic 02 20
+txt "...Which way is the Gremlin?"
+pic 05 24
+txt "..."
+pic 02 20
+txt "That's another score to settle."

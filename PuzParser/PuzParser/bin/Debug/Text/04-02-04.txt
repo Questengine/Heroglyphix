@@ -1,0 +1,13 @@
+pic 06 19
+bub 0
+txt "Goodness, a HUMAN! He must have been taken captive by the orange blob-men of this world, that we encountered earlier."
+pic 06 15
+txt "Stay quiet Woodrot, we may be in some danger!"
+pic 31 03
+bub 1
+txt "Mmph!"
+pic 06 06
+bub 0
+txt "Yes, watch how he cavorts on the ocean, whooping and hollering... for the blob overlords' amusement?"
+pic 06 09
+txt "I fear there is nothing we can do for him... Cease vision! This is too ghastly to watch."

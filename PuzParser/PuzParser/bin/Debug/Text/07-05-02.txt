@@ -1,0 +1,8 @@
+pic 09 07
+bub 2
+txt "Coo-ey, up here!"
+pic 09 01
+bub 0
+txt "Oh, hey look out for that ro..."
+pic 34 11
+txt "Ouch!!! Sorry. My bad!"

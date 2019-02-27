@@ -1,0 +1,6 @@
+pic 06 01
+bub 0
+txt "My! A throne rests in the tranquility of the surface of the moon."
+pic 06 30
+bub 1
+txt "And there beyond it, a vision of the whole of the Otherworld. How small it looks now, how fragile. How... precious."

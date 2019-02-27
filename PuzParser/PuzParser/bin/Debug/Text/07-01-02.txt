@@ -1,0 +1,10 @@
+pic 09 26
+bub 0
+txt "Such a pretty sound! +"
+pic 09 15
+bub 1
+txt "*ting* + *tinkly-ting* + *ting*"
+pic 09 04
+bub 2
+txt "Grraa! I'll show that twerp what happens when he messes with something DELICATE!"
+

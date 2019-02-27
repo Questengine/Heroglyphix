@@ -1,0 +1,9 @@
+pic 06 01
+bub 0
+txt "More pointless contraptions! It seems this otherworld is obsessed with them, a result of the orange, blob-people's lack of -magical- prowess, no doubt."
+pic 06 06
+bub 4
+txt "How do they reach the pedals?!..."
+pic 06 08
+bub 0
+txt "Best not to dwell on such things."

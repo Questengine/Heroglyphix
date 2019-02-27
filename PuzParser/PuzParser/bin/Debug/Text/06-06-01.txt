@@ -1,0 +1,10 @@
+pic 23 03
+bub 0
+txt "Blow me down, the Mayor's violin! There'll be a big reward for returning this to him.
+txt "It's lucky I suggested that we invite the sorceress here!"
+pic 23 10
+txt "Yes... it is 'lucky' that Limpitt was so enthusiastic about this plan, isn't it Welk?"
+pic 23 03
+txt "*ahem* I meant that -WE- invited her here, of course."
+pic 23 15
+txt "That's a good Limpy."

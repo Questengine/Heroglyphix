@@ -1,0 +1,25 @@
+pic 32 02
+bub 1
+txt "Grr...."
+pic 07 22
+bub 2
+txt "Yes! The pride of Akuyoshida, the Strolling Pond garden is restored!"
+pic 07 11
+bub 0
+txt "These glyphs are far more powerful, I could actually feel Vanglorian drawing on my own strength to destroy it!"
+pic 07 24
+txt "Still it is a small price to pay to save such a vista."
+txt "This is more than land, Woodrot. It is poetry."
+txt "See how the pond's shape is pleasingly irregular, filled with koi and shady lillies, and here, the majestic Moon Bridge passes over the calmest waters - the perfect spot for considering one's self, one's actions."
+pic 07 19
+txt "The past, reflected, 
+Shows the shining course one takes
+To wield the future."
+pic 07 24
+bub 4
+txt "!..."
+pic 05 22
+bub 0
+txt "Huh? Did you feel that?"
+pic 07 11
+txt "There is a power to all the Ryudo teachings, but these particular verses- ... well, you will understand soon enough."

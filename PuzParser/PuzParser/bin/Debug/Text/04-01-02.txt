@@ -1,0 +1,11 @@
+pic 06 01
+bub 0
+txt "Hmmm, a buzzing, jagged wheel contraption affixed to a metal cylinder."
+pic 06 06
+txt "'Peach halves'... '-IN SYRUP-'. Possibly this is a kind of food-related, torturing device!"
+pic 31 04
+bub 1
+txt "Keep it away!"
+pic 06 10
+bub 0
+txt "Yes, fade, vision! Fade and fly away now."

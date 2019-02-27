@@ -1,0 +1,12 @@
+pic 08 03
+bub 0
+txt "Hmm?"
+pic 22 12
+txt "Oh yes, this is a particularly cherished portrait. Excelsior Murdo, he was a - uh - great, great man."
+pic 08 03
+txt "That's strange, he's ... quite handsome, I suppose I'd be forced to say."
+pic 22 07
+txt "Handsomeness runs in my family, if you haven't noticed! He's not the finest example of it by a long shot."
+pic 22 08
+bub 1
+txt "Yeeeeees, back in it's proper place. Hurhurhur!"

@@ -1,0 +1,25 @@
+pic 07 17
+bub 0
+txt "*Sniff sniff*"
+pic 07 10
+txt "This Teppan Yaki Salmon is grilled to perfection, and the spring onions - so artistically arranged, like breaking waves. My compliments!"
+pic 19 02
+txt "A good cook is one half artist."
+pic 07 20
+txt "*Dig in!*"
+pic 31 13
+bub 1
+txt "..."
+pic 07 20
+bub 0
+txt "So, how long since the gremlin left?"
+pic 19 02
+txt "Oh, it must have been six hours or more. I was preparing these dishes at dawn for the early arriving merchants."
+txt "It came in through the side entrance to the kitchen - really, everything happened in a matter of moments."
+pic 07 06
+txt "It's fortunate that you were not struck by its magic, leaving the stove to rage uncontrolled! It could have been a lot more serious, my friend."
+txt "The whole town is lucky that the gremlin seems to have had other priorites to pursue."
+pic 19 05
+txt "I hope that is true... We may live to regret that our problems are not so mundane as a burned down restaurant."
+pic 07 14
+txt "Come, Shige... what aren't you telling me?"

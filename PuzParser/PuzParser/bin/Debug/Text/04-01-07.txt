@@ -1,0 +1,15 @@
+pic 06 08
+bub 0
+txt "What ghastly apparition floats before me? Is this some weird cauldron, or... *Gasp!!!*"
+pic 17 00
+txt "bloop* *BLUB!* *blop-bloop*"
+pic 06 19
+txt "No! ...Are these virulent, orange blobs the very creatures that -rule- this otherworld?!"
+pic 31 03
+bub 2
+txt "Bl-blob men?!"
+pic 17 00
+bub 0
+txt "*BLOOP!*
+pic 06 10
+txt "Quickly vision, vanish now! Before the blob overlords become aware of our presence!"

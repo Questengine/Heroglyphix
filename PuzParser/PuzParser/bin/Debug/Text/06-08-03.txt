@@ -1,0 +1,16 @@
+pic 22 06
+bub 0
+txt "Quickly girl, set it back in its place, up there next to Croeseus. Mind the gilt!"
+txt "Now straighten it out! No, no - more to the left."
+pic 22 10
+txt "Ahhh, perfect!"
+pic 08 09
+txt "I really wouldn't go that far..."
+pic 22 10
+txt "Randolpho, the GREAT Randolpho Murdo, one of my most enterprising and successful forefathers!"
+pic 08 03
+txt "He certainly looks well fed."
+pic 08 26
+txt "And what a lovely wig, did he regret not being born a lady or was the 'sheep look' all the rage back then?"
+pic 22 11
+txt "Bite your tongue, peasant."

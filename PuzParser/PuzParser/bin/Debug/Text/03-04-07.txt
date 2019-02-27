@@ -1,0 +1,25 @@
+pic 02 04
+bub 0
+txt "S-staggering! I was expecting something big from that monstrous glyph but... the sheer size of this is..."
+pic 16 01
+bub 2
+txt "HAAARARAGH!"
+pic 02 21
+bub 0
+txt "RUN Howard, time for talking later!!!"
+txt "My what a set of teeth! *Huff!*"
+txt "...I really should save *Huff!* my breath for running *Huff!*"
+txt "It's only *Huff!* slowing me *Huff Huff!* down really!"
+txt "Best to *Huff Huff Huff!* conserve..."
+pic 16 01
+bub 2
+txt "GRRAAA-HARAAAARRRGH!!!"
+pic 02 21
+txt ".....!"
+bub 0
+txt "... *Huff!* ..."
+txt "... *Huff!* ... *Huff!*"
+txt "Oh... my..."
+pic 02 22
+bub 1
+txt "Gasp* - Oh, that put these old bones to the test, and no mistake."

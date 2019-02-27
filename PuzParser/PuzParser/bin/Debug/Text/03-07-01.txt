@@ -1,0 +1,12 @@
+pic 02 00
+bub 0
+txt "Fireflies, the Lady of this house has a kinship with them that goes beyond the natural world you and I know."
+pic 02 09
+bub 4
+txt "The first time I saw her, a gown of living lights swept her shoulders and back, kissing the ground where her feet trod the dusky grass."
+txt "And in my mind she was already my Belennia, Queen of the willo-wisps and light of a thousand dawns and sunsets."
+pic 05 09
+bub 0
+txt "Bug collector, eh? So is your friend a Bug Elemental Wizard or something? She got extra arms, antennae? You gotta warn me in advance."
+pic 02 07
+txt "There is no such thing as a 'Bug' Element, now put that back down before you break it."

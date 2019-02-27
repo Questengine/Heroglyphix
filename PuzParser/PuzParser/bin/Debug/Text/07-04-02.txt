@@ -1,0 +1,10 @@
+pic 09 02
+bub 0
+txt "*giggle* These little sweet-making guys are such... sweeties."
+pic 34 16
+txt "Though wow, have you noticed they're a little flakey! *sheesh* Talk about hyper."
+pic 09 06
+txt "Most people don't even know they're real, y'know Kii Kii."
+txt "Everyone thinks some kindly old confectioner in Thatchwold bakes the Sugar Candy, and he -dreamed up- the Snowbies to make the packaging pretty."
+pic 09 02
+txt "They don't have a clue it's the other way around! *giggle*"
