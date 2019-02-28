@@ -2,7 +2,7 @@
 	width:800px;
 	height:600px;
 	top:0%; 
-	background-image:url("../images/locations/gp01.png") ;
+	background-image:url("../images/wall-hg1.png") ;
 }
 #dGrid{
 	background-size:100%;
@@ -93,6 +93,9 @@
 	width:100%;
 	height:100%;
 	margin:auto;
+	position:absolute;
+	top:0px;
+	left:0px;
 }
 #tblLocPuz{
 	width:555px; 
@@ -163,4 +166,20 @@
 	font-size:xx-large;
 	font-weight:bold;
 	
+}
+#dLogo{
+	
+	min-width:800px;
+	min-height:600px;
+	top:0%; 
+	background-image:url("../images/hg-logo.png") ;
+	z-index:20;
+}
+#dTitle{
+	
+	min-width:800px;
+	min-height:600px;
+	top:0%; 
+	background-image:url("../images/temp-ttl.png") ;
+	z-index:10;
 }

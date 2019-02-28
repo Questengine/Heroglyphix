@@ -1,8 +1,9 @@
- function InitLocPuz(code){
+ function InitLocPuz(stagecode){
 	 
-	  if(typeof code === "undefined"){
+	  if(typeof stagecode === "undefined"){
 		 stagecode=CurCode();
 	 }
+	 SetStage(stagecode);
 	 DialogueOpen();
 	 var locpuz = BuildLocPuz(stagecode)+BuildLocPuzConfirm();
 	 $("#dPuzzles").html(locpuz).fadeIn();
@@ -61,5 +62,11 @@
 	 Init(code);
 	 DialogueClose();
 	  $(".dialoguechild").fadeOut("slow",function(){$(this).html("")})
+	  ConfirmPlayScreenVisible();
+ }
+ function ConfirmPlayScreenVisible(){
+	 StageBackground(); 
+	  $(".hideonload").fadeIn();
+	 
  }
  
