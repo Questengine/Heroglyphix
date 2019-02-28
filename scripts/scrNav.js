@@ -35,15 +35,7 @@ function AdvanceLevel(){
 	else{
 		InitGlyphlets(code);
 	}
-}
-function Init1232(){
-	 
-	var puz = LoadPuz();
-	BuildGrid(Math.sqrt(puz.length));
-	LoadLocationText();
-	gTextItr=-1;
-	
-}
+} 
 function Init(code, part){
 	 if(typeof code === "undefined"){
 		 code=CurCode();

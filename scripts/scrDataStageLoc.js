@@ -1,14 +1,15 @@
-var arrStages123 ={
-"2":"Skimlet'sJourney", 
-"3":"Howard'sTrail"   ,
-"4":"HallofVisions"   ,
-"5":"WayOfMatthius"   ,
-"6":"ShadowSteppes"   ,
-"7":"KaraStage" ,
-"8":"Edizon'sRevenge" 
+var arrStages ={
+"01":"Library",
+"02":"SkimletsJourney", 
+"03":"HowardsTrail"   ,
+"04":"HallofVisions"   ,
+"05":"WayOfMatthius"   ,
+"06":"ShadowSteppes"   ,
+"07":"KaraStage" ,
+"08":"EdizonsRevenge" 
 }
 
-var arrLocationNames123 = {
+var arrLocationNames = {
 "01-01":"Library"         ,
 "01-01":"ReadingRoom"     ,
 "01-02":"ReadingRoomII"   ,

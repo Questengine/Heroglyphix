@@ -9,7 +9,7 @@
 	}
 	
 .cel{
-	border:1px solid black;
+	border:none
 }
 .cel:hover{
 	box-shadow: 0px 0px 2px 2px  #888888; 
@@ -30,14 +30,12 @@
 }
 
 .hc{
-	border:0px;
-	border-top:solid 1px black;
+	border:none;
 	user-select:none;
 }
 
 .vc{
-	border:0px;
-	border-left:solid 1px black;
+	border:none;
 	user-select:none;
 }
 .onemark{

@@ -1,24 +1,27 @@
 
-var arrStages = ["Library", "Skimlet", "Howard","Judith","Matthius", "Kara","Edizon"]
+var arrStages321 = ["Library", "Skimlet", "Howard","Judith","Matthius", "Kara","Edizon"]
 function StageCount(){ return arrStages.length;}
-function StageName(i){
-	 if(typeof i === "undefined"){
-		 i=gStage-1;
+function StageName(stagecode){
+	 if(typeof stagecode === "undefined"){
+		 stagecode=pad(gStage);
 	 }
-	 return arrStages[i];
+	 return arrStages[stagecode];
 }
-var arrLocationNames = {
-	"Library":"Library,ReadingRoomII",
-	"Skimlet":"Blacksmith,TownSquare,Pasticceria,ShadeStreet,AxeAndStump,Farm,WizlabHoward",
-	"Howard":"EoForrest,DeeperForest,Lanternsbane,TRexValley,Shoreline,Steamer,WizlabJudith"
-};
-
-function LocCount(stagename){
-	
-	 if(typeof stagename === "undefined"){
-		 stagename=StageName();
+//var arrLocationNames = {
+	//"Library":"Library,ReadingRoomII",
+	//"Skimlet":"Blacksmith,TownSquare,Pasticceria,ShadeStreet,AxeAndStump,Farm,WizlabHoward",
+	//"Howard":"EoForrest,DeeperForest,Lanternsbane,TRexValley,Shoreline,Steamer,WizlabJudith"
+//};
+ 
+function LocCount(stagecode){
+	if(typeof stagecode === "undefined"){
+		 stagecode=pad(gStage);
 	 }
-	return arrLocationNames[stagename].split(",").length;
+	var count =0;
+	for (var key in arrLocationNames) {
+		if(key.substring(0,2) == stagecode){count++;} 
+	} 
+	return count;
 } 
 function PuzCount(s,l){
 	var keyexists = true;

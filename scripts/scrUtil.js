@@ -1,18 +1,18 @@
 function SizeGrid(dim){
 	if(dim ==5){
-		gCurMarkSize=48;
+		gCurMarkSize=40;
 	}
 	if(dim ==8){
-		gCurMarkSize=30;
+		gCurMarkSize=35;
 	}
 	if(dim ==12){
 		gCurMarkSize=24;
 	}
 	if(dim ==15){
-		gCurMarkSize=16;
+		gCurMarkSize=20;
 	}
 	if(dim ==20){
-		gCurMarkSize=16;
+		gCurMarkSize=14;
 	}
 	  
 	gClassCellSize = "cel"+gCurMarkSize;
@@ -47,6 +47,14 @@ function SetCode(code){
 	gPuzzle = parseInt(code.split("-")[2]);
 }
 
+function GetCodeStage(code){ return  code.split("-")[0] ;  }
+function GetCodeLocation(code){ return   code.split("-")[1] ;  }
+function GetCodePuzzle(code){ return   code.split("-")[2] ;  }
+function GetIntStage(code){ return parseInt(code.split("-")[0]);  }
+function GetIntLocation(code){ return  parseInt(code.split("-")[1]);  }
+function GetIntPuzzle(code){ return  parseInt(code.split("-")[2]);  }
+function IntToCode(i){return pad(i);}
+function CodeToInt(i){return parseInt(i);}
 function BuildCode(s,l,p){
 	return pad(s)+"-"+pad(l)+"-"+pad(p);
 }

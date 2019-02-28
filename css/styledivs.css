@@ -11,6 +11,8 @@
 	width:420px;
 	height:420px;
 	border:3px solid oranges;
+	padding:0px;
+	margin:0px;
 }
 #dGridPlay{
 	/*/background-image:url("../images/grid.png") ;*/
@@ -125,6 +127,8 @@
 }
 #tblGlyphlets{
 	position:absolute;
+	background-repeat:no-repeat;
+	background-size:100%;
 	top: 48px;
 	left:22px; 
 	height:95px;
