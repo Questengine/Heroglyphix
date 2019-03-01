@@ -23,7 +23,6 @@ function StartPuz(code ){
 }
 function AdvanceLevel(){	
 	var code = CurCode();
-	MarkPuzzlePartDone(code,gPart);
 	if(isPuzzleComplete(code)){
 		gPuzzle++; 
 		if(gPuzzle>PuzCount(gStage,gLocation)){
@@ -54,6 +53,14 @@ function Init(code, part){
 	gTextItr=-1;
 	
 }
+function StoryNext(){
+	if(gNextText){
+		SpeechNext();
+	}
+	else{
+		
+	}
+}
 function SpeechNext(){
 	gTextItr++;
 	if(gTextItr != arrText.length){
@@ -77,6 +84,7 @@ function SpeechNext(){
 		} 
 	}
 	else{//done with text, advance level
+		gNextText = false;
 		AdvanceLevel();
 		Init();
 		ShowHideProgressButton(false);
@@ -114,19 +122,57 @@ function ShowHideProgressButton(tf){
 		$("#dSpeechNext").slideUp();
 	}
 }
-function PuzzleDone(){
-	$(".cel").off( );
+function StartDialogue(){
+	gNextText=true;
 	ShowHideProgressButton(true);
-	$(".cel").each(function(){
-		SetBlinkTimeout($(this));
-	});
-	$(".vc, .hc").each(function(){
-		SetFadeTimeout($(this));
-	}); 
-	clearInterval(gTimerInterval);
-	
-	setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
+	SpeechNext();
 }
+function Intermission(){
+	gNextText= false;
+	RedrawSpeechBubble(4);
+	RedrawText("Intermission:  4 of 89 pieces remain");
+	ShowHideProgressButton(true);	
+}
+function PuzzleDone(){
+	
+	MarkPuzzlePartDone(CurCode(),gPart);
+	if(isPuzzleComplete()){
+		if(isLargePuzzle()){
+			PuzzleDoneLarge(); }
+		else{
+			PuzzleDoneSmall(); } 
+		StartDialogue();
+		clearInterval(gTimerInterval); 
+		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
+	}
+	else{
+		
+		$(".cel").off( );
+		$(".cel").each(function(){
+			SetFadeTimeout($(this)); });
+		Intermission();
+	}
+	
+}
+
+function PuzzleDoneSmall(){
+	
+	$(".cel").off( );
+	$(".cel").each(function(){
+		SetBlinkTimeout($(this)); });
+	$(".vc, .hc").each(function(){
+		SetFadeTimeout($(this)); }); 
+}
+function PuzzleDoneLarge(){
+	
+	$(".cel").off( );
+	$(".cel").each(function(){
+		SetFadeTimeout($(this)); });
+	$(".vc, .hc").each(function(){
+		SetFadeTimeout($(this)); }); 
+	$("#dGrid").css("background-image","url('images/puzzles/"+CurCode()+".bmp')");
+}
+
 function SetBlinkTimeout(cell){
 	var x = parseInt(cell.attr("data-x"))+0;
 	var y = parseInt(cell.attr("data-y"))+0;

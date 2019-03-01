@@ -1,10 +1,17 @@
 
 
 function GetPuzData(code ){
+	var puz =  arrPuzzles[code] ;
+	return puz;
+}
+function isLargePuzzle(code ){
 	 
+	if(typeof code === "undefined"){
+		 code=CurCode();
+	}
 	var puz =  arrPuzzles[code] 
 	  
-	return puz;
+	return puz.length>440;
 }
 
 
@@ -23,6 +30,7 @@ function LoadPuz(code, part){
 	SizeGrid(Math.sqrt(puz.length));
 	return puz;
 }
+
 var arrPuzzles={"01-01-01":"1111111111111111111111111",
 "01-01-02":"1000011000111001111011111",
 "01-01-03":"1101110001000001000111011",

@@ -5,6 +5,9 @@ function SizeGrid(dim){
 	if(dim ==8){
 		gCurMarkSize=35;
 	}
+	if(dim ==10){
+		gCurMarkSize=24;
+	}
 	if(dim ==12){
 		gCurMarkSize=24;
 	}

@@ -3,21 +3,21 @@
 	  
 	 DialogueOpen();  
 	 $("#dPuzzles").html("<div id='dTitle'> </div><div id='dLogo'> </div>"); 
-	 setTimeout(FadeOutLogo,1000);
-	 setTimeout(FadeInTitle,1000);
+	 setTimeout(FadeOutLogo,1 );
+	 setTimeout(FadeInTitle,1 );
 	 $("#dTitle").on("click",FadeOutTitle);
 	 
  } 
  function FadeOutLogo(){
-	 $("#dLogo").fadeOut(2000);
+	 $("#dLogo").fadeOut(2 );
  }
  function FadeInTitle(){
-	 $("#dTitle").fadeIn(2000,function(){
+	 $("#dTitle").fadeIn(2 ,function(){
 		 $("dLogo").remove();
 		 });
  }
  function FadeOutTitle(){
-	 $("#dTitle").fadeOut(2000,function(){ 
+	 $("#dTitle").fadeOut(2 ,function(){ 
 		 InitStageSelect();
 		 });
  }

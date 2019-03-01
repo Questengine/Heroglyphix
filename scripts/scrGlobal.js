@@ -1,5 +1,5 @@
 var constPortraitWid = 100;
-var constPortraitHgt = 150;
+var constPortraitHgt = 134;
 var constPortraitPerRow = 8;
 
 var gLocation = 1;
@@ -29,3 +29,5 @@ var gTimerInterval;
 var gPuzTimeMax = 360;
 var gPuzTime = 360;
 
+var gNextText = true;//true if "next" advances to more text		
+					// false if "next" advances to next puz

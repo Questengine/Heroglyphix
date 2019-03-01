@@ -60,6 +60,9 @@ function BuildUPP(){
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
 	return !gUPP[code].includes("0");
 }
 function isPuzzlePartComplete(code,part){

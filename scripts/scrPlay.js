@@ -51,7 +51,6 @@ function CheckCompletion(){
 	if(IsFinished()){
 		//alert("done");
 		$(".cel").off( );
-		ShowHideProgressButton(true);
 		PuzzleDone();
 	}
 	

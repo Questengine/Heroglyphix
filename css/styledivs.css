@@ -24,11 +24,11 @@
 	border:none;
 }
 #dPortrait{
+	top:40px;
 	border-color: red ;
-	top:33px;
-	left:33px;
+	left:41px;
 	width:100px;
-	height:150px;
+	height:134px;
 	opacity:0.5;
 }
 

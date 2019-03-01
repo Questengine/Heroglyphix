@@ -48,9 +48,9 @@
 		$("#dGrid").mouseup(MarkNone);
 		$(".onemark").click(MarkSelected); 
 		
-		$("#dQuickNav").click(function(){InitLocPuz(StageName())});
+		$("#dQuickNav").click(function(){InitLocPuz(GetCodeStage(CurCode()))});
 		$(".close").click(DialogueClose);
-		$("#dSpeechNext").click(SpeechNext);
+		$("#dSpeechNext").click(StoryNext);
 		$("#dPortrait").click(AutoSolve);
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false);
