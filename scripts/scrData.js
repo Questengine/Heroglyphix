@@ -7,11 +7,7 @@ function StageName(stagecode){
 	 }
 	 return arrStages[stagecode];
 }
-//var arrLocationNames = {
-	//"Library":"Library,ReadingRoomII",
-	//"Skimlet":"Blacksmith,TownSquare,Pasticceria,ShadeStreet,AxeAndStump,Farm,WizlabHoward",
-	//"Howard":"EoForrest,DeeperForest,Lanternsbane,TRexValley,Shoreline,Steamer,WizlabJudith"
-//};
+
  
 function LocCount(stagecode){
 	if(typeof stagecode === "undefined"){
@@ -47,6 +43,11 @@ var arrGameScript={
 	//stagenum,locname, puzcount,
 	"AxeAndStump":"2,5,8"
 };
+function ADMINMarkPuzzleComplete(code){
+	var puzparts = gUPP[code];
+	var newdata =puzparts.replace(/0/g,"1"); 
+	gUPP[code]= newdata;
+}
 function BuildUPP(){
 	var i = 0;
 	for(var code in arrPuzzles){
@@ -57,6 +58,16 @@ function BuildUPP(){
 		gUPP[code] = progress;
 		i++;
 	}
+	ADMINMarkPuzzleComplete("03-05-01");
+	ADMINMarkPuzzleComplete("02-02-08");
+	ADMINMarkPuzzleComplete("05-02-01");
+	ADMINMarkPuzzleComplete("04-05-03");
+	ADMINMarkPuzzleComplete("05-04-01");
+	ADMINMarkPuzzleComplete("05-05-01");
+	ADMINMarkPuzzleComplete("05-05-02");
+	ADMINMarkPuzzleComplete("05-05-03");
+	ADMINMarkPuzzleComplete("05-05-04");
+	ADMINMarkPuzzleComplete("05-05-05");
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done

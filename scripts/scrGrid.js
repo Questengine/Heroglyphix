@@ -58,6 +58,37 @@ function BuildTable(totalcols, totalrows,classname){
 	return strTable;
 	
 }
+function BuildShowPuzzle(puz){
+	var dim = Math.sqrt(puz.length);
+	SizeGrid(dim);
+	var size = gCurMarkSize;
+	var totalrows = dim;
+	var totalcols = dim;	
+	var strGrid = "<div id='dShow'>";
+
+	for(y = 0;y<dim;y++){
+		for(x = 0;x<dim;x++){
+			var left = x*size;
+			var top = y*size;
+			var index= x+y*dim;
+			var thischar = puz.substring(index, index+1);
+			if(thischar=="0"){mark = "out";}
+			else{mark = "in";}
+			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
+			var onecel  = "<div class='dCell cel5' data-mark='"+mark+"' style='left:"+left+"px; top:"+top+"px'  data-x='"+x+"' data-y='"+y+"'></div>";
+			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
+			strGrid += onecel;
+		}	
+	}
+	strGrid += "</div>";
+	$("#dGrid").html(strGrid);
+	$(".dCell").fadeIn(0).addClass("squarecel");
+	//$("[data-mark='in']").css("visibility","hidden");
+	//$(".dCell").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
+	ReDrawGrid();
+
+	
+}
 function BuildTableRow(totalcols, thisrow,classname){
 	var strRow = "<tr class='onerow'>";
 	for(var col=0;col<totalcols;col++){
@@ -183,4 +214,52 @@ function FillCluesH(puz){
 			
 		}
 }
+ 
+function Translate(puz){
+//	var puz = "0100010101000010010001001010011010100100111101111011010101011100,1100000000110000011000001010001000100101101010010110111101110110,0011110000000110000010010000100000010000000101010010101100011111,1100110011110000011000000011000010110000010110100110111011111100";
+	var res = "";
+	var px = 0;
+	var py = 0;
+	var parts = puz.split(",");	
+	
+	var pcount = parts.length;
+	var fcount = parts[0].length*pcount;//all the cells in the whole thing
+//	var fdim = Math.sqrt(fullcount)//dim of whole thing
+	var pdim=Math.sqrt(pcount);///parts dimension, 3 on a 3x3 puzzle
+	var tdim=Math.sqrt(parts[0].length);//how many cells per tablet/part
+	var rowarray= [];; 
+	for(yy=0;yy<pdim;yy++){
+		for(y=0;y<tdim;y++){
+			for(xx=0;xx<pdim;xx++){
+				//for(x=0;x<pdim;x++){
+					var ai =  xx+yy*pdim;
+					res +=parts[ai].substring(0,tdim);
+					parts[ai] = parts[ai].substring(tdim);
+				//} 
+			} 
+		} 
+	} 
+
+
+ 
+	return res;
+}
+
+
+function ReDrawGrid(){
+	$("[data-mark='in']").each(function(){
+		SetMarkTimeout($(this));
+	});
+}
+function ClearGrid(){
+	$(".cel").each(function(){
+		$(this).css("background-position",markposout);
+	});
+}	
+      
+
+
+
+
+
 

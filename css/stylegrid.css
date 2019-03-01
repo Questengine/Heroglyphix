@@ -1,11 +1,19 @@
+.dCell{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	border:none;
+	min-height:14px;
+	min-width:14px; 
+}
 .rowlocpuz{
 	height:50px;
 }
-.celllocation{
-	border-bottom:3px solid black;
-}
-.celllocpuz{
-	border:1px solid red;
+
+.cel5{
+	width:5px; 
+	height:5px;
+	background-image:url('../images/marks/marks5.png')
 }
 
 .cel14{

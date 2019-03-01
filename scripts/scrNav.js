@@ -1,4 +1,4 @@
-function GameScript(){
+/*function GameScript(){
 	
 	var stagename = arrStages[gStage];
 	var arrlocations = arrLocationNames[stagename].split(",");
@@ -6,7 +6,7 @@ function GameScript(){
 	var loccode = CurCode();
 	var curpuz = arrPuzzles[loccode];
 }
-
+*/
 function StartPuz(code ){
 	
 	 if(typeof code === "undefined"){
@@ -21,28 +21,29 @@ function StartPuz(code ){
 		
 	}
 }
+//advance all global vars to next puzzle, location, stage as needed
 function AdvanceLevel(){	
+//autoadvance is simple-advance, without glyphlet selection
+	var autoadvance = true;
 	var code = CurCode();
 	if(isPuzzleComplete(code)){
+		autoadvance = true;
 		gPuzzle++; 
 		if(gPuzzle>PuzCount(gStage,gLocation)){
 			//and all puzzles done in this location
-			gPuzzle=0;gLocation++;
+			gPuzzle=1;gLocation++;
 		}
-		if(gLocation>LocCount(arrStages[gStage])){gLocation=0;gStage++;}
+		if(gLocation>LocCount(arrStages[gStage])){gLocation=1;gStage++;}
 	}
 	else{
-		InitGlyphlets(code);
+		autoadvance = false;
 	}
+	return autoadvance;
 } 
 function Init(code, part){
-	 if(typeof code === "undefined"){
-		 code=CurCode();
-	 }
-	 if(typeof part === "undefined"){
-		 part=0;
-	 }
-	 gPart = part;
+	if(typeof code === "undefined"){ 	 code=CurCode();  }
+	if(typeof part === "undefined"){ 	 part=0;  }
+	gPart = part;
 	var puz = LoadPuz(code, part);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
@@ -58,12 +59,21 @@ function StoryNext(){
 		SpeechNext();
 	}
 	else{
-		
+		if(AdvanceLevel()){
+			//if auto advance, go ahead and init next level'
+			//otherwise init will happen after glyphles selectin
+			Init();
+		}
+		else{
+			InitGlyphlets();
+		}
+		ShowHideProgressButton(false);
 	}
 }
-function SpeechNext(){
+function SpeechNext(){ 
 	gTextItr++;
-	if(gTextItr != arrText.length){
+	//iterate through the speech text with pics and bubs
+	if(gTextItr < arrText.length){
 		var textline = arrText[gTextItr];
 		if(textline.startsWith("pic")){
 			var imgid = textline.split(" ")[1];
@@ -83,17 +93,12 @@ function SpeechNext(){
 			RedrawText(texttodraw);
 		} 
 	}
-	else{//done with text, advance level
+	//if this was thelastt text bit, then done with text,
+	if(gTextItr+1 == arrText.length){
 		gNextText = false;
-		AdvanceLevel();
-		Init();
-		ShowHideProgressButton(false);
+		$("#dSpeechNext").html("PUZ")
 	}
 	
-}
-function RedrawSpeechBubble(imgy){
-	imgy++;
-	$("#dSpeech").css("background-image", "url('images/bubble"+imgy+".png')");
 }
 function RedrawPortrait(imgid, picid){
 	var picx = picid % constPortraitPerRow;
@@ -105,33 +110,15 @@ function RedrawPortrait(imgid, picid){
 	$("#dPortrait").css("background-position-x",picx +"px");
 	$("#dPortrait").css("background-position-y",picy+"px" );
 }
-function RedrawText(texttodraw){
-	$("#pSpeech").text(texttodraw);
-}
-function DialogueOpen(){
-	$("#dDialogue").slideDown();
-}
-function DialogueClose(){
-	$("#dDialogue").slideUp();
-}
-function ShowHideProgressButton(tf){
-	if(tf){
-		$("#dSpeechNext").slideDown();
-	}
-	else{
-		$("#dSpeechNext").slideUp();
-	}
-}
+
 function StartDialogue(){
-	gNextText=true;
 	ShowHideProgressButton(true);
 	SpeechNext();
 }
 function Intermission(){
-	gNextText= false;
+	ShowHideProgressButton(true);	
 	RedrawSpeechBubble(4);
 	RedrawText("Intermission:  4 of 89 pieces remain");
-	ShowHideProgressButton(true);	
 }
 function PuzzleDone(){
 	
@@ -140,21 +127,27 @@ function PuzzleDone(){
 		if(isLargePuzzle()){
 			PuzzleDoneLarge(); }
 		else{
-			PuzzleDoneSmall(); } 
+			PuzzleDoneSmall(); }
+		gNextText=true; 
+		$("#dSpeechNext").html("txt"); 
+		StopTimer();
 		StartDialogue();
-		clearInterval(gTimerInterval); 
-		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
 	}
 	else{
 		
 		$(".cel").off( );
 		$(".cel").each(function(){
 			SetFadeTimeout($(this)); });
+		gNextText= false;
+		$("#dSpeechNext").html("PUZ")
 		Intermission();
-	}
-	
+	} 
 }
 
+function StopTimer(){ 
+		clearInterval(gTimerInterval); 
+		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
+}
 function PuzzleDoneSmall(){
 	
 	$(".cel").off( );
@@ -162,6 +155,12 @@ function PuzzleDoneSmall(){
 		SetBlinkTimeout($(this)); });
 	$(".vc, .hc").each(function(){
 		SetFadeTimeout($(this)); }); 
+/*
+BuildShowPuzzle(LoadPuz(CurCode()));
+	$(".cel").addClass("squarecel");
+	$(".cel").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
+ReDrawGrid();
+*/
 }
 function PuzzleDoneLarge(){
 	
@@ -170,7 +169,12 @@ function PuzzleDoneLarge(){
 		SetFadeTimeout($(this)); });
 	$(".vc, .hc").each(function(){
 		SetFadeTimeout($(this)); }); 
-	$("#dGrid").css("background-image","url('images/puzzles/"+CurCode()+".bmp')");
+//	$("#dGrid").css("background-image","url('images/puzzles/"+CurCode()+".bmp')");//
+
+
+	BuildShowPuzzle(Translate(GetPuzData(CurCode())));  
+	ReDrawGrid();
+
 }
 
 function SetBlinkTimeout(cell){
@@ -191,5 +195,21 @@ function FadeClue(cell){
 	cell.css("opacity","0.5");
 }
 function BlinkMark(cell){
-	cell.fadeOut(200).fadeIn(666);
+	Blink(cell);
 }
+
+function ShowHideProgressButton(tf){
+	if(tf){
+		$("#dSpeechNext").slideDown();
+	}
+	else{
+		$("#dSpeechNext").slideUp();
+	}
+}
+function RedrawSpeechBubble(imgy){
+	imgy++;
+	$("#dSpeech").css("background-image", "url('images/bubble"+imgy+".png')");
+}
+function RedrawText(texttodraw){ $("#pSpeech").text(texttodraw);}
+function DialogueOpen(){ $("#dDialogue").slideDown(); }
+function DialogueClose(){ $("#dDialogue").slideUp(); }

@@ -4,6 +4,9 @@ function GetPuzData(code ){
 	var puz =  arrPuzzles[code] ;
 	return puz;
 }
+function GetPuzDataLarge(code){
+	return GetPuzData(code).replace(/,/g, "");
+}
 function isLargePuzzle(code ){
 	 
 	if(typeof code === "undefined"){
@@ -11,7 +14,7 @@ function isLargePuzzle(code ){
 	}
 	var puz =  arrPuzzles[code] 
 	  
-	return puz.length>440;
+	return puz.length>444;
 }
 
 

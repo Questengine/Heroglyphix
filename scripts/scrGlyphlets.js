@@ -1,5 +1,6 @@
 function InitGlyphlets(code){
 	
+	if(typeof code === "undefined"){  code=CurCode();  }
 	var puzdata = GetPuzData(code);
 	if(puzdata.includes(",")){
 		var arrPuz = puzdata.split(",");
@@ -8,6 +9,7 @@ function InitGlyphlets(code){
 		 //$("#dPuzzles").html(BuildLocPuzConfirm());
 		 $(".glyphlet").on("click",PromptGlyphletConfirm);
 		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed); 
+		$("#dGlyphletConfirm").fadeOut(1);
 		 $(".glyphlet").css("background-image","url('images/extras/glyphlet"+count+".png')");
 		 $("#tblGlyphlets").css("background-image","url('images/puzzles/"+code+".bmp')");
 		DialogueOpen();
@@ -25,7 +27,7 @@ function InitGlyphlets(code){
 		 strTable += "<tr>";
 		 for(var x = 0;x<dim;x++){
 			 var i = 0;
-			 i = x+y*dim;
+			 i = x+y*dim; 
 			 var display =   "background-position:111px 111px"
 			 if(!isPuzzlePartComplete(CurCode(),i)){
 				display = PuzzlePartUndone(count,i)
@@ -48,6 +50,7 @@ function InitGlyphlets(code){
 	 var code = $(this).attr("data-gid");
 	 $("#dGlyphletConfirm").html("Load " + code + "?");
 	 $("#dGlyphletConfirm").attr( "data-parttoload",code );
+	Blink($("#dGlyphletConfirm"));
  }
  function GlyphletConfirmed(){
 	 var part = $(this).attr("data-parttoload");

@@ -11,11 +11,14 @@ function SizeGrid(dim){
 	if(dim ==12){
 		gCurMarkSize=24;
 	}
-	if(dim ==15){
+	if(dim >=15){
 		gCurMarkSize=20;
 	}
 	if(dim ==20){
 		gCurMarkSize=14;
+	}          
+	if(dim >20){
+		gCurMarkSize=5;
 	}
 	  
 	gClassCellSize = "cel"+gCurMarkSize;
@@ -99,16 +102,6 @@ function MarkSelected(){
 	
 	ReDrawGrid();
 	
-}
-function ReDrawGrid(){
-	$(".squarecel[data-mark='in']").each(function(){
-		SetMarkTimeout($(this));
-	});
-}
-function ClearGrid(){
-	$(".cel").each(function(){
-		$(this).css("background-position",markposout);
-	});
 }
 function SetMarkTimeout(cell){
 	var x = parseInt(cell.attr("data-x"))+0;

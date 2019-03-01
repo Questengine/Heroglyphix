@@ -10,6 +10,7 @@
 	 //$("#dPuzzles").html(BuildLocPuzConfirm());
 	 $(".celllocpuz").on("click",PromptLocPuz);
 	 $("#dLocPuzConfirm").on("click",LocPuzConfirmed);
+	 $("#dLocPuzConfirm").fadeOut(1);
  }
  
  function BuildLocPuz(stagecode){
@@ -38,7 +39,13 @@
 	 var p = 1;
 	 for (var key in arrPuzzles) {
 		if(key.substring(0,5) == locationcode){
-			res += "<td class='celllocpuz' data-puz='"+key+"'>P"+p+"</td>";
+			var pic = p;
+			var style="style='background-image:url(images/extras/p"+p+".png)'";
+			if(isPuzzleComplete(key)){
+				style="style='background-image:url(images/puzzles/"+key+".bmp)'";
+			}
+			
+			res += "<td class='celllocpuz' data-puz='"+key+"' "+style+"></td>";
 			p++;
 		} 
 	} 
@@ -55,6 +62,7 @@
 	 var code = $(this).attr("data-puz");
 	 $("#dLocPuzConfirm").html("Load " + code + "?");
 	 $("#dLocPuzConfirm").attr( "data-puztoload",code );
+	Blink($("#dLocPuzConfirm"));
  }
  function LocPuzConfirmed(){
 	 var code = $(this).attr("data-puztoload");
