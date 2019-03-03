@@ -43,13 +43,18 @@ function AdvanceLevel(){
 function Init(code, part){
 	if(typeof code === "undefined"){ 	 code=CurCode();  }
 	if(typeof part === "undefined"){ 	 part=0;  }
+	$("#dShow").fadeOut("fast",function(){
+				$("#dShow").remove();
+	})
 	gPart = part;
 	var puz = LoadPuz(code, part);
 	BuildGrid(Math.sqrt(puz.length));
 	LoadLocationText();
 	gPuzTime = gPuzTimeMax;
 	clearInterval(gTimerInterval);
+	clearInterval(gHourGlassInterval);
 	gTimerInterval=setInterval(TimerTick,1000);
+	gHourGlassInterval=setInterval(HourGlass,500);
 	
 	gTextItr=-1;
 	
@@ -117,8 +122,8 @@ function StartDialogue(){
 }
 function Intermission(){
 	ShowHideProgressButton(true);	
-	RedrawSpeechBubble(4);
-	RedrawText("Intermission:  4 of 89 pieces remain");
+	RedrawSpeechBubble(3);
+	RedrawText(IntermissionText());
 }
 function PuzzleDone(){
 	
@@ -129,7 +134,7 @@ function PuzzleDone(){
 		else{
 			PuzzleDoneSmall(); }
 		gNextText=true; 
-		$("#dSpeechNext").html("txt"); 
+		//$("#dSpeechNext").html(""); 
 		StopTimer();
 		StartDialogue();
 	}
@@ -139,13 +144,14 @@ function PuzzleDone(){
 		$(".cel").each(function(){
 			SetFadeTimeout($(this)); });
 		gNextText= false;
-		$("#dSpeechNext").html("PUZ")
+		//$("#dSpeechNext").html("")
 		Intermission();
 	} 
 }
 
 function StopTimer(){ 
 		clearInterval(gTimerInterval); 
+		clearInterval(gHourGlassInterval); 
 		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
 }
 function PuzzleDoneSmall(){

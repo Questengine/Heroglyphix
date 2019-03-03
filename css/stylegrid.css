@@ -3,19 +3,18 @@
 	margin:0px;
 	padding:0px;
 	border:none;
-	min-height:14px;
-	min-width:14px; 
 }
 .rowlocpuz{
-	height:50px;
+	/*height:50px;*/
 }
 
 .cel5{
-	width:5px; 
-	height:5px;
-	background-image:url('../images/marks/marks5.png')
+	min-height:5px;
+	min-width:5px; 
+	/*background-image:url('../images/marks/marks5.png')*/
 }
 
+<<<<<<< HEAD
 .cel12{
 	height:12px;
 	min-width:12px; 
@@ -23,6 +22,31 @@
 .cel16{
 	height:16px;
 	min-width:16px; 
+=======
+.cel7{
+	min-height:7px;
+	min-width:7px; 
+	/*background-image:url('../images/marks/marks7.png')*/
+}
+.cel8{
+	min-height:8px;
+	min-width:8px; 
+	background-image:url('../images/marks/marks8.png')
+}
+.cel10{
+	height:10px;
+	min-width:10px;  
+	font-size:small;
+}
+.cel14{
+	height:14px;
+	min-width:14px; 
+>>>>>>> 2fcec78b71130dad0eb993b9e7a4e4eda06ae0e2
+}
+.cel16{
+	height:16px;
+	min-width:16px;  
+	font-size:small;
 }
 .cel20{
 	height:20px;
@@ -32,11 +56,56 @@
 	height:24px;
 	min-width:24px; 
 }
+<<<<<<< HEAD
+.cel30{
+	height:30px;
+	min-width:30px; 
+=======
+
+.cel32{
+	height:32px;
+	min-width:32px; 
+}
 .cel30{
 	height:30px;
 	min-width:30px; 
 }
+
+.cel35{
+	height:35px;
+	min-width:35px; 
+>>>>>>> 2fcec78b71130dad0eb993b9e7a4e4eda06ae0e2
+}
 .cel40{
 	min-width:40px; 
 	height:40px;
+	font-size:large;
+}
+
+#tblPlay{
+        border-collapse: collapse;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.cel{
+	border:none; 
+}
+.cel:hover{
+	box-shadow: 0px 0px 2px 2px  #888888; 
+}
+
+.squarecel{ 
+	user-select:none;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+.uc{
+	border:none;
+	user-select:none; 
+}
+.ulight{
+	background-color:rgba(222,222,222,0.6);
 }

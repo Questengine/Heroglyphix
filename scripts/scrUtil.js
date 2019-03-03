@@ -16,11 +16,11 @@ function SizeGrid(dim){
 	}
 	if(dim ==20){
 		gCurMarkSize=12;
-	}          
-	if(dim >20){
-		gCurMarkSize=5;
 	}
-	  
+	if(dim >20){
+		gCurMarkSize=8;
+	}
+
 	gClassCellSize = "cel"+gCurMarkSize;
 	markposnot = "0px -" +gCurMarkSize*3 + "px";
 	markposout = "-"+gCurMarkSize*9+"px -" +gCurMarkSize*3 + "px";
@@ -31,7 +31,7 @@ function LoadLocationText(){
 	arrText = gText.split("newline,");
 }
 
-function LoadPuz43123Code(code){ 
+function LoadPuz43123Code(code){
 	var puz = arrPuzzles[code];
 	gPuzCorrect = puz;
 	return puz;
@@ -79,7 +79,7 @@ function FillMarkMenu(){
 	var markimagerows=3;
 	for(var y =0;y<menuy;y++){
 		for(var x =0;x<menux;x++){
-			var markid = x+ y*menux;	
+			var markid = x+ y*menux;
 			var posx= markid % markimagecols;
 			var posy= Math.floor(markid / markimagecols);
 			posx*=markimagedim;
@@ -99,9 +99,9 @@ function MarkSelected(){
 	x*=gCurMarkSize;
 	y*=gCurMarkSize;
 	markposin = x +  "px " + y+"px";
-	
+
 	ReDrawGrid();
-	
+
 }
 function SetMarkTimeout(cell){
 	var x = parseInt(cell.attr("data-x"))+0;
@@ -126,21 +126,21 @@ function AutoSolve(){
 			if(thischar=="0"){mark = "out";}
 			else{mark = "in";}
 			$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
-		}	
-	}	 
+		}
+	}
 	ClearGrid();
 	ReDrawGrid();
 	CheckCompletion();
 }
 function StageBackground( ){
-	
+
 	$("#dFullScreen").css("background-image","url('images/locations/gp"+pad(gStage)+".png')") ;
 }
 function bwpx(s){
 	var res = s.replace("px","");
 	var ires = parseInt(res);
 	return ires;
-	
+
 }
 function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');

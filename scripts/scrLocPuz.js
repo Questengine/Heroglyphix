@@ -6,7 +6,20 @@
 	 SetStage(stagecode);
 	 DialogueOpen();
 	 var locpuz = BuildLocPuz(stagecode)+BuildLocPuzConfirm();
+	 
 	 $("#dPuzzles").html(locpuz).fadeIn();
+	 $(".celllocation").each(function(){
+		var x = $(this).attr("data-picx");
+		var y = $(this).attr("data-picy");
+		var imageid = $(this).attr("data-imageid");
+		var style = "background-image:url('images/locations/l-name"+imageid+".png')";
+		$(this).css({
+			"background-image":"url('images/locations/l-name"+imageid+".png'",
+			"background-position":"-"+x+"px -"+y +"px",
+		})
+	 });
+	 
+	 $("#dPuzzles").fadeIn();
 	 //$("#dPuzzles").html(BuildLocPuzConfirm());
 	 $(".celllocpuz").on("click",PromptLocPuz);
 	 $("#dLocPuzConfirm").on("click",LocPuzConfirmed);
@@ -22,7 +35,7 @@
 	 //for each location
 	for (var key in arrLocationNames) {
 		if(key.substring(0,2) == stagecode){ 
-		 	strTable += "<tr class='rowlocpuz'>"+LocName(arrLocationNames[key])+PuzList(key)+"</tr>"; 
+		 	strTable += "<tr class='rowlocpuz'>"+LocNamePic(key)+PuzList(key)+"</tr>"; 
 		} 
 	} 
 	
@@ -30,7 +43,7 @@
 	strTable += "</table>";
 	return strTable;	
  }
- function LocName(name){
+ function LocNameOLD(name){
 	 return "<td  class='celllocation'>"+name+"</td>";
  }
  function PuzList(locationcode){
@@ -77,4 +90,20 @@
 	  $(".hideonload").fadeIn();
 	 
  }
- 
+ function LocNamePic(code){
+	var locStage = parseInt(code.split("-")[0]);
+	locStage-=1;//loc numbers are zero based in filenames;
+	locStage = pad(locStage);
+	var locNameIndex = parseInt(code.split("-")[1]);
+	var locnamex = locNameIndex % constLocNamePerRow;
+	var locnamey = Math.floor(locNameIndex/constLocNamePerRow);
+	locnamex*= constLocNameWid;
+	locnamey*= constLocNameHgt;
+	var lnameimageid="data-imageid='"+locStage+"'";
+	var lnamepicx="data-picx='"+locnamex+"'";
+	var lnamepicy="data-picy='"+locnamey+"'";
+	var picdata = lnameimageid + " " +lnamepicx +" " + lnamepicy;
+	 var celllocation = "<td class='celllocationtd'><div class='celllocation' "+picdata+"></div></td>";
+	return celllocation;
+}
+	 
