@@ -2,6 +2,10 @@ var constPortraitWid = 100;
 var constPortraitHgt = 134;
 var constPortraitPerRow = 8;
 
+var constLocNameWid = 101;
+var constLocNameHgt = 23;
+var constLocNamePerRow = 7;
+
 var gLocation = 1;
 var gStage = 1;
 var gPuzzle = 1;
@@ -24,8 +28,11 @@ var gPalletMarkSize=20;
 var gCurMarkSize=40;
 var gClassCellSize="cel20";
 
+var gHourGlassFrame=0;
+var gSandFrame =0;
 
 var gTimerInterval;
+var gHourGlassInterval;
 var gPuzTimeMax = 360;
 var gPuzTime = 360;
 

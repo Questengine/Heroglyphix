@@ -20,6 +20,7 @@ function PoxStart(){
 	var rand= Math.floor(Math.random() * count);  
 	
 	gCurAnim = gPoxAll[rand];
+	$("#dPox").css("display","block");
 	$("#dPox").fadeIn();
 }
 

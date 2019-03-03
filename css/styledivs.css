@@ -15,6 +15,7 @@
 
     border-collapse:collapse;
     border-spacing:0;
+	border:none;
 }
 #dGridPlay{
 	/*/background-image:url("../images/grid.png") ;*/
@@ -98,9 +99,11 @@
 	position:absolute;
 	top:0px;
 	left:0px;
+	border:none;
 }
 #tblLocPuz{
-	width:555px; 
+	/*width:555px;*/ 
+	border:none;
 }
 #dGlyphlets{
 	display:block;
@@ -196,6 +199,8 @@
 	background-image:url("../images/pox.png");
 	width:80px;
 	height:80px;
+	display:none;
+	z-index:20;
 }
 #dPoxHp{
 	margin-left:86px;
@@ -205,3 +210,26 @@
 	font-weight:bold;
 	font-style:italic;
 }
+#dShow{ 
+	margin-top:70px;
+  	
+}
+#dHourGlass{ 
+	border:none;
+	top:180px;
+	left:695px;
+	width:61px;
+	height:93px;
+	background-image:url("../images/extras/sflow.png") ; 
+}
+
+#dSand{ 
+	border:none;
+	top:20px;
+	left:13px;
+	width:35px;
+	height:54px;
+	z-index:10;
+	background-image:url("../images/extras/slevel.png") ; 
+}
+

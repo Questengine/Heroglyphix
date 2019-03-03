@@ -1,7 +1,8 @@
 function BuildGrid(dim){
 	
-	 
-	$("#tblGrid").fadeOut(2222,function(){ BuildGridDelayed(dim) });
+
+	$("#tblGrid, #dShow").fadeOut(1222);
+	setTimeout(BuildGridDelayed(dim),1500);
 	//RemoveOldGrid();
 	
 	//setTimeout(function(){ BuildGridDelayed(dim); }, 3111);
@@ -31,8 +32,9 @@ function BuildGridDelayed(dim){
 	$(".cel").attr("data-mark","not");
 	$(".cel").on("mouseover",MousedOver);
 	$(".cel").on("mouseup",MarkNone);
-	$(".cel, .vc, .hc").addClass("squarecel");
-	$(".cel, .vc, .hc").addClass(gClassCellSize);
+	$(".hc, .vc").addClass("uc");
+	$(".cel, .uc").addClass("squarecel");
+	$(".cel, .uc").addClass(gClassCellSize);
 	$(".cel").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
 	$(".cel").each(function(){
 		$(this).css("background-position",markposnot); 
@@ -98,7 +100,14 @@ function BuildTableRow(totalcols, thisrow,classname){
 	return strRow;
 }
 function BuildTableCell(cellx,celly,classname){
-	return "<td class='"+classname+"' style='display:none' data-x='"+cellx+"' data-y='"+celly+"'>_</td>";
+	var classbg = "";
+	if(classname == "vc" && cellx % 2 ==0 ){
+		classbg = " ulight";
+	}
+	if(classname=="hc" && celly % 2 ==0 ){
+		classbg = " ulight";
+	}
+	return "<td class='"+classname+classbg+"' style='display:none' data-x='"+cellx+"' data-y='"+celly+"'></td>";
 }
 
 function BuildPuzzle(puz){
@@ -115,7 +124,7 @@ function FillInGrid(puz){
 			var index= x+y*dim;
 			var thischar = puz.substring(index, index+1);
 			if(thischar=="0"){
-				mark = "_";
+				mark = "";
 			}
 //			$(".cel[data-x='"+x+"'][data-y='"+y+"']").html(mark);
 		}	
