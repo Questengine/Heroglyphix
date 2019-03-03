@@ -9,16 +9,16 @@ function SizeGrid(dim){
 		gCurMarkSize=24;
 	}
 	if(dim ==12){
-		gCurMarkSize=24;
+		gCurMarkSize=20;
 	}
 	if(dim >=15){
-		gCurMarkSize=20;
+		gCurMarkSize=10;
 	}
 	if(dim ==20){
 		gCurMarkSize=14;
 	}          
 	if(dim >20){
-		gCurMarkSize=5;
+		gCurMarkSize=8;
 	}
 	  
 	gClassCellSize = "cel"+gCurMarkSize;

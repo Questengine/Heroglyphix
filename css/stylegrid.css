@@ -3,8 +3,6 @@
 	margin:0px;
 	padding:0px;
 	border:none;
-	min-height:14px;
-	min-width:14px; 
 }
 .rowlocpuz{
 	height:50px;
@@ -16,6 +14,21 @@
 	background-image:url('../images/marks/marks5.png')
 }
 
+.cel7{
+	width:7px; 
+	height:7px;
+	background-image:url('../images/marks/marks7.png')
+}
+.cel8{
+	width:8px; 
+	height:8px;
+	background-image:url('../images/marks/marks8.png')
+}
+.cel10{
+	height:10px;
+	min-width:10px; 
+	background-image:url('../images/marks/marks10.png')
+}
 .cel14{
 	height:14px;
 	min-width:14px; 

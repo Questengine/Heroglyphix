@@ -21,6 +21,8 @@
   <script src="scripts/scrStageSelect.js"></script>
   <script src="scripts/scrSplashTitle.js"></script>
   <script src="scripts/scrAnim.js"></script>
+  <script src="scripts/scrDataPox.js"></script>
+  <script src="scripts/scrPox.js"></script>
    
   <link rel="stylesheet" href="css/stylemaster.css">
   <link rel="stylesheet" href="css/styledivs.css">
@@ -53,8 +55,11 @@
 		$(".close").click(DialogueClose);
 		$("#dSpeechNext").click(StoryNext);
 		$("#dPortrait").click(AutoSolve);
+		$("#dLocation").click(PoxStart);
+		$("#dPox").click(PoxHit);
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false); 
+		
 		//Translate("es");
 	});//end document.ready
   </script>
@@ -77,10 +82,14 @@ dPortrait
  <div id="tblGrid"></div>
 	</div  ><!-- end div gridplay --> 
 	</div  ><!-- end div grid --> 
-  
+
 	<div id="dLocation" class="hideonload">
   dLocation
 	</div  ><!-- end div location --> 
+	<div id="dPox" class="hideonload">
+		<div id="dPoxHp">
+		</div  ><!-- end div poxHp --> 
+	</div  ><!-- end div pox --> 
 	 
 	<div id="dMarks" class="hideonload">
 	<table>

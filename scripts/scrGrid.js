@@ -75,7 +75,7 @@ function BuildShowPuzzle(puz){
 			if(thischar=="0"){mark = "out";}
 			else{mark = "in";}
 			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
-			var onecel  = "<div class='dCell cel5' data-mark='"+mark+"' style='left:"+left+"px; top:"+top+"px'  data-x='"+x+"' data-y='"+y+"'></div>";
+			var onecel  = "<div class='dCell cel"+size+"' data-mark='"+mark+"' style='left:"+left+"px; top:"+top+"px'  data-x='"+x+"' data-y='"+y+"'></div>";
 			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
 			strGrid += onecel;
 		}	

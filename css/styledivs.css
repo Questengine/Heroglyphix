@@ -191,3 +191,17 @@
 	z-index:10; 
   transform: translate(-50%, -50%);
 }
+#dPox{
+	border:none;
+	background-image:url("../images/pox.png");
+	width:80px;
+	height:80px;
+}
+#dPoxHp{
+	margin-left:86px;
+	margin-top:-30px;
+	color:red;
+	font-size:xx-large;
+	font-weight:bold;
+	font-style:italic;
+}
