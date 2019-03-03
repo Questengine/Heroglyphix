@@ -92,7 +92,7 @@
  }
  function LocNamePic(code){
 	var locStage = parseInt(code.split("-")[0]);
-	locStage+=1;//loc numbers are zero based in filenames;
+	locStage-=1;//loc numbers are zero based in filenames;
 	locStage = pad(locStage);
 	var locNameIndex = parseInt(code.split("-")[1]);
 	var locnamex = locNameIndex % constLocNamePerRow;

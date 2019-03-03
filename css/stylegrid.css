@@ -9,28 +9,34 @@
 }
 
 .cel5{
-	width:5px; 
-	height:5px;
-	background-image:url('../images/marks/marks5.png')
+	min-height:5px;
+	min-width:5px; 
+	/*background-image:url('../images/marks/marks5.png')*/
 }
 
 .cel7{
-	width:7px; 
-	height:7px;
-	background-image:url('../images/marks/marks7.png')
+	min-height:7px;
+	min-width:7px; 
+	/*background-image:url('../images/marks/marks7.png')*/
 }
 .cel8{
-	width:8px; 
-	height:8px;
+	min-height:8px;
+	min-width:8px; 
 	background-image:url('../images/marks/marks8.png')
 }
 .cel10{
-	min-height:10px;
+	height:10px;
 	min-width:10px;  
+	font-size:small;
 }
 .cel14{
 	height:14px;
 	min-width:14px; 
+}
+.cel16{
+	height:16px;
+	min-width:16px;  
+	font-size:small;
 }
 .cel20{
 	height:20px;
@@ -40,6 +46,16 @@
 	height:24px;
 	min-width:24px; 
 }
+
+.cel32{
+	height:32px;
+	min-width:32px; 
+}
+.cel30{
+	height:30px;
+	min-width:30px; 
+}
+
 .cel35{
 	height:35px;
 	min-width:35px; 
@@ -47,6 +63,7 @@
 .cel40{
 	min-width:40px; 
 	height:40px;
+	font-size:large;
 }
 
 #tblPlay{
@@ -71,8 +88,7 @@
 
 .uc{
 	border:none;
-	user-select:none;
-	font-size:small;
+	user-select:none; 
 }
 .ulight{
 	background-color:rgba(222,222,222,0.6);

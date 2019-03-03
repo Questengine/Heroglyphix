@@ -29,7 +29,8 @@ var gCurMarkSize=40;
 var gClassCellSize="cel20";
 
 var gHourGlassFrame=0;
-var gSandFrame =0;
+var gTextAdvanceFrame=0;
+//var gSandFrame =0;
 
 var gTimerInterval;
 var gHourGlassInterval;

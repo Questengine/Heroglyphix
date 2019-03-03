@@ -87,7 +87,8 @@ function BuildShowPuzzle(puz){
 	$(".dCell").fadeIn(0).addClass("squarecel");
 	//$("[data-mark='in']").css("visibility","hidden");
 	//$(".dCell").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
-	ReDrawGrid();
+	setTimeout(ClearGrid(),226);
+	setTimeout(ReDrawGrid(),666);
 
 	
 }

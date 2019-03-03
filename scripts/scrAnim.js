@@ -3,8 +3,9 @@ function Blink(jq){
 
 }
 function HourGlass(){
-		
+
 		TickHourGlass();
+		TickSpeechNext();
 		TickSand();
 }
 function TickHourGlass(){
@@ -19,11 +20,28 @@ function TickHourGlass(){
 		
 }
 function TickSand(){
+	
+	
+	var frame = Math.floor(gPuzTime*10/gPuzTimeMax);
+	
+	frame = 10-frame;
+	
 	var cFrames=11;
-	gSandFrame++;
-	gSandFrame = gSandFrame % cFrames;
+	//gSandFrame++;
+	//gSandFrame = gSandFrame % cFrames;
 	var cWid =35;
 	var cHgt=54;
-	var offset = "-"+cWid*gSandFrame+"px 0px";
+	var offset = "-"+cWid*frame+"px 0px";
 	$("#dSand").css("background-position",offset);
 } 
+function TickSpeechNext(){
+	var cFrames=4;
+	gTextAdvanceFrame++;
+	gTextAdvanceFrame = gTextAdvanceFrame % cFrames;
+	var cWid=17;
+	var cHgt=17;
+	var cRowCount;
+	var offset = "-"+cWid*gTextAdvanceFrame+"px 0px";
+	$("#dSpeechNext").css("background-position",offset); 
+		
+}

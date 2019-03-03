@@ -134,7 +134,7 @@ function PuzzleDone(){
 		else{
 			PuzzleDoneSmall(); }
 		gNextText=true; 
-		$("#dSpeechNext").html("txt"); 
+		//$("#dSpeechNext").html(""); 
 		StopTimer();
 		StartDialogue();
 	}
@@ -144,13 +144,14 @@ function PuzzleDone(){
 		$(".cel").each(function(){
 			SetFadeTimeout($(this)); });
 		gNextText= false;
-		$("#dSpeechNext").html("PUZ")
+		//$("#dSpeechNext").html("")
 		Intermission();
 	} 
 }
 
 function StopTimer(){ 
 		clearInterval(gTimerInterval); 
+		clearInterval(gHourGlassInterval); 
 		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
 }
 function PuzzleDoneSmall(){
