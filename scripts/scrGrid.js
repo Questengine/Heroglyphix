@@ -64,7 +64,7 @@ function BuildShowPuzzle(puz){
 	var size = gCurMarkSize;
 	var totalrows = dim;
 	var totalcols = dim;	
-	var strGrid = "<div id='dShow'>";
+	var strGrid = "<div id='tblGrid'>";
 
 	for(y = 0;y<dim;y++){
 		for(x = 0;x<dim;x++){
@@ -82,7 +82,7 @@ function BuildShowPuzzle(puz){
 	}
 	strGrid += "</div>";
 	$("#dGrid").html(strGrid);
-	$(".dCell").fadeIn(0).addClass("squarecel");
+	$(".dCell").addClass("squarecel");
 	//$("[data-mark='in']").css("visibility","hidden");
 	//$(".dCell").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");
 	ReDrawGrid();
@@ -139,6 +139,19 @@ function CurrentPuzzleState(){
 	}	
 	return res;
 }
+
+function ReDrawGrid(){
+	$("[data-mark='in']").each(function(){
+		SetMarkTimeout($(this));
+	});
+}
+function ClearGrid(){
+	$(".cel").each(function(){
+		$(this).css("background-position",markposout);
+	});
+}	
+      
+
 function FillCluesV(puz){
 	var dim = Math.sqrt(puz.length);
     var clueDepth = Math.ceil(dim/2);
@@ -215,6 +228,8 @@ function FillCluesH(puz){
 		}
 }
  
+
+
 function Translate(puz){
 //	var puz = "0100010101000010010001001010011010100100111101111011010101011100,1100000000110000011000001010001000100101101010010110111101110110,0011110000000110000010010000100000010000000101010010101100011111,1100110011110000011000000011000010110000010110100110111011111100";
 	var res = "";
@@ -244,21 +259,6 @@ function Translate(puz){
  
 	return res;
 }
-
-
-function ReDrawGrid(){
-	$("[data-mark='in']").each(function(){
-		SetMarkTimeout($(this));
-	});
-}
-function ClearGrid(){
-	$(".cel").each(function(){
-		$(this).css("background-position",markposout);
-	});
-}	
-      
-
-
 
 
 

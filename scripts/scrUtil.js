@@ -3,19 +3,19 @@ function SizeGrid(dim){
 		gCurMarkSize=40;
 	}
 	if(dim ==8){
-		gCurMarkSize=35;
+		gCurMarkSize=30;
 	}
 	if(dim ==10){
 		gCurMarkSize=24;
 	}
 	if(dim ==12){
-		gCurMarkSize=24;
-	}
-	if(dim >=15){
 		gCurMarkSize=20;
 	}
+	if(dim >=15){
+		gCurMarkSize=16;
+	}
 	if(dim ==20){
-		gCurMarkSize=14;
+		gCurMarkSize=12;
 	}          
 	if(dim >20){
 		gCurMarkSize=5;

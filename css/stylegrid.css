@@ -16,9 +16,13 @@
 	background-image:url('../images/marks/marks5.png')
 }
 
-.cel14{
-	height:14px;
-	min-width:14px; 
+.cel12{
+	height:12px;
+	min-width:12px; 
+}
+.cel16{
+	height:16px;
+	min-width:16px; 
 }
 .cel20{
 	height:20px;
@@ -28,9 +32,9 @@
 	height:24px;
 	min-width:24px; 
 }
-.cel35{
-	height:35px;
-	min-width:35px; 
+.cel30{
+	height:30px;
+	min-width:30px; 
 }
 .cel40{
 	min-width:40px; 
