@@ -55,45 +55,71 @@ function Reveal(){
 		RevealEnd();
 	}
 }
+/*
 function RevealStart(){
-	$("#dFullScreen").on("mouseover",SaveMouseCoords);
-	//gGlowInterval = setInterval(DoGlow,200);
-	var count = 11;
-	for(var i=0;i<count;i++){
-		var time = i*300 +parseInt(Math.random()*222);;
-		setTimeout(NewGlow,time);
+	if(gGlow){ 
+		DoGlow();
 	}
-}/*
+}
+function DoGlow(){
+	$("#dGrid, #dReveal").css("border","solid 1px yellow");
+	if(gGlow){ 
+		$("#dGrid, #dReveal").animate({
+			borderWidth:"20px"
+			},
+			900,"swing",function(){
+				DoGlow();
+			});
+	}
+	else{
+		RevealEnd();
+	}
+}
+function RevealEnd(){
+	
+}
 function StartGlow(i){
 	var glower = "<div id='glow"+i+"' class='glowdrop' data-i='"+i+"'>.</div>";
 	$("#dFullScreen").append(glower);
 	$("#glow"+i).css("top",78*i+"px");
 	//$("#glow"+i).animate({top:"-100px"},2000,"linear",function(){NewGlow($(this).attr("data-i"))});
+}*/
+ 
+function RevealStart(){
+	$("#dFullScreen").on("mouseover",SaveMouseCoords);
+	//gGlowInterval = setInterval(DoGlow,200);
+	var count = 6;
+	for(var i=0;i<count;i++){
+		var time = i*300 +parseInt(Math.random()*222);;
+		setTimeout(NewGlow,time);
+	}
 }
-*/
+ 
 function NewGlow(){
 	i = parseInt(Math.random()*122);
 	if(gGlow){
 		var glower = "<div id='glow"+i+"' class='glowdrop'></div>";
 		$("#dFullScreen").append(glower); 
-		var left =parseInt( gMousex +i/10);
-		$("#glow"+i).css({left:left+"px",top:gMousey+"px"})
+		//var left =parseInt( gMousex +i/10);
+		$("#glow"+i).css({left:gMousex-20+"px",top:gMousey-20+"px",width:"30px",height:"30px"})
 		$("#glow"+i).animate({
-			top:"+=100px",
-			opacity:"0",
-			width:"0px"
+			width:"+=70px",
+			height:"+=70px",
+			top:"-=50px",
+			left:"-=50px"
+			
 			},
-			900+2*i,"linear",function(){
+			1600+2*i,"swing",function(){
 				NewGlow(Math.floor());
 				$(this).remove();
 			});
 	}
 }
-/*function DoGlow(){
+ function DoGlow(){
 	$(".glowdrop").each(function(){
 		
 	});
-}*/
+}
 function RevealEnd(){
 	clearInterval(gGlowInterval);
 	
@@ -104,4 +130,4 @@ function RevealEnd(){
 		$(this).fadeOut(time, function(){$(this).remove()});
 		
 	});
-}
+} 

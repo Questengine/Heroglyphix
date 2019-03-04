@@ -1,12 +1,16 @@
 .glowdrop{
 	width:10px;
 	height:12px;
-	background-color:yellow;
+	/*background-color:yellow;*/
 	border-radius:50%;
-	opacity:1.0;
-	border:none;
+	opacity:0.3;
+	border:4px solid yellow;
 }
-
+.glowcell{
+	
+	
+	border:1px solid yellow;
+}
 .dCell{
 	position:absolute;
 	margin:0px;
