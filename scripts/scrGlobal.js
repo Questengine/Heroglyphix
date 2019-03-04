@@ -11,6 +11,9 @@ var gStage = 1;
 var gPuzzle = 1;
 var gPart = 0;
 
+var gGlow = false;
+var gGlowInterval;
+
 var gText="";
 var gMark="none";
 var arrText=[];
@@ -39,3 +42,10 @@ var gPuzTime = 360;
 
 var gNextText = true;//true if "next" advances to more text		
 					// false if "next" advances to next puz
+var gMousex = 0;
+var gMousey = 0;
+
+function SaveMouseCoords(event){
+	gMousex = event.pageX;
+	gMousey = event.pageY;
+}

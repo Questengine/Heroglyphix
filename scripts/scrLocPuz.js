@@ -16,7 +16,7 @@
 		$(this).css({
 			"background-image":"url('images/locations/l-name"+imageid+".png'",
 			"background-position":"-"+x+"px -"+y +"px",
-		})
+		});
 	 });
 	 
 	 $("#dPuzzles").fadeIn();

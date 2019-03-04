@@ -1,3 +1,12 @@
+.glowdrop{
+	width:10px;
+	height:12px;
+	background-color:yellow;
+	border-radius:50%;
+	opacity:1.0;
+	border:none;
+}
+
 .dCell{
 	position:absolute;
 	margin:0px;
@@ -14,7 +23,12 @@
 	/*background-image:url('../images/marks/marks5.png')*/
 }
 
-<<<<<<< HEAD
+.cel8{
+	min-height:8px;
+	min-width:8px; 
+	/*background-image:url('../images/marks/marks5.png')*/
+}
+
 .cel12{
 	height:12px;
 	min-width:12px; 
@@ -22,7 +36,7 @@
 .cel16{
 	height:16px;
 	min-width:16px; 
-=======
+}
 .cel7{
 	min-height:7px;
 	min-width:7px; 
@@ -41,7 +55,6 @@
 .cel14{
 	height:14px;
 	min-width:14px; 
->>>>>>> 2fcec78b71130dad0eb993b9e7a4e4eda06ae0e2
 }
 .cel16{
 	height:16px;
@@ -56,11 +69,10 @@
 	height:24px;
 	min-width:24px; 
 }
-<<<<<<< HEAD
 .cel30{
 	height:30px;
-	min-width:30px; 
-=======
+min-width:30px; 
+}
 
 .cel32{
 	height:32px;
@@ -74,7 +86,6 @@
 .cel35{
 	height:35px;
 	min-width:35px; 
->>>>>>> 2fcec78b71130dad0eb993b9e7a4e4eda06ae0e2
 }
 .cel40{
 	min-width:40px; 

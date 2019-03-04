@@ -45,3 +45,63 @@ function TickSpeechNext(){
 	$("#dSpeechNext").css("background-position",offset); 
 		
 }
+function Reveal(){
+	if(!gGlow){
+		gGlow=true;
+		RevealStart();
+	}
+	else{
+		gGlow= false;
+		RevealEnd();
+	}
+}
+function RevealStart(){
+	$("#dFullScreen").on("mouseover",SaveMouseCoords);
+	//gGlowInterval = setInterval(DoGlow,200);
+	var count = 11;
+	for(var i=0;i<count;i++){
+		var time = i*300 +parseInt(Math.random()*222);;
+		setTimeout(NewGlow,time);
+	}
+}/*
+function StartGlow(i){
+	var glower = "<div id='glow"+i+"' class='glowdrop' data-i='"+i+"'>.</div>";
+	$("#dFullScreen").append(glower);
+	$("#glow"+i).css("top",78*i+"px");
+	//$("#glow"+i).animate({top:"-100px"},2000,"linear",function(){NewGlow($(this).attr("data-i"))});
+}
+*/
+function NewGlow(){
+	i = parseInt(Math.random()*122);
+	if(gGlow){
+		var glower = "<div id='glow"+i+"' class='glowdrop'></div>";
+		$("#dFullScreen").append(glower); 
+		var left =parseInt( gMousex +i/10);
+		$("#glow"+i).css({left:left+"px",top:gMousey+"px"})
+		$("#glow"+i).animate({
+			top:"+=100px",
+			opacity:"0",
+			width:"0px"
+			},
+			900+2*i,"linear",function(){
+				NewGlow(Math.floor());
+				$(this).remove();
+			});
+	}
+}
+/*function DoGlow(){
+	$(".glowdrop").each(function(){
+		
+	});
+}*/
+function RevealEnd(){
+	clearInterval(gGlowInterval);
+	
+	$("#dFullScreen").off("mouseover",SaveMouseCoords);
+	$(".glowdrop").each(function(){
+		var i = $(this).attr("data-i");
+		var time = parseInt(i)*400;
+		$(this).fadeOut(time, function(){$(this).remove()});
+		
+	});
+}

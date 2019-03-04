@@ -66,24 +66,38 @@ function BuildShowPuzzle(puz){
 	var size = gCurMarkSize;
 	var totalrows = dim;
 	var totalcols = dim;	
-	var strGrid = "<div id='tblGrid'>";
+	var strGrid = "<div id='dShow'>";	
 
 	for(y = 0;y<dim;y++){
 		for(x = 0;x<dim;x++){
-			var left = x*size;
-			var top = y*size;
 			var index= x+y*dim;
 			var thischar = puz.substring(index, index+1);
-			if(thischar=="0"){mark = "out";}
+			if(thischar=="0"){mark = "not";}
 			else{mark = "in";}
 			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
-			var onecel  = "<div class='dCell cel"+size+"' data-mark='"+mark+"' style='left:"+left+"px; top:"+top+"px'  data-x='"+x+"' data-y='"+y+"'></div>";
+			var onecel  = "<div class='dCell cel"+size+"' data-mark='"+mark+"'   data-x='"+x+"' data-y='"+y+"'></div>";
 			//$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
 			strGrid += onecel;
 		}	
 	}
 	strGrid += "</div>";
 	$("#dGrid").html(strGrid);
+	$(".dCell").each(function(){
+		var x = $(this).attr("data-x");
+		var y = $(this).attr("data-y");
+		var whatmark = markposnot;
+		if($(this).attr("data-mark")=="in"){whatmark=markposin;}
+		var left=x*size;
+		var top = y*size;
+		//var style = "background-image:url('images/marks/marks"+size+".png')";
+		$(this).css({
+			"top":top+"px",
+			"left":left+"px",		
+			"background-image":"url('images/marks/marks"+size+".png')",
+			"background-position":whatmark,
+		});
+	 });
+	 
 	$(".dCell").addClass("squarecel");
 	//$("[data-mark='in']").css("visibility","hidden");
 	//$(".dCell").css("background-image", "url('images/marks/marks"+gCurMarkSize+".png')");

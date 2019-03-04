@@ -13,8 +13,9 @@ function isLargePuzzle(code ){
 		 code=CurCode();
 	}
 	var puz =  arrPuzzles[code] 
-	  
-	return puz.length>444;
+	 var res = false;
+	 if(puz.includes(",")|| puz.length>444){res = true;}
+	 return res;
 }
 
 
