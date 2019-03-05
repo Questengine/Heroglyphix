@@ -162,7 +162,7 @@
 }
 
 #dClock{ 
-	top:270px;
+	top:160px;
 	left:680px;
 	width:100px;
 	height:32px; 
@@ -217,7 +217,7 @@
 }
 #dHourGlass{ 
 	border:none;
-	top:150px;
+	top:210px;
 	left:695px;
 	width:61px;
 	height:93px;

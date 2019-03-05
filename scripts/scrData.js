@@ -1,5 +1,9 @@
 
 var arrStages321 = ["Library", "Skimlet", "Howard","Judith","Matthius", "Kara","Edizon"]
+
+var arrReveal = ["0,0;0,1;0,-1", "1,0;-1,0;0,1;0,-1","1,1;-1,-1;-1,1;1,-1;0,0","-1,1;0,-1;1,-1;1,0;-1,0;0,1","-1,1;0,-1;1,-1;1,0;-1,0;0,1","-1,1;0,-1;1,-1;1,0;-1,0;0,1"];
+var gCurReveal;
+
 function StageCount(){ return arrStages.length;}
 function StageName(stagecode){
 	 if(typeof stagecode === "undefined"){

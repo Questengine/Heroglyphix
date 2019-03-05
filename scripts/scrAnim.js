@@ -35,7 +35,7 @@ function TickSand(){
 	$("#dSand").css("background-position",offset);
 } 
 function TickSpeechNext(){
-	var cFrames=4;
+	var cFrames=6;
 	gTextAdvanceFrame++;
 	gTextAdvanceFrame = gTextAdvanceFrame % cFrames;
 	var cWid=17;
@@ -49,9 +49,10 @@ function Reveal(){
 	if(!gGlow){
 		gGlow=true;
 		RevealStart();
+		gReveal = arrReveal[0].split(";");
+		$(".cel").on("mouseenter",RevealFootprint);
 	}
 	else{
-		gGlow= false;
 		RevealEnd();
 	}
 }
@@ -86,7 +87,7 @@ function StartGlow(i){
 }*/
  
 function RevealStart(){
-	$("#dFullScreen").on("mouseover",SaveMouseCoords);
+	$("#dGrid").on("mouseover",SaveMouseCoords);
 	//gGlowInterval = setInterval(DoGlow,200);
 	var count = 6;
 	for(var i=0;i<count;i++){
@@ -101,12 +102,12 @@ function NewGlow(){
 		var glower = "<div id='glow"+i+"' class='glowdrop'></div>";
 		$("#dFullScreen").append(glower); 
 		//var left =parseInt( gMousex +i/10);
-		$("#glow"+i).css({left:gMousex-20+"px",top:gMousey-20+"px",width:"30px",height:"30px"})
+		$("#glow"+i).css({left:gMousex-20+"px",top:gMousey-20+"px",width:"50px",height:"50px"})
 		$("#glow"+i).animate({
-			width:"+=70px",
-			height:"+=70px",
-			top:"-=50px",
-			left:"-=50px"
+			width:"+=60px",
+			height:"+=60px",
+			top:"-=30px",
+			left:"-=30px"
 			
 			},
 			1600+2*i,"swing",function(){
@@ -123,7 +124,11 @@ function NewGlow(){
 function RevealEnd(){
 	clearInterval(gGlowInterval);
 	
-	$("#dFullScreen").off("mouseover",SaveMouseCoords);
+	gGlow= false;
+	$(".cel").off("mouseenter",RevealFootprint);
+	$(".cel").removeClass("revealfootprint");
+		
+	$("#dGrid").off("mouseover",SaveMouseCoords);
 	$(".glowdrop").each(function(){
 		var i = $(this).attr("data-i");
 		var time = parseInt(i)*400;

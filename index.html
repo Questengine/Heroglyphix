@@ -58,6 +58,8 @@
 		$("#dPortrait").click(AutoSolve);
 		$("#dLocation").click(PoxStart);
 		$("#dReveal").click(Reveal);
+		$("#dReveal").off("mouseover",SaveMouseCoords);
+		$(".revealfootprint").click(RevealAction);
 		$("#dPox").click(PoxHit);
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false); 
