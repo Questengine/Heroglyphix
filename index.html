@@ -58,7 +58,7 @@
 		$("#dPortrait").click(AutoSolve);
 		$("#dLocation").click(PoxStart);
 		$("#dReveal").click(Reveal);
-		$("#dReveal").off("mouseover",SaveMouseCoords);
+		//$("#dReveal").off("mouseover",SaveMouseCoords);
 		$(".revealfootprint").click(RevealAction);
 		$("#dPox").click(PoxHit);
 		//$("#dDialogue").slideUp(0);
@@ -121,9 +121,9 @@ dPortrait
 	</div  ><!-- end div dReveal --> 		
 	 <div id="dRevealChargeBox" class="hideonload">
 		<table
-		<tr><td class='oneRevealCharge'></td></tr>
-		<tr><td class='oneRevealCharge' style='margin-left:20px'></td></tr>
-		<tr><td class='oneRevealCharge'></td></tr>
+		<tr><td class='oneRevealCharge' data-revealid="1" data-spent='0'></td></tr>
+		<tr><td class='oneRevealCharge' data-revealid="2" data-spent='0' style='margin-left:20px'></td></tr>
+		<tr><td class='oneRevealCharge' data-revealid="3" data-spent='0'></td></tr>
 		</table>
 	</div  ><!-- end div dRevealCharges --> 	
 	  <div id="dClock" class="hideonload">
@@ -140,6 +140,10 @@ dPortrait
 		</div>
 	</div>
      
+	  
+	 <div id="dInfo"  > 
+	 
+	</div>
 
  </div>  <!-- end div fullscreen --> 
  

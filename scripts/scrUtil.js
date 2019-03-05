@@ -26,10 +26,6 @@ function SizeGrid(dim){
 	markposout = "-"+gCurMarkSize*9+"px -" +gCurMarkSize*3 + "px";
 }
 
-function LoadLocationText(){
-	gText =arrTextFiles[CurCode()];
-	arrText = gText.split("newline,");
-}
 
 function LoadPuz43123Code(code){
 	var puz = arrPuzzles[code];
@@ -38,7 +34,7 @@ function LoadPuz43123Code(code){
 }
 
 function pad( i){
-	var res ="";
+	var res =i;
 	if(i<10){
 		res = "0"+i;
 	}
@@ -46,6 +42,9 @@ function pad( i){
 }
 function CurCode(){
 	return pad(gStage)+"-"+pad(gLocation)+"-"+pad(gPuzzle);
+}
+function CurCodeStageLoc(){
+	return pad(gStage)+"-"+pad(gLocation);
 }
 function SetCode(code){
 	gStage = parseInt(code.split("-")[0]);
@@ -90,6 +89,7 @@ function FillMarkMenu(){
 	}
 }
 function MarkSelected(){
+	Info("Redrawing grid with new mark");
 	var xpx = ($(this).css("background-position-x"));
 	var ypx = ($(this).css("background-position-y"));
 	var x = bwpx(xpx);
@@ -114,6 +114,7 @@ function ChangeMark(cell){
 	cell.css("background-position",markposin);
 }
 function AutoSolve(){
+	Info("AutoSolving...  You cheater!");
 	$("#dPortrait").html("AUTOSOLVING");
 	var puz = gPuzCorrect;
 	var dim = Math.sqrt(puz.length);
@@ -148,3 +149,12 @@ function getUrlParameter(name) {
     var results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
+function Info(txt){
+	
+	$("#dInfo").stop(true,true).fadeIn(0).text(txt).fadeOut(5555);
+}
+function GetRevealID(){
+	var res=0;
+	res = $(".oneRevealCharge[data-spent='0']").length;
+	return res;
+}

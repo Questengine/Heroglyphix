@@ -1,12 +1,4 @@
-/*function GameScript(){
-	
-	var stagename = arrStages[gStage];
-	var arrlocations = arrLocationNames[stagename].split(",");
-	var locationname = arrlocations[gLocation];
-	var loccode = CurCode();
-	var curpuz = arrPuzzles[loccode];
-}
-*/
+ 
 function StartPuz(code ){
 	
 	 if(typeof code === "undefined"){
@@ -26,37 +18,62 @@ function AdvanceLevel(){
 //autoadvance is simple-advance, without glyphlet selection
 	var autoadvance = true;
 	var code = CurCode();
-	if(isPuzzleComplete(code)){
+	
+	if(GetIntPuzzle(code)==0){//we're advancing FROM and intro, to puzzle 1 
 		autoadvance = true;
-		gPuzzle++; 
-		if(gPuzzle>PuzCount(gStage,gLocation)){
-			//and all puzzles done in this location
-			gPuzzle=1;gLocation++;
-		}
-		if(gLocation>LocCount(arrStages[gStage])){gLocation=1;gStage++;}
+		StgLocPuzIncrement();
 	}
 	else{
-		autoadvance = false;
+		if(isPuzzleComplete(code)){
+			autoadvance = true;
+			StgLocPuzIncrement();
+		}
+		else{
+			autoadvance = false;
+		}
+			
 	}
 	return autoadvance;
 } 
+
+function StgLocPuzIncrement(){
+	gPuzzle++; 
+	if(gPuzzle>PuzCount(gStage,gLocation)){
+		//and all puzzles done in this location
+		//set gPuzzle = 0 so we know to get the intro text
+		gPuzzle=0;gLocation++;
+	}
+	if(gLocation>LocCount(arrStages[gStage])){gLocation=1;gStage++;}
+}
 function Init(code, part){
 	if(typeof code === "undefined"){ 	 code=CurCode();  }
 	if(typeof part === "undefined"){ 	 part=0;  }
+	
+	/*
+	If we're initing and ew're on puzzle #1,then we need to check for a location intro
+	*/
+	
 	$("#dShow").fadeOut("fast",function(){
 				$("#dShow").remove();
-	})
+	});
+	 
 	gPart = part;
-	var puz = LoadPuz(code, part);
-	BuildGrid(Math.sqrt(puz.length));
-	LoadLocationText();
-	gPuzTime = gPuzTimeMax;
-	clearInterval(gTimerInterval);
-	clearInterval(gHourGlassInterval);
-	gTimerInterval=setInterval(TimerTick,1000);
-	gHourGlassInterval=setInterval(HourGlass,500);
-	
-	gTextItr=-1;
+	LoadText();
+	gTextItr=-1;	
+	var puzint  = GetIntPuzzle(code);
+	if(puzint>0){
+		var puz = LoadPuz(code, part);
+		BuildGrid(Math.sqrt(puz.length));
+		//LoadLocationText();
+		gPuzTime = gPuzTimeMax;
+		clearInterval(gTimerInterval);
+		clearInterval(gHourGlassInterval);
+		gTimerInterval=setInterval(TimerTick,1000);
+		gHourGlassInterval=setInterval(HourGlass,500);
+	}
+	else{
+		StartDialogue();
+	}
 	
 }
 function StoryNext(){
@@ -72,7 +89,7 @@ function StoryNext(){
 		else{
 			InitGlyphlets();
 		}
-		ShowHideProgressButton(false);
+		//ShowHideProgressButton(false);////////
 	}
 }
 function SpeechNext(){ 
@@ -101,7 +118,8 @@ function SpeechNext(){
 	//if this was thelastt text bit, then done with text,
 	if(gTextItr+1 == arrText.length){
 		gNextText = false;
-		$("#dSpeechNext").html("PUZ")
+		//$("#dSpeechNext").html("PUZ")
+		Info("Advance to next puzzle.");
 	}
 	
 }
@@ -117,6 +135,8 @@ function RedrawPortrait(imgid, picid){
 }
 
 function StartDialogue(){
+	gNextText=true;   
+	StopTimer();
 	ShowHideProgressButton(true);
 	SpeechNext();
 }
@@ -133,9 +153,6 @@ function PuzzleDone(){
 			PuzzleDoneLarge(); }
 		else{
 			PuzzleDoneSmall(); }
-		gNextText=true; 
-		//$("#dSpeechNext").html(""); 
-		StopTimer();
 		StartDialogue();
 	}
 	else{

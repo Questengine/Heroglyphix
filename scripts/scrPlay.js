@@ -92,6 +92,7 @@ function RevealFootprint(){
 	
 }
 function RevealAction(){
+	Info("Magus Magna.  Marks are magically revealed!");
 	var dim = Math.sqrt(gPuzCorrect.length);
 	$(".cel.revealfootprint").each(function(){
 		var x = parseInt($(this).attr("data-x"));

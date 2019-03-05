@@ -11,9 +11,9 @@ var arrStages ={
 
 var arrLocationNames = {
 "01-01":"Library"         ,
-"01-01":"ReadingRoom"     ,
-"01-02":"ReadingRoomII"   ,
-"01-03":"ReadingRoomIII"  ,
+"01-02":"ReadingRoom"     ,
+"01-03":"ReadingRoomII"   ,
+"01-04":"ReadingRoomIII"  ,
 "02-01":"Blacksmith"      ,
 "02-02":"TownSquare"      ,
 "02-03":"Pasticceria"     ,

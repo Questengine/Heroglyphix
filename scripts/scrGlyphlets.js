@@ -46,6 +46,7 @@ function InitGlyphlets(code){
 	 return res;
  }
  function PromptGlyphletConfirm(){ 
+	Info("Load this Glyphlet?");
 	 //alert($(this).attr("data-puz"));
 	 var code = $(this).attr("data-gid");
 	 $("#dGlyphletConfirm").html("Load " + code + "?");

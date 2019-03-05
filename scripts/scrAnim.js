@@ -47,10 +47,7 @@ function TickSpeechNext(){
 }
 function Reveal(){
 	if(!gGlow){
-		gGlow=true;
 		RevealStart();
-		gReveal = arrReveal[0].split(";");
-		$(".cel").on("mouseenter",RevealFootprint);
 	}
 	else{
 		RevealEnd();
@@ -87,12 +84,23 @@ function StartGlow(i){
 }*/
  
 function RevealStart(){
-	$("#dGrid").on("mouseover",SaveMouseCoords);
-	//gGlowInterval = setInterval(DoGlow,200);
-	var count = 6;
-	for(var i=0;i<count;i++){
-		var time = i*300 +parseInt(Math.random()*222);;
-		setTimeout(NewGlow,time);
+	if(parseInt(GetRevealID())>0){
+	
+		gGlow=true;
+		gReveal = arrReveal[gStage-1].split(";");
+		$(".cel").on("mouseenter",RevealFootprint);
+		Info("Reveal spell active. Click 'Reveal' again to cancel.");
+		//$("#dGrid").on("mouseover",SaveMouseCoords);
+		//gGlowInterval = setInterval(DoGlow,200);
+		var count = 3;
+		for(var i=0;i<count;i++){
+			var time = i*300 +parseInt(Math.random()*222);;
+			setTimeout(NewGlow,time);
+		}		
+	}
+	else{
+			
+		Info("No charges of the Reveal Spell remain :-(");
 	}
 }
  
@@ -100,9 +108,10 @@ function NewGlow(){
 	i = parseInt(Math.random()*122);
 	if(gGlow){
 		var glower = "<div id='glow"+i+"' class='glowdrop'></div>";
-		$("#dFullScreen").append(glower); 
+		$("#dReveal").append(glower); 
+		var cssy = $("#dReveal").css("top"); 
+		var cssx = $("#dReveal").css("left"); 
 		//var left =parseInt( gMousex +i/10);
-		$("#glow"+i).css({left:gMousex-20+"px",top:gMousey-20+"px",width:"50px",height:"50px"})
 		$("#glow"+i).animate({
 			width:"+=60px",
 			height:"+=60px",
@@ -135,4 +144,13 @@ function RevealEnd(){
 		$(this).fadeOut(time, function(){$(this).remove()});
 		
 	});
+	var id = GetRevealID();
+	$("[data-revealid='"+id+"']").attr("data-spent","1").fadeOut(1111);
+	var remaining = parseInt(GetRevealID());
+	if(remaining > 0){ 
+		Info("Only " +remaining+" Reveal Charges remain!");
+	}
+	else{ 	
+		Info("No more Reveal Charges remain!");
+	}
 } 

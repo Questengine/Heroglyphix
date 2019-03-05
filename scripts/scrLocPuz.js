@@ -20,8 +20,9 @@
 	 });
 	 
 	 $("#dPuzzles").fadeIn();
-	 //$("#dPuzzles").html(BuildLocPuzConfirm());
+	 //$("#dPuzzles").html(BuildLocPuzConfirm
 	 $(".celllocpuz").on("click",PromptLocPuz);
+	 $(".celllocation").on("click",PromptLocPuz);
 	 $("#dLocPuzConfirm").on("click",LocPuzConfirmed);
 	 $("#dLocPuzConfirm").fadeOut(1);
  }
@@ -29,12 +30,12 @@
  function BuildLocPuz(stagecode){
 	 
 	var strTable = "<table id='tblLocPuz'>";
-	var locnames = arrLocationNames[stagecode.substring(0,5)];
+	//var locnames = arrLocationNames[stagecode.substring(0,5)];
 	var stagecode = GetCodeStage(stagecode);
 	var count =0;
 	 //for each location
 	for (var key in arrLocationNames) {
-		if(key.substring(0,2) == stagecode){ 
+		if(key.substring(0,2) == stagecode){  give some int here to increment celllocationnae header belowm
 		 	strTable += "<tr class='rowlocpuz'>"+LocNamePic(key)+PuzList(key)+"</tr>"; 
 		} 
 	} 
@@ -73,7 +74,13 @@
 	 
 	 //alert($(this).attr("data-puz"));
 	 var code = $(this).attr("data-puz");
-	 $("#dLocPuzConfirm").html("Load " + code + "?");
+	 if(GetIntPuzzle(code)!=0){//load puz}
+		$("#dLocPuzConfirm").html("Load " + code + "?");
+	 }
+	 else{//load intro
+		$("#dLocPuzConfirm").html("Load Location Intro ?");
+	 }
+			
 	 $("#dLocPuzConfirm").attr( "data-puztoload",code );
 	Blink($("#dLocPuzConfirm"));
  }
@@ -91,10 +98,13 @@
 	 
  }
  function LocNamePic(code){
+	var key = CurCodeStageLoc(CurCode());
+	key+= "-00";
 	var locStage = parseInt(code.split("-")[0]);
 	locStage-=1;//loc numbers are zero based in filenames;
 	locStage = pad(locStage);
 	var locNameIndex = parseInt(code.split("-")[1]);
+	locNameIndex-=1;//to make zero based
 	var locnamex = locNameIndex % constLocNamePerRow;
 	var locnamey = Math.floor(locNameIndex/constLocNamePerRow);
 	locnamex*= constLocNameWid;
@@ -103,7 +113,7 @@
 	var lnamepicx="data-picx='"+locnamex+"'";
 	var lnamepicy="data-picy='"+locnamey+"'";
 	var picdata = lnameimageid + " " +lnamepicx +" " + lnamepicy;
-	 var celllocation = "<td class='celllocationtd'><div class='celllocation' "+picdata+"></div></td>";
+	 var celllocation = "<td class='celllocationtd'><div class='celllocation' "+picdata+" data-puz='"+key+"'></div></td>";
 	return celllocation;
 }
 	 

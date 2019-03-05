@@ -10,6 +10,7 @@ var gPoxAll = [arrPoxBite,arrPoxScratch,arrPoxShake,arrPoxRefRoll,arrPoxHop,arrP
 
 function PoxStart(){
 		
+	Info("POX ARRIVES!!");
 	clearInterval(gPoxInterval);
 	gPoxHp = gPoxHpMax;
 	gPoxItr = 0;
@@ -42,6 +43,9 @@ function PoxLoop(){
 		clearInterval(gPoxInterval);
 		gPoxItr = 0;
 		$("#dPox").fadeOut();
+		
+		
+	Info("Pox has fled... for now.");
 	}	
 	
 		
