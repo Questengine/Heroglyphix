@@ -35,7 +35,7 @@
 	var count =0;
 	 //for each location
 	for (var key in arrLocationNames) {
-		if(key.substring(0,2) == stagecode){  give some int here to increment celllocationnae header belowm
+		if(key.substring(0,2) == stagecode){  //give some int here to increment celllocationnae header belowm
 		 	strTable += "<tr class='rowlocpuz'>"+LocNamePic(key)+PuzList(key)+"</tr>"; 
 		} 
 	} 
@@ -98,7 +98,8 @@
 	 
  }
  function LocNamePic(code){
-	var key = CurCodeStageLoc(CurCode());
+ 	var key = code;
+	//var key = CurCodeStageLoc(CurCode());
 	key+= "-00";
 	var locStage = parseInt(code.split("-")[0]);
 	locStage-=1;//loc numbers are zero based in filenames;
@@ -116,4 +117,5 @@
 	 var celllocation = "<td class='celllocationtd'><div class='celllocation' "+picdata+" data-puz='"+key+"'></div></td>";
 	return celllocation;
 }
+	 
 	 
