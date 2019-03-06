@@ -1,0 +1,54 @@
+pic 09 01
+bub 0
+txt "Oh, and now there are a lot more of you."
+pic 24 05
+txt "'Hi!'   'Visitors!'   'Greetings human!'"
+pic 09 09
+txt "Hi-ee, little guys! Have you seen a brown, fuzzy looking..."
+pic 24 06
+txt "'Welcome friend!'  'Whee!!!'  'Hey you!'  'Let me see!!'"
+pic 34 18
+txt "I said... Um, who's in charge here? Now, don't push!"
+pic 24 06
+txt "'Welcome welcome!'  'Ooh a birdie!'  'Ngh!'  ''  '*giggle*!'  'Come this way!  'Gree-'"
+pic 09 08
+bub 2
+txt "QUIET YOU ALBINO MIDGETS!!!!" 
+pic 24 07
+bub 1
+txt "..."
+pic 09 20
+txt "O-kay now, one at a time... where - is - the gremlin?"
+pic 24 06
+txt "'I see'd him by the...'  'Zap here, zap there!'  'Fuzzy! Fuzzy brown!'  'This way.' ' No, he that way!'  'Yes YES!'  'Gremlin crazy!'"
+pic 09 25
+bub 2
+txt "GYaAagh!!!!"
+pic 24 08
+txt "'Eeeek!'    'Eech!'    'Eeeeeee!  'Eee-Eeek!'"
+pic 34 01
+bub 0
+txt "*huff huff*"
+pic 34 18
+txt "You! Red hat!"
+pic 24 09
+bub 1
+txt "...?..."
+pic 09 27
+bub 0
+txt "Where did the Gremlin go?"
+pic 24 10
+bub 1
+txt "...!..."
+pic 09 06
+txt "Thank you sweetie."
+pic 24 11
+txt "Uh, uh, uh! - Are you a 'person'? Where do you live? You like Snowbie village? Here, come see the big, big tree and -"
+pic 09 25
+bub 2
+txt "HYAaaa!"
+pic 24 12
+bub 1
+txt "EEeEEeEEeeeeeeeee-----......."
+pic 09 16
+txt "Go play with your friends!"

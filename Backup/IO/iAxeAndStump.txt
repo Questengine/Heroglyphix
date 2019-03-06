@@ -1,0 +1,35 @@
+pic 00 18
+bub 1
+txt "Hello, is anyone-?"
+pic 03 03
+bub 2
+txt "HUUUOOOARGH!!"
+pic 00 24
+txt "YEEEAAA-AAA-AA-AAA!"
+pic 03 04
+bub 0
+txt "Oh, sorry there squire! I mistook you for a gremlin."
+pic 00 16
+txt "*Huff huff* That's okay - easily mistake - *huff huff*"
+pic 03 04
+txt "Allow me to introduce myself: Wilfred 'The Destroyer', the best bloody Berserker in the business. Or at least I was."
+pic 03 05
+txt "'Death's Doorman' they called me. 'The Screaming Blade', 'Old Bloodletter', 'Backbreaker', 'Gnawer of Souls'"
+txt "... um, let's see... 'Eye Gouger'... 'Marrow-sucker' (not the vegetable, the, y'know, gooey stuff in your bones)..."
+pic 00 09
+txt "..."
+pic 03 04
+txt "Ahh, but times change. These days people mostly call me Wilf. I own and run this luvverly Tavern."
+txt "I miss the gore and the screamin', of course. But on a Friday night it's almost like the good old days. Hwah-hwah!"
+txt "So what can I do you for, squire!"
+pic 00 01
+txt "I... right, yes. I'm investigating the strange happenings in town. Have you seen a gremlim...."
+pic 03 04
+txt "Oh it's been through here, alright."
+txt "Scared off all my regulars, I mean they're the toughest scum around but they didn't fancy getting turned into doorstops."
+pic 00 01
+txt "Ah, stone glyphs!"
+pic 03 04
+txt "I'll do you a deal, squire. You straighten up my gaff and I'll tell you which way he bugg-, I mean, scampered off."
+pic 00 02
+txt "Deal!"

@@ -1,0 +1,7 @@
+pic 05 08
+bub 0
+txt "The who does what now?!"
+pic 07 11
+txt "Hidden in the centre of its gardens is the entrance to the inverted temple."
+pic 07 19
+txt "See there, the door is marked now by five pyres lit by the Ryudo verses!"

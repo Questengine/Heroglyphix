@@ -1,0 +1,48 @@
+pic 00 26
+bub 0
+txt "Ohhh."
+pic 02 01
+txt "Come, sit down Skimlet. Don't falter now."
+pic 00 26
+txt "Sorry, m-my head feels -woozy-."
+pic 02 03
+txt "My goodness! What do you have here? This wand, this -is- the Vanglorian isn't it?"
+pic 02 04
+txt "Methusaleh's old weapon. Marvelous, this is precisely what we need. But I had thought it was lost to the ages?!"
+pic 00 27
+txt "I found it. And I've chased Pox all the way here from Thaumhaven."
+pic 02 12
+txt "'Pox',is it? Good man! Without this I don't know how we'd stop the gremlin."
+pic 02 01
+txt "I must say, Aquarius' old robes seem to fit you a little better today."
+pic 00 27
+txt "Hehe! So, let's -finish- this and go for tea. Pox can't have got far."
+pic 02 00
+txt "I'm afraid... it's not that simple. In fact there are events in motion that are far more serious than you know."
+txt "My feathered 'spy' over there has told me where Pox originated from..."
+pic 02 07
+bub 2
+txt "...EDIZON'S LAB!"
+pic 00 09
+bub 0
+txt "Edizon? The Lightning wizard Edizon?! But we stopped him!"
+txt "We saw to it. You, I and Matthius - we locked him away in a magic-proof, mountain cell at the top of the world!"
+pic 02 00
+txt "Yes, and that is still true. The power-mad, old fool is indeed helpless. Placed where he can longer attempt to harm anyone..."
+pic 02 08
+txt "...But the gremlin is his contingency, Skimlet. His back-up plan!"
+txt "I suspect that the events in the city were merely a preamble. Its main purpose is finding the fastest way North - to free its Master!"
+txt "Freed from his prison, Edizon can continue his plans of unleashing an Army of Golems that will enslave all the people of Magus Magna!"
+pic 00 26
+bub 1
+txt "...no ...I have to..."
+pic 02 00
+txt "Rest young Skimlet. You have achieved so much! I can take the wand and pursue the creature from here."
+pic 02 07
+bub 3
+txt "Ahh, but how?!"
+txt "The Gremlin itself poses far greater immediate dangers to the world than Skimlet realises!"
+txt "And he's headed into the great, dense Forests beyond my Wizlab where it will be *impossible* even for me to track him..."
+pic 02 09
+txt "Is all lost?!"
+txt "What ray of sun can we look to in these dark times?"

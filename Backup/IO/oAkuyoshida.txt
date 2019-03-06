@@ -1,0 +1,9 @@
+pic 07 10
+bub 0
+txt "-You- could turn a peasant's potluck into a banquet, Shigesato."
+pic 19 01
+txt "Ha! And you are always my best customer, Flames. But come see for yourself, there's no garnish that could make you swallow these tablets."
+pic 07 14
+txt "Tablets? Stone tablets?"
+pic 19 01
+txt "Yes. And we have much more to talk about besides. We are in no immediate danger but something is -coming-. Something very bad indeed."

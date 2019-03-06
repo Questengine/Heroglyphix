@@ -1,0 +1,32 @@
+pic 06 09
+bub 0
+txt "Yes, six more Glyphs fall to our wand, six more vision-bringers are freed and still we elude the blobs."
+txt "But it seems that in our haste, we have blocked the only path to the Gremlin. I see no way around this carriage."
+pic 06 08
+txt "Unless..."
+pic 31 05
+txt "Wait wait wait! Don't tell me we're going anywhere near anything that came from that crazy place!"
+pic 06 29
+txt "There's no other path open to us Woodrot, we must venture inside the carriage, and into the truly unknown."
+pic 31 08
+bub 1
+txt "Oh I don't like this - I don't like this at all! ... *sob*"
+pic 31 03
+bub 0
+txt "...h-hey, what's this in my pocket?"
+pic 31 01
+txt "No way, I'd forgotten all about this: a flask of Everberry Special Acorn Reserve 872!"
+pic 31 04
+txt "Oh baby! Things are finally looking up for ol' Woodrot. Come to papa! *Glug glug glug*"
+pic 06 03
+bub 1
+txt "Hush  now! I'm stepping inside...there's an unusual aroma, though it appears to be quite empty in here."
+pic 06 05
+bub 2
+txt "The doors, they close behind us!..."
+pic 31 01
+bub 0
+txt "+ La-LA-la-la! +"
+pic 06 05
+bub 1
+txt "We are moving!!!!"

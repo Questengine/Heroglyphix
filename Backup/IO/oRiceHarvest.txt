@@ -1,0 +1,31 @@
+pic 07 12
+bub 0
+txt "*Ahem*. Here are your belongings, you should both return directly home there will be no market in town today."
+pic 07 13
+txt "Please take care, the countryside will not be safe until I have... corrected matters."
+pic 18 04
+txt "Yes, we must be going. Magamura-san will surely see that the town is safe. Thank you, thank you."
+pic 18 05
+txt "Good bye! +"
+pic 05 09
+txt "Charming people."
+txt "Are they all dropped on their heads as babies or did we just get lucky with those two?"
+pic 07 13
+txt "Hmph. The dung beetle should not judge the worm."
+pic 05 14
+txt "You're just making these sayings up now, aren't you?"
+pic 07 13
+txt "I doubt you would know the difference, goblin."
+pic 05 14
+txt "I've told you, I am not a goblin! And I have a name thank you very much. Woodrot S. Mildew ...uh, the First."
+pic 07 14
+txt "Hmm. Now that Lady Judith has given you to me, I believe I shall call you... Spot."
+pic 05 08
+txt "Given? Given to you? What do you th-..!"
+pic 07 06
+txt "We are nearly at the gates, Spot."
+txt "You will OBEY the customs of the village you enter, and if you do not then I will do what no-one has done before; I will teach you some manners."
+pic 31 12
+txt "Buh-..."
+pic 05 25
+txt "..."

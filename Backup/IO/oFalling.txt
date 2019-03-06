@@ -1,0 +1,15 @@
+pic 34 08
+bub 0
+txt "*mumble* Ky... Kii Kii? Where are you?"
+txt "..."
+pic 34 07
+txt "Nearly three hundred years... ohhh. I think it's time I grew up... again."
+pic 34 09
+txt "..."
+pic 34 10
+txt "*gentle winds*"
+pic 34 11
+txt "*soft crunch*"
+pic 34 12
+bub 1
+txt "And so she slept, for a while."

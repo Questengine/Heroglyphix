@@ -1,0 +1,18 @@
+pic 09 12
+bub 2
+txt "HAH! + Take this, Mr... Gremlin..."
+pic 09 09
+bub 0
+txt "No! No no NO!"
+pic 09 17
+bub 1
+txt "But... there's nothing here but a broken ball and chain. I'm too late. I'VE FAILED!"
+pic 34 02
+bub 0
+txt "Oh Ky, I wish you were with me... what do I do?"
+pic 34 13
+txt "What's that?"
+pic 34 20
+txt "A single glyph in the corner? Another guard... or Edizon's shackles, I suppose."
+pic 34 13
+txt "Well, I don't see what else I can do right now."

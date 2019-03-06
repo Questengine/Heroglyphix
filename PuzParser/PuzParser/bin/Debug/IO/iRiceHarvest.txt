@@ -1,0 +1,38 @@
+pic 18 00
+bub 0
+txt "*Rustle*..."
+pic 07 23
+bub 2
+txt "Get down!"
+pic 31 17
+bub 0
+txt "OW!"
+pic 18 00
+txt "AAAAaaaa! Stay away monster!"
+txt "Wasn't it enough that you ate my mother? Didn't she fill you up?"
+pic 07 11
+txt "You there. Show yourself!"
+pic 18 00
+bub 2
+txt "No! I won't!"
+pic 07 11
+bub 0
+txt "Come out Ichiko, unless you wish me to set the bush on fire."
+pic 18 01
+txt "Oh, Lord M-magamura! *sob* Thank the heavens."
+pic 18 03
+txt "Have you driven off the terrible demon that attacked us? We threw everything we could at it, but - but it chased us like a tiger!"
+pic 32 07
+bub 4
+txt "Ah... a glyph."
+pic 07 17
+bub 0
+txt "And it ATE your mother?"
+pic 18 02
+bub 1
+txt "Yes! I tried to fight it off, of course - but it gobbled her up in front of my eyes!"
+pic 07 17
+bub 0
+txt "I see."
+pic 07 14
+txt "Then perhaps you can explain this?"

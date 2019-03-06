@@ -1,0 +1,20 @@
+pic 06 29
+bub 0
+txt "By Elysia's breath, this is not as it should be. All is wrong! Oh... Come my pretty ones, speak to me!"
+pic 06 05
+txt "How can you be silent?"
+txt "- and yet, yes. This is the fate I was shown, as clearly as it now affronts my eyes."
+pic 31 03
+txt "What's going on?"
+pic 06 04
+txt "Flux! Flux and chaos surrounds the harm the creature has wrought here! Its base magic has awoken visions from some underworld, and trapped them all around us."
+txt "The whole of my realm is fixed on it, gazing onto that single wyrd place!"
+pic 31 02
+bub 2
+txt "Let me out of the bag!!!"
+pic 06 07
+bub 0
+txt "And we must free the visions from the Glyphs, let them walk among us so that the balance may be restored."
+pic 31 04
+bub 2
+txt "Do NOT let me out of the bag!!! I am -staying- in the bag!!!"

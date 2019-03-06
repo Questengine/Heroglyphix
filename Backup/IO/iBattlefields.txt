@@ -1,0 +1,87 @@
+pic 07 08
+bub 0
+txt "Curse Edizon's creature! We're too late... Look at what it has wrought! Half a league to the North - our troops are engaging the Yogon in battle!"
+pic 05 17
+bub 1
+txt "Buh-battle? Yogon?!?"
+pic 05 28
+bub 0
+txt "But -we're- going straight for the Gremlin right? Gimme a minute and I'll track down his position!..."
+pic 07 12
+txt "Uh... yes, that's unusually cooperative of you."
+pic 05 13
+txt "Mmm-hmm, riiight. Yep, OK, I've got him... Pox is definitely that-a-way!"
+pic 07 14
+txt "Due West? Why would it go West?"
+txt "It's a massive detour from the route to its master's prison and there's nothing but agricultural lands and scrub..."
+pic 07 15
+txt "..."
+pic 05 28
+txt "That way!!! *nods*"
+pic 07 08
+txt "*Gasp* You are -lying-!"
+pic 05 14
+txt "I am not stepping foot on that battlefield! I'm OUT...this has nothing to do with me!"
+pic 07 13
+txt "There is no 'out'! The safety of the entire world depends on us catching the Gremlin before it frees its master! Now which way did it go?"
+pic 07 06
+bub 2
+txt "Which way?"
+pic 05 16
+bub 1
+txt "NOOO! You can't make me!"
+pic 07 13
+bub 0
+txt "Ha! You have far more to fear from me, than some Yogon scavenger! -Where is the Gremlin?-"
+pic 05 26
+txt "Nuh-uh! Not this time!"
+pic 07 17
+txt "...have you considered how you would spend the reward money?"
+txt "You'd be rich... All those bags of -gold- would buy a lot of fine food and drink."
+pic 05 22
+txt "...reward!...well no...but..."
+pic 07 08
+txt "Argh! And you may ride on my back."
+pic 05 29
+txt "You got yourself a deal!"
+pic 07 06
+txt "Very well. Let's see if we can finish this before the last shreds of my dignity are spent."
+pic 07 26
+bub 2
+txt "Yeehaa!"
+txt "Full speed ahead!"
+pic 32 01
+bub 1
+txt "Please Pyrhha, may no-one see me like this." 
+pic 07 27
+bub 4
+txt "Huh? Hoofbeats?..."
+pic 19 10
+bub 2
+txt "Lord Magamura!"
+pic 32 00
+bub 4
+txt "Oh no..."
+pic 19 10
+bub 0
+txt "Have you come to lend your might to the battle? We prevail, but your sword is more than welcome!"
+pic 07 27
+txt "Grand General Nin'gyo, it is always an honor to fight in your name."
+pic 19 10
+txt "The damn Yogon... I've never seen them come this close to our territory."
+pic 19 12
+txt "They surged toward our forces at noon and tooth and claw they've been putting up a fierce fight."
+txt "But just before your arrival the monsters began to scatter, it seems they've suddenly lost a little of their battle thirst!"
+pic 07 27
+txt "The holy shield had been disturbed, your excellency, it has only just been restored."
+pic 19 11
+txt "What? Do you seek to put the Grand General in your debt yet again, Magamura?"
+pic 07 27
+txt "I.. I seek only to protect the people of Jomon..."
+pic 19 12
+bub 2
+txt "OH-HYA-HYAA! 'Tis a joke, Magamura!"
+bub 0
+txt "I would have claimed you as a lieutenant long ago, if only your, uh... esoteric ...skills weren't needed in so many other areas. Come. To Arms!"
+pic 19 10
+txt "But take caution, some sickly, strange rodent is aiding the monsters. Just moments ago it knocked the mystic Halcyon Blade from my grasp and turned it stone!"

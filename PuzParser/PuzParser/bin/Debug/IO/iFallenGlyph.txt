@@ -1,0 +1,7 @@
+pic 08 05
+bub 0
+txt "It's here."
+pic 08 04
+txt "The glyph lays here, you were right, old friend."
+pic 12 04
+txt "Even da smallest things have their own secret voices, dat may whisper to those who'll listen."

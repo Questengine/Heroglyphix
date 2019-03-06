@@ -1,0 +1,7 @@
+pic 31 09
+bub 0
+txt "Do-Doopy-do-do-do-dooo + with suspicious minds ...hrm? We're stopping again?"
+pic 06 06
+txt "More Glyphs lie just ahead and no doubt in each we will find Etherites held prisoner by the Gremlin's hexes."
+pic 06 09
+txt "Hurry, it is not safe here whilst even one remains trapped."

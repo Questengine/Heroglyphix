@@ -1,0 +1,22 @@
+pic 02 06
+bub 0
+txt "Ha! Goodness yes. Well done Scrye, well done."
+pic 15 01
+txt "Twt-tt-tt."
+pic 02 12
+txt "Everberry Glade, elusive home of the fairest of the faeries, the Wood Sprites, the only ones alive perhaps capable of tracking our PREY."
+pic 02 08
+bub 2
+txt "<Gasp!>"
+pic 02 07
+bub 0
+txt "...Naturally, the Gremlin has beaten us here."
+txt "This idyllic place is spoiled by Pox's glyphs. Scrye, I think it best if you take flight, my friend."
+pic 15 00
+txt "Twoo-ooo!"
+pic 02 11
+txt "Back home. No arguments, I -"
+pic 02 09
+txt " - Ah, I see. You've already gone."
+pic 02 23
+txt "Well very good, *ahem*. I shall remedy matters here!"

@@ -1,0 +1,85 @@
+pic 08 05
+bub 0
+txt "We're done here, let's find our way back topside."
+pic 22 11
+txt "That.. feeble-minded bohemian! It beggars belief he would actually choose this pathetic existence."
+pic 22 09
+txt "When I think about everything he's turned his back on, the proud Murdo lineage, the family's seat of power - Murdo Mansion ..."
+pic 08 24
+txt "Will you stop your moaning, you foul old spirit."
+pic 22 09
+bub 1
+txt "Lords and Noblemen trembled in our Mighty shadow. We had so much!"
+txt "We -still- have so much, so many fineries and treasures taken to the grave... *mutter*  *mutter*"
+pic 08 03
+bub 0
+txt "Wait, what's that you're muttering?"
+pic 22 07
+txt "Hrm?"
+pic 33 13
+txt "Oracle, did he just say what I thought he did?!"
+pic 12 05
+txt " '...so many fineries and treasures taken to the grave. The Maroc pearl, Glenheim's bejewled battle armor, vases from the age of Vhadesh. And most valued of all...' "
+pic 12 12
+bub 2
+txt "THE CRUX! HE KNOWS OF THE CRUX!"
+pic 12 06
+bub 0
+txt "'We even held the fabled Gran Crux amongst the family treasures.'"
+pic 08 21
+bub 1
+txt "No?! *Gasp* Can it be true?"
+pic 22 20
+txt "Wh-what? What are you talking about, girl?... I never said anything of the sort."
+pic 33 01
+txt "I have searched for 8 -long- years for the Crux. Night after night scouring the land for whispers of its resting place."
+txt "Tirelessly have I hunted it - the instrument of my salvation, the Dark Junction, the artifact of power that can -unite my blood-: the Crux!"
+pic 08 26
+bub 2
+txt "And you, Murdo. You have it!"
+pic 22 20
+bub 0
+txt "Eh...!?! No no no, ... you must have misheard-"
+pic 33 01
+bub 2
+txt "With the Gran Crux in my possession my powers would no longer be bound to the night - I would no longer be called monster, mockery, a 'half-breed'."
+txt "I will be whole!"
+pic 08 27
+txt "Only the Crux has the sorcery to make me COMPLETE. Perhaps to become more powerful than any human or pure Shadowform has ever been!"
+pic 22 20
+txt "Stop it! I - I didn't say a word!"
+pic 08 26
+bub 1
+txt "Admit it!"
+pic 22 06
+txt "Th-that withered head has beetles in its ears. I've never even heard of the thing!..."
+pic 08 26
+bub 1
+txt "Listen carefully, shade. It is no mere 'thing', it is a prize. MY prize."
+pic 08 27
+bub 2
+txt "The Crux is my deliverance, my one goal, it is the beat in my heart, my reason to breathe - now TELL ME WHAT YOU KNOW!"
+pic 22 13
+bub 0
+txt "No, you've... Yaaargh!! - You'll never get your hands on it!"
+pic 22 14
+txt "*Spoink!*"
+pic 12 06
+txt "Gon'!"
+pic 08 28
+txt "Vanished, curse him!!!"
+pic 33 13
+txt "*Gasp* ... Look at me, I'm... shaking like a leaf."
+pic 08 31
+bub 1
+txt "I-i-i-i  kn-o-o-ow-w-w!"
+pic 33 13
+bub 0
+txt "At last ...Doc. At long last, after all these nights, we KNOW where the Gran Crux is! Murdo Mansion!!!"
+pic 08 31
+bub 1
+txt "Che-r-r... I-i-'m glad forrr you."
+txt "...B-but where i-is dis m-Murdo Mansion?"
+pic 08 18
+bub 0
+txt "!? . . ."

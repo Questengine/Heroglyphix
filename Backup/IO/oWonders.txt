@@ -1,0 +1,35 @@
+pic 17 04
+bub 0
+txt "Hey, the train's slowin', what, did we finally make it to G.C.?"
+pic 06 30
+txt "The power that brought you here is waning, I believe you will be returned to your natural place soon. It is time for me to leave."
+pic 17 06
+txt "Oh."
+pic 06 01
+txt "Here, I must make reparations for travelling in your carriage. I am sorry, this is all that I have to hand."
+pic 17 08
+txt "Alright, now I know for sure I'm asleep, because -this- looks like a very big, verrry shiny diamond..."
+pic 06 01
+txt "Light-Silver, yes a more rarified kind of diamond. It is quite valuable where I come from - I hope it may be of sufficient worth to you, also..."
+pic 06 15
+bub 2
+txt "Come Woodrot!"
+pic 31 01
+bub 0
+txt "Wheresh, where we goink now? *hic*"
+pic 06 00
+txt "Farewell, Mitchell of the otherworld."
+pic 17 04
+txt "...*swallow*... yeah. C'ya round."
+pic 06 01
+txt "Hold on to something, I'm going to seal the breach!"
+pic 06 13
+bub 2
+txt "-AWAY!-"
+pic 06 30
+txt "..."
+bub 1
+txt "Good."
+pic 06 01
+bub 0
+txt "You know Woodrot, with fine young humans like that - the blobs don't stand a chance."

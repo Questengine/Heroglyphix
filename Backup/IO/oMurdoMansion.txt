@@ -1,0 +1,38 @@
+pic 22 08
+bub 2
+txt "Oh yes, most glorious!"
+pic 22 10
+txt "The gallery of Kings is complete again. The greatness of our lineage cannot be denied!"
+pic 08 05
+bub 0
+txt "That's a lot of pairs of beady eyes."
+pic 22 07
+txt "Hmmm... so girl, I extend my thanks for the service you've done for us. Now you must move on quickly and track down the pest before he gets away!"
+pic 08 03
+txt "Nineteen portraits, all in order. That's curious..."
+pic 22 08
+txt "Aha-ha, curious? What, are you still thinking about the family treasures?!"
+pic 22 12
+txt "*Snort* - I assure you I was bragging. Doing it for show, grandstanding, making it all up!"
+pic 08 09
+txt "Each of these paintings is dated, but -that's not right-. There's one too many."
+pic 08 04
+txt "You told me earlier the Wanderer is your great-grandson - yet there are three paintings on the wall between yours and where his would be."
+pic 22 20
+txt "Honestly, my -Lady-. You're mistaken, now I really must -insist- we move on before the gremlin does any more damage!"
+pic 08 26
+txt "One of these, must be a FAKE. One of these three Murdos never existed! AHA!"
+txt "Only one Murdo out of all of these is displaying the family riches instead of hoarding them away."
+pic 08 23
+txt "*chuckle* And only one has managed a smile for their portrait."
+pic 08 15
+txt "Now that really was a give away, Unctious."
+pic 22 13
+txt "GAH! Stop!"
+pic 08 26
+txt "The handsome 'Excelsior' is the fake!"
+pic 33 02
+txt "A gentle push perhaps? - *CLICK*"
+pic 22 11
+bub 2
+txt "NooOO! Don't you go in there, girl. You'll be sorry! Come baaaack!"

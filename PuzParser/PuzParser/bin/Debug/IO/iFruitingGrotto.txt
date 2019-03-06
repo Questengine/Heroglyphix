@@ -1,0 +1,40 @@
+pic 33 13
+bub 1
+txt "Careful... slowly now, there's a sea of mushrooms down here. The Gremlin could be hiding anywhere!"
+pic 22 06
+bub 0
+txt "Hah! Look at this gloomy stinkhole. My dimwitted descendant has swapped our money for mould."
+txt "When I think of the riches the family held..."
+pic 08 03
+bub 1
+txt "Doc, what have you got?"
+pic 12 07
+bub 0
+txt "'Feeeed, my servant. Heal, replenish yourself.'"
+pic 08 05
+bub 1
+txt "Edizon? Whispering in Pox's mind?"
+pic 12 06
+bub 0
+txt "Yeaaa, not long ago..."
+pic 12 07
+bub 2
+txt "'Then HURRY to me, I grow IMPATIENT to be free!'"
+pic 08 01
+bub 1
+txt "I still don't see the Gremlin!... or any other exits..."
+pic 12 07
+bub 2
+txt "*Creak!* 'Yes, SPLENDID! Come now Pox. Make haste to me! Turn your Master's shackles to stones and you will be rewarded! - A-HA-HAA-HAAA!'"
+pic 12 05
+bub 0
+txt "*wheeze*... We was close G., but he's been and gon. We missed him by a hair."
+pic 08 28
+txt "Oh NO! ...  This quest has been nothing but bad news."
+pic 08 24
+txt "We're wasting our time here... and who knows which way he's headed?"
+txt "He's back to full speed now, we'll need to depend on your ears more than ever if we're going to even hope our luck will change."
+pic 12 16
+txt "Sho 'nuff. He ain't -nearly- out of our reach yet, G."
+pic 08 09
+txt "But I see there's work to do here first, maybe I can take out my frustration on these glyphs."

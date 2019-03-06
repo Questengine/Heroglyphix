@@ -1,0 +1,109 @@
+pic 31 26
+bub 0
+txt "How far do these stairs go?"
+pic 07 06
+txt "Deep down, down deep. Do not ask me, I've never been inside the temple catacombs."
+bub 1
+txt "No-one has for hundreds of years."
+pic 31 27
+bub 0
+txt "I think I'm going to scurry back up... for a breath of fresh air."
+pic 07 10
+txt "I'll tell you what, why don't I tell you a story to calm your nerves?"
+pic 07 11
+txt "... Ah yes. Five hundred and thirteen years ago, a young man born in Akuyoshida, rose to the position of Emperor."
+txt "The people praised his great strength, they threw festivals in honor of his ascendance, especially here in this village where he had lived and trained to become a fire wizard."
+pic 07 06
+txt "But the man... was not a man. He was a Jinn, a monster in human disguise."
+bub 2
+txt "And, after gorging his powers on the Elemental Heart of the volcano, he revealed the horror of his true nature as The Demon Emperor Kazenagi!"
+pic 31 28
+bub 1
+txt "I don't think I like this story!!"
+pic 07 06
+bub 0
+txt "The world entered a merciless Age of Darkness like none it had ever seen before, or has since."
+bub 2
+txt "The sky was filled with ash, the rivers ran sulphur and the people... the people could only even aspire to survive by supplicating to his cruel reign."
+bub 0
+pic 07 13
+txt "But hope is never fully extinguished, not even in the face of such a formidable evil, and the day finally came when heroes banded together and fought back."
+pic 32 07
+txt "In one night, the lives of an entire generation of wizards were lost. We still remember the sacrifice they made in order to kill Kazenagi..."
+pic 31 29
+txt "*gulp*"
+pic 07 13
+txt "..."
+txt "But even in his destruction, the demon's wickedness lashed out."
+pic 07 06
+txt "For you see, he held such terrible power that his burning essence rained down upon the remaining armies that opposed him - and it corrupted them."
+txt "They were stained with his malignancy, they shrank back into the Northern provinces changed, warped. They became the Yogon."
+pic 31 28
+bub 1
+txt "Uh-... *choke* - uh-huh?"
+pic 07 13
+bub 0
+txt "In the months that followed, the survivors built this temple to house the demon's bones-"
+pic 31 28
+bub 2
+txt "Here?! A -holy- place for the big evil's charred remains?"
+pic 07 14
+bub 0
+txt "To house the demon's bones, and principally, to -harness his creature-."
+pic 31 29
+txt "*whimper* Ye-ah, I think you might have mentionned something down here was aliv-"
+pic 07 08
+bub 2
+txt "HUSH!"
+bub 0
+txt "Quickly, extinquish your torch!"
+pic 31 28
+txt "Whaa?!? No way!!!"
+pic 07 08
+txt "It's attracted to the lights! DO IT!"
+pic 32 15
+txt "*PSHhh!*"
+pic 19 07
+bub 1
+txt "Alright, keep walking."
+pic 19 09
+txt "...*whimper*..."
+pic 19 07
+txt "I've got your back, coward."
+txt "Besides, I thought gnomes could see in the dark, how else do you mine your beetle-grubs?"
+pic 19 13
+txt "I'm not a fr-freakin' gnome, I'm ... oh, I get it."
+pic 19 09
+txt "think if you make me mad it'll take my mind off the fact you're leading us down to our certain deaths, huh?"
+pic 19 08
+bub 0
+txt "-HAhahaha!- ... Vigilance, we're almost at the bottom."
+pic 19 09
+bub 1
+txt "-Oh great!-"
+pic 19 07
+txt "I don't hear a thing... Stand back!"
+pic 07 25
+bub 0
+txt "IN FLAM!"
+pic 07 13
+txt "By Pyrrha! That damned gremlin even found its way down here?!"
+pic 07 14
+txt "Of course... it could just glyph the temple entrance to enter, do its damage and then reverse the spell when it left. I've gravely underestimated its cunning."
+pic 07 06
+txt "And it couldn't have picked a worse place to attack."
+bub 2
+txt "There, that large tablet sitting on the crypt lid, it must be the creature; -Penitence-. We have to free it immediately!"
+pic 05 16
+bub 0
+txt "You're gonna let Katchanoogie's beast loose with us in here? Are you mad?"
+pic 07 13
+txt "It's Kazenagi. And understand, we have no choice: every minute that Penitence is powerless, Akuyoshida and all the people of Jomon are in mortal danger..."
+pic 07 14
+txt "Wait, there's a second tablet here too, buried in all the dust and detritus and it looks... ancient."
+txt "I don't think our gremlin made this. It may have been here since the temple was first sealed! pic 07 12
+bub 4
+txt "Will the wand even work on it?"
+pic 07 11
+bub 0
+txt "Alright, time to find out!"

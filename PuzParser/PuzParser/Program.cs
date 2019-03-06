@@ -9,18 +9,38 @@ namespace PuzParser
 {
     class Program
     {
-         static   int s = 1;
-         static   int l = 1;
-         static   int p = 1;
-         static   int smax = 11;
-         static   int lmax = 11;
-         static   int pmax = 13;
+        static int s = 1;
+        static int l = 1;
+        static int p = 1;
+        static int smax = 11;
+        static int lmax = 11;
+        static int pmax = 13;
         static void Main(string[] args)
         {
-         //ParseTextFiles();
-              ParseTbtFiles();
-            Console.ReadLine() ;
+            //ParseTextFiles();
+            //ParseTbtFiles();
+            ParseIO();
+            Console.ReadLine();
         }//end main
+
+        static void ParseIO()
+        {
+
+            string filepath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            DirectoryInfo d = new DirectoryInfo("IO\\");
+
+            foreach (var file in d.GetFiles("*.txt"))
+            {
+                //Directory.Move(file.FullName, filepath + "\\TextFiles\\" + file.Name);
+                string fulltext = ReadText("IO\\" + file.Name );
+                fulltext = fulltext.Replace("\"", "\\\"");
+                fulltext = fulltext.Replace("\'", "\\\'");
+                Console.Write("\"" +file.Name + "\":\"" + fulltext + "\",\n");
+                Console.Write("------\n");
+                //Console.Write(file.Name+"\n");
+            }
+
+        }
         static void ParseTextFiles() {
 
             //Console.Write(Directory.GetCurrentDirectory() + "\n");

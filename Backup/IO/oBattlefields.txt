@@ -1,0 +1,22 @@
+pic 07 26
+bub 0
+txt "Run! Yes, closer to Pox we are getting. Mmmm! Run you must!"
+pic 32 00
+txt "I think that's the last of the tablets, and the battle falls behind us. Praise Pyrrha, Jomon is victorious!"
+pic 32 01
+txt "More to the North - *Smack* - I said North! ... here, grab me a stick, I'll keep you on target."
+pic 32 02
+bub 1
+txt "I think... that I've had quite enough of this."
+pic 31 17
+bub 2
+txt "WHOA! Ow, what are you doing throwing me off?! We aren't there yet!"
+pic 32 07
+bub 0
+txt "If you think, little troll, that I'm carrying you up Mt. Aku on my back then you will be sadly disappointed!"
+pic 05 14
+txt "Up there?"
+pic 32 07
+txt "I assume you are sufficiently well rested, and will not be needing any kind of extra incentive?"
+pic 07 14
+txt "My fire-sword is still nice and hot..."

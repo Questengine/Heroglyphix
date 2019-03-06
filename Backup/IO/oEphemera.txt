@@ -1,0 +1,46 @@
+pic 06 01
+bub 0
+txt "Very good. Thus far we have made good progress. Chaos becomes Order, but there is still much disarray ahead."
+pic 06 06
+txt "I believe the waxy, orange blob-people have not yet been alerted to us. We can only hope we will continue to elude them..."
+pic 31 03
+txt "...um, Judith? I think there's - there's something in here with me."
+pic 31 02
+bub 2
+txt "No, NO! Get Away. It's got MEEEE!"
+pic 31 06
+bub 1
+txt "Oooch-Ow! *heeheehee* It tickles!"
+pic 31 07
+bub 0
+txt "+"
+pic 06 00
+txt "Ah, my pretty ones! Seven of you are now freed from the Gremlin's magic."
+pic 17 01
+txt "+ + + + + + +!"
+pic 31 08
+txt "... ohh, I think the Universe is out to get me. This must be payback for all those practical jokes."
+bub 1
+txt "Hahaha! They were happy times, but I was always having to say to the other Sprites: 'that'll wash out!'..."
+pic 31 01
+txt "Or, 'Come on, bee stings aren't nearly as bad as hornets!' Pfff, no sense of humor."
+pic 06 15
+bub 0
+txt "*AHEM* Woodrot. She was trying to show you her gratitude."
+pic 31 01
+txt "Huh?"
+pic 06 00
+txt "The Hall of Visions is a special place, now as it forever will be and as it was long before my time. For it is the one home of the -Etherites-."
+pic 06 16
+txt "These fair beings are essels or perhaps you would simply call them 'living lights'. It matters not."
+txt "Know only that they are the sweet, insubstantial things that commune with Light Elementalists, such as I, across space and time."
+pic 06 01
+txt "They are the source of all of these visions - they grant glimpses of the past, present and future of this and other worlds."
+pic 31 03
+txt "Alright, alright. I don't need the details, just ask them to stay out of my bag?"
+pic 06 00
+txt "...Hah, poor Sprite. You have nothing to fear, don't you know your own brethren?"
+pic 06 01
+txt "Nevertheless, our task is clear. Many more etherites remain trapped by Pox's magic ahead of us."
+pic 06 09
+txt "We continue North under the mountains, to free the others and loosen the strange world's grip on this place."

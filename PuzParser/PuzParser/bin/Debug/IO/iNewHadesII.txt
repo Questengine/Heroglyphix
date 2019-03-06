@@ -1,0 +1,33 @@
+pic 23 07
+bub 0
+txt "And welcome to New Hades, population: minus 1307! A world never before looked on by living eyes!"
+pic 08 14
+txt "*Gasp!*"
+pic 12 13
+txt "Saint John!"
+pic 23 15
+txt "Pretty swift, huh?"
+pic 08 03
+txt "All the lights!... the building are shimmering. Moving?! And they're whole. It's as if the town were alive again - literally alive!"
+pic 23 10
+txt "It -is- alive, as alive as the three of us anyhow. Our town is a gathering of spirit energy, a'glow with the wishes of the dead."
+txt "There are so many spirits drawn to the Steppes that they began to live in hidden communities like this. And New Hades is the biggest of them all."
+txt "What do you think?"
+pic 33 13
+txt "Well the name's a little corny... but this place is -truly- amazing."
+pic 12 04
+txt "Dis feels like a home away from home! If we don't ever find a way to fix me back to my old self, a spooky old head could settle down here."
+pic 23 14
+txt "So, can I show the lady around?"
+pic 23 00
+txt "Welcoming a living human here, it's unprecedented..."
+pic 08 02
+txt "That may be true, but I'm not even the first living creature to come through here tonight, you've got a gremlin problem."
+txt "Look right there, a glyph. And there'll be more!"
+pic 23 06
+txt "Limpitt?"
+pic 23 01
+txt "Yeah okay OKAY!... Please... fix it?"
+pic 08 26
+bub 2
+txt "Okay, please stand clear of the wand. Sorceress at work!"

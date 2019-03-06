@@ -1,0 +1,24 @@
+pic 09 01
+bub 0
+txt "No. He wouldn't -DARE-!"
+pic 09 09
+txt "Oh no, my pretty home! What's that twerp been doing to my stuff?"
+pic 09 08
+bub 2
+txt "Ooooh! He's left his magical gremlin droppings everywhere!"
+pic 09 10
+bub 1
+txt "That's disgusting!!!"
+pic 09 11
+bub 0
+txt "W-wait, where's Kii Kii! KII KII??? Are you hiding?"
+pic 09 09
+txt "Are you trapped in one of these stone droppings?!"
+pic 09 12
+txt "*huff* Okay wand, do your thing! Go!"
+pic 09 13
+bub 2
+txt "Do it! Why aren't you doing it?"
+pic 09 14
+bub 0
+txt "Alright... *sigh* ...silly wand, I'll -help- you figure out how to break the spells."

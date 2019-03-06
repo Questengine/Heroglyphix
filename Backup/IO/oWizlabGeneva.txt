@@ -1,0 +1,51 @@
+pic 07 06
+bub 0
+txt "Geneva certain events are in motion. When I entered, I found you glyphed - trapped inside a mystical tablet."
+txt "With this wand I am chasing the one responsible, a Gremlin called Pox who is working for that empire-hungry fool, Edizon."
+pic 08 00
+txt "Ooh, the Vanglorian! Oban Methusaleh's wand of power, may I hold it?"
+pic 07 13
+txt "There's no time, if you are safe then I must continue - finish what I started."
+pic 08 24
+txt "You're exhausted."
+pic 32 08
+txt "I am - fine!"
+pic 08 15
+txt "Don't think I can't see you're leaning there for support. You can barely stand!"
+pic 08 26
+txt "Hand it to me, Matthius. This is my territory, and the night is my time, after all."
+pic 32 09
+bub 1
+txt "I am not beaten!"
+pic 08 05
+bub 0
+txt "Of course you're not -beaten-. But I've been dying for a good fight, just point me in the right direction!"
+pic 07 11
+txt " Very well, the quest is yours."
+pic 08 02
+txt "This is exactly what I need! I'll leave at once!"
+pic 07 12
+txt "Geneva, I..."
+pic 08 26
+txt "Don't worry, I can handle myself."
+pic 07 06
+txt "I -know- you can, it is not that. I - I wanted to say..."
+txt "I have a warrior's heart. I am inclined to be harsh even to those closest to me, today certain events made me recognise... I am too severe..."
+pic 07 14
+txt "For all of my skills with fire, I am - cold."
+pic 08 15
+txt "No Matthius, I understand. It's just... that's your nature."
+pic 07 13
+txt "My nature? Yes, but it's not... I wanted to say..."
+pic 32 10
+txt "I don't want to be that way - forever."
+pic 08 05
+txt "... alright."
+pic 08 03
+txt "Perhaps we should talk more about this when I return."
+pic 32 10
+txt "*cough* Yes, well..."
+pic 07 10
+txt "Give him hell. You should be able to find the gremlin by his trail of chaos, but if all fails then seek out hot spices, he is attracted to them like a moth to a flame!"
+pic 08 04
+txt "A moth to a flame - okay, I can relate to that."

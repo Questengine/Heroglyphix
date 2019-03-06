@@ -69,14 +69,14 @@ function BuildUPP(){
 		i++;
 	}
 	ADMINMarkPuzzleComplete("03-05-01");
-	ADMINMarkPuzzleComplete("02-02-08");
+	/*ADMINMarkPuzzleComplete("02-02-08");
 	ADMINMarkPuzzleComplete("05-02-01");
 	ADMINMarkPuzzleComplete("04-05-03");
 	ADMINMarkPuzzleComplete("05-04-01");
 	ADMINMarkPuzzleComplete("05-05-01");
 	ADMINMarkPuzzleComplete("05-05-02");
 	ADMINMarkPuzzleComplete("05-05-03");
-	ADMINMarkPuzzleComplete("05-05-04");
+	*/ADMINMarkPuzzleComplete("05-05-04");
 	ADMINMarkPuzzleComplete("05-05-05");
 }
 function isPuzzleComplete(code){
@@ -96,5 +96,6 @@ function MarkPuzzlePartDone(code,part){
 	var puzparts = gUPP[code];
 	var newdata =puzparts.slice(0,ipart)+"1"+puzparts.slice(ipart+1); 
 	gUPP[code]= newdata;
+	CookieSave();
 }
 

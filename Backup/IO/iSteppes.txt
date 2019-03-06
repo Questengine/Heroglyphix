@@ -1,0 +1,69 @@
+pic 23 00
+bub 0
+txt "I don't believe this! It came out of nowhere, poor Welk."
+pic 23 06
+bub 1
+txt "W-what are we going to do?"
+pic 23 02
+bub 0
+txt "The look on his fat face when that energy bolt hit him. BAM! Right between the eyes!"
+pic 23 06
+txt "We have to go for help!"
+pic 23 02
+txt "Help? And who's going to help us?!"
+pic 23 07
+txt "We have to do -something-! We can't just leave him like that!"
+pic 23 00
+txt "I don't know... Ack, THERE'S A HUMAN COMING! HIDE!"
+pic 33 09
+bub 1
+txt "...I always knew it wasn't a faerie tale Doc, that it was out there, somewhere."
+pic 08 05
+bub 0
+txt "I never stopped believing. And now we can give that place a name: Murdo Mansion... Murdo Mansion."
+pic 12 05
+txt "It don't ring a bell, G."
+pic 23 07
+bub 1
+txt "Look, it's the Divided One! Maybe if -"
+pic 23 00
+txt "Keep your voice down, she'll -hear us!"
+pic 33 13
+txt "Well, this is where our final hunt begins, where the forest line succumbs to the blighted, lifeless earth. The Shadow Steppes."
+txt "How many times have we ventured forth from here?"
+pic 12 04
+txt "Too many to recall, mon cher."
+pic 08 03
+txt "And we've never heard mention of this Mansion before..."
+txt "But then, the Steppes are as vast as a sea and dotted with islands of ruins from all the ages of the world."
+pic 08 09
+txt "It's 20 leagues across and not one living thing is out there, - except for the black butterflies."
+pic 08 03
+txt "I've always found that a little unsettling."
+pic 08 04
+txt "Even so... it ends tonight,  I can feel it. Are you with me?"
+pic 12 03
+txt "You better believe I am."
+pic 12 04
+txt "You know how my powers woiyk, I'm gon' strain my ears to catch any whispers ever been said about da Murdos."
+txt "Ain't gon' be easy, though. Twenty five generations they lived here? Whoo, dat's gon' keep me busy."
+pic 08 26
+txt "You work your magic - and I'll keep us moving. Let's -begin-."
+pic 23 07
+bub 2
+txt "Hey! Human!"
+pic 23 01
+bub 0
+txt "WHAT ARE YOU DOING!?! Get back here, Periwynkle she could be dangerous!"
+pic 23 06
+txt "No Limpitt, someone has to do something!"
+pic 08 07
+txt "Huh? More ghosts?!"
+pic 23 07
+txt "Please, - please miss. Can you help us?"
+pic 08 05
+txt "Help you, shade?! With what?"
+pic 23 08
+txt "This, m-my friend."
+pic 08 03
+txt "Ohh... a glyph... yes, the Gremlin...  I can help. And then maybe -you- can do something for me."

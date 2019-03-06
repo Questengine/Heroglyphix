@@ -1,0 +1,18 @@
+pic 34 07
+bub 0
+txt "Falling, like a feather +"
+txt "...like the Demon's ashes..."
+txt "...like the snow..."
+pic 27 10
+bub 1
+txt "...Ha ha ha! Jomon's shield failed briefly b-... enough for my childern to rise up... Dark rites!.."
+txt "...still weak, but... they strive now more than ever..."
+pic 34 08
+bub 0
+txt "NO! Mmm, no not again."
+pic 27 10
+bub 1
+txt "...I wiiiill return..."
+pic 34 07
+bub 0
+txt "We will ALWAYS be there, to stop you. -I- will."

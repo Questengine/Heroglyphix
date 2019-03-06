@@ -126,6 +126,7 @@ function SpeechNext(){
 function RedrawPortrait(imgid, picid){
 	var picx = picid % constPortraitPerRow;
 	var picy = Math.floor(picid / constPortraitPerRow);
+	gTextClass = GetTextClass(imgid,picid);
 	picx*=constPortraitWid;
 	picy*=constPortraitHgt;
 	
@@ -233,6 +234,8 @@ function RedrawSpeechBubble(imgy){
 	imgy++;
 	$("#dSpeech").css("background-image", "url('images/bubble"+imgy+".png')");
 }
-function RedrawText(texttodraw){ $("#pSpeech").text(texttodraw);}
+function RedrawText(texttodraw){
+	$("#pSpeech").removeClass().addClass(gTextClass).text(texttodraw);
+}
 function DialogueOpen(){ $("#dDialogue").slideDown(); }
 function DialogueClose(){ $("#dDialogue").slideUp(); }

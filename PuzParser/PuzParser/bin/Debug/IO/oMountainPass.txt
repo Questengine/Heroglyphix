@@ -1,0 +1,15 @@
+pic 34 13
+bub 0
+txt "Ugh, where am I?"
+pic 28 03
+txt "Nor'scrag moontins, have ye beeen drenking? Are ye tapsy?"
+txt "The Kyng sed ta find ye, and ta tell ye: the Grrramlyn hass bin seen."
+pic 09 01
+txt "Been... The Gremlin's been seen?"
+pic 28 02
+txt "Aye, Gnigel spied him farrrrther oop this hee pass! Near Nor'chine gaol."
+pic 09 09
+txt "Gaol? The Jail! He's already at Edizon's prison?! Oh no, I have to go!"
+pic 28 03
+bub 1
+txt "Och. Hyumans. Who unnerstans them?"

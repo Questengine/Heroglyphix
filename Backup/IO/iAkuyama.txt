@@ -1,0 +1,22 @@
+pic 07 13
+bub 0
+txt "Grrr. Apply yourself! We have only been walking for a few minutes!"
+pic 05 20
+txt "Gotta *huff*, g-gotta rest *huff huff*. I'll wait here."
+pic 07 14
+txt "If I didn't need you to travel with me, do you think I would have suffered your company for even one moment?!"
+pic 31 12
+txt "It's alright for you up there. There's steam coming out of the ground! I'm getting cooked like a snow pea."
+pic 07 14
+txt "Welcome to Akuyama. Just be glad today is not an erupting day, and try not to step on any fire frogs."
+pic 05 20
+txt "Come on Woodrot, think of the reward money..."
+txt "Picture yourself in a beautiful stump the size of a palace. All your friends and family are around you..."
+pic 05 30
+txt "Bowing and scraping, serving your food, cleaning your boots -Hahahaa!-"
+pic 07 13
+txt "Iredeemable fool. Pick up your feet, I don't intend to let the gremlin escape again! Now, which way is it?"
+pic 05 22
+txt "Yeah, the golden goose! He came up here alright, look."
+pic 07 13
+txt "- Glyphs."

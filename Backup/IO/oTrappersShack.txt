@@ -1,0 +1,36 @@
+pic 12 06
+bub 0
+txt "Betta move yo self, quickly G. I don't hear dem snores upstayz, any mo!..."
+pic 21 04
+txt "*Hach!* - WHO'S there?"
+txt "Who are you, WRETCHED girl in my house? Intruding on my work! Letting go my pretties?!"
+bub 2
+txt "I'll teach you to-"
+pic 08 17
+bub 1
+txt "Teach? If someone is to be taught a lesson..."
+pic 08 10
+bub 2
+txt "IIT ISSSss YOU!!!"
+pic 21 05
+bub 0
+txt "Agh! A Shadow-! *Hach!* The girl is a -Shadowform-!"
+pic 08 19
+bub 2
+txt "THIIISSSS PLACE, - YOU AAARE A BLIGHHT ON AN ALREADY BLIIIGHTED LAND!"
+txt "WITH ONE MOTIIION OF MYYY FIST, I . . . !"
+pic 21 05
+bub 1
+txt "Uh - uh - Uh ! No!"
+pic 12 09
+bub 0
+txt "Geneva, getta grip!"
+pic 08 14
+txt "*Gasp*"
+pic 08 21
+txt "We're leaving, Doc..."
+pic 21 05
+txt "That's right! *choke* Run away, you m-monster. Evil!"
+pic 21 04
+bub 2
+txt "EVIIIIIIIIL! ..."

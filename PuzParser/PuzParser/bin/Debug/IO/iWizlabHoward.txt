@@ -1,0 +1,22 @@
+pic 00 18
+bub 2
+txt "Howard?"
+txt "Master Howard are you home? Egads! I should have got here sooner."
+pic 00 04
+bub 0
+txt "I didn't expect Pox to be this daring, besides, the location of every Wizard's Laboratory is a well guarded secret!"
+pic 00 18
+txt "Shoot, there's no sign of him."
+pic 00 09
+bub 2
+txt "...!"
+pic 00 18
+bub 0
+txt "But there are signs of the gremlin!!"
+bub 1
+txt "And I can't be sure, but, it almost feels as if it's -still here-."
+pic 01 04
+bub 0
+txt "If you come face to face with the creature, STRIKE him with the wand!"
+pic 00 07
+txt "I remember your words, Methusaleh. I-I-I'm ready for the worst!"

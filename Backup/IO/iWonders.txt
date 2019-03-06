@@ -1,0 +1,45 @@
+pic 06 19
+bub 0
+txt "Faster and faster still!"
+txt "Oh, what breathtaking speed, what bone-jarring motion - how the tunnel walls flash and thunder past the windows!"
+pic 31 01
+txt "*BURP!* Awww. Ish a pidy I can't see id, i- id sounds exschiting!"
+pic 06 08
+txt "We fly through the Hall, under the mountains - I would say the Gremlin had erringly left us an advantage, but I fancy at any moment we may crash into something!"
+pic 31 09
+txt "Hee-hee-heeee! WE ALL GONNA DIE! *hic!*"
+pic 17 02
+txt "*Snore*"
+pic 06 29
+txt "Oh my goodness, another human?! Sir! Sir, excuse me!"
+pic 17 03
+txt "Huh? - Are you talking to me, lady? I'm just trying to get some sleep."
+pic 06 01
+txt "Are you the owner of this vast and stately carriage?"
+pic 17 04
+txt "What? Do... do you think that's funny - please, leave me alone, I'm just -sleeping- until Grand Central."
+pic 31 01
+txt "La-la-LA-la-LA! *hic!*"
+pic 06 08
+txt "I would only beg a question or two?"
+pic 17 03
+txt "Look, you got to be -careful-! The subway in the middle of the night is no place for ..." 
+pic 17 06
+txt "... for... a glowing lady and her singing, floating bag."
+pic 17 05
+txt "Wh-whoa! What is this?!"
+pic 06 06
+txt "Ah! More Glyphs! They're coming, I can sense it from vibrations in the wand!"
+pic 17 06
+txt "Okay, alright! Sure, I-I have eaten McNuggets off the pavement AND worse, but I've never -taken- anything in my life! Now this?"
+bub 2
+txt "This is messed up. This is totally Kutcher!"
+pic 06 00
+bub 0
+txt "You may want to sit down.. uh?"
+pic 17 04
+bub 1
+txt "Mitchell..."
+pic 06 01
+bub 0
+txt "Mitchell, I'll need some room here. And a fast wand hand!"

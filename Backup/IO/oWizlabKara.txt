@@ -1,0 +1,3 @@
+pic 09 11
+bub 0
+txt "B-b-but he's not in any of these rocks! Kiiii-Kiiii, where are you?"

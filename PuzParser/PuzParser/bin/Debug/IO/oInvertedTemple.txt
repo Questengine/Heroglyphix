@@ -1,0 +1,42 @@
+pic 07 13
+bub 0
+txt "One beast, and one written word."
+pic 07 12
+bub 1
+txt "Is it another password? The temple's architect? Blast. What does it mean?..."
+pic 07 11
+bub 0
+txt "-Of course!- Hrmph, I must be losing my touch if it took me this long. 'Noctuid' - is the name of the beast."
+pic 05 14
+txt "But you said?!..."
+pic 07 13
+txt "The survivors of the War called it 'Penitence' to serve its new role, that of using the dark remnants for good instead of evil."
+pix 07 11
+txt "But they could only command it with its true name - the one that Kazenagi himself bestowed upon it!"
+pic 07 13
+txt "Well then..."
+pic 07 23
+bub 2
+txt "Noctuid, AEGIS ETERNIA!"
+pic 18 08
+bub 0
+txt "Phwaaaa-! +++"
+pic 07 22
+txt "Yes, it responds! - and I can feel it, almost like the warmth of a sunset - its protection returns to Jomon."
+pic 07 13
+txt "Sleep Penitence. You were an innocent once. May you find peace in your duties..."
+pic 18 09
+bub 4
+txt "*dreams*"
+pic 05 25
+bub 0
+txt "...So we can get out of here now?"
+pic 07 14
+txt "We can..."
+pic 05 27
+txt "O-ho sweet mercy, yes!"
+pic 07 08
+txt "... -to join the bloody fray at the front lines and to finally get face to face with the Gremlin! Now things get SERIOUS!"
+pic 05 25
+bub 1
+txt "*Groan!*"

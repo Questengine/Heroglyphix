@@ -1,0 +1,37 @@
+pic 00 01
+bub 0
+txt "The Book of Glyph Lore?.. by Oban Methusaleh. It's 500 years old! Ohh, I hope this is it."
+pic 00 08
+txt"*cough* *cough* Dusty!"
+pic 01 00
+txt "Dusty? DUSTY? No, no, my boy, you must be mistaken. A book as fine as this is in high demand!"
+pic 01 01
+txt "Here within this most serendiptitous of tomes, you may discover the very secrets of restoring that which has been turned into stone."
+pic 00 07
+txt "Hey, this sounds right. In town there were strange, stone tablets all over the place..."
+pic 01 02
+txt "Glyphs! Magical glyphs - the curse of the Pox Gremlin. Once considered a blessing, oh yes, but far from it. Far from it."
+pic 01 01 
+txt "Now allow me to impart my wisdom to you, in the shape of a series of elementary tests. And you, my lucky reader, will be on the road to becoming a Glyphix Master such as I."
+txt "Although, my shoes are large ones to fill, indeed."
+bub 2
+txt "Do not be deterred, it is quite understandable to feel intimidated by my legendary talents."
+pic 00 01
+bub 0
+txt "..."
+pic 01 05
+txt "Now just keep this in mind, and it really is quite simple: the spell that binds a glyph can be undone by working out its pattern on a grid!"
+pic 01 01
+txt "By pattern, I mean that a little picture will form, which resembles that item that has been enchanted."
+pic 01 06
+txt "Once a grid appears, you will see numbers appear along the sides of it. These are the clues."
+txt "It is up to you to use them to mark out the pattern (by clicking empty grid squares with the left mouse button)."
+pic 01 07
+txt "For instance, a clue of '3' would indicate that there are exactly three marks to be made -all in a line- on that row or column."
+pic 01 00
+txt "Don't worry if it sounds complicated, you'll pick it up as we go along. I assure you a staggering simpleton could pass my tests."
+pic 01 01
+txt "I highly recommend that you attempt all ten in order, starting with number 1. Do so and I'm certain you'll be up and running in no time, what?"
+txt "Well, there's no time like the present. You may as well leap right in!"
+bub 2
+txt "Quill sharp and at the ready? Then begin!"

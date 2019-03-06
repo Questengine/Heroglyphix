@@ -1,0 +1,66 @@
+pic 02 18
+bub 0
+txt "Down from the Valley Plateau, a league of forest, and now - out here onto the glistening shoreline. Yes, this is a most excellent map."
+pic 05 22
+txt "Huh? A what?"
+pic 02 00
+txt "A map. -Map-? A small picture of a big place? Well, I imagine living in the seclusion of Everberry meant you had no need for such contrivances."
+pic 05 07
+txt "'Contrivances'?"
+pic 02 07
+txt "Oh, nevermind."
+pic 05 08
+txt "Don't get tetchy!"
+pic 02 10
+bub 2
+txt "I'm quite calm, thank you."
+pic 05 14
+bub 0
+txt "It isn't my fault I don't know about all these fancy things, you dragged ME out of my humble lifestyle."
+pic 02 15
+txt "Hmph, yes... ...and I -am- grateful for your help. I'd be quite at sea without your tracking abilities."
+pic 05 11
+txt "'Sea'?!"
+pic 02 20
+bub 2
+txt "...!"
+pic 05 30
+bub 1
+txt "Hehehehe!"
+pic 16 02
+bub 0
+txt "Excuse me gents, I- I- I couldn't ask a modest favor could I?"
+pic 02 00
+txt "*ahem* Ah, yes, yes of course. Good Afternoon, I'm Howard Applewood III and this is my 'faithful' companion Woodrot."
+pic 16 03
+txt "Admiral Humphrey Portstarboard, sirs. *ahem-mumble* At your service, or at least I would be..."
+pic 16 02
+txt "I'm the Captain of the fine steamer, the S.S.Saltshaker. The only member of crew in fact, i-i-it's at dock just there."
+pic 05 09
+txt "Cripes, look at that floating deathtrap, it's an old rustbucket!"
+pic 02 10
+bub 1
+txt "Quiet, sprite!"
+pic 16 02
+bub 0
+txt "Only you see, I've had a dash of bad luck and she's not going anywhere..."
+pic 02 00
+txt "This wouldn't have anything to do with a certain Gremlin, by any chance?"
+pic 16 02
+txt "Gremlin you say? *ahem-mumble* That's what the furry fellow was, was he?"
+pic 16 04
+txt "The blighter disabled her engines, then - would you believe - scampered orf away over the surface of the water. That's just not cricket, eh?"
+pic 02 00
+txt "Why don't you show us what the source of the problem is? I'm sure we can help."
+pic 05 08
+txt "But are you sure we should help this befuddled human get in control of heavy machinery?"
+pic 02 10
+bub 1
+txt "I said QUIET, sprite!"
+pic 31 12
+bub 0
+txt "Hmph, seemed like a fair question."
+pic 02 23
+txt "Lead the way, Admiral."
+pic 16 03
+txt "Capital! I would be very much - uh - uh - obliged!"

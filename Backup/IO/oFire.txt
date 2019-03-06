@@ -1,0 +1,6 @@
+pic 00 28
+bub 2
+txt "Aquas!!!"
+pic 00 29
+bub 0
+txt "*Pshhhh*"

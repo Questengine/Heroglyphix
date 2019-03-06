@@ -1,0 +1,31 @@
+pic 06 01
+bub 0
+txt "Are you feeling yourself again?"
+pic 05 05
+txt "Are -you-? I didn't think you were ever going to snap out of that crazy-eyed, mime show you had going, back there."
+pic 05 08
+txt "...What was all that stuff about falling and sacrifices?"
+pic 06 01
+txt "There are many, great challenges ahead, glimpses of them had been building up like meltwater behind a dam - once the Hall was restored that dam had to break."
+pic 06 30
+txt "This wand still has far to travel."
+pic 05 25
+txt "*S-i-i-i-gh* And what about us, are we there yet?"
+pic 06 25
+txt "Well, we would have reached our destination some hours ago if you hadn't been in so tender a state."
+pic 05 03
+txt "*cough* 872. It was a bloody good year for Acorns, but my head aches like a cart driver's butt."
+pic 06 15
+txt "Woodrot, we have achieved much together and I am not immune from the strains of the quest either, but we cannot afford to rest any longer."
+pic 06 30
+bub 1
+txt "You are not at journey's end quite yet."
+pic 06 08
+bub 0
+txt "There, just ahead: the humble mountain home of Matthius Magamura."
+pic 05 05
+txt "Pox swung through here alright, but he's long gone. Man, doesn't he ever get tired? Stop for a cup of coffee and a bathroom break?!"
+pic 06 09
+txt "It is quiet as the grave... but surely, Lord Matthius would not fall afoul of so unworthy an opponent?"
+pic 06 19
+txt "No..."

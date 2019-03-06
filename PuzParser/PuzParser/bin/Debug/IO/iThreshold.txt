@@ -1,0 +1,17 @@
+pic 06 01
+bub 0
+txt "Before us is a land of mystery, confusion and perils. We stand at the Threshold."
+pic 05 29
+txt "Hey gorgeous, we only just met. I don't think we're ready for marriage."
+pic 05 09
+txt "But I -like- that you've forgotten about Howie so quickly. Y'know, this could be the beginning of a-"
+pic 06 10
+bub 2
+txt "Make no mistake, there is DANGER ahead!"
+pic 05 15
+bub 0
+txt "Wuh-Why are you looking at me like that???"
+pic 06 09
+txt "The gremlin has disturbed our path with his hexes. My Hall of Visions is in disequilibrium, it has been struck out of balance and out of my control."
+pic 06 04
+txt "Another plane now intersects the Hall, a world of dark necromancy with danger at every turn and hideous forms too terrifying for mortal eyes!"

@@ -1,0 +1,19 @@
+pic 08 03
+bub 0
+txt "Okay, got it. Never heard of you. -  Now Doc., what do you make of this?"
+pic 12 05
+txt "Da Gremlin's Master ordered him to woiyk dis machine. You could try cranking da lever."
+pic 22 11
+txt "Gaah!! How -dare- you ignore me. Before the damned blight our influence was felt across the world!" 
+pic 08 28
+txt "There's no-one out here who escaped being affected by the blight. That doesn't make you special."
+pic 22 10
+txt "Ah, but the Murdo's were SUPREME - influential and rich beyond words!!"
+pic 22 09
+bub 1
+txt "Which makes it all the more sickening to see what has become of our only heir."
+pic 08 26
+bub 2
+txt "Doc, it's working! It's a gate and lift shaft down to a underground grotto of some kind, the Wanderer must have built it for access."
+bub 0
+txt "It's not very sturdy, it's certainly not pretty but... Come on, let's see where this contraption leads."

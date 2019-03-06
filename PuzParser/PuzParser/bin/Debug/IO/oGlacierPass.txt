@@ -1,0 +1,51 @@
+pic 11 14
+bub 0
+txt "*skitter*"
+pic 10 09
+bub 2
+txt "AHA! My foe!"
+pic 10 00
+txt "Dodge this, you cretinous crouton!"
+pic 10 10
+txt "HUHU-HA-HAA-HAAA! LIGHTNING!"
+pic 29 00
+bub 1
+txt "*RUMBLE*"
+pic 11 15
+bub 2
+txt "*Lightning crack!*"
+pic 10 10
+bub 0
+txt "YES, MY BEAUTIFUL POWERS COURSE THROUGH MY VEINS AGAIN!"
+bub 2
+txt "-LIGHTNING!!!-"
+pic 29 00
+bub 1
+txt "*RUMBLE* *RUMBLE*"
+pic 11 16
+bub 2
+txt "*Lightning Crack!!!* ... Squeal!"
+pic 10 11
+bub 2
+txt "Mm-hmm. Servant, you are of no more use to me..."
+pic 11 17
+txt "... Gaooghhhh ..."
+pic 10 12
+bub 2
+txt "YOU FRY!"
+pic 29 01
+bub 1
+txt "*Rumble--CRACK!--Rumble*"
+pic 10 13
+bub 0
+txt "Buh? What did I..."
+pic 10 14
+txt "Grrmphhh!? - *spit* *cough*"
+pic 11 18
+bub 0
+txt "*Gwa-ha-hahaa!*"
+pic 10 15
+bub 2
+txt "NoooOOOOooOOOOO..."
+txt "OOOOOOOOOOOOOOOO..."
+txt "OOOOOOOOAAAooAARGH!!!"

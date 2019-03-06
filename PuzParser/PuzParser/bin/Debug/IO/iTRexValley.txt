@@ -1,0 +1,36 @@
+pic 05 27
+bub 0
+txt "Sweet sweet DAYLIGHT!!! *inhale*"
+pic 05 09
+txt "Ohh, to be back in the real world again."
+pic 16 00
+bub 2
+txt "*Stomp stomp stomp*"
+pic 05 22
+bub 0
+txt "What's wrong with this picture?"
+pic 02 10
+txt "Botheration! I remember this blasted place from the last game."
+pic 02 13
+txt "I, uh  *cough*, that is, I mean to say the last -adventure-."
+pic 02 00
+txt "Edizon had rather a penchant for staging his tests here, T-Rex Valley. A nearly inaccessible landscape that's been cut off from the rest of the Forest for eons."
+pic 02 15
+txt "The last refuge of the great lizard carnivores..."
+pic 05 22
+txt "...I... see..."
+pic 02 02
+txt "Woodrot, where do you think you're going?"
+pic 05 28
+bub 1
+txt "...I'm juuust scouting out shortcuts... I'll be..."
+pic 02 07
+bub 2
+txt "Get back here. I need you to track Pox! Woodrot! Woodrot you coward, I'm warning you!"
+pic 02 24
+bub 0
+txt "Blast!! So I'm on my own."
+pic 02 27
+txt "... Alright. Chop chop, come on Howard. This can be a valuable field trip for you, lot's of fascinating new flora and fauna. Yes, yes. Nothing to faze you..."
+pic 02 00
+txt "Just keep heading North, this way, and you're bound to find the Gremlin or the Valley's end."

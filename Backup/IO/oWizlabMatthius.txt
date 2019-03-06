@@ -1,0 +1,47 @@
+pic 06 09
+bub 0
+txt "Indeed, this is -Edizon's- work. The Gremlin, Pox, is not some random apparition."
+txt "It is his eager servant, summoned Northward to free him. It has left havoc in its wake that has needed to be remedied all of the leagues back from Thaumhaven."
+pic 07 10
+txt "Young Skimlet has been proving himself again?"
+pic 06 00
+txt "If it were not for his early actions, we both forever be cold pebbles, neither alive nor dead."
+pic 06 23
+txt "Wind stirs the ripples. I foresee he will be a great power one day..."
+pic 06 21
+bub 1
+txt "Oh, the visions are so insistent, squabbling crows! - Omens of the road travelled and the myriad forks ahead. -It is too much!-"
+pic 07 12
+bub 0
+txt "Lady Judith, are you alright? Here, you should rest a while."
+pic 06 00
+bub 1
+txt "No... No. I am quite fine."
+pic 06 01
+bub 0
+txt "By Skimlet's efforts the quest was passed to Howard the Green from whom this wand was passed to me."
+pic 06 26
+txt "Now I ask that you continue chase, Methusaleh's device has drained me and I tire of the overworld. I- I must return to my Hall of lights."
+pic 07 11
+txt "Very well! Leave safe in the knowledge that the chase will soon be over."
+txt "It is said 'Do not count tanuki skins before they have been caught', but I swear that it goes no further than this!"
+pic 07 08
+txt "And if even one wasabi basket in Akuyoshida has been overturned, there will be -hell- to pay."
+pic 06 01
+txt "Farewell, brave one."
+pic 07 12
+txt "*ahem* My lady? You have forgotten your goblin."
+pic 05 23
+txt "HEY! Who are you calling a goblin, slap-head?"
+pic 06 26
+txt "Ah, yes I have not told you yet have I? It is so hard to focus, is this before or after the flames?"
+pic 06 30
+txt "No - no. Of course. It is the dawn of the second day, and Lord Matthius is only about to set out."
+pic 07 13
+txt "My lady?"
+pic 06 00
+txt "This is Woodrot. Only he can lead you to Pox."
+pic 31 11
+txt "hear that? I'm important - like, don't mess with me!"
+pic 07 14
+txt "I suppose even a fool has one talent."

@@ -1,0 +1,10 @@
+pic 01 00
+bub 0
+txt "Good luck, my boy. I Oban Methusaleh; adventurer, heartbreaker, swordsman, saviour, Legend - have faith in you."
+pic 00 11
+txt "Thank you Sir Methusaleh, and goodbye!"
+pic 01 02
+bub 3
+txt "Hmm, nice lad. Might make a name for himself."
+pic 01 14
+txt "If only he'd grow himself a handsome moustache he may even become half the man I was."

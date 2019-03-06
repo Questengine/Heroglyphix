@@ -1,0 +1,44 @@
+pic 00 01
+bub 0
+txt "That gremlin can't have got far, I must nearly be on its tail by now!"
+pic 00 20
+bub 3
+txt "If they have tails? I wish I'd thought to ask the barkeeper what it looked like!"
+pic 00 01
+bub 0
+txt "Well whatever. Watch out Pox!"
+pic 00 02
+txt "You've had your fun but I'm sending you back to whatever dark nook you crawled out from!"
+pic 00 16
+bub 3
+txt "... (puff puff) ... this sure is a long way..."
+pic 00 04
+bub 0
+txt "HUH? What on earth is making those weird sounds?"
+pic 04 04
+txt "There's a huge barn up ahead, "Groat's Farm, supplier of Thaumhaven's finest M.M. foods.'"
+pic 00 06
+txt "M.M.?"
+pic 04 00
+txt "Magically Modified! The blessed marriage of farming and wizardry!"
+txt "Some call it terrifying..."
+txt "Some say I'm unhinged..."
+pic 04 01
+txt "But by golly, I call it the tantalising future of produce and livestock!"
+pic 04 00
+txt "Artemis Groat, at your service and in your debt on this fine day, good sir wizard."
+pic 00 01
+txt "Um, pleased to meet you too sir."
+pic 04 00
+txt "It's an absolute honor! Nothing on my farm would have been halfway possible without students of the magical arts like yourself"
+txt "You will come and take a tour of my humble achievements won't you? Your opinions would mean so much!"
+pic 00 01
+txt "...I'm sorry, but..."
+pic 04 00
+txt "And on the tour, perhaps you could work out what's turned some of my creations to stone?..."
+pic 00 02
+bub 3
+txt "More glyphs. It looks like luck is keeping me on the right track!"
+pic 00 27
+bub 0
+txt "Alright, lead the way Artemis!"

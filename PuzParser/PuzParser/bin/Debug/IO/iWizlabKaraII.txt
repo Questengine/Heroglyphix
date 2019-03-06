@@ -1,0 +1,3 @@
+pic 09 02
+bub 0
+txt "Ohh! Heheheh, I'm standing on one. Maybe this is it?"

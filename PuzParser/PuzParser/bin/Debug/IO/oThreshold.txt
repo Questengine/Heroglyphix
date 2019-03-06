@@ -1,0 +1,19 @@
+pic 31 00
+bub 1
+txt "Ehhh? ... hey what the-?!"
+pic 31 01
+bub 2
+txt "Mmph!!!"
+pic 06 01
+bub 0
+txt "This is for your protection, Woodrot the Wood Sprite. I will allow no harm to come to you."
+pic 31 01
+txt "Stuffing me in a sack doesn't count?"
+pic 31 01
+bub 2
+txt "Aargh-yah-yargle-YAH!"
+pic 31 08
+bub 0
+txt "... *pant* ..."
+pic 06 01
+txt "You are comfortable? Then our Dark Odyssey begins..."

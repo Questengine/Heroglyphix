@@ -1,0 +1,6 @@
+pic 14 02
+bub 2
+txt "WEAAAOW!"
+pic 00 06
+bub 0
+txt "Huh? Look, I don't know what you're ..."

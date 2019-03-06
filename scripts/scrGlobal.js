@@ -1,6 +1,7 @@
 var constPortraitWid = 100;
 var constPortraitHgt = 134;
 var constPortraitPerRow = 8;
+var gTextClass="";
 
 var constLocNameWid = 101;
 var constLocNameHgt = 23;

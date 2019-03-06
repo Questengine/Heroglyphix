@@ -1,0 +1,6 @@
+pic 06 21
+bub 2
+txt "A powerful visio-aaAAARGH!"
+pic 31 04
+bub 0
+txt "Judith?!"

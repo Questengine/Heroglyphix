@@ -1,0 +1,84 @@
+pic 34 00
+bub 1
+txt "No!... it can't be you... but you're-"
+pic 27 06
+bub 2
+txt "I am the -echo- of the exogenesis! The inexorable power that was KAZENAGI, Demon Emperor of Old Jomon!"
+pic 34 00
+bub 1
+txt "Kazenagi."
+bub 0
+txt "I don't believe it... We killed you."
+pic 27 04
+txt "Yesss, wretch, your memory doesn't fail you - I am dead. Or devoid of my strength, perhaps the difference is inconsequential."
+pic 34 01
+txt "So few ... so few survived it, your War on humanity."
+txt "I was the only wizard left alive ... two hundred years ago."
+pic 27 06
+txt "Ahh! My glory days, has it been so long? Hua ha ha! And now here I rot. Yet you look fresh from the vine, 'girl'."
+pic 27 04
+txt "How can that be so?"
+pic 34 02
+txt "*swallow* - After what you did to the land, to the people... Even after you were defeated, we could barely find the strength to go on."
+txt "We rebuilt. We healed theland and our hearts as best we could... and then afterwards... afterwards..."
+pic 34 01
+txt "I forced myself not to think of those times. The loss was too great..."
+txt "So I - I discarded my old self, I magicked the memories away, numbed them until I couldn't feel them anymore."
+bub 1
+txt "And then I made myself forever young. Free of cares."
+pic 27 05
+bub 0
+txt "Yessss... Hua ha ha ha! You were once something indeed, to have bested me and lived."
+txt "But from what I have witnessed wandering the skies in my empty form, your clumsy enchantments have rendered you an unbalanced -weakling-."
+txt "A mere child, given to constant fits of anger or excitement. How delicious! I would have feasted on a brat like you like a candy apple."
+pic 09 04
+bub 2
+txt "SHUT UP!"
+pic 34 20
+txt "You don't have any power over me anymore!"
+txt "Being on this quest... finding your remains still defiling this world, it's -waking me up- to what I should have been doing all these years."
+pic 34 02
+bub 1
+txt "I should still be FIGHTING not hiding, not just watching the world go by. I used to care... you took that from me!"
+pic 27 06
+bub 0
+txt "Ahhhhh, it was mine to take. Your lands, your lives! Hua ha ha ha! Such sport, and I would not have ceased until the world bore my mark."
+pic 34 18
+txt "And now you're nothing but a -fading- memory that serves as reminder for heroes to rise up against the darkness!"
+pic 34 21
+txt "Beat it vapor! You'll do no more harm to us, you've only made us stronger. Come on, Ky."
+pic 27 04
+bub 1
+txt "... What's this? ...something changes..."
+pic 27 07
+txt "Stronger? ... I feel - yes, I hear you my Yogon children ... I feel..."
+pic 27 08
+bub 2
+txt "STRONGER! HYAAAARRRRGHGHHH!!!"
+pic 13 17
+bub 1
+txt "Kyaaaeeeeech!"
+pic 34 00
+bub 2
+txt "NoooOOO! Ky!"
+pic 27 08
+bub 0
+txt "AAHAAAHAAHAAA! I FEED, FOR THR FIRST TIME IN AN AGE!"
+pic 34 03
+txt "Fly away Ky! Go! You're not strong enough. *Arrrrgh*" 
+pic 13 18
+txt "KYAAaaa!!"
+pic 34 03
+txt "Bring help if you can. But GO!!!"
+pic 27 08
+txt "No-one can help you now, my children have found a way, they're bringing me back!"
+pic 34 04
+bub 2
+txt "No way! You're NOT strong enough! - ZEPHYRUSSS!"
+pic 27 09
+txt "OOOoooarRrRrgh!!!"
+pic 34 05
+bub 1
+txt "*Huff!!!*"
+pic 34 06
+txt "..."

@@ -1,0 +1,3 @@
+pic 10 17
+bub 2
+txt "Bah, you think to use my own delaying tactics on me?! Glyphs won't slow -me- down...."

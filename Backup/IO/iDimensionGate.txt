@@ -1,0 +1,37 @@
+pic 10 18
+bub 0
+txt "...oh my, behold this place... these arched relics, that eternal glow..."
+txt "It's the Gatehub, intersection of worlds! I hadn't fancied we'd drawn so close to it!"
+pic 29 06
+bub 1
+txt "*Gua-ha-HuHuhu-GaaaOOOGH-BWa-ha!*"
+pic 10 04
+bub 0
+txt "Gah! Then these manifestations are -glimpses- of the Gremlin hordes, milling, waiting just beyond the veil."
+pic 10 03
+txt "And with the seal already shattered, it would only take..."
+pic 11 19
+txt "Gaoo-huu-huu!"
+pic 10 07
+txt "So, this was your plan all along POX!"
+pic 10 19
+bub 2
+txt "DON'T YOU TOUCH THAT..."
+pic 11 20
+bub 0
+txt "Rrrrrrr!"
+pic 10 20
+txt "Have at you!"
+pic 11 21
+bub 2
+txt "GRAAOOoo!!!"
+pic 10 21
+txt "*PHOOOOM!*"
+pic 11 22
+bub 1
+txt "-*-*-*!!!Crackle!!!*-*-*"
+pic 10 22
+bub 2
+txt "Grrrrrrrrrrrrr! It ends here!!!"
+pic 11 23
+txt "RRRAAAarrrrgh!"

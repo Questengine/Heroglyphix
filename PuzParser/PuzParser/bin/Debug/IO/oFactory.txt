@@ -1,0 +1,91 @@
+pic 24 15
+bub 0
+txt "Ohhh, big person! Everything is fixed,  thank you! You saved the day!"
+pic 09 14
+txt "It was nothing."
+pic 24 15
+txt "You saved the factory! You saved the factory! Ohhhh!"
+pic 09 26
+txt "Well, maybe I am being a little too modest."
+pic 24 15
+bub 2
+txt "Oh happy day! Wahoo! The great big person has saved us!!"
+pic 34 18
+bub 0
+txt "Yeah, okay frosty. That's enough, and I'll have you know I am -petite- as persons go. Uh, people."
+pic 24 16
+bub 2
+txt "Wubba wubba wubba!!! Wahoo!!!"
+pic 09 27
+bub 1
+txt "I feel a WHACK coming on! You've got five seconds to tell me where the 'fuzzy man' went!"
+pic 24 14
+bub 0
+txt "Ahh, you chasing the fuzzy man? He use this."
+pic 09 01
+txt "... What, he used your catapult machine? W-why would he do that?"
+pic 24 15
+txt "This is the new! This is my thing! Until now, always the Snowbies use the fuzzy cows to move Candy."
+pic 34 20
+txt "Oh sheesh. The 'fuzzy -cows-'... you mean Woolly Mump-Ox?"
+txt "Yeah, you used those big beasts to haul your Magic SugarCandy to the trade routes, go on."
+pic 24 15
+txt "Old way, slow. This new thing, it ... *fling*. It... pshoooo-oo!"
+pic 34 20
+txt "You're not good with big words are you? You built the catapult to propel deliveries right to their destination?"
+pic 24 16
+txt "Wubba!!"
+pic 09 01
+txt "And so the gremlin..."
+pic 24 14
+txt "PSHOOO-ooo! That way!"
+pic 09 08
+txt "He shot HIMSELF further North?! Right as he was glyphing you and the machine."
+pic 09 27
+txt "Hah! The weaselly little rat, he thinks he's bought himself a head start!"
+pic 24 15
+txt "Reward time! Get in the thing, me send you... PSHOOO-ooo!"
+pic 09 02
+txt "BWA-HA-HAHAA! Me, get in THAT thing?"
+pic 09 26
+txt "A Wind Princess would -never- travel like that! Besides, there's more to my little Kii Kii here than meets the eye."
+pic 09 28
+bub 1
+txt "*whisper* ..."
+pic 13 07
+bub 0
+txt "Kiiiik!"
+pic 13 08
+bub 1
+txt "-Whoooosh-...."
+pic 13 09
+bub 2
+txt "FLAAASH!"
+pic 09 05
+bub 0
+txt "Kyastral! My proud beautiful boy!"
+pic 13 10
+bub 2
+txt "KYAAAAAAAaaaaaaaaa!"
+pic 24 20
+bub 0
+txt "Ooooh! That's a big fuzzy bir..."
+pic 13 11
+bub 2
+txt "KYA!"
+pic 13 12
+bub 0
+txt "*glomph*"
+pic 09 21
+txt "..."
+pic 13 12
+txt "* crunch* *crunch*"
+pic 09 21
+txt "Ahem?"
+pic 13 12
+txt "*cruuuuunch*....?"
+pic 24 17
+txt "*Plop*..... wurble..."
+pic 09 07
+bub 2
+txt "Let's FLY!"

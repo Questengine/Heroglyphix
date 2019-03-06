@@ -1,0 +1,8 @@
+pic 06 01
+bub 0
+txt "We are nearing the end of my subterranean realm. Not far from here there is a concealed exit in the mountains where we may... what?"
+pic 31 03
+txt "Hmm?"
+pic 06 20
+txt "The power of the renewed Hall calls to me, like the rush of the incoming tide!"
+txt "My senses reawaken - the air is heavy with intent. Something strong is calling out..."

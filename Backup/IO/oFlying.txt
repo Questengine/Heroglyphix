@@ -1,0 +1,7 @@
+pic 34 18
+bub 2
+txt "Nggggghh-AAAGH! But there's still no sign of the Gremlin!"
+pic 13 13
+bub 0
+txt "Fly North, faster Ky. Fly!"
+txt "FLY!"
