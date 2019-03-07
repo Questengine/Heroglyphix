@@ -26,13 +26,6 @@ function SizeGrid(dim){
 	markposout = "-"+gCurMarkSize*9+"px -" +gCurMarkSize*3 + "px";
 }
 
-
-function LoadPuz43123Code(code){
-	var puz = arrPuzzles[code];
-	gPuzCorrect = puz;
-	return puz;
-}
-
 function pad( i){
 	var res =i;
 	if(i<10){
@@ -59,7 +52,12 @@ function SetStage(stagecode){
 function GetCodeStage(code){ return  code.split("-")[0] ;  }
 function GetCodeLocation(code){ return   code.split("-")[1] ;  }
 function GetCodePuzzle(code){ return   code.split("-")[2] ;  }
-function GetIntStage(code){ return parseInt(code.split("-")[0]);  }
+function GetIntStage(code){ 
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
+	return parseInt(code.split("-")[0]); 
+ }
 function GetIntLocation(code){ return  parseInt(code.split("-")[1]);  }
 function GetIntPuzzle(code){ return  parseInt(code.split("-")[2]);  }
 function IntToCode(i){return pad(i);}
@@ -83,7 +81,9 @@ function FillMarkMenu(){
 			var posy= Math.floor(markid / markimagecols);
 			posx*=markimagedim;
 			posy*=markimagedim;
-			$("#mk"+markid).css("background-position-x", "-"+posx+"px").css("background-position-y", "-"+posy+"px");
+			if(markid < 1+gHighestStage*3){
+				$("#mk"+markid).css("background-position-x", "-"+posx+"px").css("background-position-y", "-"+posy+"px");
+			}
 			//.html(markid);
 		}
 	}
@@ -114,8 +114,8 @@ function ChangeMark(cell){
 	cell.css("background-position",markposin);
 }
 function AutoSolve(){
-	Info("AutoSolving...  You cheater!");
-	$("#dPortrait").html("AUTOSOLVING");
+	Info("AutoSolving...   ...cheater!");
+	//$("#dPortrait").html("AUTOSOLVING");
 	var puz = gPuzCorrect;
 	var dim = Math.sqrt(puz.length);
 	var x = 0;

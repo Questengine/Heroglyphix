@@ -14,6 +14,7 @@
  }
  function GoToInitLocPuz(){
 	 var stagecode = $(this).attr("data-stageid");
+	 gHighestStage = parseInt(stagecode);
 	 InitLocPuz(pad(stagecode));
  }
  function BuildStageSelect(){

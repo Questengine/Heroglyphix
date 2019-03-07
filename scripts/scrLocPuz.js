@@ -4,6 +4,7 @@
 		 stagecode=CurCode();
 	 }
 	 SetStage(stagecode);
+	 FillMarkMenu();
 	 DialogueOpen();
 	 var locpuz = BuildLocPuz(stagecode)+BuildLocPuzConfirm();
 	 

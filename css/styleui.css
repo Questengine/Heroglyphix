@@ -117,9 +117,17 @@
 #btnLoad{left:350px}
 #btnNew{left:450px}
 
-.tcMeth{color:    "#DCDCCE"}
-.tcSkimlet{color: "#A9E4FE"}
-.tcWoodrot{ color:"#D2B285"}
-.tcHoward{ color: "#ACFE57"}
-.tcJudith{ color: "#E5E9C6"}
-.tcMatthius{color:"#FFB1B1"}
+.tcMeth{color:     #DCDCCE }
+.tcSkimlet{color:  #A9E4FE }
+.tcWoodrot{ color: #D2B285 }
+.tcHoward{ color:  #ACFE57 }
+.tcJudith{ color:  #E5E9C6 }
+.tcMatthius{color: #FFB1B1 }
+.tcGeneva{color: #FFB1B1 }
+.tcKara{color: #FFB1B1 }
+.tcEdizon{color: #FFB1B1 }
+.tcWilf{color: #FFB1B1 }
+.tcHoskins{color: #FFB1B1 }
+.tcArtemis{color: #FFB1B1 }
+.tcLibrarian{color: #FFB1B1 }
+.tcWilf{color: #FFB1B1 }

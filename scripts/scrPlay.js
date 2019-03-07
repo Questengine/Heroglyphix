@@ -78,7 +78,7 @@ function TimerTick(){
 }
 
 function RevealFootprint(){
-	$(".cel").removeClass("revealfootprint");
+	$(".cel").removeClass("revealfootprint"+GetIntStage());
 	var count = gReveal.length;
 	var cx = parseInt($(this).attr("data-x"));
 	var cy = parseInt($(this).attr("data-y"));
@@ -87,14 +87,14 @@ function RevealFootprint(){
 		var y = parseInt(gReveal[i].split(",")[1]);
 		var dx = cx+x;
 		var dy = cy + y;
-		$(".cel[data-x='"+dx+"'][data-y='"+dy+"']").addClass("revealfootprint");
+		$(".cel[data-x='"+dx+"'][data-y='"+dy+"']").addClass("revealfootprint"+GetIntStage());
 	}
 	
 }
 function RevealAction(){
 	Info("Magus Magna.  Marks are magically revealed!");
 	var dim = Math.sqrt(gPuzCorrect.length);
-	$(".cel.revealfootprint").each(function(){
+	$(".cel.revealfootprint"+GetIntStage()).each(function(){
 		var x = parseInt($(this).attr("data-x"));
 		var y = parseInt($(this).attr("data-y"));
 		var i = x+y*dim;

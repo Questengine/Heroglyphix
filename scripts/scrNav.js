@@ -43,7 +43,12 @@ function StgLocPuzIncrement(){
 		//set gPuzzle = 0 so we know to get the intro text
 		gPuzzle=0;gLocation++;
 	}
-	if(gLocation>LocCount(arrStages[gStage])){gLocation=1;gStage++;}
+	if(gLocation>LocCount(arrStages[gStage])){
+		gLocation=1;
+		gStage++;
+		gHighestStage=gStage;
+		FillMarkMenu(); 
+	}
 }
 function Init(code, part){
 	if(typeof code === "undefined"){ 	 code=CurCode();  }
@@ -81,6 +86,7 @@ function StoryNext(){
 		SpeechNext();
 	}
 	else{
+		$("#dSpeech").slideUp();
 		if(AdvanceLevel()){
 			//if auto advance, go ahead and init next level'
 			//otherwise init will happen after glyphles selectin
@@ -136,6 +142,7 @@ function RedrawPortrait(imgid, picid){
 }
 
 function StartDialogue(){
+	$("#dSpeech").slideDown();
 	gNextText=true;   
 	StopTimer();
 	ShowHideProgressButton(true);

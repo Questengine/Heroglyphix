@@ -1,8 +1,22 @@
-.revealfootprint{
-	
-	
-	box-shadow: inset 0px 0px 4px 4px  #baba22; 
-}
+.revealfootprint1{	box-shadow: inset 0px 0px 4px 4px  white; }
+.revealfootprint2{	box-shadow: inset 0px 0px 4px 4px  blue; }
+.revealfootprint3{	box-shadow: inset 0px 0px 4px 4px  green; }
+.revealfootprint4{	box-shadow: inset 0px 0px 4px 4px  violet; }
+
+.revealfootprint5{	box-shadow: inset 0px 0px 4px 4px  red; }
+.revealfootprint6{	box-shadow: inset 0px 0px 4px 4px  pink; }
+.revealfootprint7{	box-shadow: inset 0px 0px 4px 4px  black; }
+.revealfootprint8{	box-shadow: inset 0px 0px 4px 4px  yellow; }
+
+.revealcolor1{border-color:white}
+.revealcolor2{border-color:blue}
+.revealcolor3{border-color:green}
+.revealcolor4{border-color:violet}
+
+.revealcolor5{border-color:red}
+.revealcolor6{border-color:pink}
+.revealcolor7{border-color:black}
+.revealcolor8{border-color:yellow}
 
 .glowdrop{
 	width:30px;
@@ -10,7 +24,7 @@
 	/*background-color:yellow;*/
 	border-radius:50%;
 	opacity:0.3;
-	border:4px solid yellow;
+	border:4px solid;
 }
 .glowcell{
 	

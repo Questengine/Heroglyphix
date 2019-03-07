@@ -12,6 +12,8 @@ var gStage = 1;
 var gPuzzle = 1;
 var gPart = 0;
 
+var gHighestStage=1;
+
 var gGlow = false;
 var gGlowInterval;
 

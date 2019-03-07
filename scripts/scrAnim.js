@@ -50,7 +50,8 @@ function Reveal(){
 		RevealStart();
 	}
 	else{
-		RevealEnd();
+		RevealCancel();
+		Info("Reveal Spell canceled.  Charges unused.");
 	}
 }
 /*
@@ -107,7 +108,7 @@ function RevealStart(){
 function NewGlow(){
 	i = parseInt(Math.random()*122);
 	if(gGlow){
-		var glower = "<div id='glow"+i+"' class='glowdrop'></div>";
+		var glower = "<div id='glow"+i+"' class='glowdrop revealcolor"+GetIntStage()+"'></div>";
 		$("#dReveal").append(glower); 
 		var cssy = $("#dReveal").css("top"); 
 		var cssx = $("#dReveal").css("left"); 
@@ -131,19 +132,7 @@ function NewGlow(){
 	});
 }
 function RevealEnd(){
-	clearInterval(gGlowInterval);
 	
-	gGlow= false;
-	$(".cel").off("mouseenter",RevealFootprint);
-	$(".cel").removeClass("revealfootprint");
-		
-	$("#dGrid").off("mouseover",SaveMouseCoords);
-	$(".glowdrop").each(function(){
-		var i = $(this).attr("data-i");
-		var time = parseInt(i)*400;
-		$(this).fadeOut(time, function(){$(this).remove()});
-		
-	});
 	var id = GetRevealID();
 	$("[data-revealid='"+id+"']").attr("data-spent","1").fadeOut(1111);
 	var remaining = parseInt(GetRevealID());
@@ -153,4 +142,21 @@ function RevealEnd(){
 	else{ 	
 		Info("No more Reveal Charges remain!");
 	}
+	RevealCancel();
 } 
+function RevealCancel(){
+	clearInterval(gGlowInterval);
+	
+	gGlow= false;
+	$(".cel").off("mouseenter",RevealFootprint);
+	$(".cel").removeClass("revealfootprint"+GetIntStage());
+		 
+	$(".glowdrop").each(function(){
+		var i = $(this).attr("data-i");
+		var time = parseInt(i)*400;
+		$(this).fadeOut(time, function(){$(this).remove()});
+		
+	});
+}	
+		 
+	 
