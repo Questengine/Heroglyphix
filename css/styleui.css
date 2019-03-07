@@ -103,36 +103,39 @@
 .celllocpuz:hover{ 
 	box-shadow: 0px 0px 4px 4px  #2a2;
 } 
-.btnTitle{
-	display:inline-block;
+.btnTitle{ 
+
+	display:block;
 	background-image:url("../images/btnSmall.png");
-	border:none;
 	background-repeat:no-repeat;
-	min-width:80px;
-	min-height:42px;
+	border:none;
+	width:80px;
+	height:42px;
 	text-align:center;  
-	top: 90%;
 	vertical-align: middle;
 	line-height: 42px;    
-cursor: pointer;
+     
+	top: 90%;
+    transform: translate(-50%, 0%);
+z-index:100;
 }
 .btnTitle:hover{  
 	background-position-y:-42px;
 } 
-#btnLoad{left:350px}
 #btnNew{left:450px}
+#btnLoad{left:350px}
 
-.tcMeth{color:     #DCDCCE }
-.tcSkimlet{color:  #A9E4FE }
-.tcWoodrot{ color: #D2B285 }
-.tcHoward{ color:  #ACFE57 }
-.tcJudith{ color:  #E5E9C6 }
-.tcMatthius{color: #FFB1B1 }
-.tcGeneva{color: #FFB1B1 }
-.tcKara{color: #FFB1B1 }
-.tcEdizon{color: #FFB1B1 }
-.tcWilf{color: #FFB1B1 }
-.tcHoskins{color: #FFB1B1 }
-.tcArtemis{color: #FFB1B1 }
-.tcLibrarian{color: #FFB1B1 }
-.tcWilf{color: #FFB1B1 }
+.tcMeth{color:     #DCDCCE  ; font-family:"Times New Roman"   }
+.tcSkimlet{color:  #A9E4FE  ; font-family:"Verdana"   }
+.tcWoodrot{ color: #D2B285  ; font-family:"Comic Sans MS"   }
+.tcHoward{ color:  #ACFE57  ; font-family:"Arial"   }
+.tcJudith{ color:  #E5E9C6  ; font-family:"Garamond"   }
+.tcMatthius{color: #FFB1B1  ; font-family:"Arial Black"   }
+.tcGeneva{color: #FFB1B1    ; font-family:"Bookman"   }
+.tcKara{color: #FFB1B1      ; font-family:"Verdana"   }
+.tcEdizon{color: #FFB1B1    ; font-family:"Verdana"   }
+.tcWilf{color: #FFB1B1      ; font-family:"Verdana"   }
+.tcHoskins{color: #FFB1B1   ; font-family:"Verdana"   }
+.tcArtemis{color: #FFB1B1   ; font-family:"Verdana"   }
+.tcLibrarian{color: #FFB1B1 ; font-family:"Verdana"   }
+.tcWilf{color: #FFB1B1      ; font-family:"Verdana"   }

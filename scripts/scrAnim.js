@@ -1,6 +1,50 @@
+
+function DiagTimeout(cell){
+	
+	var x = parseInt(cell.attr("data-x"))+0;
+	var y = parseInt(cell.attr("data-y"))+0;
+	return x+y;
+}
+
+function SetSolidRemoveTimeout(cell){ 
+	var waittime=DiagTimeout(cell)
+	waittime*=20;
+	setTimeout(function(){ SolidMark(cell); }, waittime)
+	
+	setTimeout(function(){ RemoveMark(cell); }, waittime*3);
+}
+function SolidMark(cell){
+	cell.css("background-position",markposin);
+}
+
+function SetRemoveTimeout(cell){ 
+	var waittime=DiagTimeout(cell)
+	waittime*=60;
+	setTimeout(function(){ RemoveMark(cell); }, waittime);
+}
+function RemoveMark(cell){
+	cell.fadeOut(550,function(){$(this).remove()});
+}
+function SetBlinkTimeout(cell){ 
+	var waittime=DiagTimeout(cell)
+	waittime*=50;
+	setTimeout(function(){ BlinkMark(cell); }, waittime);
+}
+function BlinkMark(cell){
+	Blink(cell);
+}
+
 function Blink(jq){
 	jq.fadeOut(200).fadeIn(666);
 
+}
+function SetFadeTimeout(cell){
+	var waittime=DiagTimeout(cell)
+	waittime*=50;
+	setTimeout(function(){ FadeClue(cell); }, waittime);
+}
+function FadeClue(cell){
+	cell.css("opacity","0.5");
 }
 function HourGlass(){
 

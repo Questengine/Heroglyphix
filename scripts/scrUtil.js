@@ -158,3 +158,9 @@ function GetRevealID(){
 	res = $(".oneRevealCharge[data-spent='0']").length;
 	return res;
 }
+function FileExists(url){
+	var res = false; 
+   var img = new Image();
+   img.src = url;
+   return img.height != 0; 
+}

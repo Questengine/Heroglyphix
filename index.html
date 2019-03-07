@@ -23,8 +23,9 @@
   <script src="scripts/scrAnim.js"></script>
   <script src="scripts/scrDataPox.js"></script>
   <script src="scripts/scrPox.js"></script>
-  <script src="scripts/scrDataIntermission.js"></script>>
+  <script src="scripts/scrDataIntermission.js"></script>
   <script src="scripts/scrSaveLoad.js"></script>
+  <script src="scripts/scrMap.js"></script>
    
   <link rel="stylesheet" href="css/stylemaster.css">
   <link rel="stylesheet" href="css/styledivs.css">
@@ -62,6 +63,9 @@
 		//$("#dReveal").off("mouseover",SaveMouseCoords);
 		$(".revealfootprint").click(RevealAction);
 		$("#dPox").click(PoxHit);
+		
+		$("#dPauseMap").slideUp();			
+		$("#dPauseMap").click(InitMap);	
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false); 
 		
@@ -144,6 +148,9 @@ dPortrait
 	  
 	 <div id="dInfo"  > 
 	 
+	</div>	  
+	 <div id="dPauseMap"  > 
+	 Pause / Map
 	</div>
 
  </div>  <!-- end div fullscreen --> 

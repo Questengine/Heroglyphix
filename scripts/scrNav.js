@@ -62,6 +62,8 @@ function Init(code, part){
 				$("#dShow").remove();
 	});
 	 
+	$("#dSpeech").slideUp();
+	$("#dPauseMap").slideDown();	
 	gPart = part;
 	LoadText();
 	gTextItr=-1;	
@@ -173,19 +175,40 @@ function PuzzleDone(){
 		Intermission();
 	} 
 }
-
+function ColorPortrait(){
+	var res = false;
+	if(arrColorPuz.includes(CurCode())){
+		Info("Found color puzzle solution");
+		setTimeout(RevealColorPortrait,2555);
+		res = true;
+	}
+	else{
+		Info( "NO color puzzle solution FOUND");   
+		res = false;
+	}
+	return res;
+}
+function RevealColorPortrait(){
+	$(".cel").each(function(){SetSolidRemoveTimeout($(this)); });
+	setTimeout(DrawColorPortrait,611);
+	//  $(".cel").each(function(){SetRemoveTimeout($(this)); });
+}
+function DrawColorPortrait(){
+	$("#cellgrid").css("background-image","url('images/puzzles/"+CurCode()+"c.png')");
+}
 function StopTimer(){ 
 		clearInterval(gTimerInterval); 
 		clearInterval(gHourGlassInterval); 
 		setTimeout(function(){ BlinkMark($("#dClock")); }, 1111);
 }
 function PuzzleDoneSmall(){
-	
 	$(".cel").off( );
-	$(".cel").each(function(){
-		SetBlinkTimeout($(this)); });
-	$(".vc, .hc").each(function(){
+	$(".vc, .hc").each(function(){//just fading the clues, always do this post puzzle
 		SetFadeTimeout($(this)); }); 
+	if(!ColorPortrait()){ 
+		$(".cel").each(function(){
+			SetBlinkTimeout($(this)); });
+	}
 /*
 BuildShowPuzzle(LoadPuz(CurCode()));
 	$(".cel").addClass("squarecel");
@@ -208,26 +231,6 @@ function PuzzleDoneLarge(){
 
 }
 
-function SetBlinkTimeout(cell){
-	var x = parseInt(cell.attr("data-x"))+0;
-	var y = parseInt(cell.attr("data-y"))+0;
-	var waittime=x+y;
-	waittime*=50;
-	setTimeout(function(){ BlinkMark(cell); }, waittime);
-}
-function SetFadeTimeout(cell){
-	var x = parseInt(cell.attr("data-x"))+0;
-	var y = parseInt(cell.attr("data-y"))+0;
-	var waittime=x+y;
-	waittime*=50;
-	setTimeout(function(){ FadeClue(cell); }, waittime);
-}
-function FadeClue(cell){
-	cell.css("opacity","0.5");
-}
-function BlinkMark(cell){
-	Blink(cell);
-}
 
 function ShowHideProgressButton(tf){
 	if(tf){

@@ -13,12 +13,13 @@ function BuildGridDelayed(dim){
 
 	var strTable = "<table id='tblGrid'>";
 	strTable += "<tr ><td style='font-size:xx-large,font-weight:bold,font-style:italic'>HG</td><td>VCLUES</td></tr>";
-	strTable += "<tr><td>HCLUES</td><td>CELLS</td></tr>";
+	strTable += "<tr><td>HCLUES</td><td id='cellgrid'>CELLS</td></tr>";
 	strTable += "</table>";
 	
 	var vClues = BuildTable(x,y/2,"vc");
 	var hClues = BuildTable(x/2,y,"hc"); 
 	var grid = BuildTable(x,y,"cel");
+	grid = grid.replace("tblPlay","tblCells");
 	strTable = strTable.replace("VCLUES",vClues);
 	strTable = strTable.replace("HCLUES",hClues);
 	strTable = strTable.replace("CELLS",grid);

@@ -144,3 +144,8 @@ min-width:30px;
 .ulight{
 	background-color:rgba(222,222,222,0.6);
 }
+#cellgrid{
+	min-width:240px;
+	min-height:240px;
+	background-size:100%;
+}

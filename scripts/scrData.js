@@ -1,5 +1,5 @@
 
-var arrStages321 = ["Library", "Skimlet", "Howard","Judith","Matthius", "Kara","Edizon"]
+var arrColorPuz = ["02-07-05","03-07-05","04-05-05","05-09-05","06-09-01","07-02-01","07-09-01"]
 
 var arrReveal = ["0,0;0,1;0,-1", //library
 				"1,0;-1,0;0,-1;0,0",//skimlet
