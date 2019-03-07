@@ -16,6 +16,7 @@
     border-collapse:collapse;
     border-spacing:0;
 	border:none;
+	cursor:url(../images/vangmed.cur),auto;
 }
 #dGridPlay{
 	/*/background-image:url("../images/grid.png") ;*/
