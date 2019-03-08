@@ -3,7 +3,13 @@
 	height:600px;
 	top:0%; 
 	background-image:url("../images/wall-hg1.png") ;
-}
+}/*
+#dPuzzles{
+	width:800px;
+	height:600px;
+	top:0%; 
+	background-image:url("../images/map.jpg") ;
+}*/
 #dGrid{
 	background-size:100%;
 	top:60px;
@@ -38,10 +44,18 @@
 
 #dLocation{
 	border-color: blue ;
-	top:33px;
-	left:666px;
+	top:38px;
+	left:684px;
+	width:88px;
+	height:77px;
+	background-image:url('../images/locations/locations.png')
+}
+#dLocationName{
+	border-color: blue ;
+	top:127px;
+	left:684px;
 	width:100px;
-	height:100px;
+	height:25px;
 }
 #dQuickNav{
 	border: orange dotted;
@@ -49,6 +63,7 @@
 	left:81%;
 	width:15%;
 	height:14%;
+	z-index:2;
 }
 #dMarks{ 
 	top:310px;
@@ -243,7 +258,7 @@
 	height:30px;
 	color:black;
 	text-align:center;
-	z-index:50;
+	z-index:1;
     text-shadow: 0px 0px 18px white;
 }
 

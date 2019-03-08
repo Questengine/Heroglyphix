@@ -42,12 +42,15 @@ function StgLocPuzIncrement(){
 		//and all puzzles done in this location
 		//set gPuzzle = 0 so we know to get the intro text
 		gPuzzle=0;gLocation++;
+		LocImageAndTitle();
 	}
 	if(gLocation>LocCount(arrStages[gStage])){
 		gLocation=1;
 		gStage++;
 		gHighestStage=gStage;
 		FillMarkMenu(); 
+		StageBackground();
+		
 	}
 }
 function Init(code, part){

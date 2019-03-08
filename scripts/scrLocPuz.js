@@ -92,6 +92,7 @@
 	 DialogueClose();
 	  $(".dialoguechild").fadeOut("slow",function(){$(this).html("")})
 	  ConfirmPlayScreenVisible();
+	LocImageAndTitle();
  }
  function ConfirmPlayScreenVisible(){
 	 StageBackground(); 

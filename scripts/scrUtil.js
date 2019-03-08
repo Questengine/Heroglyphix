@@ -27,7 +27,7 @@ function SizeGrid(dim){
 }
 
 function pad( i){
-	var res =i;
+	var res =parseInt(i);
 	if(i<10){
 		res = "0"+i;
 	}
@@ -58,7 +58,20 @@ function GetIntStage(code){
 	 }
 	return parseInt(code.split("-")[0]); 
  }
-function GetIntLocation(code){ return  parseInt(code.split("-")[1]);  }
+function GetIntLocation(code){ 
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
+	return  parseInt(code.split("-")[1])	; 
+ }
+function GetIntLocationTotal(code){
+	var count=0;
+	for(var s = 1;s<gStage;s++){
+		count += LocCount(pad(s));
+	}
+	count += GetIntLocation();
+	return  count;
+}
 function GetIntPuzzle(code){ return  parseInt(code.split("-")[2]);  }
 function IntToCode(i){return pad(i);}
 function CodeToInt(i){return parseInt(i);}
@@ -134,8 +147,42 @@ function AutoSolve(){
 	CheckCompletion();
 }
 function StageBackground( ){
+	$("#dFullScreen").fadeOut(334,function(){
+		$("#dFullScreen").css("background-image","url('images/locations/gp"+pad(gStage)+".png')").fadeIn(444) ;	
+	} );
+}
 
-	$("#dFullScreen").css("background-image","url('images/locations/gp"+pad(gStage)+".png')") ;
+function LocImageAndTitle( ){
+	var locid = GetIntLocationTotal(CurCode());
+	var tx = 88;
+	var ty = 77;
+	var x = locid% 10;
+	var y = Math.floor(locid/10);
+	x *= tx;
+	y*= ty;
+	
+	
+	
+	
+	var stage = GetIntStage(CurCode())-1;	
+	stage = pad(stage); 
+	
+	var locNameIndex = GetIntLocation();
+	locNameIndex-=1;//to make zero based
+	var locnamex = locNameIndex % constLocNamePerRow;
+	var locnamey = Math.floor(locNameIndex/constLocNamePerRow);
+	locnamex*= constLocNameWid;
+	locnamey*= constLocNameHgt;
+	
+	
+	
+	$("#dLocation").fadeOut(334,function(){
+		$("#dLocation").css("background-position","-"+x+"px -"+ y + "px").fadeIn(444) ;	
+		$("#dLocationName").css({
+			backgroundImage:"url('images/locations/l-name"+stage+".png')",
+			backgroundPosition:"-"+locnamex+"px -"+ locnamey + "px"
+		}).fadeIn(444) ;	
+	} );
 }
 function bwpx(s){
 	var res = s.replace("px","");
