@@ -90,7 +90,7 @@ function BuildUPP(){
 	ADMINMarkPuzzleComplete("05-05-03");
 	*/ADMINMarkPuzzleComplete("05-05-04");
 	ADMINMarkPuzzleComplete("05-05-05");
-	ADMINCompleteThrough("08-01-01");
+	//ADMINCompleteThrough("08-01-01");
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done
