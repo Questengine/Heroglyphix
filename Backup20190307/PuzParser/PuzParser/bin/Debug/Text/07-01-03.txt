@@ -1,0 +1,21 @@
+pic 09 06
+bub 0
+txt "Hey Stompy!"
+pic 24 00
+txt "*stomp* - * stomp* - *stomp*"
+pic 09 02
+txt "Heeheehee! He's still going! I found you a whole year ago, didn't I Stompy?"
+pic 24 01
+txt "Rrrg? - *stomp* - *stomp* - *stomp*"
+pic 09 06
+txt "That's right. You used to belong to Edizon, but now you're mine! +"
+pic 09 26
+txt "And you're a lot more fun since I shrank you."
+pic 24 02
+bub 1
+txt "*stomppp* - *stomppp*"
+pic 34 18
+bub 0
+txt "Well you shouldn't have been so naughty, trying to take over the world. That's why those boy wizards had to stop you all."
+pic 09 26
+txt "Of course, I would have helped, but they totally had it covered."

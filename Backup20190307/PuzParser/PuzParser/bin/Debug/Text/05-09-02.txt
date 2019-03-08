@@ -1,0 +1,11 @@
+pic 12 00
+bub 0
+txt "*snores*"
+pic 32 07
+txt "Geneva's aide - the 'Oracle of Whispers'."
+pic 12 01
+txt "*creak* ?"
+pic 07 12
+txt "...uhhh...."
+pic 12 00
+txt "... *snores*"

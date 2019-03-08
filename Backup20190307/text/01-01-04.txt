@@ -1,0 +1,12 @@
+pic 00 01
+bub 0
+txt "Yeah!"
+pic 01 01
+txt "Ah you've solved my sun puzzle. You're coming along nicely!"
+txt "And may it serve as a reminder - once you're out in the big, wide world the solutions will resemble the actual things that are trapped inside the glyphs."
+pic 01 02
+txt "Not the sun itself, of course. There was never a Pox Gremlin big enough to pull that off, thank goodness."
+pic 00 06
+txt "Pox Gremlin?..."
+pic 01 01
+txt "All in good time, my boy."

@@ -1,0 +1,15 @@
+pic 08 05
+bub 0
+txt "*Wheeew* Now, I'm going to rest up for a moment - and when I journey back across the Steppes, for the first time it won't be as the 'Divided One'."
+pic 08 03
+txt "It'll be as plain old Geneva. No more searching for answers... with the Crux gone, maybe I can start getting to know who she is."
+pic 12 03
+txt "I alwayz did like her, y'know cher. I think I'm gon miss our nightime excursions tho'."
+pic 08 15
+txt "Oh Doc, you've helped me so much, not just to find the Crux but to find... me. How'd you ever get so smart?"
+pic 12 02
+txt "Well, I'm 95% brain. Dat's a scientific fact."
+pic 08 23
+txt "*Giggle* - I just have to accept it - this is who I am. What I'll always be."
+pic 08 04 
+txt "And who'd have ever thought that could feel so good?"

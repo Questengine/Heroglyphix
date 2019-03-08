@@ -1,0 +1,161 @@
+pic 07 13
+bub 0
+txt "Here, the Summit! The Plateau of Fire. Follow me up quickly, but don't get too close to the crater."
+pic 07 06
+txt "Gah! There is no sign of it."
+pic 05 22
+txt "I'm... I'm not sensing anything."
+pic 07 06
+txt "Locate it!"
+pic 05 05
+txt "Either we're too close to this elementary heart thingamajig you said was in the volcano, or the Gremlin's legged it again."
+pic 32 08
+bub 1
+txt "No... *huff*..."
+pic 07 23
+bub 0
+txt "... I will not fail. Fires of Akuyama hear me!"
+pic 31 31
+bub 2
+txt "ROAR!"
+pic 07 08
+txt "Come and get me Gremlin! I am right here..."
+pic 05 05
+bub 0
+txt "Look, I've been thinking..."
+pic 05 02
+txt "This whole 'catching Pox' thing is a hopeless case, the real deal is probably already miles away, but here's the thing..."
+pic 05 09
+txt "Who else but us knows what one looks like? Aha-ha!"
+txt "What if, we were to catch a rabbit, blow it into furry smithereens and we take the smoking remains back for the reward money!"
+pic 07 15
+txt "..."
+pic 07 14
+txt "..."
+pic 05 29
+txt "It's genius! Foolproof!"
+pic 05 14
+txt "Well, say something... What? Is it offending your finer sensibilites? At least tell me what you think is wrong my brilliant plan! Come ON!"
+pic 07 06
+bub 1
+txt "The eagle does not catch flies"
+pic 31 12
+txt "Don't give me that Ryudo rubbish again! This is important, bullethead, it's about me getting my just rewards! I want my gold!"
+pic 32 02
+bub 2
+txt "There IS no reward money, you slavering kobold."
+pic 05 16
+bub 0
+txt "Nooo!"
+txt "Take it back! That's not true!"
+pic 07 06
+txt "I do not enjoy lying, but it was the only way I could get your useless goblin hide this far. We fight for the fate of the world, not to line our pockets!"
+pic 05 18
+bub 2
+txt "AAARGH!" he yelled madly. "STOP CALLING ME GOBLIN OR KOBOLD OR DUNG-FAIRY..."
+bub 0
+pic 07 12
+txt "Dung-fairy? That is a good one, I must remember it..."
+pic 05 23
+bub 2
+txt "I - AM -.."
+pic 32 02
+bub 0
+txt "Woodrot, the 'Wood sprite'."
+pic 05 17
+txt "Buh?!"
+pic 07 06
+txt "Yes, yes, I know full well, oh honored Forest Spirit - it doesn't alter your -nature-."
+txt "You are a greedy fool who will never show the world one ounce of respect!"
+pic 05 12
+bub 2
+txt "I don't owe the world anything!"
+pic 07 08
+txt "You have no aspirations, no manners, no sense of responsibility!"
+pic 05 12
+txt "It's none of my business!"
+pic 32 03
+txt "Stopping Pox IS your responsibility! But you are too selfish and undisciplined to see! You are petty, lazy, -"
+pic 11 00
+bub 1
+txt "..."
+txt "Gaooogh!"
+pic 32 03
+bub 2
+txt "- obnoxious, vacuous, spiteful! -"
+pic 31 19
+txt "Bah! You're wrong, you crimson buffoon! You don't know me!"
+pic 11 01
+bub 1
+txt "..."
+pic 11 02
+txt "Yes, my creature. Creep, creeeep closer!"
+pic 11 01
+txt "Grrrr-aaogh!"
+pic 32 02
+bub 2
+txt "In a single day I have learned everything about you that I would ever care to, you waste of a life!"
+pic 32 03
+txt "You blight on the name of Wood Sprites!"
+pic 11 03
+bub 1
+txt "The wand!"
+txt "Yes my pet! Seize the wand and nothing will ever stand in my way again! Do it, do it now! Attack!!!"
+pic 05 23
+bub 2
+txt "Take that back..."
+pic 11 04
+bub 0
+txt "Guuu-ragh!"
+pic 05 22
+bub 4
+txt "Huh? ..."
+pic 32 03
+bub 2
+txt "You will never act beyond the blind, Woodrot-centered, vile little world that you inhabit!"
+pic 11 05
+bub 0
+txt "GAAOOO-"
+pic 31 20
+bub 4
+txt "*Gggggaaaaaassssssspppppp*"
+pic 11 06
+bub 0
+txt "-AAAOOOOGH!!!!!!!!!"
+pic 31 21
+bub 2
+txt "Y-o-u'-r-e  W-r-o-n-g,  B-u-l-l-e-t-h-e-a-d-!-!-!"
+bub 4
+txt "Eep! What am I doi-"
+pic 31 22
+txt "!!!FLASH!!!"
+pic 07 15
+bub 0
+txt "?"
+pic 31 23
+txt "... *bounce* ..."
+pic 07 21
+bub 0
+txt "!"
+pic 31 24
+txt "... ... ... ... ... ... *Sploosh*"
+pic 07 21
+bub 1
+txt "The stubborn little!-"
+pic 11 05
+bub 0
+txt "GAAOOO-"
+pic 32 04
+txt "Gremlin, you will pay!"
+pic 11 07
+bub 2
+txt "*BADOOOOM!*"
+pic 32 06
+bub 0
+txt "..."
+pic 32 07
+txt "*cough cough*"
+txt "..."
+pic 32 07
+bub 1
+txt "Gone."

@@ -1,0 +1,48 @@
+pic 23 13
+bub 0
+txt "Woop! Whatsthematterwhatsgoingon?!"
+pic 23 14
+txt "Uh-huh-huh! I thought I was a goner there. Hey Peri, Limpitt, did ya see that?"
+pic 23 09
+txt "Welk! You're back in the land of the dead!"
+pic 23 03
+txt "Yeah, welcome back you schmuck."
+pic 23 15
+txt "Trippy! There was a weird FLASH of light over... there, and now I'm floating way over here."
+pic 23 13
+txt "Ooh la la, and where did this hottie come from?"
+pic 23 14
+txt "Now there's a sight that makes me miss my lower half. Curves in all the right places, you know what I mean, guys!"
+pic 08 04
+txt "I can hear you, you know."
+pic 23 16
+bub 1
+txt "Guu-huu! *choke* I didn't mean to say you're...not that you don't have... uhhh?...!"
+pic 08 03
+bub 0
+txt "You! The skinny one, let's talk about how you can help me out."
+pic 23 10
+txt "*ahem* Fair sorceress, we will do whatever we can to repay you for freeing our friend from that monster's spell!"
+pic 23 14
+txt "You SAVED me, lady? Aw gee! How come you can see us?"
+pic 23 00
+txt "She's the Divided One, lunkhead. You know, the half-human that's always searching the land for some terrible artifact of power?"
+txt "I can't believe you're even talking to her!"
+pic 08 24
+txt "I've been able to see and hear the dead ever since I was young. Quite an experience for a little girl. It's the Shadowform in me."
+pic 23 13
+bub 2
+txt "Shadowform? As in, -living- spirits? Ancient as the world itself?!"
+pic 23 14
+bub 0
+txt "Far out! Well, my name's Welk, this is Periwynkle and that sourpuss there is Limpitt. Thanks a heap for the save."
+pic 23 02
+txt "Fine, great! Let's all make friends with the human!!! - now we should get back to town."
+pic 08 03
+txt "Town? There's no town around here, I'd know about it if there was."
+pic 23 01
+txt "Ah crap."
+pic 23 10
+txt "Yes Limpitt. I thought that was a 'colossal secret never to be imparted to the living'? Surely worse than just talking to them."
+pic 23 00
+txt "Shut up! Let's get out of here whilst we're ahead!"

@@ -1,0 +1,10 @@
+pic 01 00
+bub 0
+txt "So! You have completed my ten introduction puzzles."
+pic 00 01
+txt "Introduction?"
+pic 01 02
+txt "Most commendable! But before I consider you to be worthy of my ...legacy... a more demanding test of your potential is in order."
+pic 00 02
+bub 2
+txt "Alright then - I'm ready!"

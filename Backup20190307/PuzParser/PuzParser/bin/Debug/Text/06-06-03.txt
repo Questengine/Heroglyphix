@@ -1,0 +1,16 @@
+pic 12 10
+bub 0
+txt "Funky."
+pic 08 17
+txt "Eww, that's more mould than bread. Does someone really want this back?"
+pic 23 10
+txt "I admit, some of our citizens get 'overly sentimental' about mementos from their old lives... it's in the nature of our existence, I suppose."
+pic 08 05
+txt "What do you mean?"
+pic 23 03
+txt "Unfinished business. That's why we're all here."
+pic 23 10
+txt "You don't become one of the floating masses unless there was something in your life that, well, wasn't resolved, satisfactorily."
+txt "A dream, a loss, a grudge... Steppes spirits are all tied to one thing or another."
+pic 23 14
+txt "But hey, generally speaking, you can't find a more forward looking bunch of stiffs!"

@@ -1,0 +1,9 @@
+pic 02 00
+bub 0
+txt "Ah, yes. So tame and soft - as are all the creatures of Everberry. You are nature at her most innocent."
+pic 02 07
+txt "How cruel then, that her darker side should invade this place."
+txt "And it is no coincidence I fear, that Pox attacked this glade, incapacitating the only allies that could help me catch him."
+txt "These are not the actions of the simpleminded beast I had believed I was dealing with."
+pic 02 02
+txt "How odd that the Gremlin Tome gave no hint of this kind of intelligence..."

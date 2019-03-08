@@ -1,0 +1,12 @@
+pic 27 04
+bub 2
+txt "HHhoOOOOAAAAGgGH!"
+pic 09 31
+bub 1
+txt "GaAasp!* What are you?"
+pic 27 05
+bub 2
+txt "Ha ha hahahaa! Do you recoil in my presence even now, girl?"
+pic 27 04
+bub 0
+txt "Now that I am nothing, dust in the pantry? I am but the passing cloud that makes you shiver on a Summer's day."

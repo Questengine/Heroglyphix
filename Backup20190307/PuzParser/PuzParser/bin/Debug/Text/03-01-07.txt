@@ -1,0 +1,5 @@
+pic 02 01
+bub 0
+txt "Oho! Now we're getting somewhere, now we are getting somewhere indeed. And how delightfully twee."
+pic 02 00
+txt "T'is a Magus Tree stump, home to a genteel Wood Sprite lady or lad, no doubt."

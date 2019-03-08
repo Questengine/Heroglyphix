@@ -1,0 +1,5 @@
+pic 06 19
+bub 0
+txt "A vision of a great, white palace. I am -confused-, this is a work of absolute inspiration and beauty. How did your orange blob overlords achieve such a thing?"
+pic 17 06
+txt "Blob overlords... -You're- confused?!"

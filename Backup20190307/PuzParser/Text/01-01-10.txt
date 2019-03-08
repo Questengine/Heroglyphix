@@ -1,0 +1,32 @@
+pic 00 06
+bub 0
+txt "A little boat?"
+pic 01 01
+txt "There is a Journey ahead for he or she who undertakes the art of Glyph-solving. Perhaps a great Journey, indeed."
+pic 01 01
+txt "For me it was a Journey that blazed around the entire world."
+bub 2
+txt "A Journey that took me from the very depths of despair to the heights of fame and fortune, and everything in between!"
+pic 01 01
+bub 0
+txt "Ah, but that is simply history now. Who can say where yours will take you?"
+pic 00 05
+txt "I'm not really looking for anything that e-exciting, to be honest!"
+pic 01 01
+txt "Nonsense!"
+txt "All you need to remember are the following rules and ye shall be fine!:"
+txt "Good boots are your best friends. Sleep little and often. Don't drink the water..."
+txt "Pack a spare hat. And, uhh, 'tis an ill wind that bears no moss."
+pic 01 03
+bub 1
+txt "Oh wait ... 'tis an ill wind that... something something... look out for bears and don't eat the moss?"
+pic 00 06
+bub 0
+txt "Um?"
+pic 01 01
+txt "Well the important thing is... there's a fantastic path ahead of you,"
+txt "And I'm quite certainly, almost positive that you are well up to the task, I suspect. Stranger things have happened."
+pic 01 03
+txt "(mumble)"
+pic 00 05
+txt "..."

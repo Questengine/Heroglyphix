@@ -1,0 +1,16 @@
+pic 00 06
+bub 0
+txt "It's the last place I want to go, but if Pox came this way..."
+pic 00 04
+txt "... And they say, if there's one place to go when you need information about dodgy goings on..."
+pic 00 02
+bub 1
+txt "Ok, Ok, Ok. Steel yourself Skimlet, you're a fully fledged wizard. Holder of the seat of Aquarius and the mighty elemental power of Water."
+pic 00 01
+bub 0
+txt "You're big enough to stroll into a Tavern and just ask a few questions."
+pic 00 16
+txt "(deep breath)"
+pic 00 04
+bub 1
+txt "Here goes nothing!"

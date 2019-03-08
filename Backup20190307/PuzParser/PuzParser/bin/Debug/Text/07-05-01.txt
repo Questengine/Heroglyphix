@@ -1,0 +1,6 @@
+pic 09 13
+bub 0
+txt "Whew, nine spells per puzzle? Do you think I have all day, wand?!"
+pic 13 13 
+txt "But look at those daft puffballs, fooling around in the snow. *Hee-hee-hee*"
+txt "They may need a WHACK now and then, but they're cuties alright."

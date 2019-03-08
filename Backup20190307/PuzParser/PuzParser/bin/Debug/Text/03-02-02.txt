@@ -1,0 +1,15 @@
+pic 02 06
+bub 0
+txt "Oh! An Eo Osprey taking a salmon, marvelous!"
+pic 05 15
+txt "S' gruesome, more like."
+pic 02 17
+txt "Such grace and precision, what a spectacle."
+pic 05 16
+bub 1
+txt "Argh! Now it's ripping into its... and all the pink stuff coming out... it's, it's still wiggling!!!"
+pic 02 00
+bub 0
+txt "Dear me, t'is all part of nature's majesty. What, have you never roamed beyond the Glade to see for yourself?"
+pic 05 15
+txt "No, and you won't catch me doing it again."

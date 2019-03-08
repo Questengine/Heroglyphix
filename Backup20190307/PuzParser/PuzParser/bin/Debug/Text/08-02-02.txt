@@ -1,0 +1,17 @@
+pic 29 04
+bub 1
+txt "*Hwa-hwa-hwaa!*"
+pic 10 16
+bub 0
+txt "Hmm?"
+pic 29 05
+bub 1
+txt "*Gwee-hweee-hee-heee!*"
+pic 10 17
+bub 0
+txt "Hah? What?! Stop this foolery Pox!"
+bub 2
+txt "Show yourself! ..."
+pic 10 16
+txt "So...you've left me another stone relief. This, bearing an incantation of binding and Oban Methusaleh's seal. A curious discovery, I admit..."
+txt "Though, the man was a hack, and I very much doubt he constructed this exceptional instrument himself."

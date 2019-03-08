@@ -1,0 +1,17 @@
+pic 18 03
+bub 2
+txt "Mother!"
+pic 18 05
+bub 0
+txt "Ahhh I am saved, hm? And who do I have to thank?"
+pic 07 11
+txt "No thanks are necessary, Oba-san."
+pic 07 18
+txt "Aha! I should have known."
+txt "I remember young Matty, so polite, always running about town helping to light the shrine pyres. But my how you've grown!"
+pic 18 03
+bub 2
+txt "MOTHER!!!!!"
+pic 18 04
+bub 0
+txt "You cannot talk to Lord Magamura that way! A thousand, humble apologies my Lord!"

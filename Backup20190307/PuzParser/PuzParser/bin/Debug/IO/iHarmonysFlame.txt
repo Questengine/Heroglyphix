@@ -1,0 +1,26 @@
+pic 07 17
+bub 0
+txt "So Shige, even fiends from the demon realms have heard tell of "Harmony's Flame"'s reputation?"
+pic 19 06
+txt "I'd gladly accept the compliment, but I don't think my intruder came for Jomon's finest cuisine."
+pic 19 02
+txt "The crazed thing tore through here like a tsunami, firing out bursts of weird energy, ate a barrel and a half of my hottest Makharjeno chillis and then *Poof!*"
+pic 07 13
+txt "Gone?"
+pic 19 03
+txt "And no tip!"
+pic 07 11
+txt "Well that's a score I shall settle with the Gremlin. But let me dispose of the stone tablets first, whilst you fill me in."
+pic 19 02
+txt "Yes, one moment."
+pic 07 14
+bub 4
+txt "..."
+txt "..Strange? For an instant there, I thought a felt something... or more like, 'sensed' it."
+pic 07 03
+txt "An atmosphere settling over the town, something -oppressive-... yes!... but what?"
+pic 31 15
+bub 0
+txt "Mmm-mmm, smells good!"
+pic 19 04
+txt "Ah, now. Who ordered the six course meal?..."

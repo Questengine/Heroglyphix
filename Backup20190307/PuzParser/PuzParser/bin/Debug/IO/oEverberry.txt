@@ -1,0 +1,40 @@
+pic 02 06
+bub 0
+txt "So! The Glade is restored to its virginal glory. I am -honored- to stand here on this sacred ground."
+pic 02 12
+bub 1
+txt "And now I must humbly ask a favor - Come forth kin of Everberry. Come out, come out faerie folk so that I may speak to you!"
+pic 05 00
+bub 0
+txt "..."
+bub 2
+txt "BUUURRRRRRRRRRRRP!"
+pic 02 15
+bub 0
+txt "Eh? - I, *ahem* Don't be shy."
+pic 05 01
+txt "AHH! Ouch!, give me a break. Who's making all this r-RACKET, it's not even afternoon yet!"
+pic 02 02
+txt "I, apologies... 'noble sir'. May I enquire, where then are your dainty brethren? I have a matter of most pressing importance."
+pic 05 03
+bub 2
+txt "*cough*HACK*cough cough*-URRP!*cough*"
+pic 02 02
+txt "Where is Silverwhistle? Treedew, Gossamer, Whimsy... Cottonpuff?"
+pic 05 02
+bub 0
+txt "Oh, -them-. Yeah, pff, they got so sick of me they packed their bags and moved out. Best thing too, bunch of complainers."
+pic 05 04
+txt "what is that awful smell?' - 'Woodrot, acorn wine is only for special occasions, not for breakfast.'"
+txt "Woodrot, please don't do that in the berry orchard.' - Yada yada yada. Totally, flippin' unreasonable. I ask you."
+pic 02 27
+txt "......"
+txt "Wood.. rot..?"
+pic 05 06
+txt "Pleased to make your aquainty-aince."
+pic 05 29
+txt "I'm all you got, chief. Like it or lump it."
+pic 02 07
+txt "Well. It seems I'm forced to like it, Woodrot. And so are you I'm afraid."
+pic 05 07
+txt "Hah?"

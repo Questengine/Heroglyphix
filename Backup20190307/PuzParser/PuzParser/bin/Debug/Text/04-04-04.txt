@@ -1,0 +1,4 @@
+pic 06 30
+bub 0
+txt "Farthest of all, -hah-, of course. Another vision of the otherworld's fondness for contraptions."
+txt "This one is a voyager on an endless ocean, beyond the horizon - beyond the sky, beyond all reach."

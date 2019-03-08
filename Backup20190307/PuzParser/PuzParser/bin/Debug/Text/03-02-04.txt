@@ -1,0 +1,7 @@
+pic 02 00
+bub 0
+txt "A young Magus tree - growing these is my speciality you know? As it was my Grandfather's."
+pic 02 01
+txt "They're a perfect match for Earth magic, they verily explode from the ground at the touch of my staff! And they bear very sweet fruit in the winter too."
+pic 05 14
+txt "Please, for the sake of my nerves, NO more talk about magic trees!"

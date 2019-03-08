@@ -1,0 +1,56 @@
+pic 09 09
+bub 0
+txt "*Gasp!*"
+pic 25 06
+bub 2
+txt "HUMAN! You should know better than to step foot here. . ."
+bub 0
+txt "You must have a deathwish to front a Megalocanth Dragon in his lair. Well then, soft one, let me grant that wish as I bite you in two!"
+pic 25 07
+bub 1
+txt "Hiishshsshhh!"
+pic 25 08
+bub 2
+txt "BAD!"
+pic 25 09
+bub 0
+txt "Bad bad bad!"
+pic 25 10
+txt "...Pardons... a -sorceress-. I.. mistook you for a mortal one."
+pic 34 21
+txt "So you won't be eating me then?"
+pic 25 10
+bub 1
+txt "No."
+pic 09 02
+bub 0
+txt "*Giggle* That's very cute of you Bertie! &"
+pic 25 07
+bub 2
+txt "*HOOOARRRRAARGH!!!!!*"
+txt "I am Drakuthrelda, girl, mightiest of the world's dragonkind and I WILL eat ANY who forget to show me respect!"
+pic 09 26
+txt "Even if they now know your -real- name?"
+pic 25 11
+txt "-!-"
+txt "I spoke my secret name ... you wouldn't dare use it?!"
+pic 09 14
+txt "Words have power, Names bind their owners, now you do my bidding, blah blah blah."
+pic 09 26
+txt "Don't worry Drakuthrelda, I don't need another pet. Hey Drakuthrelda?"
+pic 25 11
+bub 2
+txt "Stop saying it!!! Someone will hear you!!!"
+pic 09 20
+txt "From now on, you will only eat things that have been very naughty!"
+pic 25 12
+txt "...You mean like children who forget to do their chores, and -"
+pic 34 18
+txt "Very, -very- naughty! Drakuthrelda, you can only eat bad, evil people!"
+pic 25 12
+txt "...Yes, mistress."
+pic 09 16
+txt "Ok bye! &"
+pic 25 13
+bub 1
+txt "Oh *curse*."

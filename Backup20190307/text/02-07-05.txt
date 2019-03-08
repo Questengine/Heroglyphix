@@ -1,0 +1,15 @@
+pic 00 12
+bub 0
+txt "Master!!!..."
+pic 02 00
+txt "Haha, quite so! Though you musn't call me that any more, my old apprentice."
+pic 00 01
+txt "You've proven yourself far beyond your days of study, especially today it seems!"
+pic 00 15
+bub 2
+txt "You're safe!"
+pic 02 02
+bub 0
+txt "Mrrk! It tastes like I've had a mouthful of gravel - but aside from that..."
+pic 02 05
+txt "...Yes, I am myself again."

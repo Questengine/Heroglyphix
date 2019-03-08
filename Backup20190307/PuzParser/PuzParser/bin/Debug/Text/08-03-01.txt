@@ -1,0 +1,9 @@
+pic 11 24
+bub 2
+txt "GGGUUAAAAAAAOOOOORRRR!"
+pic 11 25
+bub 1
+txt "G-! ... ... .."
+pic 11 26
+bub 0
+txt "*thud*"

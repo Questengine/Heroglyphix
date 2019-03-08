@@ -1,0 +1,5 @@
+pic 09 09
+bub 0
+txt "Kii Kii's kibble, his favorite Super-tweety brand seed."
+pic 09 17
+txt "I hope he's okay, how many of these do I have to solve before I find him???"

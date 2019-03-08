@@ -1,0 +1,35 @@
+pic 33 06
+bub 0
+txt "Oh my - look at that. There's the mansion, falling to splinters."
+pic 22 15
+txt "NOOOO! NOOOOOOO-OOOOOOOO!"
+pic 22 16
+bub 1
+txt "Noooooooooooo! It's all over!"
+pic 22 17
+txt "..."
+pic 33 06
+bub 4
+txt "And the Crux destroyed along with it! Gone forever. But, when the moment came... when I had to choose..."
+pic 08 13
+txt "I chose the Gremlin."
+txt "If I'd chosen the Crux, it would have unleashed all of my strength ... and the darkness that it comes from. I... I know that now."
+txt "It would have been so easy not to fight for that balance anymore, but I wouldn't really have ever been in control again, would I?"
+pic 08 05
+txt "So long as I can know what's right and choose that path, reign in my Shadow and use it to take me where I need to go..."
+pic 33 13
+txt "... I'll be more powerful than the Crux ever could have made me. And -now- I know I can harness it. I -can-."
+pic 08 04
+bub 0
+txt "Maybe there's hope for me yet. Heh."
+pic 09 01
+txt "Ooh, is that little guy the gremlin? He looks kinda mad!" 
+pic 09 02
+txt "Hee hee! Look at him dancing, shooting out these sparkly- !!!"
+pic 09 03
+bub 2
+txt "Yipe!"
+pic 33 07
+txt "Aaaaaaaaaaaaaaaaaaaagh!"
+pic 32 15
+txt "..."

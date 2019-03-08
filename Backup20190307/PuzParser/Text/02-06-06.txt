@@ -1,0 +1,14 @@
+pic 00 01
+bub 0
+txt "Mmm, that smells good!"
+pic 04 00
+txt "Nothing beats farm-fresh food! Here, take some of these hot pasties with you."
+pic 00 15
+txt "If you insist!"
+pic 04 01
+txt "Made from Squppig, Monster Neep and Gingham Sheep! I'm sure you'll find it an eye-opening experience!"
+pic 04 00
+txt "Oh dear. Something gone down the wrong way, has it?"
+pic 00 08
+bub 1
+txt "(Hack hack!)"

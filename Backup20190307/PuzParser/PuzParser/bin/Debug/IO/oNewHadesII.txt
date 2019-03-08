@@ -1,0 +1,47 @@
+pic 23 21
+bub 2
+txt "*Screeech+* *Screee* *Squuieeeeeeeek+*"
+pic 23 22
+bub 0
+txt "Ahah, music to my ears. Who is it I have to thank for saving my town?"
+pic 23 06
+txt "Uhhh... Mayor Morty, what happened was, well there was no other way you see, and so we..."
+pic 08 05
+txt "Hi."
+pic 23 22
+txt "Bless my soul, a human here in our midst!"
+pic 23 10
+bub 1
+txt "Th-that's right Mayor. She's been a real -godsend- and I hope you understand that there..."
+pic 23 22
+txt "I see! We owe you a great deal, our first human visitor. And now I must ask that you stay here and enjoy our hospitality..."
+pic 23 23
+bub 2
+txt "FOREVER!!!"
+pic 08 07
+bub 0
+txt "What!?!"
+pic 23 22
+txt "Ahahaha! Just my little joke - I've been saving that one for some time. Ahem."
+txt "Very good! And what can we do to repay the kindness you have shown us tonight? Hmm?"
+pic 23 25
+txt "The lady is looking for the ancient home of the Murdo family, right Peri?"
+pic 23 10
+txt "That's right, Mayor..."
+pic 23 22
+txt "Oh? Oh dear, how unfortunate. Imparting such information is quite against the spirit code of silence."
+pic 23 21
+txt "Luckily, we never have much liked that smug git, Unctious! + Or any of his ancestors for that matter."
+txt "Would a certain three... guides be of use?"
+pic 08 26
+txt "Yes! Yes indeed, they would. If we can leave immediately?"
+pic 23 22
+txt "I would have liked to make you more welcome, your presence here is refreshing. But I don't see why not?"
+txt "You are familiar with the way aren't you, my lads?"
+pic 23 03
+txt "Yes Mayor, right away Mayor! Come on Peri, Welk - I know the perfect route."
+pic 23 15
+bub 1
+txt "*cough*-Suck up-*cough*."
+pic 23 09
+txt "Ha-ha, yes indeed! Miss, it warms my spirit to be able to thank you personally for everything you've done for us!"

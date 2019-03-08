@@ -1,0 +1,20 @@
+pic 22 02
+bub 0
+txt "On my many travels I've discovered secret places, untrodden in an age, that offer up all manner of oddities. Herbs, fruits, mushrooms - the treasures of the wild."
+pic 22 08
+bub 2
+txt "OH-haha! 'Treasures'!"
+pic 08 05
+txt "Go on."
+pic 22 03
+txt "Well no, I... It's a humble existence, my Lady, inconsequential. These maps would be worthless to most people..."
+pic 22 07
+txt "Hah, those are the first smart words out of his mouth."
+pic 22 03
+txt "... but I have become a part of a world of natural wonders. Some in Thaumhaven have even grown to value my visits, at least a little I think."
+pic 08 05
+txt "Don't feel like you have to justify yourself, Wanderer. You've found you own harmony, it's..."
+pic 08 07 
+txt "...something to be envied."
+pic 22 11
+txt "What are you saying-?!.. ! Don't encourage the penniless fool, girl!"

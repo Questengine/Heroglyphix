@@ -1,0 +1,18 @@
+pic 13 06
+bub 2
+txt "KIII!"
+pic 09 01
+bub 0
+txt "Don't be scared Kii Kii, I think they've tamed these Giant Termites to help out in their factory!"
+pic 09 07
+txt "I want one of those!"
+pic 13 05
+bub 2
+txt "KIII-P!!"
+pic 09 14
+bub 0
+txt "No, I'd never replace you, -featherbrain-"
+pic 34 19
+txt "& You're my best little guy, forever. &"
+pic 09 20
+txt "*sigh* - Come on."

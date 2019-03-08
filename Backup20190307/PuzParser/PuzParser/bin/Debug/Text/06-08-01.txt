@@ -1,0 +1,15 @@
+pic 22 08
+bub 0
+txt "OhHhHh! Oh lucky day, it's unharmed."
+pic 08 09
+txt "'Septimus Murdo', yes I can see the resemblance. It's mostly in the nose."
+txt "The cruel face. The pompous stance. Weak chin. Beady eyes..."
+pic 22 08
+txt "This is our oldest surviving portrait, only the seventh generation from the original Murdo. It's hundreds of years old, priceless!"
+pic 08 05
+txt "Price-less? That's the same as worthless, right?"
+pic 22 06
+txt "Bah, you're too lowly to understand it, girl. This is about heritage. Breeding!"
+pic 08 28
+bub 1
+txt "Careful, shade."

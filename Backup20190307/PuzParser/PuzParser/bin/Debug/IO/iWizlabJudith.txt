@@ -1,0 +1,26 @@
+pic 05 08
+bub 0
+txt "Y'know maybe I am getting closer to Nature - it sure felt good kissing the ground...
+pic 05 12
+bub 2
+txt "...after we escaped that MANIAC'S BOAT!"
+pic 02 07
+bub 0
+txt "..."
+pic 05 02
+txt "...what?! Are you still moping about that mishap with the T-Rex?"
+pic 02 07
+txt "Excuse me, Woodrot - my mind is simply occupied with the direction you're leading us in. Are you certain that..."
+pic 31 13
+txt "Hey! Don't doubt my skills, yeah, we're dead on his trail alright. Happy?"
+pic 02 07
+txt "No I'm not, you see this would lead Pox directly to the door of an old friend."
+pic 05 31
+txt "Hooray! Is this another chance for me to hang with someone with a disturbing facial hair fetish?"
+pic 02 00
+txt "Quite the reverse, the building you see before you is the home to a most luminous lady."
+pic 02 07
+txt "And I can tell from here, all is not well."
+pic 02 24
+bub 1
+txt "Blast him. We have work to do."

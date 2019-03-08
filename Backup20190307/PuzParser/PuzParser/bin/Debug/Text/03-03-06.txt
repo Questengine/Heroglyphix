@@ -1,0 +1,34 @@
+pic 05 26
+bub 2
+txt "Argh! Take them away, take them away!"
+pic 02 00
+bub 0
+txt "Really Woodrot, these bones are probably a hundred years old."
+pic 05 26
+bub 1
+txt "Na na na na! I'm not listening to the b-word. Just cover them up or something!!"
+pic 02 00
+bub 0
+txt "*sigh* Okay. You can open your eyes."
+pic 05 26
+txt "You sure?"
+pic 02 00
+txt "Yes."
+pic 05 26
+bub 1
+txt "Really?"
+pic 02 00
+bub 0
+txt "Open your eyes, you fool."
+pic 05 26
+txt "You've hidden the b-things away?"
+pic 02 11
+txt "YES, of course."
+pic 05 26
+txt "Okay then..."
+pic 05 16
+bub 2
+txt "ARGH! They're still right there!!!"
+pic 05 23
+bub 0
+txt "Oh, get going you big baby."

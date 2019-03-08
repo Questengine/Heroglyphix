@@ -1,0 +1,26 @@
+pic 00 07
+bub 0
+txt "That's odd. The wand had to create a bigger grid to help me beat that one. Tougher!"
+pic 00 18
+bub 1
+txt "I wonder how big glyphs can get?!"
+pic 00 15
+bub 0
+txt "Still, it was no match for me. Here you are Artemis!"
+pic 04 02
+txt "My magic hoe! I had this specially enchanted for easy field work."
+pic 00 01
+txt "Very, er - practical."
+pic 04 00
+txt "Exactly! You've got it in one!"
+txt "Magical studies are advancing at a fantastic rate and enriching the lives of those brave enough to apply them!"
+pic 04 01
+txt "Oh, some may look on pioneers like myself as eccentrics - but the rewards of this, science!, are limitless!"
+pic 04 03
+bub 2
+txt "Mwa-ha-haa-HA-HAA!"
+pic 00 18
+bub 0
+txt "Eep!"
+pic 04 00
+txt "Sorry, I -can- get a bit enthusiastic. It's just all so exciting!"

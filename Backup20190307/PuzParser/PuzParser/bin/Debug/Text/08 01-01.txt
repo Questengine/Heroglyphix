@@ -1,0 +1,4 @@
+pic 10 16
+bub 0
+txt "Hmph, an old magical artifact... I'd say 7th century. Runically engraved and set with a golden metal Gremlin."
+txt "Trash, of no intrinsic value or aesthetic merit. Well, is this supposed to mean something?"

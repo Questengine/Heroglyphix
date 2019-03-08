@@ -1,0 +1,16 @@
+pic 01 01
+bub 0
+txt "Aha! Know the face of your enemy!"
+pic 01 02
+txt "Awkward, squirmy little ruffians they are. Brrr! I came up against my fair share of them, I can tell you."
+pic 00 09
+bub 1
+txt "So there really is something... loose out there... turning things into glyphs?!"
+pic 01 02
+bub 0
+txt "Prized possessions, livestock, even people can be turned into glyphs! The Gremlins were the scourge of wizard-kind!"
+pic 01 01
+txt "You should really turn to some of my later chapters and relive my famous exploits... quite outstanding."
+pic 00 01
+txt "Um yes. I don't think there's time! Sorry."
+

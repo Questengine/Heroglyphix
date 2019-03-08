@@ -1,0 +1,9 @@
+pic 05 20
+bub 0
+txt "I'm so tired! Why do we have to walk all this way?"
+pic 07 10
+txt "Forgive me. Perhaps you would like to be pushed around in a babycart?"
+pic 05 05
+txt "Oh, funny. You know, ...huh, what?"
+pic 07 06
+txt "Something lies on the road ahead. Yes, the gremlin has indeed come this way!".

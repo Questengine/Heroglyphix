@@ -1,0 +1,8 @@
+pic 06 01
+bub 0
+txt "Fire magic can sharpen a blade so finely that it may cut through steel - yet, Matthius prefers to use this simple whetstone."
+pic 06 15
+txt "He is a man of tradition and of honor, Woodrot. You would do well to remember that when you meet."
+pic 05 08
+bub 1
+txt "Sounds like plain stubborness to me..."

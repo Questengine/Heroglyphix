@@ -1,0 +1,5 @@
+pic 06 08
+bub 0
+txt "'Stop', it commands. But stop what? Stop... everything?"
+pic 06 11
+txt "What a harsh and oppressive place this intersecting world must be."

@@ -1,0 +1,20 @@
+pic 02 05
+bub 0
+txt "Valley's end! That's a sight for sore eyes, and feet."
+pic 05 09
+txt "Hey, there you are chief. We made it out alive!"
+pic 02 11
+bub 2
+txt "Woodrot!"
+bub 0
+txt "I've been tackling every danger that gremlin has thrown at me singlehanded. You left me in the lurch you blistering scoundrel!"
+pic 05 29
+txt "Y'know, I like to think of myself more as a loveable rogue."
+pic 02 10
+txt "Hrumph! Sadly, it seems I overestimated my friend and underestimated my enemy. More fool me, I suppose."
+pic 02 07
+txt "Well... enough foolery - let's tackle this hill side. It's unclimable from outside the valley, but I daresay we should be able to scramble -down- it."
+pic 05 05
+txt "Hey, I hope you're not going to hold this little misunderstanding against me."
+pic 02 07
+txt "Do come on."

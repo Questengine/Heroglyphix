@@ -1,0 +1,9 @@
+pic 08 03
+bub 0
+txt "A very sturdy lantern pole. It looks like you'll be able to find your destination tonight, after all."
+pic 22 02
+txt "Much obliged, my Lady! Haha, I only wish I enjoyed your 20/20 night vision instead."
+pic 22 04
+txt "This pole is an awkward thing to bear in the daytime..."
+pic 22 03
+txt "- Still, at night, with the base fixed snug into my backpack, I must say it lights my way more ably than Venture lighthouse itself."

@@ -1,0 +1,7 @@
+pic 00 07
+bub 0
+txt "The Blacksmiths. The Town Square. From The Axe & Stump, up to Groat's farm."
+txt "It's almost a straight line, and if he -follows- that line, it would lead him to..."
+pic 00 09
+bub 2
+txt "(Gasp)... Master!"

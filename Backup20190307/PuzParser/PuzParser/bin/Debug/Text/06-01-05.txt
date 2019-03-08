@@ -1,0 +1,12 @@
+pic 08 05
+bub 0
+txt "Look at these tiny cubs, they're so young. Why would someone take them?.. except for their own twisted amusement."
+pic 12 05
+bub 1
+txt "Dat someone stirs, upstayz..."
+pic 08 01
+txt "All you know is cruelty, huh... look at the fear in their eyes..."
+pic 08 05
+txt "Don't flinch, little ones. I'm letting you all go."
+pic 08 26
+txt "Go on. That's it! You'll get the hang of freedom once you've tasted it again."

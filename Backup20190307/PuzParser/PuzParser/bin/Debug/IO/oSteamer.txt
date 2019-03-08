@@ -1,0 +1,27 @@
+pic 16 02
+bub 1
+txt "Ah......"
+pic 02 02
+bub 0
+txt "What's this? Admiral, why are we slowing down?"
+pic 16 04
+txt "Fiddlesticks... come on girl! Ah, I-I-I've made rather a bungle on the, uh, coal front, I'm afraid."
+pic 16 02
+txt "We're out of it. I've jumped the shot, so to speak, burned it all up in our dash for glory."
+pic 05 12
+txt "Oh perfect."
+pic 16 02
+txt "Not to worry, we'll still make the North shore..."
+pic 02 15
+txt "...but we're not going to catch up with Pox."
+pic 16 02
+txt "The Saltshaker will coast to the dock, but ah, yes. She'll do it rather leisurely... Drinks anyone? Cheese square on a stick?"
+pic 02 07
+bub 4
+txt "...blast... he's gone."
+pic 16 03
+bub 0
+txt "I know some fine sea shanties that might pass the time?"
+pic 02 24
+bub 4
+txt "......"

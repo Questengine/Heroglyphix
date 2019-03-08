@@ -1,0 +1,7 @@
+pic 09 07
+bub 0
+txt "Wow, whole crates of SugarCandy!"
+pic 09 05
+txt "I've never seen so much in one place - they sure do make a lot of this stuff."
+pic 34 13
+txt "It's too bad a Princess has to watch her figure..."

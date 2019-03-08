@@ -1,0 +1,17 @@
+pic 07 08
+bub 0
+txt "My path is to Akuyoshida Town where no doubt the runtling has been entertaining itself whilst I was incapacitated."
+pic 07 13
+txt "Perhaps you are correct and it has already moved on..."
+txt "But if I take chase and kill it before solving the glyphs it has made, and I DO intend to kill it, then they will forever be left as stone."
+pic 05 21
+txt "Ugh, so a few glyphs get..."
+pic 07 13
+txt "THAT is why I am taking this path and why you will follow me. In -silence-."
+pic 31 13
+txt "..."
+pic 07 13
+txt "If a man be great, even his dog will wear a proud expression."
+pic 31 12
+bub 1
+txt "Grrrrrrr."

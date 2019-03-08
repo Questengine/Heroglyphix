@@ -1,0 +1,12 @@
+pic 28 00
+bub 0
+txt "Oi!"
+bub 2
+txt "OI! Wayke oop!"
+pic 28 01
+bub 0
+txt "Wakye yeesef oop, gally. This is noo place ta sleep!"
+pic 34 13
+txt "Uhhh.. ow! Please stop yelling..."
+pic 28 02
+txt "Ahm surry gally, boot the Kyng arsksed meh ta find ye. Errrgently!"

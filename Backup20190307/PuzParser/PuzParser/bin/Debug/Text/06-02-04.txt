@@ -1,0 +1,5 @@
+pic 08 05
+bub 0
+txt "Mushroom bread?... *sniff sniff* ..."
+pic 22 03
+txt "Yes - good travelling rations! A little worse for wear but I'm grateful for its return.  Keeps me on my feet."

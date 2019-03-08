@@ -1,0 +1,28 @@
+pic 07 22
+bub 0
+txt "It is done! *huff*"
+pic 05 22
+txt "Hrmm, looks like you were too late to save this one"
+pic 07 12
+txt "The possibilities in a single space are infinite, but, yes, the Flat Sea Garden may appear empty at first glance."
+txt "Aside from the undulating ocean of gravel there is little to look at, there are no walls, no plants and little even in the way of rocks. And yet..."
+pic 07 11
+txt "...this makes it the most provocative of them all. There is nothing in the garden except what you bring to it."
+pic 07 19
+txt "Contemplate the void,
+The Dragon lights your veins when
+You concede your death."
+pic 05 15
+txt "... yyyeah, that's a nice sentiment. A little deep, not quite greeting card material you know? But uh..."
+txt "*shiver* Has anyone ever told you, you're a big dose of creepy?"
+pic 32 13
+txt "Facing the inevitability of one's own death, it is... one of the hardest of the Ryudo disciplines to embrace..."
+txt "But the most liberating. In order to do the greatest things, you must first give up the fear of losing."
+pic 07 13
+txt "Fears of injury, weakness or failure are what hold us back from being the person we were born to be..."
+pic 05 02
+txt "Oooh, tell me more, Dr. Phil!"
+pic 07 15
+txt "What, I?... Pah, why am bothering with you."
+pic 07 08
+txt "There is WORK to be done."

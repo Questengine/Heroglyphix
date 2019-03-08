@@ -1,0 +1,3 @@
+pic 02 16
+bub 1
+txt "Unmistakably, this is a nest of T-Rex eggs. What a priviledged sight this is but I -do- hope the mother isn't too nearby..."

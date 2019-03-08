@@ -1,0 +1,43 @@
+pic 09 06
+bub 0
+txt "Looky down there, a little man is waving at us. Hee hee, how odd!"
+pic 09 02
+txt "Let's go say hi..."
+pic 13 15
+txt "Rrrrrrrrr!"
+pic 09 14
+txt "And no eating this one!"
+pic 25 00
+txt "Wh-whuzzat? Good jelly... visitors?!"
+bub 2
+txt "F-Foolish travellers, beware!"
+pic 25 02
+txt "You have reached the Northern-most part of the civilised world, NONE MAY PASS into the lands beyond!"
+pic 34 18
+bub 0
+txt "Excuse me?"
+pic 25 01
+txt "A lady! Crivens, I - I haven't seen one of those, one of you, for a long time!"
+pic 25 03
+txt "*cough* *cough* Oh dear, oh dear!"
+pic 34 20
+txt "What's this 'NONE MAY PASS', gramps?"
+pic 25 02
+txt "Y-yes, *ahem* - the speech: 'NONE may pass, lest they face a hiiiiideous death and mangle-ment from the gnashing teeth of a hundred-"
+pic 09 26
+txt "Wow, you're wrinkly! Like a shiny walnut!"
+pic 25 04
+txt "Aha, please pay attention - And my dear, I am 101 years old, wrinkles are a prerequisite."
+pic 09 21
+txt "I tried getting old once, didn't like it."
+pic 25 01
+txt "Um, uh?... Yes, well the Mythic Spires ahead are no place for a strip of a lass like you."
+pic 25 01
+txt "*Cough* (Oh how does it go? I'm a little out of practice...)"
+pic 25 02
+bub 2
+txt "'For the foolish traveler will be rended apart by the wings and claws of despair.'"
+txt "And they will be heard to say with their last breath "Blimey... I've been a proper nelly, I have!'"
+pic 25 01
+bub 1
+txt "Well, it was something to that effect."

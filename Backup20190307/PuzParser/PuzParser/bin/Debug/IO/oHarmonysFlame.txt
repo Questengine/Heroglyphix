@@ -1,0 +1,31 @@
+pic 19 02
+bub 0
+txt "Now to more serious matters..."
+txt "Surely you have sensed something in the air, an atmosphere descending over Akuyoshida? Perhaps over the whole of Jomon province?"
+pic 07 03
+bub 4
+txt "...yes, I sense it..."
+pic 07 13
+bub 0
+txt "I cannot place it, but I believe you're right."
+pic 19 05
+txt "My magical abilities only extend into the culinary arts, but still I know something of harmony. And that is what I sense now, or rather - disharmony?"
+txt "Does that suggest anything to you?"
+pic 07 14
+txt "I feel... It is if a... a balance had been tipped."
+pic 18 02
+txt "Flames, when the gremlin disappeared in town, it was last seen not far from the Five Gardens. I cannot help but think..."
+pic 07 21
+txt "-!-"
+pic 07 06
+txt "The Gardens... this is no coincidence. We must go."
+pic 31 16
+bub 2
+txt "Hwy! Mm stll eading!!! *cruncha cruncha*"
+pic 07 15
+bub 0
+txt "Immediately!"
+pic 07 13
+txt "Thank you for your warmest hospitality, Shigesato Ryori."
+pic 19 02
+txt "Lord Magamura... may Aku's fire be your courage."

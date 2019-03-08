@@ -1,0 +1,3 @@
+pic 02 01
+bub 0
+txt "Good Mr Blue-jacket, may you return to your daily bumblings unhindered."

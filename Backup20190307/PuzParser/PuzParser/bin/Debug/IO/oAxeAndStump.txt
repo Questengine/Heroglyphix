@@ -1,0 +1,26 @@
+pic 03 04
+bub 0
+txt "Would you look at that, you've cleared up. The Axe and Stump is back open for business!"
+pic 00 01
+bub 3
+txt "Yes, I've survived my first (and probably last) trip to a tavern!"
+pic 00 05
+bub 0
+txt "Well, I'd better be going before your clientelle returns, Wilf."
+pic 03 04
+txt "One for the road, squire? I've got to reward you somehow."
+pic 00 01
+txt "Um, that's okay - I just need to know which way the gremlin went."
+pic 03 04
+txt "Oh blimey yeah. When I popped my head up from behind the bar I did catch sight of it running off."
+txt "Straight down that road. Towards the farmsteads."
+pic 00 18
+txt "He's heading out of town?!"
+pic 00 01
+txt "Egads! I have to get moving! Thanks."
+pic 03 05
+bub 2
+txt "Hey, squire! Poke its eyes out for -me-!!!..."
+pic 03 06
+bub 1
+txt "...awww...Happy days." 

@@ -1,0 +1,410 @@
+ Needham notes
+
+
+speech bubbles 888888888888888888888888888888888888888888
+
+OK, so here are our 4 Final Fantasy -- I mean --
+unique Hero Glyphix style speech bubbles.
+
+bubble1 - Standard
+bubble2 - Quiet / Scared
+bubble3 - Loud / Angry
+bubble4 - Thinking
+
+As you can see they all have the same feel as the one
+you've seen before, on the old gameplay screen mockup.
+I've made some progress on the friendly white font
+that will be used on these but it's not ready for you
+quite yet. 
+
+The idea behind using one font exclusively on this
+type of blue background is that we can get really
+smooth edges on the letters, as opposed to OTT's fonts
+which had to work on a wider variety of background.
+Aside from the bubbles, this white font is planned to
+be used when a Rank-Up or other important message pops
+up on the gameplay screen: for that, I'll make a
+similar blue window graphic, but with a gold border.
+Another example would be on the Save screen: the
+information relating to the Save positions (Journey
+name, time elapsed) will go in a similar blue box. I
+think this consistency will be attractive.
+
+If you feel like putting the bubbles into the game
+soon (and using the temporary font for the dialogue)
+then please place them at 189,13.
+
+Cheers!,
+---Matt
+
+________________________________________________________________________
+
+
+
+
+HOURGLASS88888888888888888888888888888888888888888888888888
+
+
+
+Hi,
+
+glad you liked the hourglass idea, here are the two
+files you need to get it working. 
+
+I've shifted down to 256 color graphics and we've lost
+a little subtlety in the soft metallic tones, but it's
+barely noticeable. And wow, it zips to a mere 12K !
+
+
+sflow.bmp
+---------
+
+These are the frames for the first sprite. They
+contain the body of the hourglass & the falling sand.
+Size of each frame = 61x93.
+
+1-6:  Starting animation
+7-9:  The 3 falling sand frames which are played
+repeatedly
+10-13:  The ending animation
+14:  The hourglass with a full top bulb (displayed
+before a puzzle begins)
+
+
+As the puzzle begins you'll want to play those first
+six frames and then play 7,8,9,7,8,9 etc. until time
+runs out. When the time hits zero play frames 10-13
+and the last few grains will land in the bottom bulb.
+
+
+
+slevel.bmp
+----------
+
+The eleven different levels of sand for the top
+sprite. Size of each frame = 35x54.
+
+You can control the frame number by the kind of
+function I mentionned in my last post. This sprite
+should become active the instant the puzzle begins,
+and be removed the instant it stops. Very simple.
+
+
+~~~~
+
+
+Positions on screen:
+---------------------------
+
+The main hourglass sprite goes at 701, 199.
+The sand level sprite goes on top of it at 714, 220.
+
+
+Hope that's all clear. I should have the 4 speech
+bubbles ready soon, and don't worry about an HG update
+- I have plenty to work on. :)
+
+---Matt
+
+ 
+
+The charges are 16x19, and should be placed on the
+gameplay screen at:
+
+1) 124,212
+2) 136,227
+3) 124,242
+
+/*-////-/-/*/-*/-//**/-
+
+
+
+Hi,
+
+here are the 2-state buttons for Skimlet's gameplay
+screen.
+
+b-quit:  Quit Button  (Size: 80x43 , Place on GP
+screen @ 294,545)
+
+b-pause:  Pause/Map Button  (Size: 160x43, Place on GP
+screen @ 381,545)
+
+b-book:  The Reveal Spellbook  (Size: 80x85, Place on
+GP screen @ 35,203)
+
+
+Also, the file "charges2.bmp" has four frames that you
+can use to represent how many spell charges the player
+has; 0,1, 2 and 3 in order. (The #2 in the name refers
+to "Skimlet's Journey" being the 2nd journey) The size
+of each frame is 28x49 and they should be placed on
+the screen @ 124,212.
+
+---Matt
+
+
+ -*///-**/-/*-/-*/-/*-/*-/*-/*-
+
+Hey,
+
+I didn't want to send you the Speech Bubble font until
+I'd played around with it thoroughly. I've run some
+pre-tests to the exact specifications of the font, a
+couple of which I've included along with the font
+file. I'm pleased with the result; it seems friendly,
+very readable and small enough to fit plenty of
+dialogue onto a single bubble 'page'. A second opinion
+would be welcome though!
+
+I've laid out the font file (bfont) in a new format so
+that it's extremely easy for you to check positions
+and keep track of any changes. The letters are all
+consecutive in their rows with no unneccessary spaces,
+but between the rows I've drawn separating areas with
+markers showing the beginning of the letter beneath.
+
+With luck you won't even have to make reference to
+that however, because here are all the positions you
+should need (the letters are all 18 pixels tall):
+
+Row 1 (Y=4): Capital letters.  X=:
+
+A - 4     (width=11)
+B - 15     (width=10)
+C - 25     (width=10)
+D - 35     (width=11)
+E - 46     (width=9)
+F - 55     (width=8)
+G - 63     (width=12)
+H - 75     (width=12)
+I - 87     (width=5)
+J - 92     (width=8)
+K - 100     (width=11)
+L - 111     (width=8)
+M - 119     (width=12)
+N - 131     (width=12)
+O - 143     (width=12)
+P - 155     (width=10)
+Q - 165     (width=12)
+R - 177     (width=10)
+S - 187     (width=9)
+T - 196     (width=10)
+U - 206     (width=11)
+V - 217     (width=11)
+W - 228     (width=11)
+X - 241     (width=13)
+Y - 252     (width=11)
+Z - 263     (width=10)
+
+
+Row 2 (Y=25): Lowercase letters. X=:
+
+a - 4     (width=9)
+b - 13     (width=9)
+c - 22     (width=7)
+d - 29     (width=9)
+e - 38     (width=9)
+f - 47     (width=6)
+g - 53     (width=9)
+h - 62     (width=9)
+i - 71     (width=5)
+j - 76     (width=6)
+k - 82     (width=9)
+l - 91     (width=4)
+m - 95     (width=11)
+n - 106     (width=9)
+o - 115     (width=9)
+p - 124     (width=9)
+q - 133     (width=10)
+r - 143     (width=6)
+s - 149     (width=8)
+t - 157     (width=6)
+u - 163     (width=9)
+v - 172     (width=9)
+w - 181     (width=11)
+x - 192     (width=8)
+y - 200     (width=9)
+z - 209     (width=8)
+
+
+Row 3 (Y=46): Numbers and symbols. X=:
+
+0 - 4     (width=11)
+1 - 15     (width=8)
+2 - 23     (width=11)
+3 - 34     (width=10)
+4 - 44     (width=11)
+5 - 55     (width=10)
+6 - 65     (width=11)
+7 - 76     (width=11)
+8 - 87     (width=10)
+9 - 97     (width=11)
+. - 108     (width=7)
+, - 115     (width=7)
+: - 122     (width=8)
+- - 130     (width=8)
+= - 138     (width=11)
++ (Note) - 149      (width=13)
+& (Heart) - 162     (width=12)
+# (Mystic) - 174     (width=14)
+! - 188     (width=7)
+? - 195     (width=10)
+* - 205     (width=10)
+$ - 215     (width=10)
+% - 225     (width=13)
+( - 238     (width=8)
+) - 246     (width=8)
+' - 254     (width=7)
+@ - 261     (width=11)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Usage:
+--------
+
+The speech bubbles themselves should be placed on the
+screen at 189,13.
+
+Each bubble can accomodate up to 4 lines of text. When
+you first implement the bubble dialogue in the game,
+you may want to just start near the top of the bubble
+regardless of how many lines of text need to be
+displayed. Eventually though, it would be great for
+the presentation if you could write a function to work
+out how many lines a string of text requires to be
+displayed; and then to display it at a corresponding
+height. Using something like the following figures
+will centre the dialogue nicely in the bubble:
+
+4 lines:  Starting height= 42
+3 lines: Starting height=52
+2 lines: Starting height= 62
+1 line: Starting height= 72
+
+There should be a 4 pixel gap between lines of text.
+
+A line of text begins at X=248 and should extend no
+further than X=568.
+
+~~~~~~~~~~~~~~~~~~
+
+If any of that isn't clear then let me know and I'll
+put some graphics together to illustrate it better.
+
+Have a good weekend!,
+---Matt :)
+
+ 
+
+
+
+
+
+
+Date: Fri, 24 Oct 2003 18:26:46 +0100 (BST) 
+From:  "Matt Needham" <xirby@yahoo.co.uk> | Add to Address Book 
+Subject:  Library art files 
+To: apeinteractive@yahoo.com 
+       
+ 
+
+
+Here are all the art files I think you need for the
+Library level. Please use the same Quit and Pause/Map
+buttons as Skimlet's Journey.
+
+hg-mouse:
+----------
+
+All the mouse pointers in one file. Each mouse graphic
+is 45x45 and its hot spot is at 11,3. There are four
+rows here, each containing seven frames for one type
+of pointer.
+
+The first row can hold system pointers, for the menus.
+I've quickly made an enlarged marble version of the
+Windows arrow, plus six more frames with a timer that
+could be cycled through if the game is loading or
+saving. The frames on this row could hold entirely
+different types of system pointers though.
+
+The other three rows have pointers that are accessible
+during the game. Row 2 is the quill, row 3 is the
+regular wand, and row 4 will be the wand's ebony form
+when evil old Edizon is using it.
+
+
+Horizontal and vertical bars:
+------------------------------
+
+Just the updated 5x5 and 8x8 puzzle versions, because
+that's all Glyphix 101 needs.
+
+
+cluedigits1 and cluedigits2:
+----------------------------
+
+These are the clue graphics for Journey 1 and Journey
+2. Please let me know if you'd prefer them to be held
+in a single file and I'll reformat them for you.
+
+
+Spell book:
+-----------
+
+Spbook1 is the spellbook button for Journey 1.
+
+
+Special marks:
+--------------
+
+Libmark5 and libmark8 are the two sizes of the
+system-only mark for the library. I've sent them as
+these two separate files, but if you let me know how
+you'd like to organise them I'll do that for you.
+
+
+Reveal charges:
+-----------
+
+Charges.bmp updated to include a library version.
+
+
+
+Date: Mon, 10 Nov 2003 16:35:26 +0000 (GMT) 
+From:  "Matt Needham" <xirby@yahoo.co.uk> | Add to Address Book 
+Subject:  Message bubble 
+To: apeinteractive@yahoo.com 
+       
+ 
+
+
+Hi,
+
+I've made a long speech bubble graphic that you can
+use behind all the hint text that pops up. The longest
+hint message appears to be the one about the Pause
+button, so it's designed to fit text up to that size.
+I can easily make longer or shorter variants if you
+want them.
+
+Also, I've given our text advance arrow a proper,
+smooth little animation. The frames are still in
+textadvance.bmp, but they're now just 17x17. They need
+to be placed at +376 x +105 relative to the speech
+bubble's position. 
+
+Please run the animation in a sweeping loop, ie. 1, 2,
+3, 4, 3, 2 and repeat. ta.gif is animated to show it
+working.
+
+If it's easier to have this stored as if they were six
+different frames (so that you can just increment the
+frame number up to six, then repeat) let me know and
+I'll do that.
+
+
+ 
+
+ 

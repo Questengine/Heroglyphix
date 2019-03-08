@@ -1,0 +1,5 @@
+pic 08 01
+bub 0
+txt "Awww! A Steppe Fox - you handsome guy... you don't belong in this cage."
+pic 08 26
+txt "*Click* ... Hah, there you're free! Hey don't be scared just... Go on, get!"

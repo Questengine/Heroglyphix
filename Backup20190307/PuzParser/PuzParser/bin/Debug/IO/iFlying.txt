@@ -1,0 +1,13 @@
+pic 13 13
+bub 0
+txt "Wheee! Oh, this is where we belong, riding the North wind!"
+pic 09 05
+txt "Above the clouds, above the blizzards dancing across the white canvas of land below us." 
+pic 09 26
+bub 1
+txt "We -are- the wind!"
+pic 13 14
+bub 0
+txt "KYAAaa-aaaa!"
+pic 09 06
+txt "...Ky, swoop down if you see Mr Gremlin or any of his magical droppings. There's nowhere he can run that we can't catch him!"

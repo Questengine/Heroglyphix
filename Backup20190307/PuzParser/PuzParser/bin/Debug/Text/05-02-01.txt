@@ -1,0 +1,10 @@
+pic 07 13
+bub 0
+txt "A woman's money purse and a scattering of small coins."
+pic 05 09
+txt "Now that's more like it! I'll just hold that for ya."
+txt "'Right here.' 'To me.' 'Move it or lose it.' 'Gimme gimme.'"
+pic 07 14
+txt "You may carry the sandal."
+pic 05 22
+txt "...Where's the trust?"

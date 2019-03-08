@@ -1,0 +1,13 @@
+pic 00 01
+bub 0
+txt "Whoo! That took some solving, and now I can see why... it's the Town Square's statue of Methusaleh."
+pic 00 07
+txt "I can just make out the weathered inscription..." 
+txt "'Constructed to commemorate the achievements of the Great Wizard Oban Methusaleh, who did rid the world of a terrible magical menace.'"
+txt "'Ne'er shall the Pox Gremlins threaten Thaumhaven's fine streets and spires again.'"
+pic 00 01
+txt "It's funny, but I'd never paid this old thing much attention before. It's been here so many centuries that it just became part of the scenery."
+pic 00 00
+txt "Wow, so Methusaleh really did rid the world of the gremlins with this very wand!"
+pic 00 06
+txt "But then where did this new gremlin come from? And why is it here?"

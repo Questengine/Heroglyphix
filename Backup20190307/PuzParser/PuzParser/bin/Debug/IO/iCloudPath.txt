@@ -1,0 +1,39 @@
+pic 05 05
+bub 0
+txt "Are you always this grouchy?"
+pic 05 14
+txt "Read my lips: this is the WRONG DIRECTION!"
+pic 07 13
+txt "You are certain you have picked up the gremlin's trail?"
+pic 31 12
+txt "Uhh, let me see... big googly eyes, fuzzy brown body, pointy teeth, unibrow. So yeah, unless you have a sister we should be headed THAT way!!!"
+pic 07 13
+txt "This is the correct way."
+pic 05 14
+txt "Hey, I'm a compass on legs, I don't make mistakes. Except letting myself get roped into these... deluded heroics."
+pic 31 25
+txt "Look at this, I'm getting blisters on my veruccas!"
+pic 05 12
+txt "And hello! - do you think I care about this little 'quest'?!"
+pic 31 12
+txt "It's not my business what some old codger wearing a yellow tablecloth gets up to. Building rock man armies or whatever... Let him have his fun."
+pic 05 08
+txt "All I want is to be back in my cosy stump with my bed, my booze and my exotic reading materials."
+pic 07 14
+txt "'Other's misfortune today might fall upon us tomorrow.'"
+pic 05 17
+bub 2
+txt "*GASP!* You're right!"
+pic 05 04
+bub 0
+txt "I was blind but now I see! Your magical pearls of wisdom have opened my eyes! Now let's all dance around, and hug and braid each others' hair!!!".
+pic 07 13
+txt "Such selfishness. Your parents would have done well to teach you otherwise."
+pic 05 05
+txt "Wood sprites don't have parents, we spring fully grown from the sylph-lily's delicate, dewy buds when the first rays of the equinox morning-star fall on the sacred, forest glades of Everberry."
+pic 05 06
+txt "*Burrrp* ... It's dead poetic."
+pic 32 07
+txt "You talk too much, creature."
+pic 05 14
+txt "But you're not listening, bullethead! The GREMLIN is THAT way!"

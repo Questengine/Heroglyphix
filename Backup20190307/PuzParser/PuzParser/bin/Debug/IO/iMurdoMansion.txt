@@ -1,0 +1,60 @@
+pic 11 08
+bub 0
+txt "Grrrr-rargh!"
+pic 11 09
+txt "...?"
+pic 11 02
+txt "Hurry you worthless boob! The girl with the deadly wand is right behind you, your delaying tactics have failed miserably!"
+pic 11 11
+txt "Well then, RUN! ...Oh, for goodness sake, it's like trying to train an amoeba."
+pic 11 02
+bub 2
+txt "I can't tell if it's even listening to me... POX!!!"
+bub 0
+txt "-At last!- That's it you liability, hurry and hide!"
+pic 11 10
+txt "Gaooo-ooogh!"
+pic 22 07
+txt "Come in. You may enter... girl. 'Welcome' to my ancestral home."
+pic 08 05
+txt "*sniff* Ancestral? That's just fancy talk for old, judging by the reek of rotting wood and musty, stale air. But I guess you don't get a lot of visitors anymore."
+pic 22 06
+txt "Show some respect here, half-blood! It's only a matter of time before my family returns to greatness."
+pic 08 03
+txt "Ooh, I see glyphs! Now did you NEED my help or not?"
+pic 22 11
+bub 2
+txt "Just you fix what the Gremlin has done to my Mansion!"
+pic 08 09
+bub 0
+txt "Hmm, I don't know... +"
+pic 22 06
+bub 1
+txt "Erggghh!.... .... pleeease."
+pic 12 09
+txt "Ahh, I ain't sho if dis is still important to you, G - but da Gremlin is -real- near by. Dey were talkin' here barely moments ago!"
+pic 33 01
+bub 4
+txt "I can't believe this, it feels like a dream. The Crux, it's so close."
+txt "I could be standing just feet away from it."
+pic 12 08
+bub 0
+txt "Cher?"
+pic 33 01
+bub 4
+txt "How very different my life will be when I hold it in my hands. I've pictured the moment a thousand times. Now -where- would the Murdos hide it?... "
+pic 12 08
+bub 2
+txt "Cher? You listenin'? Dis is as close as we've been to the Gremlin! Do you remember, da quest you took from your fiyo wizard friend?"
+pic 33 13
+bub 0
+txt "Huh? M-Matthius' quest... the Gremlin's right here, Doc!?"
+bub 4
+txt "...But the CRUX!"
+pic 33 14
+bub 0
+txt "Oh, I can't think straight."
+pic 22 06
+txt "What are you waiting for, girl, look he's attacked the Murdo family portraits!"
+bub 2
+txt "You agreed to fix this!!!"

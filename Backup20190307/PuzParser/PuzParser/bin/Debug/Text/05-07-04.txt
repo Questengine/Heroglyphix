@@ -1,0 +1,13 @@
+pic 32 00
+bub 0
+txt "The Halcyon - its edge gleams as if it were cutting the air itself. And the balance, Ha! Perfect!"
+pic 07 27
+txt "Once this was the sword of the Emperors, but those days are long gone. At least some traditions remain..."
+txt "This mystic blade has been handed down the Nin'gyo family line since his ancestor led the remains of the Jomon army in the years after Kazenagi's defeat."
+pic 32 00
+bub 2
+txt "General, your blade!"
+pic 19 12
+txt "AH! It is a pleasure to fight alongside you, Magamura!"
+pic 19 11
+txt "I shall enjoy hunting the last few Yogon all the more with my favorite sword! -Fight well!-"

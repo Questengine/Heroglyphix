@@ -1,0 +1,6 @@
+pic 01 01
+bub 0
+txt "This time the puzzle will be a little bigger."
+pic 01 02
+bub 2
+txt "Begin!"

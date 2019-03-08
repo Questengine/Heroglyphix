@@ -1,0 +1,63 @@
+pic 08 02
+bub 0
+txt "*phew!* And - we - are - clear!"
+pic 22 02
+txt "A thousand thanks for your assistance! By my estimation, wizards are not held in nearly high enough regard."
+txt "This night has been most kind to me."
+pic 08 05
+txt "I'm flattered you can say that. Besides, it's rare to get the opportunity in Ghorewood to help anybody."
+pic 22 03
+txt "If you're ever in the great city, come visit my stall in the town square! I save the rarest curios for my special customers."
+pic 08 07
+txt "Uhh, yes, Thaumhaven. It's a long time since I've been in such a populated..."
+txt "...a place with so many, uh... I'm not really at home in crowds."
+pic 08 01
+bub 1
+txt "People tend to get hurt around me."
+pic 22 02
+bub 2
+txt "Ah wait!"
+pic 22 03
+bub 0
+txt "There -is- something I can do for you right now. Take this. It will guide you to the mushroom beds."
+txt "If I understand what you've said, maybe your Gremlin is headed there."
+pic 08 03
+txt "One of your maps? I can't accept this."
+pic 22 03
+txt "Take it! It's all here in my head, every secret path, every hidden nook, cranny and oubliette."
+pic 12 16
+txt "Mos' scocious! Dis is just what we need, G."
+pic 08 26
+txt "Yes. We're still in with a chance to catch him whilst he's weakened!"
+pic 08 27
+bub 2
+txt "We're gonna GET him! He can run but hHe CaN't HIIIDE!"
+pic 22 01
+bub 0
+txt "Wha-? What's happening to you?"
+pic 22 10
+txt "Bless my bones, hurhurhur! The girl's a half-blood!"
+pic 08 14
+txt "Oh! I... It's okay, don't be -"
+pic 22 01
+txt "My thanks, but I really must leave. Immediately! S-safe journey!"
+pic 08 22
+bub 1
+txt "...scared. Don't be scared."
+pic 22 08
+bub 0
+txt "Hah, look at him run. He doesn't understand you're neither one thing nor the other, eh Shadow-girl?"
+pic 22 07
+txt "A lot like my poor self. I'm not alive, but I'm not precisely dead neither."
+pic 08 24
+bub 2
+txt "I'm nothing like you, Shade!"
+pic 22 08
+bub 0
+txt "Hurhurhurhur! Of course not, of course."
+pic 22 06
+txt "Bah, I've got it worse than you, girl. I have to watch my bottom feeder of a great-grandson disgracing the family name."
+pic 12 08
+txt "C'mon, G. Letz get goin'. You wanna catch da Gremlin, bien sur?"
+pic 08 28
+txt "You're right, let's move."

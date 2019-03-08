@@ -1,0 +1,33 @@
+pic 28 04
+bub 0
+txt "-d so I says to him, "Is it really bloody necessary to have two of us guarding him -24- hours a day?"
+pic 28 07
+txt "A day. Yehh."
+pic 28 05
+txt "All the kerfuffle, reopening this dump for one ol' man. I says, 'What's he gonna do?'"
+pic 28 07
+txt "Heheh! Ol' man gonna do? Yehh."
+pic 28 04
+txt "Bring down an 'orde of magical creatures on us? Not bloody likely, I -"
+pic 28 05
+txt "Hang on, who're you? Whatcha think you're-"
+pic 34 20
+txt "Look, I don't have time for this!"
+pic 28 05
+txt "How'd you get in here?"
+pic 28 07
+txt "Get in here? Yehh..."
+pic 34 18
+txt "You've been attacked, there's a monster trying to free the Lightning wizard. What do I need to get to the cells?"
+pic 28 08
+txt "-*!*-"
+pic 28 06
+txt "Bloody 'ell, Spiggott, she's right. Somefin' has been through 'ere..."
+txt "'Ello, Spiggott?... E's scarpered!"
+pic 09 32
+txt "*sigh*"
+pic 28 06
+txt "Lightning wizard you say?! Actually I fink I might go help Spiggott get those, um, 'reinforcements'!"
+pic 28 05
+txt "You'll need to use the crank to open the first gate, then keys for the second."
+txt "Righty ho! Best of luck!"

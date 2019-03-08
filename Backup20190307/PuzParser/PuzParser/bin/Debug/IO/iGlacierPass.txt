@@ -1,0 +1,28 @@
+pic 10 04
+bub 0
+txt "Where... where -is- it?"
+pic 10 00
+txt "If I werern't so enfeebled from languishing six months in that detention cell, I would..."
+pic 10 05
+bub 2
+txt "Return to me, Gremlin and perhaps I shall be forgiving. I command you. -I- am your MASTER!"
+pic 11 13
+bub 1
+txt "Rrrrrrr!"
+pic 10 03
+bub 0
+txt "I gave you freedom from -your- prison, Pox. And then you doublecross me? Me?! Hfff, after everything I have so done... "
+pic 10 06
+bub 2
+txt "That's it, REVENGE, you hear me? Revenge will be mine!"
+pic 10 01
+bub 0
+txt "Did you imagine you could leave Franklin Edizon to rot?! I, the mighty Lightning Wizard discarded, turned to a child's puzzle!"
+pic 10 07
+bub 2
+txt "I burst with rrrRAGE!"
+pic 10 04
+bub 0
+txt "Do not dare to dream I shall be fooling around like those bleary halfwits, I'll seek you out right now."
+pic 10 08
+txt "Your worthless hide shall be made my comfy carpet slippers of delight!"

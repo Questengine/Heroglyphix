@@ -1,0 +1,7 @@
+pic 07 13
+bub 0
+txt "A parcel of Mochi-balls. Hmm, they are flat on one side as if they were hurled with some force before being poxed."
+pic 07 06
+txt "*Sniff sniff* - Cooked fresh today. Perhaps a little too much mugwort..."
+pic 31 14
+txt "Well this is all *fascinating* of course, detective, but can we hurry it up?"

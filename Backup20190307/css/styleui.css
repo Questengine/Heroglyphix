@@ -1,0 +1,141 @@
+
+#pSpeech{
+	
+	padding-left:43px;
+	padding-top:13px; 
+    text-shadow: 0px 0px 6px #333;
+	width:350px;
+	}
+	
+.glyphlet{ 
+	background-repeat:no-repeat;
+}
+.glyphlet:hover{
+	
+	box-shadow: 0px 0px 2px 2px  #888888; 
+}
+
+.onemark{
+	width:20px;
+	height:20px;
+	background-image:url("../images/marks/marks20.png");
+	color:white;
+	padding:0px;
+	margin:0px;
+}
+.onemark:hover{
+	
+  box-shadow: 0px 0px 2px 2px  #888888;
+}
+.dialoguechild{
+	opacity:1;
+	margin:auto; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border:none;
+}
+#dRevealChargeBox{ 
+	top:206px;
+	left:120px;
+	width:35px;
+	height:65px;
+	border:none;
+}
+.oneRevealCharge{ 
+	display:block;
+	min-width:14px;
+	width:14px;
+	height:19px;
+	background-image:url("../images/extras/charges.png");
+	background-repeat:no-repeat;
+	border:none;
+}
+.oneStage{
+	
+	min-width:160px;
+	height:120px; 
+	padding:10px;
+	cursor:pointer;
+}
+.stagecel{
+	position:relative;
+	top:0px;
+	width:120px;
+	height:120px; 
+	background-repeat:no-repeat; 
+	cursor:pointer;
+}
+.stagecel:hover{
+	
+  box-shadow: 0px 0px 22px 22px  #cc1;
+	background-position-y:-120px;
+}
+
+.stageLeft{
+	
+}
+.stageRight{
+	margin-left:40px;
+}
+.hideonload{
+	display:none;
+}
+.celllocation{
+	border:none;
+	height:23px;
+	width:101px;
+  transform: translate(-1%, -50%);
+	cursor:pointer;
+}
+.celllocationtd{
+	width:151px;
+	}
+.celllocpuz{
+	width:40px;
+	height:33px;  
+	margin-top:-22px;
+	background-repeat:no-repeat; 
+	background-size:100%; 
+	margin:5px;
+	cursor:pointer;
+}
+.celllocpuz:hover{ 
+	box-shadow: 0px 0px 4px 4px  #2a2;
+} 
+.btnTitle{ 
+
+	display:block;
+	background-image:url("../images/btnSmall.png");
+	background-repeat:no-repeat;
+	border:none;
+	width:80px;
+	height:42px;
+	text-align:center;  
+	vertical-align: middle;
+	line-height: 42px;    
+     
+	top: 90%;
+    transform: translate(-50%, 0%);
+z-index:100;
+}
+.btnTitle:hover{  
+	background-position-y:-42px;
+} 
+#btnNew{left:450px}
+#btnLoad{left:350px}
+
+.tcMeth{color:     #DCDCCE  ; font-family:"Times New Roman"   }
+.tcSkimlet{color:  #A9E4FE  ; font-family:"Verdana"   }
+.tcWoodrot{ color: #D2B285  ; font-family:"Comic Sans MS"   }
+.tcHoward{ color:  #ACFE57  ; font-family:"Arial"   }
+.tcJudith{ color:  #E5E9C6  ; font-family:"Garamond"   }
+.tcMatthius{color: #FFB1B1  ; font-family:"Arial Black"   }
+.tcGeneva{color: #FFB1B1    ; font-family:"Bookman"   }
+.tcKara{color: #FFB1B1      ; font-family:"Verdana"   }
+.tcEdizon{color: #FFB1B1    ; font-family:"Verdana"   }
+.tcWilf{color: #FFB1B1      ; font-family:"Verdana"   }
+.tcHoskins{color: #FFB1B1   ; font-family:"Verdana"   }
+.tcArtemis{color: #FFB1B1   ; font-family:"Verdana"   }
+.tcLibrarian{color: #FFB1B1 ; font-family:"Verdana"   }
+.tcWilf{color: #FFB1B1      ; font-family:"Verdana"   }

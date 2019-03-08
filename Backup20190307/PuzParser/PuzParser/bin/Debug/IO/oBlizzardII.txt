@@ -1,0 +1,15 @@
+pic 10 16
+bub 0
+txt "Three stone fragments... The Gremlin, the Wand, the Incantation. Yes, yes, these -are- parts of a whole. A magical seal. "
+txt "The seal famously put in place by Methusaleh to prevent passage from the Gremlin World into this one!"
+bub 1
+txt "Oh, it was easy enough for someone of my talents to circumvent it, and summon a single, wretched servant to my lab..."
+bub 0
+txt "...But this seal is the great dam wall between Magus Magna and a million gremlins."
+txt "Broken!...  by my errant familiar... That may not be serendipitous news for me."
+pic 10 17
+bub 4
+txt "And my plan has already backfired quite sufficiently for my satisfaction, curse it!!!"
+pic 10 18
+bub 0
+txt "Ah well. FINALLY, the blizzard abates..."

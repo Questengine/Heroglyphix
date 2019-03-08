@@ -1,0 +1,15 @@
+pic 10 16
+bub 0
+txt "...in fact..."
+bub 2
+txt "AHA-HA! Your glyphs glow in the light of the storm? You have unwittingly laid a path to your destruction, you hairy boob!"
+pic 10 17
+txt "MY FURY WILL BE UNLEASHED!! *cough-hack*"
+pic 29 02
+bub 1
+txt "Gua-hee-hee-hee!*"
+pic 10 17
+bub 0
+txt "Ha? Is that you Gremlin...?"
+pic 10 16
+txt "I am following your breadcrumbs. Heheheheh!"

@@ -1,0 +1,31 @@
+pic 08 05
+bub 0
+txt "*shiver* - The sun sets so quickly here. And few people walk these dying paths."
+pic 21 00
+bub 1
+txt "-*Rustle*-"
+pic 08 08
+bub 0
+txt "Huh?"
+pic 08 07
+txt "Hey... ... Is someone there? ......"
+pic 21 01
+bub 2
+txt "*STOMP!!!*  Rrrrrr!"
+bub 0
+txt "SNORT! SNORT!"
+pic 08 10
+bub 2
+txt "HAAAAAAARRRRGGHHSSHHHH!"
+pic 21 02
+bub 1
+txt "*squeak!*"
+21 03
+bub 0
+txt "Squeeeeeeeeeeeee...!"
+pic 08 10
+txt "HARGH-HARGH!-HARGH-"
+pic 08 11
+txt "-Ha-haha! - *chuckle*"
+pic 08 26
+txt "I thought the wild things of the Forest Edge knew better than to try that with me. The night IS my time."

@@ -1,0 +1,41 @@
+pic 02 17
+bub 0
+txt "So, Woodrot - what do you make of this? Steaming along under cerulean blue skies through air whipped with salt spray..."
+pic 05 15
+txt "I don't even want to think about it. Admiral 'Tally-ho' Humphrey is probably about to steer us into a rock at any second."
+pic 02 05
+txt "It's magnificent..."
+pic 05 23
+txt "Arrrrgh. Haven't you had enough of this yet?"
+pic 02 01
+txt "This what?"
+pic 05 14
+bub 2
+txt "Outdoors... stuff! Cheating death in scary forests, dank caves, valleys..."
+bub 0
+txt "Animals, if they aren't eating each other they're trying to eat you. You've nearly been torn to shreds at least twice today, chased, threatened, sprayed!"
+pic 31 25
+txt " I'm still not standing downwind of you, by the way."
+pic 02 17
+txt "It's Nature, Woodrot - doing what it does -naturally-. Magnificent in its power and variety."
+txt "As an Earth Elemental Wizard... I'm lucky to be a closer part of that than most people can experience."
+pic 02 01
+txt "You could be too you know, Wood Sprites are special folk - whatever their outlook."
+pic 05 02
+txt "Bah..."
+pic 16 02
+bub 2
+txt "GREMLIN sighted, dead ahead!"
+pic 02 15
+bub 0
+txt "He's right, I think I can see it scampering on the horizon, but if it spots us too it'll start..."
+pic 02 11
+bub 2
+txt "Incoming Glyphs!"
+pic 02 15
+bub 0
+txt "Admiral, keep us moving as fast as possible, but take her in towards any Glyphs so I can undo their magic! Can you do that?"
+pic 16 03
+txt "Aye! We'll get him, by jingo. Or my name isn't StortParBoard! *ah-hrrm* P-PortStarboard!"
+pic 02 00
+txt "You may want to hold onto something, Woodrot!"

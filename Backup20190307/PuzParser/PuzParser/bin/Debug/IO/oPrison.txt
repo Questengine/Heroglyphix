@@ -1,0 +1,8 @@
+pic 09 20
+bub 0
+txt "OKAY! Crank the first portcullis. *Crung-crung-crung* - Unlock the second, *Chonk!* - and I'm in!"
+pic 09 01
+txt "Just three flights of stairs and I'll finally be there..."
+pic 09 27
+bub 2
+txt "I'll be at -Edizon's Cell-!!!"

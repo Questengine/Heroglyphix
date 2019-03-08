@@ -1,0 +1,5 @@
+pic 00 01
+bub 0
+txt "It's Howard's staff, the focus of his Earth magic."
+pic 00 25
+txt "He wouldn't leave this unattended, any more than I'd leave my Water hat lying around."

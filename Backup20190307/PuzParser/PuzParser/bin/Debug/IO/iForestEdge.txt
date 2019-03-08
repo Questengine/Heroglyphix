@@ -1,0 +1,5 @@
+pic 08 06
+bub 0
+txt "Mmm, it's a warm evening."
+txt "Breathing the faint sweetness of wild flowers lingering in the air, you can almost picture what it was like here a century ago..."
+txt "...before the rot set in. It's hard to imagine that Netherweir of the past, countless leagues of lush forest, families and farmsteads stretching over the horizon."

@@ -1,0 +1,12 @@
+pic 06 05
+bub 0
+txt "*Gasp*! Rock Giants, or - or are they Gnome Kings?!"
+pic 17 04
+txt "No, look that's, I can't believe I'm doing this - that's Washington, Roosevelt, Lincoln and uh, Thomas Jefferson."
+txt "'The ideals of these presidents laid a foundation for our nation as solid as the rock from which their figures are carved.' "
+pic 17 07
+bub 1
+txt "Every dream has its rough edges though, heh. *cough cough*"
+pic 06 08
+bub 0
+txt "..."

@@ -1,0 +1,10 @@
+pic 07 16
+bub 0
+txt "But wait! A-ha, I had almost lost track of my progress!"
+pic 07 11
+txt "All Five Gardens are restored to their former splendor!!! Akuyoshida has reclaimed its crowning glory and the five keys have been spoken."
+pic 07 14
+txt "Come now, you most honored of all worms. You are about to step where for centuries, not even kings have trodden!"
+pic 07 11
+bub 2
+txt "Ichi, ni, san, shi, GO! The Dark Ossuary Temple is unlocked!!!"

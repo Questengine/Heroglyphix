@@ -1,0 +1,17 @@
+pic 07 12
+bub 0
+txt "Akuyoshida, the finest town in all of Jomon."
+pic 07 13
+txt "So quiet, and yet... not peaceful. Quiet like the silence between the lightning and its thunder".
+pic 19 00
+bub 1
+txt "Quickly, come inside!"
+pic 07 14
+bub 0
+txt "My place is out here, ah... friend. Take shelter."
+pic 19 00
+bub 1
+txt "Come - come! I would offer you today's special but I don't think you'd find it entirely appetising."
+pic 07 15
+bub 0
+txt "..."

@@ -1,0 +1,133 @@
+pic 10 23
+bub 0
+txt "*STAMP!*"
+pic 10 24
+bub 2
+txt "Yeeee-ES! HaHA!"
+txt "There, the Gremlin is put down. And I am free, FREE AT LAST!"
+pic 10 09
+bub 0
+txt "Now my resplendant Golem Army shall rise again and a world of my design will tremble at my sandalled feet. AHAHAA!"
+bub 2
+txt "You have enjoyed but a brief respite from the Age of Edizon, now beware you fools of mediocrity, I TRIUMPH! In mere moments I will -"
+pic 07 17
+bub 0
+txt "Talking to yourself? -tut tut- I believe that's the first sign of madness, Edizon."
+pic 10 25
+txt "- wha?"
+pic 02 25
+txt "I'll look after this again now, shall I?"
+pic 10 06
+txt "NO! You and *you*, how did -"
+pic 02 17
+txt "Skimlet, if you'd be so kind?"
+pic 00 02
+txt "I'm right on it."
+pic 30 01
+bub 2
+txt "Hah! -AQUA-"
+pic 10 26
+bub 1
+txt "Nghghghgh!"
+pic 32 04
+bub 2
+txt "-FLAM!-"
+pic 10 27
+bub 0
+txt "Yaaargh!... AHAHAA, did you three think that would work a second time?! It would take-"
+pic 34 16
+txt "Six of us?"
+pic 13 19
+txt "Good boy, Kii.Kii That was fast work rounding up everyone's help."
+pic 10 28
+txt "Buh-buh but, no. NO!"
+pic 12 15
+bub 2
+txt "YAAAAAA!"
+pic 10 29
+txt "Yeeeeouch!!!!"
+pic 08 02
+bub 0
+txt "Ha-ha! Let him go Doc, we have him!"
+pic 02 01
+txt "Ladies?"
+pic 08 30
+bub 2
+txt "Shadow!"
+pic 06 27
+txt "And Light!"
+pic 10 30
+bub 0
+txt "Nnnnnnnnnnnnnn!.!.!."
+pic 34 17
+bub 2
+txt "Sky!" 
+pic 02 26
+txt "Earth!"
+pic 30 02
+txt "Ocean!"
+pic 32 11
+txt "Flame!"
+pic 10 31
+txt "NO! NO! NOoOoOoO!"
+bub 1
+txt "Woop-wooop-woop!"
+pic 35 00
+txt "*slump*"
+pic 32 07
+bub 0
+txt "Hmm."
+pic 32 12
+txt "'Give the devil his due'."
+pic 32 13
+txt "Pox has been caught. The Quest is complete."
+pic 08 15
+txt "'All's well that ends' well, hey Red? It looks like with Edizon's help, our Journey is over."
+pic 02 12
+txt "And about time too, I didn't fancy facing a swarm of those blessed gremlins out here in a snow drift, what!"
+pic 00 09
+txt "Me neither, I.. Doughball, get back here!!!"
+pic 13 20
+txt "Mew?...."
+pic 09 01
+txt "Kii-kii, shoulder now!"
+pic 13 21
+bub 0
+txt "WeowWwWw!"
+pic 00 04
+bub 1
+txt "Ah!!! S-sorry P-Princess Kara!"
+pic 09 26
+bub 09 26
+txt "That's okay handsome. & Skimlet isn't it?" 
+pic 00 03
+bub 2
+txt "-!-"
+pic 00 04
+bub 0
+txt "Y-yeahhh, Skimlet."
+pic 06 00
+txt "... The future is an uncertain thing, even to me - but by our actions, tomorrow will be a brighter day."
+pic 06 28
+txt "Not just for the world, but ... I feel... for each of us in some way."
+pic 02 05
+txt "Well well, and who could ask for more than that."
+pic 02 17
+txt "Until tomorrow, then?"
+pic 07 10
+txt "Until tomorrow."
+pic 08 04
+txt "Whatever it brings."
+pic 00 25
+txt "...!"
+pic 09 02
+txt "Kii Kii? Time for the return journey."
+pic 13 08
+bub 1
+txt "*FFLLAASSHH!*"
+pic 13 22
+bub 2
+txt "Kyaaaaaaaaaaaa!"
+pic 13 23
+txt "..."
+txt "(And THANK YOU, HERO, for playing!)"

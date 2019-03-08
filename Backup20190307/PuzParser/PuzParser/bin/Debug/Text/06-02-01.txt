@@ -1,0 +1,19 @@
+pic 08 25
+bub 0
+txt "Whew-hoo-HOO! -That's- a powerful aroma! What is it you trade in?"
+pic 22 02
+txt "Today? Mushrooms! Fungi! The rarest truffles from the shadowed and secret depths of Netherweir, the -spiciest- in all of Magus Magna."
+pic 08 05
+bub 4
+txt "Spices, of course, that must be why the Gremlin attacked!..."
+txt "Red knew it'd be drawn to them, and if it's wounded then it must need them more than ever."
+pic 08 01
+txt "Were they taken in the attack? This sack looks empty."
+pic 22 03
+txt "It's my return journey from market, Lady Geneva, as such I travel unladen save for a few fortunate coins jingling in my pockets."
+pic 08 26
+txt "So Pox didn't get what he was after!"
+pic 12 03
+txt "Indeed, G. Da Gremlin's haste betrayz his fear. Without food soon, he gonna slow down like a gator in a sticky bayou."
+pic 08 26
+txt "Then we will work -faster!-"

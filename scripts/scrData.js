@@ -1,5 +1,5 @@
 
-var arrColorPuz = ["02-07-05","03-07-05","04-05-05","05-09-05","06-09-01","07-02-01","07-09-01"]
+var arrColorPuz = ["02-11-05","03-07-05","04-08-05","05-13-05","06-14-01","07-02-01","07-12-01"]
 
 var arrReveal = ["0,0;0,1;0,-1", //library
 				"1,0;-1,0;0,-1;0,0",//skimlet
@@ -53,20 +53,32 @@ var arrGameScript={
 	//stagenum,locname, puzcount,
 	"AxeAndStump":"2,5,8"
 };
-function ADMINMarkPuzzleComplete(code){
-	var puzparts = gUPP[code];
-	var newdata =puzparts.replace(/0/g,"1"); 
-	gUPP[code]= newdata;
+function ADMINCompleteThrough(code){
+	var setasdone = true;
+	for(var key in arrPuzzles){
+		if(code == key ){setasdone = false;}
+		if(setasdone){  
+			var puzparts = gUPP[key];
+			var newdata =puzparts.replace(/0/g,"1"); 
+			gUPP[key]= newdata; 
+		}
+	}
 }
-function BuildUPP(){
-	var i = 0;
+function ADMINMarkPuzzleComplete(code){
+	if(code in gUPP){ 
+		var puzparts = gUPP[code];
+		var newdata =puzparts.replace(/0/g,"1"); 
+		gUPP[code]= newdata;
+	}
+}
+function BuildUPP(){ 
 	for(var code in arrPuzzles){
 		var onepuz = arrPuzzles[code];
 		var length = onepuz.split(",").length;
 		var progress = "";
 		for(var p=0;p<length;p++){progress+="0";}
 		gUPP[code] = progress;
-		i++;
+		 
 	}
 	ADMINMarkPuzzleComplete("03-05-01");
 	/*ADMINMarkPuzzleComplete("02-02-08");
@@ -78,6 +90,7 @@ function BuildUPP(){
 	ADMINMarkPuzzleComplete("05-05-03");
 	*/ADMINMarkPuzzleComplete("05-05-04");
 	ADMINMarkPuzzleComplete("05-05-05");
+	ADMINCompleteThrough("08-01-01");
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done

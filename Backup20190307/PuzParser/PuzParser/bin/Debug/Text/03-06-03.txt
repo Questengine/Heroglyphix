@@ -1,0 +1,10 @@
+pic 16 05
+bub 2
+txt "Hard to Port, lads!"
+pic 05 17
+bub 0
+txt "Look at the beaks on those nasty things, a Wood Sprite would fit in there no problem!"
+pic 02 03
+txt "If you're feeling squeamish, you could go help the Admiral below decks?"
+pic 05 25
+txt "I'll take my chances up here."

@@ -1,0 +1,12 @@
+pic 08 14
+bub 0
+txt "Wow, and who is this dashing fellow? 'Unctious Murdo'."
+pic 08 05
+txt "Wait now, but this heartbreaker can't be you can it?!"
+pic 22 10
+txt "None of your lip, girl. This historical record is immeasurably valuable to me, it is a document to my place in the most powerful family the world has ever seen!"
+pic 08 15
+txt "Hmm. There's something different about you. Have you lost some weight since this was painted?"
+pic 22 11
+bub 1
+txt "Grrrrr, if I didn't need you here-..."

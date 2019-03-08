@@ -1,0 +1,17 @@
+pic 00 06
+bub 0
+txt "What the-?"
+pic 03 04
+txt "Quite the conversation piece, ain't he squire? Lovingly stuffed and mounted."
+pic 03 06
+txt "(sigh) It's a sad reminder of my Berserker days though. If it weren't for the unfortunate accident I'd never have retired..."
+pic 00 06
+txt "Um, 'accident'?"
+pic 03 06
+txt "How was I supposed to know swamp trolls had become a protected species?!"
+pic 03 05
+bub 2
+txt "It's blummin' political correctness gone mad!"
+pic 00 05
+bub 0
+txt "... yes, that -is-... very 'unfortunate'." 

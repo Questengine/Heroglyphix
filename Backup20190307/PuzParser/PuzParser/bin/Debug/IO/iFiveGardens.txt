@@ -1,0 +1,28 @@
+pic 05 14
+bub 0
+txt "Five bloody great rocks?"
+pic 07 21
+txt "What th- ?"
+pic 05 05
+txt "So is this a 'garden' in the same sense that raw fish is a 'good meal' and an active volcano is an 'attractive landmark to build your village next to'?"
+pic 07 13
+txt "Here... on this spot, there -were- five vast and ancient gardens, immeasurably valuable to the town."
+txt "Not only for their beauty and for their significance to the Ryudo, warriors such as myself, but -"
+pic 07 21
+txt "NO! Can it be possible that the gremlin is capable of such a feat? These towering monstrosities are *tablets* the size of yew trees. Monoglyphs!"
+pic 05 09
+txt "Uh huh? So who's for another trip back to the restaurant? Maybe we could pick up a couple of attractive lady friends, and then hot-cha!"
+pic 07 08
+bub 2
+txt "Listen up, stink sap!"
+bub 0
+txt "This is a sacred place and its defilement puts all of us in very, grave danger!"
+pic 31 14
+bub 1
+txt "It is you who are the stinky-"
+pic 07 08
+bub 2
+txt "QUIET!"
+pic 07 06
+bub 0
+txt "First we must put this right, and then, - only then - we will see what the REAL damage is."

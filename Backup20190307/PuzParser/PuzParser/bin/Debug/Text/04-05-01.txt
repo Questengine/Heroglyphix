@@ -1,0 +1,10 @@
+pic 06 01
+bub 0
+txt "This nurtured tree is an important thing indeed. A symbol of the bond of friendship between Howard, Skimlet and Matthius - Earth, Water and Fire heroes who fight as one."
+txt "There is a natural order to the Elements, you see Woodrot. One that has oftentimes set their followers apart."
+pic 06 09
+txt "Fire scorches Earth, Earth drinks Water, Water bests Fire... but -together-, these three have found strength enough to overcome any foe. T'is a union like none other in history."
+pic 05 05
+txt "Well, let's hope this one's the charm that stops Pox, eh? Because I don't see myself chasing that fuzzy git all the way to the North pole."
+pic 06 30
+txt "Nor do I..."

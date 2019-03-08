@@ -1,0 +1,13 @@
+pic 02 06
+bub 0
+txt "Now there is a sight even I haven't seen in years. Oh, how Skimlet would have loved to witness this - truly majestic!"
+pic 05 21
+txt "Where? All I can see is that big fish."
+pic 02 06
+txt "It's an Ankh Whale! They're extremely reclusive, magical creatures, and this one's fully mature. Perhaps its curiosity was peaked by Pox's powers..."
+pic 02 09
+txt "Thank goodness it's free, I couldn't forgive myself if something so precious were consigned to sink like a stone."
+pic 02 11
+txt "Onward, Admiral!"
+pic 16 05
+txt "10 knotts .... 12... 15! Look out you furry bounder! Aha ha!"

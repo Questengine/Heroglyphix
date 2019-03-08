@@ -1,0 +1,51 @@
+pic 05 08
+bub 0
+txt "So you're telling me... there are these magical people called wizards, and one of 'em's set loose this gremlin thing I'm following."
+pic 02 04
+txt "Then you're already tracking it?"
+pic 05 09
+txt "Oh ya. Piece of cake."
+pic 05 08
+txt "And you're telling me he's some kind of loony tunes, busting out the bad mojo on people and what-not..."
+txt "...and you've got to stop him before he attacks some other bunch of building things called 'towns'. Stuff like that."
+pic 02 00
+txt "That is roughly speaking correct. Spiffing! Now we must hurry, it already has a headsta-"
+pic 05 09
+txt "Are all humans as funny as you?"
+pic 02 00
+txt "I beg your pardon?"
+pic 05 02
+txt "You're on your own, grampa. It's a nice story, but I'm not a character in it. It's back to bed for me."
+pic 05 16
+txt "But -you're- the only one that can track the monster!"
+pic 05 12
+txt "Look at this face. See the emotions wrestling with each other. Should I save the world or return to my life of luxury?!?! ..ehhh..."
+pic 05 11
+txt "Bye-eee!"
+pic 02 17
+txt "You know my Grandfather, Howard Applewood the First, used to tell an interesting tale about his time as a wizard. He was an Elemental Earth Wizard, like my good self..."
+pic 31 12
+txt "Oh, here we go again with the storytime."
+pic 02 17
+txt "Of course, being so close to Nature and the harmony of all things, we Earth Wizards are thought of as mild mannered, gentle folk not capable of bearing a grudge."
+pic 02 00
+txt "But my Grandfather once came up against this 'bad egg' of a lumberjack, who insisted on chopping down ancient magical Yews just to sell kindling that burned with a merry blue flame."
+pic 02 00
+txt "Tut tut tut. Oh, Howard the First was as reasonable as could be, he explained politely how precious the ancient trees were and how important to the Forest and for apothecaries' healing medicines."
+txt "Days passed, the chopping continued. He even pleaded with lumberjack, on his knees my Grandfather would say, to reconsider his selfish ways. But still the man was unheedful."
+pic 02 17
+txt "So my Grandfather caused a tree to grow right out of the man's -"
+pic 05 10
+bub 2
+txt "-!-"
+pic 02 11
+bub 0
+txt "The SELFISH lumberjack never sat down again."
+pic 02 17
+txt "A fine story. He did so enjoy the telling of it. Oh, I thought you were leaving?"
+pic 05 15
+txt "I've -uh- decided to humor you for a while."
+pic 02 05
+txt "Really? oh that -is- sporting of you Woodrot!"
+pic 05 13
+txt "Yeah, yeah. The Gremlin's this way chief. Look, there's even some of its handiwork right there."

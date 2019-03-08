@@ -1,0 +1,13 @@
+pic 03 04
+bub 0
+txt "Oh smashin', pass it over ...the Stump wouldn't be a proper tavern without its darts board."
+txt "It's the most important thing, you know, after the Grog, the Grog-nuts and the concealed weaponry!"
+pic 00 06
+txt "I've never seen one before - It's some kind of sporting game of skill?"
+pic 03 04
+txt "Oh yeah, that's the idea. A true gentleman's game."
+txt "Although to tell the truth it leads to more bloody arguments than anyfing else around here..."
+txt "Still, tradition's tradition. Decapitations or not."
+pic 00 01
+txt "I'm, er... I'm learning a lot from you."
+
