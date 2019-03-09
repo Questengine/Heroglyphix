@@ -50,6 +50,10 @@ function DoMark(thiscel){
 			thiscel.css("background-position",markposnot);
 		}
 	}
+	if(thiscel.attr("data-mark")=="pox"){
+		//thiscel.html("O");
+		thiscel.css("background-position",markpox);
+	}
 	CheckCompletion();
 }
 function CheckCompletion(){
@@ -64,17 +68,24 @@ function CheckCompletion(){
 function IsFinished(){
 	return gPuzPlayer == gPuzCorrect;
 }
+function PauseTimer(tf){
+		
+		gPaused = tf;
+}
 function TimerTick(){
-	gPuzTime--;
-	var strmin = parseInt(gPuzTime/60);
-	var strsec = gPuzTime%60;;
-	if(parseInt(strsec)<10){strsec = "0"+strsec;}
-	var strTime = strmin+":"+strsec;
-	if(gPuzTime < 1){
-		strTime = "TIME!";
-		clearInterval(gTimerInterval);
+	if(!gPaused){
+			 
+		gPuzTime--;
+		var strmin = parseInt(gPuzTime/60);
+		var strsec = gPuzTime%60;;
+		if(parseInt(strsec)<10){strsec = "0"+strsec;}
+		var strTime = strmin+":"+strsec;
+		if(gPuzTime < 1){
+			strTime = "TIME!";
+			clearInterval(gTimerInterval);
+		}
+		$("#dClock").html(strTime);
 	}
-	$("#dClock").html(strTime);
 }
 
 function RevealFootprint(){

@@ -123,9 +123,28 @@ z-index:100;
 .btnTitle:hover{  
 	background-position-y:-42px;
 } 
+.btnBig{
+	
+	display:block;
+	background-image:url("../images/btnWide.png");
+	border:none;
+	background-repeat:no-repeat;
+	min-width:160px;
+	min-height:42px;
+	text-align:center;  
+	vertical-align: middle;
+	line-height: 42px;    
+	top: 92%;
+
+} 
+.btnBig:hover{  
+	background-position-y:-42px;
+} 
+
+#btnReturnTitle{left:60px}
 #btnNew{left:450px}
 #btnLoad{left:350px}
-#btnReturn{left:250px}
+#btnReturn{left:350px}
 #btnCredits{left:550px}
 #btnOptions{left:250px}
 

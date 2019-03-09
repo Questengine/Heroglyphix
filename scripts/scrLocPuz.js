@@ -68,7 +68,7 @@
 	 return res;
  }
  function BuildLocPuzConfirm(){
-	 var res = "<div id='dLocPuzConfirm'>CONFPf3333fIMM</div>";
+	 var res = "<div id='dLocPuzConfirm' class='btnBig'>confirm</div>";
 	 return res;
  }
  function PromptLocPuz(){

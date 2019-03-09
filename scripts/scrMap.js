@@ -1,14 +1,22 @@
  function InitMap(){
 	 
 	 
+	 PauseTimer(true);
 	 //$("#dPuzzles").css("background-image","url('images/map.jpg')").fadeIn();  
-	 $("#dPuzzles").html("<img src='images/map.jpg'/> <div id='btnReturn' class='btnTitle'>Return</div><div id='btnCredits' class='btnTitle'>Credits</div>  ").fadeIn(); 
+	 $("#dPuzzles").html("<img src='images/map.jpg'/>  <div id='btnReturnTitle' class='btnBig'>Back to Title</div><div id='btnReturn' class='btnTitle'>Resume</div><div id='btnCredits' class='btnTitle'>Credits</div>  ").fadeIn(); 
 	
 	 $("#btnReturn").on("click", HideMap);
+	 $("#btnReturnTitle").on("click", TitleScreen);
 	 $("#btnCredits").on("click", Credits);
 	 DialogueOpen();
+	 
  }
  function HideMap(){
+	 $("#dPuzzles").fadeOut().off("click", HideMap);
+	 PauseTimer(false);
+	 DialogueClose();
+ }
+ function TitleScreen(){
 	 $("#dPuzzles").fadeOut().off("click", HideMap);
 	 DialogueClose();
  }

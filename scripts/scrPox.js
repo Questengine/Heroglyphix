@@ -6,7 +6,7 @@ var gCurAnim;
 var gPoxHpMax=6;
 var gPoxHp;
 
-var gPoxAll = [arrPoxBite,arrPoxScratch,arrPoxShake,arrPoxRefRoll,arrPoxHop,arrPoxStampHop,arrPoxSideLeap];
+var gPoxAll = [arrPoxRefRoll];//,arrPoxBite,arrPoxScratch,arrPoxShake,arrPoxHop,arrPoxStampHop,arrPoxSideLeap];
 
 function PoxStart(){
 		
@@ -30,13 +30,17 @@ function PoxLoop(){
 	gPoxItr++;
 	if(gPoxItr < gCurAnim.length){
 			
-			
 		var action = gCurAnim[gPoxItr];
 		if(action.substring(0,1)=="f"){
 			PoxFrame(action.substring(1));
 		}
 		else{
-			PoxMove(action);
+			if(action.substring(0,1)=="a"){
+				PoxAttack(action.substring(1));
+			}
+				else{ 
+					PoxMove(action);
+				}
 		}	
 	}
 	else{
@@ -72,6 +76,14 @@ function PoxFrame(i){
 	
 	var coords = cx+"px "+ cy+ "px";
 	$("#dPox").css("background-position",coords);
+}
+function PoxAttack(coords){
+		var x = coords.split(",")[0];
+		var y = coords.split(",")[1];
+		var poxedcel = $(".cel[data-x='"+x+"'][data-y='"+y+"']");
+		poxedcel.attr("data-mark", "pox");
+		DoMark(poxedcel);
+		
 }
 function PoxHit(){
 		

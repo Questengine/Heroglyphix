@@ -12,6 +12,8 @@ var gStage = 1;
 var gPuzzle = 1;
 var gPart = 0;
 
+var gPaused = false;
+
 var gHighestStage=1;
 
 var gGlow = false;
@@ -27,6 +29,7 @@ var gPuzCorrect="";
 var gPuzPlayer="";
 var gUPP={};
 
+var markpox =  "-128px -48px";
 var markposin = "0px 0px";
 var markposnot = "0px -120px";
 var markposout = "-360px -120px";

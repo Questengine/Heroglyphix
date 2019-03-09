@@ -42,7 +42,7 @@ function InitGlyphlets(code){
 	return strTable;	
  }
  function BuildGlyphletConfirm(){
-	 var res = "<div id='dGlyphletConfirm'  >CONFPf3333fIMM</div>";
+	 var res = "<div id='dGlyphletConfirm' class='btnBig' >CONFPf3333fIMM</div>";
 	 return res;
  }
  function PromptGlyphletConfirm(){ 
