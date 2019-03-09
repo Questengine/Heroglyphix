@@ -43,7 +43,7 @@
 }
 
 #dLocation{
-	border-color: blue ;
+	border-width:0px;
 	top:38px;
 	left:684px;
 	width:88px;
@@ -51,7 +51,7 @@
 	background-image:url('../images/locations/locations.png')
 }
 #dLocationName{
-	border-color: blue ;
+	border-width:0px;
 	top:127px;
 	left:684px;
 	width:100px;
@@ -278,4 +278,18 @@
 }
 #dPauseMap:hover{ 
 	background-position-y:-42px;
+}
+#dCredits{
+	top:50%;
+	left:50%;
+	width:300px;
+	height:200px;
+	text-align:center;
+	font-size:large;
+	background-color:white;
+	border-radius:10%;
+	opacity:0.7;
+	padding:25px;
+	color:black;
+		
 }

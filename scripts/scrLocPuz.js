@@ -79,7 +79,7 @@
 		$("#dLocPuzConfirm").html("Load " + code + "?");
 	 }
 	 else{//load intro
-		$("#dLocPuzConfirm").html("Load Location Intro ?");
+		$("#dLocPuzConfirm").html("Load Intro ?");
 	 }
 			
 	 $("#dLocPuzConfirm").attr( "data-puztoload",code );

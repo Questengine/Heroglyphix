@@ -90,6 +90,7 @@
 }
 .celllocationtd{
 	width:151px;
+	height:33px;
 	}
 .celllocpuz{
 	width:40px;
@@ -115,7 +116,7 @@
 	vertical-align: middle;
 	line-height: 42px;    
      
-	top: 90%;
+	top: 92%;
     transform: translate(-50%, 0%);
 z-index:100;
 }
@@ -124,7 +125,21 @@ z-index:100;
 } 
 #btnNew{left:450px}
 #btnLoad{left:350px}
+#btnReturn{left:250px}
+#btnCredits{left:550px}
+#btnOptions{left:250px}
 
+.ctitle{font:small;}
+.cname{
+	font-size:x-large;
+	font-weight:bold;
+}
+.cinfo{
+	font-size:large;
+	font-weight:bold;
+	font-variant:italic;
+	
+}
 .tcMeth{color:     #DCDCCE  ; font-family:"Times New Roman"   }
 .tcSkimlet{color:  #A9E4FE  ; font-family:"Verdana"   }
 .tcWoodrot{ color: #D2B285  ; font-family:"Comic Sans MS"   }

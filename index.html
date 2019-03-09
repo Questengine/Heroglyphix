@@ -47,7 +47,7 @@
 //		InitGlyphlets("04-01-02");
 		//var info = PuzCount(1,1)+" rstd "+PuzCount(3,1)+" "+PuzCount(4,1); 
 		
-		$(".cel").click( function(event){
+		$(".cel, #dSpeech, #pSpeech").click( function(event){
 			event.preventDefault()
 		});
 		$("#dGrid").mouseup(MarkNone);
@@ -55,7 +55,7 @@
 		
 		$("#dQuickNav").click(function(){InitLocPuz(GetCodeStage(CurCode()))});
 		$(".close").click(DialogueClose);
-		$("#dSpeechNext").click(StoryNext);
+		$("#dSpeech").click(StoryNext);
 		$("#dPortrait").click(AutoSolve);
 		$("#dLocation").click(PoxStart);
 		$("#dReveal").click(Reveal);
@@ -63,6 +63,7 @@
 		$(".revealfootprint").click(RevealAction);
 		$("#dPox").click(PoxHit);
 		
+		$("#dGlyphlets").slideUp();	
 		$("#dPauseMap").slideUp();			
 		$("#dPauseMap").click(InitMap);	
 		//$("#dDialogue").slideUp(0);
@@ -121,7 +122,7 @@ dPortrait
 		<div id="dSand" class="hideonload">   
 		</div  ><!-- end div dSand --> 	 
 	</div  ><!-- end div dHourGlass --> 
-	 <div id="dReveal" class="dSand">
+	 <div id="dReveal" class="hideonload">
    
 	</div  ><!-- end div dReveal --> 		
 	 <div id="dRevealChargeBox" class="hideonload">
@@ -137,11 +138,11 @@ dPortrait
 	 
 	  <div id="dDialogue">
 		 <div id="dGlyphlets" class="dialoguechild hideonload">
-		 Select a tiny puzzle 
+		 
 		 </div>
 		  
 		 <div id="dPuzzles"  class="dialoguechild"> 
-		 select a puzzle 
+		 
 		</div>
 	</div>
      
