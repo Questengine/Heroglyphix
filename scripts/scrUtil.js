@@ -79,26 +79,38 @@ function BuildCode(s,l,p){
 	return pad(s)+"-"+pad(l)+"-"+pad(p);
 }
 function FillMarkMenu(){
-	var max =30;
-	var dim = 20;
-	var menux = 5;
-	var menuy = 6;
-	//mark png is 10x3 of individual marks
-	var markimagedim = 20;
-	var markimagecols=10;
-	var markimagerows=3;
-	for(var y =0;y<menuy;y++){
-		for(var x =0;x<menux;x++){
-			var markid = x+ y*menux;
-			var posx= markid % markimagecols;
-			var posy= Math.floor(markid / markimagecols);
-			posx*=markimagedim;
-			posy*=markimagedim;
-			if(markid < 1+gHighestStage*3){
-				$("#mk"+markid).css("background-position-x", "-"+posx+"px").css("background-position-y", "-"+posy+"px");
+	//if(gStage> 1 || (gStage==1 && gLocation >2)){
+	 if(gStage> 1 ){
+		markposin = "0px 0px";//reset to basic black mark
+		$("#dMarks").slideDown();
+		var max =30;
+		var dim = 20;
+		var menux = 5;
+		var menuy = 6;
+		//mark png is 10x3 of individual marks
+		var markimagedim = 20;
+		var markimagecols=10;
+		var markimagerows=3;
+		for(var y =0;y<menuy;y++){
+			for(var x =0;x<menux;x++){
+				var markid = x+ y*menux;
+				var posx= markid % markimagecols;
+				var posy= Math.floor(markid / markimagecols);
+				posx*=markimagedim;
+				posy*=markimagedim;
+				if(markid < 1+gHighestStage*3){
+					$("#mk"+markid).css("background-position-x", "-"+posx+"px").css("background-position-y", "-"+posy+"px");
+				}
+				//.html(markid);
 			}
-			//.html(markid);
 		}
+	}
+	else{
+		//set feather cur
+		var pencilmark = "-"+gCurMarkSize+"px -" +3*gCurMarkSize+"px";
+		markposin = pencilmark;
+		$("#dMarks").slideUp();
+		$("#dGrid").css({cursor:"url('images/extras/feather.cur'),auto"});
 	}
 }
 function MarkSelected(){
@@ -150,6 +162,24 @@ function StageBackground( ){
 	$("#dFullScreen").fadeOut(334,function(){
 		$("#dFullScreen").css("background-image","url('images/locations/gp"+pad(gStage)+".png')").fadeIn(444) ;	
 	} );
+	if(gStage> 1 ){
+		$("#dGrid").css({cursor:"url('images/extras/vangmed.cur'),auto"});
+	}
+	else{
+		$("#dGrid").css({cursor:"url('images/extras/feather.cur'),auto"});
+	}
+	
+	if(gStage >8){
+			ShutItDown();
+	}
+}
+function ShutItDown(){
+		$(".hideonload").fadeOut();
+		$("#dMarks, #dGrid, #dSpeech, #dLocation, #dClock, #dLocationName, #dPauseMap").fadeOut(2222,
+		function(){
+				$("#dMarks, #dGrid, #dSpeech, #dClock, #dLocation, #dLocationName, #dPauseMap").remove();
+		});
+		PoxPause(true);
 }
 
 function LocImageAndTitle( ){

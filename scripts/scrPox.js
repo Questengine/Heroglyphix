@@ -3,11 +3,42 @@ var gPoxRow = 10;
 var gPoxInterval;
 var gPoxItr;
 var gCurAnim;
-var gPoxHpMax=6;
+var gPoxHpMax=4;
 var gPoxHp;
+var gPoxArrivalInterval;
+var gPoxAppearFreq =10;//how oftten do we check to see if pox should appear;
+var gPoxAppearPercBase =40;//percentage.  1-100 lower than this number and Pox DOES appear
+var gPoxAppearPerc ;//percentage.  1-100 lower than this number and Pox DOES appear
+var gPoxActive;
+//var gPoxInitialDelay=20;//after the puzzle starts, 
 
-var gPoxAll = [arrPoxRefRoll];//,arrPoxBite,arrPoxScratch,arrPoxShake,arrPoxHop,arrPoxStampHop,arrPoxSideLeap];
-
+var gPoxAll = [arrPoxRefRoll,arrPoxBite,arrPoxScratch,arrPoxShake,arrPoxHop,arrPoxStampHop,arrPoxSideLeap];
+function PoxPrep(){
+	gPoxAppearPerc = gPoxAppearPercBase; //reset to base for each puzzle1
+	if(gPuzCorrect.length == 225){ 			
+		gPoxActive = true;
+		Info("The Gremlin is near ");
+			gPoxArrivalInterval = setInterval(DoesPoxAppear,gPoxAppearFreq*1000);
+	}
+	else{
+		gPoxActive = false;
+	}
+	
+		
+}
+function DoesPoxAppear(){
+		
+		var perc= Math.floor(Math.random() * 100);  
+		if(perc < gPoxAppearPerc){
+			//Info("The Gremlin is near ("+ perc +" < "+ gPoxAppearPerc );
+			PoxStart();
+			gPoxAppearPerc = gPoxAppearPercBase; //reset to base after each appearance
+		}
+		else{
+			gPoxAppearPerc+=2;//each time pox doesn't appear, incaerse the chance for next time sligtly
+		}
+		
+}
 function PoxStart(){
 		
 	Info("POX ARRIVES!!");
@@ -48,8 +79,12 @@ function PoxLoop(){
 		gPoxItr = 0;
 		$("#dPox").fadeOut();
 		
-		
-	Info("Pox has fled... for now.");
+		if(gPoxHp > 0){
+			Info("Pox has fled... for now."); 
+		}
+		else{ 
+			Info("POX DISPATCHED!!"); 
+		}
 	}	
 	
 		
@@ -57,9 +92,11 @@ function PoxLoop(){
 function PoxMove(a){
 		
 	var x = a.split(":")[0];
-	var y = a.split(":")[1];
-	$("#dPox").css("top",y+"px");
-	$("#dPox").css("left",x+"px");
+	if(x != "x"){
+		var y = a.split(":")[1];
+		$("#dPox").css("top",y+"px");
+		$("#dPox").css("left",x+"px");
+	}
 		
 }
 function PoxFrame(i){
@@ -87,8 +124,37 @@ function PoxAttack(coords){
 }
 function PoxHit(){
 		
-	
-	$("#dPoxHp").html(gPoxHp);			
-	gPoxHp--;
+	if(gPoxHp>0){ 
+		$("#dPoxHp").html(gPoxHp);			
+		gPoxHp--;
+		if(gPoxHp<=0){
+			RemovePox();
+		}	
+	}
 	 
+}
+function RemovePox(){
+	gPoxAppearPerc = parseInt(gPoxAppearPercBase/2);//if player strike pox, then he's less likely to appear for a while
+	clearInterval(gPoxInterval); 
+	
+	gPoxItr = 0;
+	$("#dPoxHp").html("");	
+	gPoxInterval = setInterval(PoxLoop,20) 
+	gCurAnim = arrPoxDie;
+	$("#dPox").css("display","block");
+	$("#dPox").fadeOut(2222);
+}
+function PoxDisable(){ 
+	clearInterval(gPoxArrivalInterval);
+}
+function PoxPause(tf){//call from map init/cancel
+	if(gPoxActive){ 
+		if(tf){//true, pause pox
+			PoxDisable()	;
+		}
+		else{//else, unpause pox
+			gPoxArrivalInterval = setInterval(DoesPoxAppear,gPoxAppearFreq*1000);
+		}
+	}
+		
 }

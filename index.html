@@ -32,10 +32,10 @@
   <link rel="stylesheet" href="css/stylegrid.css"> 
   <script>
   
+document.onselectstart = new Function ("return false")
 	$(document).ready(function () {
 		BuildUPP();  
 		InitSplashTitle();
-		FillMarkMenu(); 
 		 
 		gLocation=1;
 		gPuzzle=1;
@@ -64,6 +64,7 @@
 		$("#dPox").click(PoxHit);
 		
 		$("#dGlyphlets").slideUp();	
+		$("#dMarks").slideUp();
 		$("#dPauseMap").slideUp();			
 		$("#dPauseMap").click(InitMap);	
 		//$("#dDialogue").slideUp(0);
@@ -77,7 +78,7 @@
  <div  id="dFullScreen">
  	 
 	<div id="dPortrait" class="hideonload">
-dPortrait  
+   
 	</div  ><!-- end div portrait --> 
   
 	<div id="dSpeech"> 
@@ -100,7 +101,7 @@ dPortrait
 		</div  ><!-- end div poxHp --> 
 	</div  ><!-- end div pox --> 
 	 
-	<div id="dMarks" class="hideonload">
+	<div id="dMarks" >
 	<table>
 	<tr><td id="mk0" class="onemark"></td><td id="mk1" class="onemark"></td><td id="mk2" class="onemark"></td><td id="mk3" class="onemark"></td><td id="mk4" class="onemark"></td></tr>
 	

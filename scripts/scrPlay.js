@@ -71,6 +71,14 @@ function IsFinished(){
 function PauseTimer(tf){
 		
 		gPaused = tf;
+		if(gPaused){
+				$("#dClock").css({color:"white"});
+		 }else{ 
+			setTimeout(TimerRed,1111);
+		}
+}
+function TimerRed(){
+	$("#dClock").css({color:"red"});
 }
 function TimerTick(){
 	if(!gPaused){

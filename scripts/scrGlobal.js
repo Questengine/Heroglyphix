@@ -15,7 +15,7 @@ var gPart = 0;
 var gPaused = false;
 
 var gHighestStage=1;
-
+var gRevealActive = true;
 var gGlow = false;
 var gGlowInterval;
 
@@ -30,6 +30,7 @@ var gPuzPlayer="";
 var gUPP={};
 
 var markpox =  "-128px -48px";
+var markfeather =  "-40px -120px";
 var markposin = "0px 0px";
 var markposnot = "0px -120px";
 var markposout = "-360px -120px";

@@ -48,7 +48,7 @@ function StgLocPuzIncrement(){
 		gLocation=1;
 		gStage++;
 		gHighestStage=gStage;
-		FillMarkMenu(); 
+		
 		StageBackground();
 		
 	}
@@ -84,6 +84,10 @@ function Init(code, part){
 	else{
 		StartDialogue();
 	}
+	PoxPrep();
+	DefaultPortrait();
+	gRevealActive  = true;
+	FillMarkMenu(); 
 	
 }
 function StoryNext(){
@@ -141,10 +145,20 @@ function RedrawPortrait(imgid, picid){
 	picx*=constPortraitWid;
 	picy*=constPortraitHgt;
 	
-	$("#dPortrait").css("background-image","url('images/portraits/charportraits" +imgid +".png')");
-	$("#dPortrait").css("background-position-x",picx +"px");
-	$("#dPortrait").css("background-position-y",picy+"px" );
+	//$("#dPortrait").css("background-image","url('images/portraits/charportraits" +imgid +".png')");
+	$("#dPortrait").css(
+		{
+		backgroundPosition:	"-" +picx +"px -"+picy +"px", 
+		backgroundImage:	"url('images/portraits/charportraits" +imgid +".png')"
+		});
 }
+function DefaultPortrait(){
+	var defaultportrait = arrPortrait[gStage-1];
+	var imgid =  defaultportrait.split(":")[0];
+	var picid =  parseInt(defaultportrait.split(":")[1]);
+	RedrawPortrait(imgid,picid);
+}
+
 
 function StartDialogue(){
 	$("#dSpeech").slideDown();
@@ -160,7 +174,9 @@ function Intermission(){
 	$("#dSpeech").slideDown();
 }
 function PuzzleDone(){
-	
+	RevealCancel();
+	gRevealActive  = false;
+	PoxDisable();
 	MarkPuzzlePartDone(CurCode(),gPart);
 	if(isPuzzleComplete()){
 		if(isLargePuzzle()){

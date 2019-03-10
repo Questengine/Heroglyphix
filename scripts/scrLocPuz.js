@@ -4,7 +4,7 @@
 		 stagecode=CurCode();
 	 }
 	 SetStage(stagecode);
-	 FillMarkMenu();
+	 //FillMarkMenu();
 	 DialogueOpen();
 	 var locpuz = BuildLocPuz(stagecode)+BuildLocPuzConfirm();
 	 
@@ -52,8 +52,10 @@
 	 var res = ""; 
 	 //for each location
 	 var p = 1;
+	 var foundpuzzles = false;
 	 for (var key in arrPuzzles) {
 		if(key.substring(0,5) == locationcode){
+			foundpuzzles = true;
 			var pic = p;
 			var style="style='background-image:url(images/extras/p"+p+".png)'";
 			if(isPuzzleComplete(key)){
@@ -64,6 +66,9 @@
 			p++;
 		} 
 	} 
+	if(!foundpuzzles){
+//		res += "<td class='celllocnopuz' >No Puzzles, Just Story</td>";
+	}
  
 	 return res;
  }
@@ -76,10 +81,10 @@
 	 //alert($(this).attr("data-puz"));
 	 var code = $(this).attr("data-puz");
 	 if(GetIntPuzzle(code)!=0){//load puz}
-		$("#dLocPuzConfirm").html("Load " + code + "?");
+		$("#dLocPuzConfirm").html("Load Puzzle?");
 	 }
 	 else{//load intro
-		$("#dLocPuzConfirm").html("Load Intro ?");
+		$("#dLocPuzConfirm").html("Load Story?");
 	 }
 			
 	 $("#dLocPuzConfirm").attr( "data-puztoload",code );

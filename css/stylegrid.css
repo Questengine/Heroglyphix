@@ -24,6 +24,8 @@
 	/*background-color:yellow;*/
 	border-radius:50%;
 	opacity:0.3;
+	margin-left:25px;
+	margin-top:16px;
 	border:4px solid;
 }
 .glowcell{

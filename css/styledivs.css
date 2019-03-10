@@ -35,11 +35,11 @@
 }
 #dPortrait{
 	top:40px;
-	border-color: red ;
+	border:none;
 	left:41px;
 	width:100px;
 	height:134px;
-	opacity:0.5;
+	
 }
 
 #dLocation{
@@ -66,12 +66,12 @@
 	z-index:2;
 }
 #dMarks{ 
-	top:310px;
-	left:15px;
+	top:312px;
+	left:16px;
 	width:143px;
 	height:201px;
-	padding-top:30px;
-	padding-left:15px;
+	padding-top:39px;
+	padding-left:20px;
 	background-image:url("../images/markmenu.png");
 	background-repeat:no-repeat;
 	border:none;
@@ -207,7 +207,9 @@
 	z-index:20;
 }
 #dPoxHp{
-	margin-left:86px;
+    text-shadow: 0px 0px 16px #000;
+	border:none;
+	margin-left:44px;
 	margin-top:-30px;
 	color:red;
 	font-size:xx-large;

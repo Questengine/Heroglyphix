@@ -90,12 +90,18 @@ function TickSpeechNext(){
 		
 }
 function Reveal(){
-	if(!gGlow){
-		RevealStart();
+	if(gRevealActive){
+		if(!gGlow){
+			RevealStart();
+		}
+		else{
+			RevealCancel();
+			Info("Reveal Spell canceled.  Charges unused.");
+		}
+			
 	}
 	else{
-		RevealCancel();
-		Info("Reveal Spell canceled.  Charges unused.");
+		Info("Reveal Spell unavailable during story");
 	}
 }
 /*
@@ -201,6 +207,7 @@ function RevealCancel(){
 		$(this).fadeOut(time, function(){$(this).remove()});
 		
 	});
-}	
+}	 
+		 
 		 
 	 
