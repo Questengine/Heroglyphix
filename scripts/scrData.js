@@ -74,6 +74,21 @@ function ADMINMarkPuzzleComplete(code){
 		gUPP[code]= newdata;
 	}
 }
+
+function HigestAchieved(){
+	var latestcode = "";
+	
+	for(var key in gUPP){
+		 
+		var puzdata = gUPP[key];
+		if(puzdata.includes("1")){
+			latestcode = key;
+		}
+		
+	}
+	gHighestCode = latestcode;
+	SetCode(latestcode);
+}
 function BuildUPP(){ 
 	for(var code in arrPuzzles){
 		var onepuz = arrPuzzles[code];

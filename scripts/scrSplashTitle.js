@@ -8,8 +8,8 @@
 	 setTimeout(FadeOutLogo,gSplashTime);
 	 setTimeout(FadeInTitle,gSplashTime );
 	 $("#btnNew").html("New").on("click",FadeOutTitle);
-	 $("#btnLoad").html("Load").on("click",getCookie);
-	 $("#btnOptions").html("Options").on("click",getCookie);
+	 $("#btnLoad").html("Load").on("click",GameLoad);
+	 $("#btnOptions").html("Options").on("click",GameNew);
 	 
  } 
  function FadeOutLogo(){
@@ -19,6 +19,16 @@
 	 $("#dTitle").fadeIn(gSplashTime ,function(){
 		 $("dLogo").remove();
 		 });
+ }
+ function GameLoad(){
+	 //getCookie();
+	 HigestAchieved()
+	 FadeOutTitle();
+ }
+ 
+ function GameNew(){
+	 FadeOutTitle();
+	 
  }
  function FadeOutTitle(){
 	 $("#dTitle").fadeOut(gSplashTime ,function(){ 

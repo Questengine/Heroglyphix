@@ -15,6 +15,7 @@ var gPart = 0;
 var gPaused = false;
 
 var gHighestStage=1;
+var gHighestCode = "";
 var gRevealActive = true;
 var gGlow = false;
 var gGlowInterval;

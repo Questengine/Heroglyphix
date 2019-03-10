@@ -14,8 +14,14 @@
  }
  function GoToInitLocPuz(){
 	 var stagecode = $(this).attr("data-stageid");
+	 if(stagecode >0){
+		 
 	 gHighestStage = parseInt(stagecode);
 	 InitLocPuz(pad(stagecode));
+	 }
+	 else{
+		 Info("You haven't unlocked this stage yet. Keep playing!");
+	 }
  }
  function BuildStageSelect(){
 	 var res = "<table>";
@@ -37,7 +43,15 @@
  
  function FillImages(pic){
 	 var id =pic.attr("data-stageid");
-	 pic.css("background-image","url(images/locations/temp-jo"+id+".png");
+	 var intstage = GetIntStage(gHighestCode);
+	 if(id<=intstage || id== 1){
+		 
+		pic.css("background-image","url(images/locations/temp-jo"+id+".png");
+		
+	 }
+	 else{
+		pic.attr("data-stageid","0");
+	 }
 	 
  }
   

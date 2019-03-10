@@ -9,17 +9,21 @@
 
 function getCookie() {
   var name = gCookieName + "=";
-  var ca = document.cookie.split(';');
-  for(var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
+  var uppdata = document.cookie.split('=')[1];//game data
+  var arrsavedata = uppdata.split(",");
+  
+  for(var datakkey in arrsavedata){
+      
+      var pair  = arrsavedata[datakkey]
+      var key  = pair.split(":")[0];
+      if( key in gUPP){
+          gUPP[key ]= pair.split(":")[1];
+      }
+      
+      
+	}
+  
+   
 }
 
 function checkCookie() {
