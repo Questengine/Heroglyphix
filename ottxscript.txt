@@ -1,0 +1,417 @@
+ //ottx script.  Brandon's first scripting language :)
+//
+// these double slash denoted a comment line. When the game reads the // characters, it skips that line of input
+// use comments to leave reminders for yourself about what comes where in the code
+//
+// EVERYTHING IN LOWER CASE PLEASE.. everything except commented stuff.
+//
+// keywords: ttl = titlescreen, stg = Stage, loc = location, puz = puzzle, dlg = dialog script
+//
+// you must pad the numbers (add zeros to the left to make them all the same length) 
+//     make all the numbers 3 digits.. 000, 001, 002,.. 012, ...099, 100, ..203, ...999 
+//
+//All numbered lists are ZERO BASED, programmers start counting with 0 not with 1!
+//so the first location is loc 000, and the second location is loc 001
+//
+//Start Game
+//Load Titlescreen, so we can load different title screens for each expansion pack.
+//
+// the game will get the titlescreen bitmap from the newest binary archive ottx1.dat, ottx2.dat.. etc.
+// every expansion pack will come with a ottxN.dat where "N" is an ID number.  The game can look for these
+// files, and we can add expansion packs forever.
+//
+// TITLE SCREEN FORMAT
+// ttl (title screen keyword) bitmapname (the name of the title screen bitmap to use from the binary archive)
+//ttl ottxTitle // commented out for now, 
+//Stages: Stages are glyphix 101, Skimlet's Journey, Howard's Whatever..
+//STG FORMAT
+//stg (stage keyword)  000 (what is the index of the stage graphic in (stagePortraits.bmp)  
+//         StageName (text of stage name for bitmap font)
+//
+//
+//
+//
+//
+//
+// NOTE: the puz command is followed by a .tbt filename and then four digit number of seconds
+// for its time limit. A value of 0000 denotes no time limit for that puzzle.
+// All the timed puzzles have been temporarily set to 3600 secs = 1 hour
+//
+//
+// NOTE: musical cues (short midi tunes) for the location transitions will go in this file once 
+// the details have been decided
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//STG 1 STG 1 STG 1 STG 1 STG 1 STG 1 STG 1 STG 1 STG 1 STG 1 STG 1
+//
+stg 000 Glyphix101
+//
+//LOCATION FORMAT  
+//loc (location keyword) iii(index to location graphic in locations.bmp) StageName(text //of stage name for bitmap font)
+//
+loc 000 Library
+puz 01-01-01.tbt 0000
+puz 01-01-02.tbt 0000
+puz 01-01-03.tbt 0000
+puz 01-01-04.tbt 0000
+puz 01-01-05.tbt 0000
+puz 01-01-06.tbt 0000
+puz 01-01-07.tbt 0000
+puz 01-01-08.tbt 0000
+puz 01-01-09.tbt 0000
+puz 01-01-10.tbt 0000
+//
+loc 001 ReadingRoomII
+puz 01-02-01.tbt 0000
+//
+//
+//
+//
+//STG 2 STG 2 STG 2 STG 2 STG 2 STG 2 STG 2 STG 2 STG 2 STG 2 STG 2
+//
+stg 001 Skimlet'sJourney
+//
+//
+loc 000 Blacksmith
+//set mouse to wand
+puz 02-01-01.tbt 3600
+puz 02-01-02.tbt 3600
+puz 02-01-03.tbt 3600
+puz 02-01-04.tbt 3600
+puz 02-01-05.tbt 3600
+puz 02-01-06.tbt 3600
+puz 02-01-07.tbt 3600
+puz 02-01-08.tbt 3600
+puz 02-01-09.tbt 3600
+//
+loc 001 TownSquare
+puz 02-02-01.tbt 3600
+puz 02-02-02.tbt 3600
+puz 02-02-03.tbt 3600
+puz 02-02-04.tbt 3600
+puz 02-02-05.tbt 3600
+puz 02-02-06.tbt 3600
+puz 02-02-07.tbt 3600
+puz 02-02-08.tbt 3600
+//
+loc 002 Pasticceria
+puz 02-03-01.tbt 3600
+puz 02-03-02.tbt 3600
+//
+loc 003 ShadeStreet
+puz 02-04-01.tbt 3600
+//
+loc 004 AxeAndStump
+puz 02-05-01.tbt 3600
+puz 02-05-02.tbt 3600
+puz 02-05-03.tbt 3600
+puz 02-05-04.tbt 3600
+puz 02-05-05.tbt 3600
+puz 02-05-06.tbt 3600
+puz 02-05-07.tbt 3600
+puz 02-05-08.tbt 3600
+//
+loc 005 Farm
+puz 02-06-01.tbt 3600
+puz 02-06-02.tbt 3600
+puz 02-06-03.tbt 3600
+puz 02-06-04.tbt 3600
+puz 02-06-05.tbt 3600
+puz 02-06-06.tbt 3600
+//
+loc 006 WizlabHoward
+puz 02-07-01.tbt 3600
+puz 02-07-02.tbt 3600
+puz 02-07-03.tbt 3600
+puz 02-07-04.tbt 3600
+puz 02-07-05.tbt 3600
+//
+//
+//
+//STG 3 STG 3 STG 3 STG 3 STG 3 STG 3 STG 3 STG 3 STG 3 STG 3 STG 3
+//
+stg 002 Howard'sTrail
+//
+//
+loc 000 EoForest
+puz 03-01-01.tbt 3600
+puz 03-01-02.tbt 3600
+puz 03-01-03.tbt 3600
+puz 03-01-04.tbt 3600
+puz 03-01-05.tbt 3600
+puz 03-01-06.tbt 3600
+puz 03-01-07.tbt 3600
+//
+loc 001 DeeperForest
+puz 03-02-01.tbt 3600
+puz 03-02-02.tbt 3600
+puz 03-02-03.tbt 3600
+puz 03-02-04.tbt 3600
+puz 03-02-05.tbt 3600
+puz 03-02-06.tbt 3600
+//
+loc 002 Lanternsbane
+puz 03-03-01.tbt 3600
+puz 03-03-02.tbt 3600
+puz 03-03-03.tbt 3600
+puz 03-03-04.tbt 3600
+puz 03-03-05.tbt 3600
+puz 03-03-06.tbt 3600
+//
+loc 003 TRexValley
+puz 03-04-01.tbt 3600
+puz 03-04-02.tbt 3600
+puz 03-04-03.tbt 3600
+puz 03-04-04.tbt 3600
+puz 03-04-05.tbt 3600
+puz 03-04-06.tbt 3600
+puz 03-04-07.tbt 3600
+//
+loc 004 Shoreline
+puz 03-05-01.tbt 3600
+//
+loc 005 Steamer
+puz 03-06-01.tbt 3600
+puz 03-06-02.tbt 3600
+puz 03-06-03.tbt 3600
+puz 03-06-04.tbt 3600
+//
+loc 006 WizlabJudith
+puz 03-07-01.tbt 3600
+puz 03-07-02.tbt 3600
+puz 03-07-03.tbt 3600
+puz 03-07-04.tbt 3600
+puz 03-07-05.tbt 3600
+//
+//
+//
+//STG 4 STG 4 STG 4 STG 4 STG 4 STG 4 STG 4 STG 4 STG 4 STG 4 STG 4
+//
+stg 003 HallofVisions
+//
+//
+loc 000 Threshold
+puz 04-01-01.tbt 3600
+puz 04-01-02.tbt 3600
+puz 04-01-03.tbt 3600
+puz 04-01-04.tbt 3600
+puz 04-01-05.tbt 3600
+puz 04-01-06.tbt 3600
+puz 04-01-07.tbt 3600
+//
+loc 001 Motion
+puz 04-02-01.tbt 3600
+puz 04-02-02.tbt 3600
+puz 04-02-03.tbt 3600
+puz 04-02-04.tbt 3600
+puz 04-02-05.tbt 3600
+puz 04-02-06.tbt 3600
+//
+loc 002 Wonders
+puz 04-03-01.tbt 3600
+puz 04-03-02.tbt 3600
+puz 04-03-03.tbt 3600
+puz 04-03-04.tbt 3600
+puz 04-03-05.tbt 3600
+//
+loc 003 FutureSigns
+puz 04-04-01.tbt 3600
+puz 04-04-02.tbt 3600
+puz 04-04-03.tbt 3600
+puz 04-04-04.tbt 3600
+//
+loc 004 WizlabMatthius
+puz 04-05-01.tbt 3600
+puz 04-05-02.tbt 3600
+puz 04-05-03.tbt 3600
+puz 04-05-04.tbt 3600
+puz 04-05-05.tbt 3600
+//
+//
+//
+//STG 5 STG 5 STG 5 STG 5 STG 5 STG 5 STG 5 STG 5 STG 5 STG 5 STG 5
+//
+stg 004 WayOfMatthius
+//
+//
+loc 000 CloudPath
+puz 05-01-01.tbt 3600
+puz 05-01-02.tbt 3600
+//
+loc 001 GrassFields
+puz 05-02-01.tbt 3600
+puz 05-02-02.tbt 3600
+//
+loc 002 RiceHarvest
+puz 05-03-01.tbt 3600
+//
+loc 003 HarmonysFlame
+puz 05-04-01.tbt 3600
+puz 05-04-02.tbt 3600
+puz 05-04-03.tbt 3600
+puz 05-04-04.tbt 3600
+puz 05-04-05.tbt 3600
+puz 05-04-06.tbt 3600
+//
+loc 004 FiveGardens
+puz 05-05-01.tbt 3600
+puz 05-05-02.tbt 3600
+puz 05-05-03.tbt 3600
+puz 05-05-04.tbt 3600
+puz 05-05-05.tbt 3600
+//
+loc 005 InvertedTemple
+puz 05-06-01.tbt 3600
+puz 05-06-02.tbt 3600
+//
+loc 006 Battlefields
+puz 05-07-01.tbt 3600
+puz 05-07-02.tbt 3600
+puz 05-07-03.tbt 3600
+puz 05-07-04.tbt 3600
+puz 05-07-05.tbt 3600
+//
+loc 007 Akuyama
+puz 05-08-01.tbt 3600
+puz 05-08-02.tbt 3600
+puz 05-08-03.tbt 3600
+//
+loc 008 WizlabGeneva
+puz 05-09-01.tbt 3600
+puz 05-09-02.tbt 3600
+puz 05-09-03.tbt 3600
+puz 05-09-04.tbt 3600
+puz 05-09-05.tbt 3600
+//
+//
+//
+//STG 6 STG 6 STG 6 STG 6 STG 6 STG 6 STG 6 STG 6 STG 6 STG 6 STG 6
+//
+stg 005 ShadowSteppes
+//
+//
+loc 000 ForestEdge
+puz 06-01-01.tbt 3600
+puz 06-01-02.tbt 3600
+puz 06-01-03.tbt 3600
+puz 06-01-04.tbt 3600
+puz 06-01-05.tbt 3600
+//
+loc 001 DyingWoods
+puz 06-02-01.tbt 3600
+puz 06-02-02.tbt 3600
+puz 06-02-03.tbt 3600
+puz 06-02-04.tbt 3600
+puz 06-02-05.tbt 3600
+//
+loc 002 DankHollow
+puz 06-03-01.tbt 3600
+//
+loc 003 FruitingGrotto
+puz 06-04-01.tbt 3600
+puz 06-04-02.tbt 3600
+puz 06-04-03.tbt 3600
+puz 06-04-04.tbt 3600
+//
+loc 004 Steppes
+puz 06-05-01.tbt 3600
+//
+loc 005 NewHades
+puz 06-06-01.tbt 3600
+puz 06-06-02.tbt 3600
+puz 06-06-03.tbt 3600
+puz 06-06-04.tbt 3600
+puz 06-06-05.tbt 3600
+//
+loc 006 Bayou
+puz 06-07-01.tbt 3600
+//
+loc 007 MurdoMansion
+puz 06-08-01.tbt 3600
+puz 06-08-02.tbt 3600
+puz 06-08-03.tbt 3600
+puz 06-08-04.tbt 3600
+//
+loc 008 FallenGlyph
+puz 06-09-01.tbt 3600
+//
+//
+//
+//STG 7 STG 7 STG 7 STG 7 STG 7 STG 7 STG 7 STG 7 STG 7 STG 7 STG 7
+//
+stg 006
+//
+//
+loc 000 WizlabKara
+//set mouse to wand
+puz 07-01-01.tbt 3600
+puz 07-01-02.tbt 3600
+puz 07-01-03.tbt 3600
+puz 07-01-04.tbt 3600
+//
+loc 001 WizlabKaraII
+puz 07-02-01.tbt 3600
+//
+loc 002 SnowbieVillage
+puz 07-03-01.tbt 3600
+//
+loc 003 Factory
+puz 07-04-01.tbt 3600
+puz 07-04-02.tbt 3600
+puz 07-04-03.tbt 3600
+puz 07-04-04.tbt 3600
+puz 07-04-05.tbt 3600
+//
+loc 004 Flying
+puz 07-05-01.tbt 3600
+puz 07-05-02.tbt 3600
+puz 07-05-03.tbt 3600
+puz 07-05-04.tbt 3600
+//
+loc 005 MythicSpires
+puz 07-06-01.tbt 3600
+puz 07-06-02.tbt 3600
+puz 07-06-03.tbt 3600
+puz 07-06-04.tbt 3600
+//
+loc 006 Thunderhead
+puz 07-07-01.tbt 3600
+//
+loc 007 Prison
+puz 07-08-01.tbt 3600
+puz 07-08-02.tbt 3600
+puz 07-08-03.tbt 3600
+puz 07-08-04.tbt 3600
+//
+loc 008 EdizonsCell
+puz 07-09-01.tbt 3600
+//
+//
+//
+//STG 8 STG 8 STG 8 STG 8 STG 8 STG 8 STG 8 STG 8 STG 8 STG 8 STG 8
+//
+stg 007 Edizon'sRevenge
+//
+//
+loc 000 GlacierPass
+puz 08-01-01.tbt 3600
+//
+loc 001 BlizzardII
+puz 08-02-01.tbt 3600
+puz 08-02-02.tbt 3600
+//
+loc 002 Gurgenjar
+puz 08-03-01.tbt 3600
+//
+//
+//
+//
+//END END END END END END END END END END END END END END END END
