@@ -30,6 +30,9 @@ function SetBlinkTimeout(cell){
 	waittime*=50;
 	setTimeout(function(){ BlinkMark(cell); }, waittime);
 }
+function SetMapBlink(cell, wait){
+	setTimeout(function(){Blink(cell)},wait);
+}
 function BlinkMark(cell){
 	Blink(cell);
 }

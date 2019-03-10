@@ -5,34 +5,97 @@ coords for the random location images for the pause map
 everything prefixed with "m"
 
 */
- 
-.m1{}
-.m2{}
-.m3{}
-.m4{}
-.m5{}
-.m6{}
-.m7{}
-.m8{}
-.m9{}
-.m10{}
-.m11{}
-.m12{}
-.m13{}
-.m14{}
-.m15{}
-.m16{}
-.m17{}
-.m18{}
-.m19{}
-.m20{}
-.m21{}
-.m22{}
-.m23{}
-.m24{}
-.m25{}
-.m26{}
-.m27{}
+.mapicon{
+	display:block; 
+	background-repeat:no-repeat; 
+	border:none;
+	width:40px;
+	height:40px;
+	z-index:10; 
+	background-image:url("../images/mapparts.png");
+}
+.m1{
+	left:404px;
+	top:466px;
+}
+.m2{
+	left:390px;
+	top:454px;}
+.m3{
+	left:363px;
+	top:465px;}
+.m4{
+	left:347px;
+	top:476px;}
+.m5{
+	left:346px;
+	top:466px;}
+.m6{
+	left:333px;
+	top:455px;}
+.m7{
+	left:309px;
+	top:426px;}
+.m8{
+	left:264px;
+	top:421px;}
+.m9{
+	left:265px;
+	top:400px;}
+.m10{
+	left:237px;
+	top:392px;}
+.m11{
+	left:217px;
+	top:391px;}
+.m12{
+	left:224px;
+	top:365px;}
+.m13{
+	left:195px;
+	top:351px;}
+.m14{
+	left:196px;
+	top:340px;}
+.m15{
+	left:215px;
+	top:320px;}
+.m16{
+	left:230px;
+	top:320px;}
+.m17{
+	left:247px;
+	top:302px;}
+.m18{
+	left:259px;
+	top:299px;}
+.m19{
+	left:260px;
+	top:289px;}
+.m20{
+	left:270px;
+	top:266px;}
+.m21{
+	left:266px;
+	top:263px;}
+.m22{
+	left:257px;
+	top:255px;}
+.m23{
+	left:266px;
+	top:246px;}
+.m24{
+	left:262px;
+	top:230px;}
+.m25{
+	left:298px;
+	top:254px;}
+.m26{
+	left:317px;
+	top:267px;}
+.m27{
+	left:297px;
+	top:228px;}
 .m28{}
 .m29{}
 .m30{}

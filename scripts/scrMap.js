@@ -5,7 +5,7 @@
 	 PoxPause(true);
 	 //$("#dPuzzles").css("background-image","url('images/map.jpg')").fadeIn();  
 	 $("#dPuzzles").html("<img src='images/map.jpg'/>  <div id='btnReturnTitle' class='btnBig'>Back to Title</div><div id='btnReturn' class='btnTitle'>Resume</div><div id='btnCredits' class='btnTitle'>Credits</div>  ").fadeIn(); 
-	
+	PlaceMapMarkers();
 	 $("#btnReturn").on("click", HideMap);
 	 $("#btnReturnTitle").on("click", TitleScreen);
 	 $("#btnCredits").on("click", Credits);
@@ -14,6 +14,8 @@
  }
  function HideMap(){
 	 $("#dPuzzles").fadeOut().off("click", HideMap);
+	 $(".mapicon").remove();
+	 clearInterval(gPathInterval);
 	 PauseTimer(false);
 	 PoxPause(false);
 	 DialogueClose();
@@ -44,4 +46,46 @@
 	 $("#btnCredits").on("click", CloseCredits);
  }
  
+ function PlaceMapMarkers(){
+	var mapicondim = 40;
+	var locs = GetIntLocationTotal();
+	for(var i = 1;i<locs;i++){
+		var z = i-1;
+		var bgx = z%10;
+		var bgy = Math.floor(z/10);
+		bgx*=mapicondim;
+		bgy*=mapicondim;
+		var strclass = "m"+i + " mapicon";
+		var maploc = "<div class='"+strclass+"'></div>";
+		$("#dPuzzles").append(maploc);
+		var bgpos = "-"+bgx+"px -"+bgy+"px";
+		$(".m"+i).css("background-position",bgpos);
+	}
+	AnimatePath();
+	gPathInterval = setInterval(AnimatePath,4444);
+ }
  
+ function AnimatePath(){
+	var locs = GetIntLocationTotal();
+	 
+	 for(var i = 1;i<locs;i++){
+		
+		if($(".m"+i).length>0){
+			SetMapBlink($(".m"+i),i*93);
+		} 
+	}
+		
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -45,7 +45,8 @@ function SetCode(code){
 	gPuzzle = parseInt(code.split("-")[2]);
 }
 
-function SetStage(stagecode){
+function SetStage(stagecode){ 
+ 
 	gStage = CodeToInt(stagecode);
 }
 

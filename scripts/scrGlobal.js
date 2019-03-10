@@ -42,6 +42,7 @@ var gHourGlassFrame=0;
 var gTextAdvanceFrame=0;
 //var gSandFrame =0;
 
+var gPathInterval;
 var gTimerInterval;
 var gHourGlassInterval;
 var gPuzTimeMax = 360;
