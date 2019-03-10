@@ -20,6 +20,9 @@ function SizeGrid(dim){
 	if(dim >20){
 		gCurMarkSize=8;
 	}
+	if(dim >40){
+		gCurMarkSize=5;
+	}
 
 	gClassCellSize = "cel"+gCurMarkSize;
 	markposnot = "0px -" +gCurMarkSize*3 + "px";

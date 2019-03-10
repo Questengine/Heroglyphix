@@ -71,7 +71,7 @@ function Init(code, part){
 	LoadText();
 	gTextItr=-1;	
 	var puzint  = GetIntPuzzle(code);
-	if(puzint>0){
+	if(puzint>0){//not the intro text, real puzzle text
 		var puz = LoadPuz(code, part);
 		BuildGrid(Math.sqrt(puz.length));
 		//LoadLocationText();
@@ -80,12 +80,12 @@ function Init(code, part){
 		clearInterval(gHourGlassInterval);
 		gTimerInterval=setInterval(TimerTick,1000);
 		gHourGlassInterval=setInterval(HourGlass,500);
+		DefaultPortrait();
+		PoxPrep();
 	}
-	else{
+	else{//puzint = 0, must be intro text
 		StartDialogue();
 	}
-	PoxPrep();
-	DefaultPortrait();
 	gRevealActive  = true;
 	FillMarkMenu(); 
 	

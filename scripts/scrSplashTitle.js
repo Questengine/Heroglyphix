@@ -4,14 +4,25 @@
 	 
 	  
 	 DialogueOpen();  
-	 $("#dPuzzles").html("<div id='dTitle'> <div id='btnOptions' class='btnTitle'></div> <div id='btnLoad' class='btnTitle'> </div><div id='btnNew' class='btnTitle'>   </div> </div><div id='dLogo'> </div>"); 
+	 $("#dPuzzles").html("<div id='dTitle'> <div id='btnOptions' class='btnTitle'></div> <div id='btnLoad' class='btnTitle'> </div><div id='btnNew' class='btnTitle'>  </div> <div id='dInfoTitle'>Welcome!</div> </div><div id='dLogo'> </div>"); 
 	 setTimeout(FadeOutLogo,gSplashTime);
 	 setTimeout(FadeInTitle,gSplashTime );
 	 $("#btnNew").html("New").on("click",FadeOutTitle);
+	 $("#btnNew").attr("data-info","Start New Game");
 	 $("#btnLoad").html("Load").on("click",GameLoad);
-	 $("#btnOptions").html("Options").on("click",GameNew);
+	 $("#btnLoad").attr("data-info","Load from previously saved browser cookie");
+	 $("#btnOptions").html("CHEAT").on("click",UnlockAll);
+	 $("#btnOptions").attr("data-info","CHEAT: Open/Unlock all stages, locations and puzzles");
+	 
+	 $("#btnNew, #btnOptions, #btnLoad").on("mouseover", function(){
+			TitleInfo($(this))
+	 });
 	 
  } 
+ function TitleInfo(jq){
+	var txt = jq.attr("data-info");
+	$("#dInfoTitle").html(txt);
+ }
  function FadeOutLogo(){
 	 $("#dLogo").fadeOut(gSplashTime );
  }
@@ -22,6 +33,12 @@
  }
  function GameLoad(){
 	 //getCookie();
+	 HigestAchieved()
+	 FadeOutTitle();
+ }
+ function UnlockAll(){
+	 //getCookie();
+	ADMINCompleteThrough("08-01-01");
 	 HigestAchieved()
 	 FadeOutTitle();
  }
