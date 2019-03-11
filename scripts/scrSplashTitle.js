@@ -32,7 +32,7 @@
 		 });
  }
  function GameLoad(){
-	 //getCookie();
+	 getCookie();
 	 HigestAchieved()
 	 FadeOutTitle();
  }

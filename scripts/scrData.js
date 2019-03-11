@@ -98,7 +98,7 @@ function BuildUPP(){
 		gUPP[code] = progress;
 		 
 	}
-	ADMINMarkPuzzleComplete("03-05-01");
+//	ADMINMarkPuzzleComplete("03-05-01");
 	/*ADMINMarkPuzzleComplete("02-02-08");
 	ADMINMarkPuzzleComplete("05-02-01");
 	ADMINMarkPuzzleComplete("04-05-03");
@@ -106,8 +106,9 @@ function BuildUPP(){
 	ADMINMarkPuzzleComplete("05-05-01");
 	ADMINMarkPuzzleComplete("05-05-02");
 	ADMINMarkPuzzleComplete("05-05-03");
-	*/ADMINMarkPuzzleComplete("05-05-04");
-	ADMINMarkPuzzleComplete("05-05-05");
+	*/
+//	ADMINMarkPuzzleComplete("05-05-04");
+//	ADMINMarkPuzzleComplete("05-05-05");
 	//ADMINCompleteThrough("08-01-01");
 }
 function isPuzzleComplete(code){

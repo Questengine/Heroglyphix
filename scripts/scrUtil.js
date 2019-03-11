@@ -230,9 +230,13 @@ function getUrlParameter(name) {
     var results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
-function Info(txt){
+function Info(txt, wait){
 	
-	$("#dInfo").stop(true,true).fadeIn(0).text(txt).fadeOut(5555);
+	 if(typeof wait === "undefined"){
+		 wait=5;
+	 }
+	 wait *= 1000;
+	$("#dInfo").stop(true,true).fadeIn(0).text(txt).fadeOut(wait);
 }
 function GetRevealID(){
 	var res=0;

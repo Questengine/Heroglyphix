@@ -2,7 +2,7 @@
 function StartPuz(code ){
 	
 	 if(typeof code === "undefined"){
-		 code=CurCode();
+		 code=CurCode();wait
 	 }
 	 StageBackground( );
 	var puzdata = GetPuzData(code);
@@ -84,6 +84,7 @@ function Init(code, part){
 		PoxPrep();
 	}
 	else{//puzint = 0, must be intro text
+		Info("Click speech bubble to advance text",15);
 		StartDialogue();
 	}
 	gRevealActive  = true;

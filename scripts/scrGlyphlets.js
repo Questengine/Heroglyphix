@@ -5,7 +5,8 @@ function InitGlyphlets(code){
 	if(puzdata.includes(",")){
 		var arrPuz = puzdata.split(",");
 		var count =arrPuz.length;
-		 $("#dGlyphlets").html(BuildGlyphlets(count)+BuildGlyphletConfirm()).fadeIn();
+		 $("#dPuzzles").html(BuildGlyphlets(count)).fadeIn();
+		 $("#dGlyphlets").after(BuildGlyphletConfirm());
 		 //$("#dPuzzles").html(BuildLocPuzConfirm());
 		 $(".glyphlet").on("click",PromptGlyphletConfirm);
 		 $("#dGlyphletConfirm").on("click",GlyphletConfirmed); 
@@ -20,7 +21,8 @@ function InitGlyphlets(code){
 
  
  function BuildGlyphlets(count){
-	var strTable = "<table id='tblGlyphlets'>";
+	var strTable = "<div id='dGlyphlets'>";
+	 strTable += "<table id='tblGlyphlets'>";
 	
 	 var dim = Math.sqrt(count);
 	 for(var y = 0;y<dim;y++){
@@ -39,6 +41,8 @@ function InitGlyphlets(code){
 	
 	
 	strTable += "</table>";
+	strTable += "</div>";
+	
 	return strTable;	
  }
  function BuildGlyphletConfirm(){

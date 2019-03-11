@@ -30,7 +30,8 @@
  
  function BuildLocPuz(stagecode){
 	 
-	var strTable = "<table id='tblLocPuz'>";
+	var strTable ="<div id='dInfoLocPuz'>Select a number to play a puzzle, or a location name to see the intro story.<br> (It's really best to start at the beginning!!)</div>";
+	strTable+= "<table id='tblLocPuz'>";
 	//var locnames = arrLocationNames[stagecode.substring(0,5)];
 	var stagecode = GetCodeStage(stagecode);
 	var count =0;
@@ -84,7 +85,7 @@
 		$("#dLocPuzConfirm").html("Load Puzzle?");
 	 }
 	 else{//load intro
-		$("#dLocPuzConfirm").html("Load Story?");
+		$("#dLocPuzConfirm").html("Start Story?");
 	 }
 			
 	 $("#dLocPuzConfirm").attr( "data-puztoload",code );

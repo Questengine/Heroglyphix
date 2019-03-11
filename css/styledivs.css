@@ -128,7 +128,7 @@
 	background-repeat:no-repeat;
 	border:none;
 	min-width:143px;
-	min-height:201px;
+	height:201px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -136,7 +136,7 @@
 }
 #dGlyphletConfirm{
 	display:block; 
-	top: 110%;
+	top: 120px;
 	vertical-align: middle;
 	line-height: 42px;   
 	left: 50%;
@@ -262,6 +262,28 @@
 	
 }
 
+#dInfoStage{
+	border:none;
+	top:50px;
+	left:50px;	
+	width:700px;
+	height:130px;
+	color:white;
+	text-align:center;
+	font-size:xx-large;
+	
+}
+#dInfoLocPuz{
+	border:none;
+	top:-100px;
+	left:50px;	
+	width:100%;
+	height:50px;
+	color:white;
+	text-align:center;
+	font-size:large;
+	
+}
 #dPauseMap{
 	display:block;
 	background-image:url("../images/btnWide.png");

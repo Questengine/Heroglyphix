@@ -3,12 +3,13 @@
 	  
 	 DialogueOpen();
 	 var stageselect = BuildStageSelect();
-	 $("#dPuzzles").html(stageselect).fadeIn(); 
+	 $("#dPuzzles").html(stageselect).before(BuildInfoText()).fadeIn(); 
 	 /*$(".oneStage").css("background-image","url(images/locations/temp-jo"+$(".oneStage").attr("data-stageid")+".png");
 	 
 	 */
 	  $(".stagecel").each(function(){FillImages($(this));})
 	 $(".stagecel"). on("click",GoToInitLocPuz);
+//	 $(".stagecel"). on("mouseover",GoToInitLocPuz);
 	 
 	 
  }
@@ -18,9 +19,10 @@
 		 
 	 gHighestStage = parseInt(stagecode);
 	 InitLocPuz(pad(stagecode));
+	 $("#dInfoStage").remove();
 	 }
 	 else{
-		 Info("You haven't unlocked this stage yet. Keep playing!");
+		 $("#dInfoStage").html("You haven't unlocked this stage yet. Keep playing!");
 	 }
  }
  function BuildStageSelect(){
@@ -53,5 +55,10 @@
 		pic.attr("data-stageid","0");
 	 }
 	 
+ }
+ function BuildInfoText(){
+	 var res = "";
+	 res = "<div id='dInfoStage'>Select a Stage</div>";
+	 return res;
  }
   

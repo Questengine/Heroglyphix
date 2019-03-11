@@ -7,6 +7,7 @@ function GetTextClass(imgid, picid){
 	if(imgid==5){		res = "tcWoodrot";	}
 	if(imgid==6){		res = "tcJudith";	}
 	if(imgid==7){		res = "tcMatthius";	}
+	if(imgid==1 &&(picid = 12 || picid==13)){		res = "tcLibrarian";	}
 	return res;
 }
 function GetIOText(io){
