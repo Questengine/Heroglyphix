@@ -38,11 +38,20 @@ function AdvanceLevel(){
 
 function StgLocPuzIncrement(){
 	gPuzzle++; 
+	/*
 	if(gPuzzle>PuzCount(gStage,gLocation)){
 		//and all puzzles done in this location
 		//set gPuzzle = 0 so we know to get the intro text
 		gPuzzle=0;gLocation++;
 		LocImageAndTitle();
+	}*/
+	var firstunfinished = FirstUnfinishedPuzzle();
+	if(firstunfinished==""){
+		gPuzzle=0;gLocation++;
+		LocImageAndTitle();
+	}
+	else{
+		SetCode(firstunfinished);
 	}
 	if(gLocation>LocCount(arrStages[gStage])){
 		gLocation=1;
@@ -52,6 +61,24 @@ function StgLocPuzIncrement(){
 		StageBackground();
 		
 	}
+}
+function FirstUnfinishedPuzzle(){
+	var stgloc = CurCodeStageLoc();
+	//if all puzzles for this stgloc are finished, the return empty string
+	var firstunfinished = "";
+	for(var key in gUPP){
+		if(firstunfinished ==""){
+			var puzdata = gUPP[key];
+			if(key.startsWith(stgloc)){
+				var puzdata = gUPP[key];
+				if(puzdata.includes("0")){
+					firstunfinished = key;
+				}
+			}
+		}
+		
+	}//end for
+	return firstunfinished;
 }
 function Init(code, part){
 	if(typeof code === "undefined"){ 	 code=CurCode();  }
