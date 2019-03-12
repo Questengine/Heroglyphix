@@ -75,6 +75,39 @@ function ADMINMarkPuzzleComplete(code){
 	}
 }
 
+function FirstUnfinishedPuzzle(){
+	var stgloc = CurCodeStageLoc();
+	//if all puzzles for this stgloc are finished, the return empty string
+	var firstunfinished = "";
+	for(var key in gUPP){
+		if(firstunfinished ==""){
+			var puzdata = gUPP[key];
+			if(key.startsWith(stgloc)){
+				var puzdata = gUPP[key];
+				if(puzdata.includes("0")){
+					firstunfinished = key;
+				}
+			}
+		}
+		
+	}//end for
+	return firstunfinished;
+}
+function PuzCodesRemainingThisLoc(){
+	var stgloc = CurCodeStageLoc();
+	//if all puzzles for this stgloc are finished, the return empty string
+	var unfinished = "";
+	for(var key in gUPP){ 
+		var puzdata = gUPP[key];
+		if(key.startsWith(stgloc)){
+			var puzdata = gUPP[key];
+			if(puzdata.includes("0")){
+				unfinished += key;
+			}
+		}  
+	}//end for
+	return unfinished;
+}
 function HigestAchieved(){
 	var latestcode = "";
 	

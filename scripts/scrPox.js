@@ -115,8 +115,8 @@ function PoxFrame(i){
 	$("#dPox").css("background-position",coords);
 }
 function PoxAttack(coords){
-		var x = coords.split(",")[0];
-		var y = coords.split(",")[1];
+		var x = coords.split(":")[0];
+		var y = coords.split(":")[1];
 		var poxedcel = $(".cel[data-x='"+x+"'][data-y='"+y+"']");
 		poxedcel.attr("data-mark", "pox");
 		DoMark(poxedcel);

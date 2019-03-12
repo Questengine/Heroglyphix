@@ -37,6 +37,16 @@ function LoadText(){
 		
 		
 	}
+	 
+	if(code == PuzCodesRemainingThisLoc()){ 
+		try{
+			arrText=arrText.concat(GetIOText("o").split("newline,"));
+		}
+		catch(error){
+				Info("Error getting Outro");
+		}
+	}
+	/*
 	if(puzint==PuzCount(gStage,gLocation)){ 
 		try{
 			arrText=arrText.concat(GetIOText("o").split("newline,"));
@@ -45,6 +55,7 @@ function LoadText(){
 				Info("Error getting Outro");
 		}
 	}
+	*/
 		
 }
 

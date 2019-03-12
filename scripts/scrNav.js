@@ -62,24 +62,6 @@ function StgLocPuzIncrement(){
 		
 	}
 }
-function FirstUnfinishedPuzzle(){
-	var stgloc = CurCodeStageLoc();
-	//if all puzzles for this stgloc are finished, the return empty string
-	var firstunfinished = "";
-	for(var key in gUPP){
-		if(firstunfinished ==""){
-			var puzdata = gUPP[key];
-			if(key.startsWith(stgloc)){
-				var puzdata = gUPP[key];
-				if(puzdata.includes("0")){
-					firstunfinished = key;
-				}
-			}
-		}
-		
-	}//end for
-	return firstunfinished;
-}
 function Init(code, part){
 	if(typeof code === "undefined"){ 	 code=CurCode();  }
 	if(typeof part === "undefined"){ 	 part=0;  }
