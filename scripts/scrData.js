@@ -163,4 +163,20 @@ function MarkPuzzlePartDone(code,part){
 	gUPP[code]= newdata;
 	CookieSave();
 }
+function MarkPuzzleUnDone(code){ 
+	var puzparts = gUPP[code];
+	var newdata =puzparts.replace(/1/g,"0"); 
+	gUPP[code]= newdata;
+	CookieSave();
+}
+function GetUnsolvedPart(code){ 
+	var puzparts = gUPP[code];
+	var unsolvedpart =puzparts.indexOf("0")
+	return unsolvedpart;
+}
+function UnsetPuzzleSave(code){
+		if(isPuzzleComplete(code)){
+			MarkPuzzleUnDone(code)	;
+		}
+}
 

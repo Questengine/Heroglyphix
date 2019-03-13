@@ -58,12 +58,14 @@
 	height:25px;
 }
 #dQuickNav{
-	border: orange dotted;
-	top:500px;
-	left:81%;
-	width:15%;
-	height:14%;
+	border: none;
+	top:340px;
+	left:670px;
+	width:122px;
+	height:160px;
 	z-index:2;
+	background-image:url('../images/extras/Puzmenu.png');
+	background-repeat:no-repeat;
 }
 #dMarks{ 
 	top:312px;

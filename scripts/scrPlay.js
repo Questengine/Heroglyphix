@@ -96,6 +96,11 @@ function TimerTick(){
 	}
 }
 
+function TimerAttacked(){  
+	gPuzTime--;//remove an extra second OUTSIDE of the normal interval 
+	$("#dClock").html("--:--"); 
+}
+
 function RevealFootprint(){
 	$(".cel").removeClass("revealfootprint"+GetIntStage());
 	var count = gReveal.length;

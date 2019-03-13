@@ -73,7 +73,7 @@ function Init(code, part){
 	$("#dShow").fadeOut("fast",function(){
 				$("#dShow").remove();
 	});
-	 
+	
 	$("#dSpeech").slideUp();
 	$("#dPauseMap").slideDown();	
 	gPart = part;
@@ -91,6 +91,7 @@ function Init(code, part){
 		gHourGlassInterval=setInterval(HourGlass,500);
 		DefaultPortrait();
 		PoxPrep();
+		UnsetPuzzleSave(code);;
 	}
 	else{//puzint = 0, must be intro text
 		Info("Click speech bubble to advance text",15);

@@ -144,7 +144,8 @@ z-index:100;
 	background-position-y:-42px;
 } 
 
-#btnReturnTitle{left:60px}
+#btnReturnTitle{left:60px;
+	top: 92%;}
 #btnNew{left:450px}
 #btnLoad{left:350px}
 #btnReturn{left:350px}

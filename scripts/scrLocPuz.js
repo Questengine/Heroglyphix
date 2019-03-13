@@ -93,8 +93,17 @@
  }
  function LocPuzConfirmed(){
 	 var code = $(this).attr("data-puztoload");
-	 SetCode(code);
-	 Init(code);
+	SetCode(code);
+	
+	var unsolvedpart = 0;
+	if(GetIntPuzzle>0){
+		 GetUnsolvedPart(code);
+		 if(unsolvedpart <0){
+				unsolvedpart = 0;
+		 }
+		 
+	}
+	 Init(code,unsolvedpart);
 	 DialogueClose();
 	  $(".dialoguechild").fadeOut("slow",function(){$(this).html("")})
 	  ConfirmPlayScreenVisible();
