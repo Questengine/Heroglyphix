@@ -109,6 +109,11 @@ function PuzCodesRemainingThisLoc(){
 	return unfinished;
 }
 function HigestAchieved(){
+	
+	gHighestCode = GetHighestAchievedCode();
+	SetCode(latestcode);
+}
+function GetHigestAchievedCode(){
 	var latestcode = "";
 	
 	for(var key in gUPP){
@@ -119,8 +124,23 @@ function HigestAchieved(){
 		}
 		
 	}
-	gHighestCode = latestcode;
-	SetCode(latestcode);
+	return latestcode; 
+}
+function GetHighestLocForStage(istage){
+	var highestloc = 0;
+	if(istage < GetIntStage(gHighestCode)){
+		highestloc = LocCount(GetCodeStage(gHighestCode));
+	}
+	if(istage = GetIntStage(gHighestCode)){
+		
+		for(var loc = 0;loc<20;loc++){
+			var thiscode = pad(istage)+"-"+pad(loc)+"-01";
+			if(isPuzzleStarted(thiscode)){
+				highestloc = loc;
+			}
+		}
+	}
+	return highestloc;
 }
 function BuildUPP(){ 
 	for(var code in arrPuzzles){
@@ -149,7 +169,23 @@ function isPuzzleComplete(code){
 	 if(typeof code === "undefined"){
 		 code=CurCode();
 	 }
-	return !gUPP[code].includes("0");
+	 
+	 var res = false;
+	 if(code in gUPP){
+		 res = !gUPP[code].includes("0");
+	 }
+	return res;  
+}
+function isPuzzleStarted(code){
+	//if UPP includes a zero, then part of this puzzle isn't done
+	 if(typeof code === "undefined"){
+		 code=CurCode();
+	 }
+	 var res = false;
+	 if(code in gUPP){
+		 res = gUPP[code].includes("1");
+	 }
+	return res; 
 }
 function isPuzzlePartComplete(code,part){
 	var ipart = parseInt(part);

@@ -8,21 +8,25 @@
 }
 
 function getCookie() {
-  var name = gCookieName + "=";
-  var uppdata = document.cookie.split('=')[1];//game data
-  var arrsavedata = uppdata.split(",");
-  
-  for(var datakkey in arrsavedata){
-      
-      var pair  = arrsavedata[datakkey]
-      var key  = pair.split(":")[0];
-      if( key in gUPP){
-          gUPP[key ]= pair.split(":")[1];
-      }
-      
-      
+	try{
+				
+		  var name = gCookieName + "=";
+		  var uppdata = document.cookie.split('=')[1];//game data
+		  var arrsavedata = uppdata.split(",");
+		  
+		  for(var datakkey in arrsavedata){
+			  
+			  var pair  = arrsavedata[datakkey]
+			  var key  = pair.split(":")[0];
+			  if( key in gUPP){
+				  gUPP[key ]= pair.split(":")[1];
+			}
+			  
+			  
 	}
   
+	}
+	catch{}
    
 }
 

@@ -1,12 +1,12 @@
- function InitLocPuz(stagecode){
+ function InitLocPuz(code){
 	 
 	  if(typeof stagecode === "undefined"){
-		 stagecode=CurCode();
+		 code=CurCode();
 	 }
-	 SetStage(stagecode);
+	 SetStage(code);
 	 //FillMarkMenu();
 	 DialogueOpen();
-	 var locpuz = BuildLocPuz(stagecode)+BuildLocPuzConfirm();
+	 var locpuz = BuildLocPuz(code)+BuildLocPuzConfirm();
 	 
 	 $("#dPuzzles").html(locpuz).fadeIn();
 	 $(".celllocation").each(function(){
@@ -28,27 +28,32 @@
 	 $("#dLocPuzConfirm").fadeOut(1);
  }
  
- function BuildLocPuz(stagecode){
+ function BuildLocPuz(code){
 	 
 	var strTable ="<div id='dInfoLocPuz'>Select a number to play a puzzle, or a location name to see the intro story.<br> (It's really best to start at the beginning!!)</div>";
 	strTable+= "<table id='tblLocPuz'>";
 	//var locnames = arrLocationNames[stagecode.substring(0,5)];
-	var stagecode = GetCodeStage(stagecode);
+	var code = GetCodeStage(code);
 	var count =0;
 	 //for each location
-	for (var key in arrLocationNames) {
-		if(key.substring(0,2) == stagecode){  //give some int here to increment celllocationnae header belowm
+	/*for (var key in arrLocationNames) {
+		if(key.substring(0,2) == code){  //give some int here to increment celllocationnae header belowm
 		 	strTable += "<tr class='rowlocpuz'>"+LocNamePic(key)+PuzList(key)+"</tr>"; 
 		} 
 	} 
-	
+	*/
+	var istage = GetIntStage(code);
+	var maxloc = GetHighestLocForStage(istage)
+	for (var i =1;i<maxloc; i++) {
+		var codesl = pad(istage)+"-"+pad(i);
+		if(codesl in arrLocationNames){
+			strTable += "<tr class='rowlocpuz'>"+LocNamePic(codesl)+PuzList(codesl)+"</tr>"; 
+		} 
+	} 
 	
 	strTable += "</table>";
 	return strTable;	
- }
- function LocNameOLD(name){
-	 return "<td  class='celllocation'>"+name+"</td>";
- }
+ } 
  function PuzList(locationcode){
 	 var res = ""; 
 	 //for each location
@@ -114,14 +119,14 @@
 	  $(".hideonload").fadeIn();
 	 
  }
- function LocNamePic(code){
- 	var key = code;
+ function LocNamePic(codesl){
+ 	var key = codesl;
 	//var key = CurCodeStageLoc(CurCode());
 	key+= "-00";
-	var locStage = parseInt(code.split("-")[0]);
+	var locStage = parseInt(codesl.split("-")[0]);
 	locStage-=1;//loc numbers are zero based in filenames;
 	locStage = pad(locStage);
-	var locNameIndex = parseInt(code.split("-")[1]);
+	var locNameIndex = parseInt(codesl.split("-")[1]);
 	locNameIndex-=1;//to make zero based
 	var locnamex = locNameIndex % constLocNamePerRow;
 	var locnamey = Math.floor(locNameIndex/constLocNamePerRow);
