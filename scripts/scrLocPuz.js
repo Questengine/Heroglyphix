@@ -43,15 +43,16 @@
 	} 
 	*/
 	var istage = GetIntStage(code);
-	var maxloc = GetHighestLocForStage(istage)
-	for (var i =1;i<maxloc; i++) {
+	var maxloc = GetHighestLocAccessibleForStage(istage);
+	
+	for (var i =1;i<=maxloc; i++) {
 		var codesl = pad(istage)+"-"+pad(i);
 		if(codesl in arrLocationNames){
-			strTable += "<tr class='rowlocpuz'>"+LocNamePic(codesl)+PuzList(codesl)+"</tr>"; 
+			strTable += "<tr class='rowlocpuz'>"+LocNamePic(codesl);
+			strTable += PuzList(codesl) ; 
 		} 
 	} 
-	
-	strTable += "</table>";
+	strTable += "</tr></table>";
 	return strTable;	
  } 
  function PuzList(locationcode){

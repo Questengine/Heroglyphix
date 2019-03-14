@@ -108,13 +108,13 @@ function PuzCodesRemainingThisLoc(){
 	}//end for
 	return unfinished;
 }
-function HigestAchieved(){
+function HighestAchieved(){
 	
 	gHighestCode = GetHighestAchievedCode();
-	SetCode(latestcode);
+	SetCode(gHighestCode);
 }
-function GetHigestAchievedCode(){
-	var latestcode = "";
+function GetHighestAchievedCode(){
+	var latestcode = "01-01-01";
 	
 	for(var key in gUPP){
 		 
@@ -124,22 +124,34 @@ function GetHigestAchievedCode(){
 		}
 		
 	}
+	
 	return latestcode; 
 }
-function GetHighestLocForStage(istage){
-	var highestloc = 0;
-	if(istage < GetIntStage(gHighestCode)){
-		highestloc = LocCount(GetCodeStage(gHighestCode));
+function GetHighestLocAccessibleForStage(istage){
+	var highestloc = 1;//defaults to one, you NEVER don't have access to loc 1 for a given stage
+	var highestcode = GetHighestAchievedCode();
+	//if I'm at a lower stage than the max stage I've reached
+	//then ALL the locs at this stage shoud be available
+	if(istage < GetIntStage(highestcode)){
+		highestloc = LocCount(pad(istage));
 	}
-	if(istage = GetIntStage(gHighestCode)){
+	
+	if(istage == GetIntStage(highestcode)){
 		
-		for(var loc = 0;loc<20;loc++){
-			var thiscode = pad(istage)+"-"+pad(loc)+"-01";
-			if(isPuzzleStarted(thiscode)){
-				highestloc = loc;
+		var loc = 1;
+		var loccount = LocCount(pad(istage));
+		while(loc <=loccount){
+			var codesl= pad(istage)+"-"+pad(loc);	
+			if(isLocationComplete(codesl)){
+				highestloc = loc+1;
 			}
+			else{
+				loc=9999;//get out
+			}
+			loc++;
 		}
-	}
+		 
+	} 
 	return highestloc;
 }
 function BuildUPP(){ 
@@ -150,8 +162,7 @@ function BuildUPP(){
 		for(var p=0;p<length;p++){progress+="0";}
 		gUPP[code] = progress;
 		 
-	}
-//	ADMINMarkPuzzleComplete("03-05-01");
+	} 
 	/*ADMINMarkPuzzleComplete("02-02-08");
 	ADMINMarkPuzzleComplete("05-02-01");
 	ADMINMarkPuzzleComplete("04-05-03");
@@ -162,7 +173,11 @@ function BuildUPP(){
 	*/
 //	ADMINMarkPuzzleComplete("05-05-04");
 //	ADMINMarkPuzzleComplete("05-05-05");
-	//ADMINCompleteThrough("08-01-01");
+	ADMINCompleteThrough("03-01-06");
+	HighestAchieved();
+}
+function LocHasPuzzle(codesl){
+	return codesl+"-01" in arrPuzzles;
 }
 function isPuzzleComplete(code){
 	//if UPP includes a zero, then part of this puzzle isn't done
@@ -185,6 +200,23 @@ function isPuzzleStarted(code){
 	 if(code in gUPP){
 		 res = gUPP[code].includes("1");
 	 }
+	return res; 
+}
+function isLocationComplete(codesl){
+	
+	var res = true;
+	if(LocHasPuzzle(codesl)){
+		
+		for(var puz = 0;puz<20;puz++){//no loc has 20 puzzles
+			var thiscode = codesl+"-"+pad(puz) ;
+			if(thiscode in gUPP){
+				if(!isPuzzleComplete(thiscode)){
+					res = false;
+				}
+			}
+		} 
+	}
+	 
 	return res; 
 }
 function isPuzzlePartComplete(code,part){
