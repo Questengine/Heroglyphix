@@ -1464,7 +1464,10 @@ var arrPoxRefRoll = [
 
 
 
-var arrPoxDie=["f11"
+var arrPoxDie=[
+"f11"
+,"x:x"
+,"x:x"
 ,"x:x"
 ,"x:x"
 ,"x:x"
@@ -1472,8 +1475,8 @@ var arrPoxDie=["f11"
 ,"x:x"
 ,"x:x"
 ,"x:x"
-,"f13"
 ,"x:x"
+,"f13"
 ,"x:x"
 ,"x:x"
 ,"f14"
@@ -1481,10 +1484,6 @@ var arrPoxDie=["f11"
 ,"x:x"
 ,"x:x"
 ,"f15"
-,"x:x"
-,"x:x"
-,"x:x"
-,"x:x"
 ,"x:x"
 ,"x:x"
 ,"x:x"]

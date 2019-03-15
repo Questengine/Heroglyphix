@@ -63,6 +63,7 @@ document.onselectstart = new Function ("return false")
 		//$("#dReveal").off("mouseover",SaveMouseCoords);
 		$(".revealfootprint").click(RevealAction);
 		$("#dPox").click(PoxHit);
+		$("#dClock").click(PoxStart);
 		
 		//$("#dGlyphlets").slideUp();	
 		$("#dMarks").slideUp();
@@ -102,6 +103,8 @@ document.onselectstart = new Function ("return false")
 		</div  ><!-- end div poxHp --> 
 	</div  ><!-- end div pox --> 
 	 
+	<div id="dPoxFx">
+	</div  ><!-- end div poxFx --> 
 	<div id="dMarks" >
 	<table>
 	<tr><td id="mk0" class="onemark"></td><td id="mk1" class="onemark"></td><td id="mk2" class="onemark"></td><td id="mk3" class="onemark"></td><td id="mk4" class="onemark"></td></tr>

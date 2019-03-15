@@ -208,6 +208,14 @@
 	display:none;
 	z-index:20;
 }
+#dPoxFx{
+	border:none;
+	background-image:url("../images/poxsmoke.png");
+	width:80px;
+	height:80px;
+	display:none;
+	/*z-index:22; SET DYNAMICALLY*/
+}
 #dPoxHp{
     text-shadow: 0px 0px 16px #000;
 	border:none;
