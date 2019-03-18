@@ -4,3 +4,10 @@ C:\Users\brandonw\Desktop\Extra\Herogylphix\Heroglyphix\PuzParser\PuzParser\bin\
 C:\Users\brandonw\Desktop\Extra\Herogylphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.exe
 C:\Users\brandonw\Desktop\Extra\Herogylphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.pdb
 C:\Users\brandonw\Desktop\Extra\Herogylphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.csprojResolveAssemblyReference.cache
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\bin\Debug\PuzParser.exe.config
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\bin\Debug\PuzParser.exe
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\bin\Debug\PuzParser.pdb
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.csprojResolveAssemblyReference.cache
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.csproj.CoreCompileInputs.cache
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.exe
+C:\Users\apein\Desktop\Heroglphix\Heroglyphix\PuzParser\PuzParser\obj\Debug\PuzParser.pdb

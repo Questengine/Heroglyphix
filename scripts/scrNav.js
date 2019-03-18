@@ -44,7 +44,8 @@ function StgLocPuzIncrement(){
 		//set gPuzzle = 0 so we know to get the intro text
 		gPuzzle=0;gLocation++;
 		LocImageAndTitle();
-	}*/
+	}
+	*/
 	var firstunfinished = FirstUnfinishedPuzzle();
 	if(firstunfinished==""){
 		gPuzzle=0;gLocation++;

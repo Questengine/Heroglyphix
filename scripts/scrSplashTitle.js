@@ -33,13 +33,13 @@
  }
  function GameLoad(){
 	 getCookie();
-	 HigestAchieved()
+	 HighestAchieved()
 	 FadeOutTitle();
  }
  function UnlockAll(){
 	 //getCookie();
 	ADMINCompleteThrough("08-01-01");
-	 HigestAchieved()
+	 HighestAchieved()
 	 FadeOutTitle();
  }
  

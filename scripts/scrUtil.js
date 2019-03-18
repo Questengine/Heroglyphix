@@ -146,24 +146,34 @@ function ChangeMark(cell){
 	cell.css("background-position",markposin);
 }
 function AutoSolve(){
-	Info("AutoSolving...   ...just ONE GLYPH!");
-	//$("#dPortrait").html("AUTOSOLVING");
-	var puz = gPuzCorrect;
-	var dim = Math.sqrt(puz.length);
-	var x = 0;
-	var y = 0;
-	for(y = 0;y<dim;y++){
-		for(x = 0;x<dim;x++){
-			var index= x+y*dim;
-			var thischar = puz.substring(index, index+1);
-			if(thischar=="0"){mark = "out";}
-			else{mark = "in";}
-			$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
-		}
+	if(gNextText){
+		gNextText = false;
+		StoryNext();
+		
+		Info("AutoSolving...  next puzzle");
 	}
-	ClearGrid();
-	ReDrawGrid();
-	CheckCompletion();
+	else{
+		Info("AutoSolving... completing puzzle");
+		//$("#dPortrait").html("AUTOSOLVING");
+		var puz = gPuzCorrect;
+		var dim = Math.sqrt(puz.length);
+		var x = 0;
+		var y = 0;
+		for(y = 0;y<dim;y++){
+			for(x = 0;x<dim;x++){
+				var index= x+y*dim;
+				var thischar = puz.substring(index, index+1);
+				if(thischar=="0"){mark = "out";}
+				else{mark = "in";}
+				$(".cel[data-x='"+x+"'][data-y='"+y+"']").attr("data-mark",mark);
+			}
+		}
+		ClearGrid();
+		ReDrawGrid();
+		CheckCompletion();
+		
+	}
+	
 }
 
 function AutoSolveFull(){

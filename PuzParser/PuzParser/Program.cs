@@ -19,7 +19,8 @@ namespace PuzParser
         {
             //ParseTextFiles();
             //ParseTbtFiles();
-            ParseIO();
+            //ParseIO();
+            ParsePox();
             Console.ReadLine();
         }//end main
 
@@ -39,6 +40,18 @@ namespace PuzParser
                 Console.Write("------\n");
                 //Console.Write(file.Name+"\n");
             }
+
+        }
+        static void ParsePox()
+        {
+
+            string filepath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            DirectoryInfo d = new DirectoryInfo("Pox\\");
+            
+                //Directory.Move(file.FullName, filepath + "\\TextFiles\\" + file.Name);
+                int xmin = ReadTextMinXY("Pox\\refhop.txt",0);
+                int ymin = ReadTextMinXY("Pox\\refhop.txt",1);
+            GetCoordsFactored("Pox\\refhop.txt", xmin, ymin);
 
         }
         static void ParseTextFiles() {
@@ -69,9 +82,7 @@ namespace PuzParser
         }
         static void ParseTbtFiles()
         {
-          
-
-            //Console.Write(Directory.GetCurrentDirectory() + "\n");
+          //Console.Write(Directory.GetCurrentDirectory() + "\n");
             for (s = 1; s < smax; s++)
             {
                 for (l = 1; l < lmax; l++)
@@ -94,6 +105,54 @@ namespace PuzParser
                 }
             }
         }
+        static int  ReadTextMinXY(string code, int xory)
+        {
+            string res = "";
+            string line;
+            int coordmin = 9999;
+            System.IO.StreamReader file = new System.IO.StreamReader(code);
+            while ((line = file.ReadLine()) != null)
+            {
+                line = line.Replace("\"", "");
+                //res += line + "newline,";
+                if (line.IndexOf(",") > 0) {
+                    int coord = System.Convert.ToInt32(line.Split(',')[xory]);
+                    if (coord < coordmin) { coordmin = coord; }
+                }
+            }
+            file.Close();
+            //Console.Write("x,y min:"  + xmin + "," + ymin);
+            return coordmin;
+        }
+
+        static int GetCoordsFactored(string code, int xmin,int ymin)
+        {
+            string res = "";
+            string line;
+            int coordmin = 9999;
+            System.IO.StreamReader file = new System.IO.StreamReader(code);
+            while ((line = file.ReadLine()) != null)
+            {
+                string writeme = line;
+                line = line.Replace("\"", "");
+                //res += line + "newline,";
+                if (line.IndexOf(",") > 0)
+                {
+                    int xcoord = System.Convert.ToInt32(line.Split(',')[0]);
+                    int ycoord = System.Convert.ToInt32(line.Split(',')[1]);
+                    xcoord -= xmin;
+                    ycoord -= ymin;
+                    writeme = xcoord + ":" + ycoord;
+                }
+
+                //Console.Write("\"" + code + "\":\"" + fulltext + "\",\n");
+                Console.Write(writeme +",\n");
+
+            }
+            file.Close();
+            //Console.Write("x,y min:"  + xmin + "," + ymin);
+            return coordmin;
+        }
         static string ReadText(string code) {
             string res = "";
             string line;
@@ -109,6 +168,7 @@ namespace PuzParser
             return res;
 
         }
+
         static string ReadTbt(string code)
         {
             string res = "";

@@ -4,7 +4,7 @@
 	 PauseTimer(true);
 	 PoxPause(true);
 	 //$("#dPuzzles").css("background-image","url('images/map.jpg')").fadeIn();  
-	 $("#dPuzzles").html("<img src='images/map.jpg'/>   <div id='btnReturn' class='btnTitle'>Resume</div><div id='btnCredits' class='btnTitle'>Credits</div>  ").fadeIn(); 
+	 $("#dPuzzles").html("<img src='images/map.png'/>   <div id='btnReturn' class='btnTitle'>Resume</div><div id='btnCredits' class='btnTitle'>Credits</div>  ").fadeIn(); 
 	PlaceMapMarkers();
 	 $("#btnReturn").on("click", HideMap);
 	 $("#btnReturnTitle").on("click", TitleScreen);

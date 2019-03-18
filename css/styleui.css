@@ -64,6 +64,7 @@
 	width:120px;
 	height:120px; 
 	background-repeat:no-repeat; 
+	background-image:url('../images/locations/stagelocked.png');
 	cursor:pointer;
 }
 .stagecel:hover{

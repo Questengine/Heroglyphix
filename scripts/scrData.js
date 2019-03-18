@@ -173,7 +173,7 @@ function BuildUPP(){
 	*/
 //	ADMINMarkPuzzleComplete("05-05-04");
 //	ADMINMarkPuzzleComplete("05-05-05");
-	ADMINCompleteThrough("03-01-06");
+	//ADMINCompleteThrough("03-01-06");
 	HighestAchieved();
 }
 function LocHasPuzzle(codesl){

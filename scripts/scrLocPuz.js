@@ -1,6 +1,6 @@
  function InitLocPuz(code){
 	 
-	  if(typeof stagecode === "undefined"){
+	  if(typeof code === "undefined"){
 		 code=CurCode();
 	 }
 	 SetStage(code);
