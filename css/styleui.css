@@ -81,33 +81,6 @@
 }
 .hideonload{
 	display:none;
-}
-.celllocation{
-	border:none;
-	height:23px;
-	width:101px;
-  transform: translate(-1%, -50%);
-	cursor:pointer;
-}
-.celllocationtd{
-	width:151px;
-	height:33px;
-	}
-	
-.celllocation:hover{ 
-	box-shadow: 0px 0px 4px 4px  #2a2;
-} 
-.celllocpuz{
-	width:40px;
-	height:33px;  
-	margin-top:-22px;
-	background-repeat:no-repeat; 
-	background-size:100%; 
-	margin:5px;
-	cursor:pointer;
-}
-.celllocpuz:hover{ 
-	box-shadow: 0px 0px 4px 4px  #2a2;
 } 
 .btnTitle{ 
 

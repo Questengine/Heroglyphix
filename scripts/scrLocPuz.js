@@ -3,7 +3,7 @@
 	  if(typeof code === "undefined"){
 		 code=CurCode();
 	 }
-	 SetStage(code);
+	 SetStage(code);-
 	 //FillMarkMenu();
 	 DialogueOpen();
 	 var locpuz = BuildLocPuz(code)+BuildLocPuzConfirm();
@@ -30,7 +30,9 @@
  
  function BuildLocPuz(code){
 	 
-	var strTable ="<div id='dInfoLocPuz'>Select a number to play a puzzle, or a location name to see the intro story.<br> (It's really best to start at the beginning!!)</div>";
+	var strTable ="<div id='dLocPuzTitle'>PUZZLES</div>";
+	strTable += "<div id='dLocPuzLocation'>loc</div";	
+	strTable+= "<div id='dInfoLocPuz'>(It's really best to start at the beginning!!)</div>";
 	strTable+= "<table id='tblLocPuz'>";
 	//var locnames = arrLocationNames[stagecode.substring(0,5)];
 	var code = GetCodeStage(code);
@@ -45,14 +47,21 @@
 	var istage = GetIntStage(code);
 	var maxloc = GetHighestLocAccessibleForStage(istage);
 	
-	for (var i =1;i<=maxloc; i++) {
-		var codesl = pad(istage)+"-"+pad(i);
-		if(codesl in arrLocationNames){
-			strTable += "<tr class='rowlocpuz'>"+LocNamePic(codesl);
-			strTable += PuzList(codesl) ; 
-		} 
+	for (var i =1;i<=10; i++) {
+		if(i <=maxloc){
+			var codesl = pad(istage)+"-"+pad(i);
+			if(codesl in arrLocationNames){
+				strTable += "<tr class='rowlocpuz'>"+LocNamePic(codesl);
+				strTable += PuzList(codesl) ; 
+			} 	
+		}
+		else{
+			
+				strTable += "<tr class='rowlocpuz'><td>NO LOC HERE</td>	";
+		}
+		strTable += "</tr>";
 	} 
-	strTable += "</tr></table>";
+	strTable += "</table>";
 	return strTable;	
  } 
  function PuzList(locationcode){

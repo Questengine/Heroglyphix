@@ -1,0 +1,73 @@
+
+#dLocPuzTitle{
+	color:white;
+	text-align:center;
+	font-size:500%;
+	font-weight:bold;
+	width:100%;
+	height:100px;
+	
+}
+
+#dInfoLocPuz{
+	border:none;
+	left:50px;	
+	width:100%;
+	height:50px;
+	color:white;
+	text-align:center;
+	font-size:large;
+	
+}
+
+#dLocPuzLocation{
+	top:00px;
+	left:450px;	
+	width:100px;
+	height:100px;
+	color:white;
+	
+}
+
+#tblLocPuz{
+	width:555px; 
+	height:455px;
+	border:none;
+}
+#dLocPuzConfirm{
+	display:block; 
+	line-height: 42px;    
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#dLocPuzConfirm:hover{ 
+	background-position-y:-42px;
+}
+
+.celllocation{
+	border:none;
+	height:23px;
+	width:101px;
+  transform: translate(-1%, -50%);
+	cursor:pointer;
+}
+.celllocationtd{
+	width:151px;
+	height:33px;
+	}
+	
+.celllocation:hover{ 
+	box-shadow: 0px 0px 4px 4px  #2a2;
+} 
+.celllocpuz{
+	width:40px;
+	height:33px;  
+	margin-top:-22px;
+	background-repeat:no-repeat; 
+	background-size:100%; 
+	margin:5px;
+	cursor:pointer;
+}
+.celllocpuz:hover{ 
+	box-shadow: 0px 0px 4px 4px  #2a2;
+}  
