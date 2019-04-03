@@ -25,6 +25,8 @@
   <script src="scripts/scrDataIntermission.js"></script>
   <script src="scripts/scrSaveLoad.js"></script>
   <script src="scripts/scrMap.js"></script>
+  <script src="scripts/scrToon.js"></script>
+  <script src="scripts/scrDataToon.js"></script>
    
   <link rel="stylesheet" href="css/stylemaster.css">
   <link rel="stylesheet" href="css/styledivs.css">
@@ -72,6 +74,7 @@ document.onselectstart = new Function ("return false")
 		$("#dPauseMap").click(InitMap);	
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false); 
+		InitToon(arrIntro);
 		
 		//Translate("es");
 	});//end document.ready
@@ -79,7 +82,8 @@ document.onselectstart = new Function ("return false")
 </head>
 <body>
  <div  id="dFullScreen">
- 	 
+	<img id="imgToon" src="images/Intro/logofade.png"/>
+ 	
 	<div id="dPortrait" class="hideonload">
    
 	</div  ><!-- end div portrait --> 
@@ -155,9 +159,10 @@ document.onselectstart = new Function ("return false")
 	 <div id="dPauseMap"  > 
 	 Pause / Map
 	</div>
-
+	
  </div>  <!-- end div fullscreen --> 
- 
+  <canvas id="bwCanvas" width="800" height="600" style="top:00px;position:absolute;z-index:1021;border:1px solid #000000;">
+</canvas>
 	
      
 
