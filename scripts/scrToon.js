@@ -2,7 +2,8 @@ var gToonItr;
 var gToonInterval;
 var gToonArr;
 var toonpng;
-var gToonIntervalDuration =188;
+var gToonIntervalDuration =18;
+var gToonWait=0;
 
 function InitToon(arr){
 	
@@ -13,9 +14,14 @@ function InitToon(arr){
 
 function OneToonInstruction(){
 	if(gToonItr < gToonArr.length){
-		var inst = gToonArr[gToonItr];
-		AnimateToon(inst)
-		gToonItr++;
+		if(gToonWait>0){
+			gToonWait--;
+		}
+		else{ 
+			var inst = gToonArr[gToonItr];
+			AnimateToon(inst)
+			gToonItr++;
+		}
 	}
 	else{
 		clearInterval(gToonInterval);
@@ -39,12 +45,18 @@ function AnimateToon(action){
 		if(action == "clear"){
 			ToonClear();
 		}
+		if(action.substring(0,1)=="w"){
+			 gToonWait = parseInt((action.split(" ")[1]));
+		}
+		
 }
 function Blit(dx, dy, sx, sy, sw, sh){
 	
   var c = document.getElementById("bwCanvas");
   var ctx = c.getContext("2d");
   var img = document.getElementById("imgToon");
+  if(sx ==0){sx =1;}
+  if(sy ==0){sy =1;}
   ctx.drawImage(img,sx, sy, sw, sh, dx, dy, sw, sh);
 }
 function ToonClear(){
