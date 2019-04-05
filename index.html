@@ -38,6 +38,7 @@
   
 document.onselectstart = new Function ("return false")
 	$(document).ready(function () {
+		InitToon(arrIntroClear);
 		BuildUPP();  
 		InitSplashTitle();
 		 
@@ -74,7 +75,7 @@ document.onselectstart = new Function ("return false")
 		$("#dPauseMap").click(InitMap);	
 		//$("#dDialogue").slideUp(0);
 		ShowHideProgressButton(false); 
-		InitToon(arrStory);
+		InitToon(arrIntro);
 		
 		//Translate("es");
 	});//end document.ready

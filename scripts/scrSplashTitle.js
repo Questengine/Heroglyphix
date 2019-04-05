@@ -4,7 +4,7 @@
 	 
 	  
 	 DialogueOpen();  
-	 $("#dPuzzles").html("<div id='dTitle'> <div id='btnOptions' class='btnTitle'></div> <div id='btnLoad' class='btnTitle'> </div><div id='btnNew' class='btnTitle'>  </div> <div id='dInfoTitle'>Welcome!</div> </div><div id='dLogo'> </div>"); 
+	 $("#dPuzzles").html("<div id='dTitle'><div id='btnStory' class='btnTitle'></div> <div id='btnOptions' class='btnTitle'></div> <div id='btnLoad' class='btnTitle'> </div><div id='btnNew' class='btnTitle'>  </div> <div id='dInfoTitle'>Welcome!</div> </div><div id='dLogo'> </div>"); 
 	 setTimeout(FadeOutLogo,gSplashTime);
 	 setTimeout(FadeInTitle,gSplashTime );
 	 $("#btnNew").html("New").on("click",FadeOutTitle);
@@ -13,8 +13,10 @@
 	 $("#btnLoad").attr("data-info","Load from previously saved browser cookie");
 	 $("#btnOptions").html("CHEAT").on("click",UnlockAll);
 	 $("#btnOptions").attr("data-info","CHEAT: Open/Unlock all stages, locations and puzzles");
+	 $("#btnStory").html("Intro").on("click",StartStory);
+	 $("#btnStory").attr("data-info","See the story so far...");
 	 
-	 $("#btnNew, #btnOptions, #btnLoad").on("mouseover", function(){
+	 $("#btnNew, #btnOptions, #btnLoad, #btnStory").on("mouseover", function(){
 			TitleInfo($(this))
 	 });
 	 
@@ -42,7 +44,9 @@
 	 HighestAchieved()
 	 FadeOutTitle();
  }
- 
+ function StartStory(){
+	 InitToon(arrStory);
+ }
  function GameNew(){
 	 FadeOutTitle();
 	 

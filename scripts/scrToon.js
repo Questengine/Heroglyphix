@@ -2,11 +2,11 @@ var gToonItr;
 var gToonInterval;
 var gToonArr;
 var toonpng;
-var gToonIntervalDuration =18;
+var gToonIntervalDuration =28;
 var gToonWait=0;
 
 function InitToon(arr){
-	
+	$("#bwCanvas, #imgToon").slideDown();
 	gToonItr = 0;
 	gToonArr = arr;
 	gToonInterval = setInterval(OneToonInstruction, gToonIntervalDuration);
@@ -25,6 +25,7 @@ function OneToonInstruction(){
 	}
 	else{
 		clearInterval(gToonInterval);
+		$("#bwCanvas, #imgToon").fadeOut(3333,function(){$("#bwCanvas, #imgToon").slideUp()});
 	}
 }
 function AnimateToon(action){
@@ -40,7 +41,7 @@ function AnimateToon(action){
 		if(action.substring(0,4)=="load"){
 			 var imagename = (action.split(" ")[1]);
 			 $("#imgToon").attr("src","images/Intro/"+imagename+".png");
-			
+			gToonWait= 64;
 		}
 		if(action == "clear"){
 			ToonClear();
